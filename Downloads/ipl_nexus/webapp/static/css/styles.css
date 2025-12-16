@@ -36,12 +36,19 @@ nav {
     text-decoration: none;
 }
 
+.nav-links {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
 .nav-links a {
     color: var(--text-light);
     text-decoration: none;
-    margin-left: 2rem;
+   margin-left: 1rem;
     font-weight: 500;
     transition: color 0.3s;
+    white-space: nowrap;
 }
 
 .nav-links a:hover,
@@ -129,4 +136,128 @@ footer {
     color: #64748B;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     margin-top: 4rem;
+}
+
+/* ===== MOBILE RESPONSIVENESS ===== */
+
+/* Tablets and smaller */
+@media (max-width: 1024px) {
+    nav {
+        padding: 1rem;
+    }
+
+    .container {
+        padding: 1.5rem;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+
+    .stat-value {
+        font-size: 2rem;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .logo {
+        font-size: 1.25rem;
+    }
+
+    .nav-links {
+        width: 100%;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .nav-links a {
+        margin-left: 0;
+        padding: 0.5rem;
+        border-left: 3px solid transparent;
+        transition: all 0.3s;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+        border-left-color: var(--accent);
+        background: rgba(56, 189, 248, 0.1);
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+
+    .stat-value {
+        font-size: 1.75rem;
+    }
+
+    .stat-label {
+        font-size: 0.75rem;
+    }
+
+    .chart-container {
+        height: 300px;
+    }
+
+    select,
+    button,
+    input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .stat-value {
+        font-size: 1.5rem;
+    }
+
+    .chart-container {
+        height: 250px;
+    }
+
+    footer {
+        font-size: 0.875rem;
+        padding: 1.5rem;
+    }
 }

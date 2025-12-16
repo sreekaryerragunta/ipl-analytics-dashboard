@@ -27,10 +27,6 @@ def predict():
 def archetypes():
     return render_template('archetypes.html')
 
-@app.route('/stats')
-def stats():
-    return render_template('stats.html')
-
 @app.route('/player-matchup')
 def player_matchup():
     return render_template('player_matchup.html')
