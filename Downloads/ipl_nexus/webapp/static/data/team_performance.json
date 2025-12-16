@@ -1,0 +1,1234 @@
+{
+  "Gujarat Lions": {
+    "overall": {
+      "played": 30,
+      "won": 13,
+      "lost": 17,
+      "win_rate": 43.3
+    },
+    "by_season": [
+      {
+        "season": 2016,
+        "played": 16,
+        "won": 9,
+        "lost": 7,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2017,
+        "played": 14,
+        "won": 4,
+        "lost": 10,
+        "win_rate": 28.6
+      }
+    ]
+  },
+  "Delhi Capitals": {
+    "overall": {
+      "played": 266,
+      "won": 118,
+      "lost": 148,
+      "win_rate": 44.4
+    },
+    "by_season": [
+      {
+        "season": 2008,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2009,
+        "played": 15,
+        "won": 10,
+        "lost": 5,
+        "win_rate": 66.7
+      },
+      {
+        "season": 2010,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2011,
+        "played": 14,
+        "won": 4,
+        "lost": 10,
+        "win_rate": 28.6
+      },
+      {
+        "season": 2012,
+        "played": 18,
+        "won": 11,
+        "lost": 7,
+        "win_rate": 61.1
+      },
+      {
+        "season": 2013,
+        "played": 16,
+        "won": 3,
+        "lost": 13,
+        "win_rate": 18.8
+      },
+      {
+        "season": 2014,
+        "played": 14,
+        "won": 2,
+        "lost": 12,
+        "win_rate": 14.3
+      },
+      {
+        "season": 2015,
+        "played": 14,
+        "won": 5,
+        "lost": 9,
+        "win_rate": 35.7
+      },
+      {
+        "season": 2016,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2017,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2018,
+        "played": 14,
+        "won": 5,
+        "lost": 9,
+        "win_rate": 35.7
+      },
+      {
+        "season": 2019,
+        "played": 16,
+        "won": 9,
+        "lost": 7,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2020,
+        "played": 17,
+        "won": 8,
+        "lost": 9,
+        "win_rate": 47.1
+      },
+      {
+        "season": 2021,
+        "played": 16,
+        "won": 9,
+        "lost": 7,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2022,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2023,
+        "played": 14,
+        "won": 5,
+        "lost": 9,
+        "win_rate": 35.7
+      },
+      {
+        "season": 2024,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2025,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      }
+    ]
+  },
+  "Rajasthan Royals": {
+    "overall": {
+      "played": 234,
+      "won": 114,
+      "lost": 120,
+      "win_rate": 48.7
+    },
+    "by_season": [
+      {
+        "season": 2008,
+        "played": 16,
+        "won": 13,
+        "lost": 3,
+        "win_rate": 81.2
+      },
+      {
+        "season": 2009,
+        "played": 13,
+        "won": 5,
+        "lost": 8,
+        "win_rate": 38.5
+      },
+      {
+        "season": 2010,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2011,
+        "played": 13,
+        "won": 6,
+        "lost": 7,
+        "win_rate": 46.2
+      },
+      {
+        "season": 2012,
+        "played": 16,
+        "won": 7,
+        "lost": 9,
+        "win_rate": 43.8
+      },
+      {
+        "season": 2013,
+        "played": 18,
+        "won": 11,
+        "lost": 7,
+        "win_rate": 61.1
+      },
+      {
+        "season": 2014,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2015,
+        "played": 13,
+        "won": 7,
+        "lost": 6,
+        "win_rate": 53.8
+      },
+      {
+        "season": 2018,
+        "played": 15,
+        "won": 7,
+        "lost": 8,
+        "win_rate": 46.7
+      },
+      {
+        "season": 2019,
+        "played": 14,
+        "won": 5,
+        "lost": 9,
+        "win_rate": 35.7
+      },
+      {
+        "season": 2020,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2021,
+        "played": 14,
+        "won": 5,
+        "lost": 9,
+        "win_rate": 35.7
+      },
+      {
+        "season": 2022,
+        "played": 17,
+        "won": 10,
+        "lost": 7,
+        "win_rate": 58.8
+      },
+      {
+        "season": 2023,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2024,
+        "played": 15,
+        "won": 9,
+        "lost": 6,
+        "win_rate": 60.0
+      },
+      {
+        "season": 2025,
+        "played": 14,
+        "won": 4,
+        "lost": 10,
+        "win_rate": 28.6
+      }
+    ]
+  },
+  "Punjab Kings": {
+    "overall": {
+      "played": 264,
+      "won": 119,
+      "lost": 145,
+      "win_rate": 45.1
+    },
+    "by_season": [
+      {
+        "season": 2008,
+        "played": 15,
+        "won": 10,
+        "lost": 5,
+        "win_rate": 66.7
+      },
+      {
+        "season": 2009,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2010,
+        "played": 14,
+        "won": 3,
+        "lost": 11,
+        "win_rate": 21.4
+      },
+      {
+        "season": 2011,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2012,
+        "played": 16,
+        "won": 8,
+        "lost": 8,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2013,
+        "played": 16,
+        "won": 8,
+        "lost": 8,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2014,
+        "played": 17,
+        "won": 12,
+        "lost": 5,
+        "win_rate": 70.6
+      },
+      {
+        "season": 2015,
+        "played": 14,
+        "won": 2,
+        "lost": 12,
+        "win_rate": 14.3
+      },
+      {
+        "season": 2016,
+        "played": 14,
+        "won": 4,
+        "lost": 10,
+        "win_rate": 28.6
+      },
+      {
+        "season": 2017,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2018,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2019,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2020,
+        "played": 14,
+        "won": 5,
+        "lost": 9,
+        "win_rate": 35.7
+      },
+      {
+        "season": 2021,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2022,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2023,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2024,
+        "played": 14,
+        "won": 5,
+        "lost": 9,
+        "win_rate": 35.7
+      },
+      {
+        "season": 2025,
+        "played": 18,
+        "won": 10,
+        "lost": 8,
+        "win_rate": 55.6
+      }
+    ]
+  },
+  "Gujarat Titans": {
+    "overall": {
+      "played": 60,
+      "won": 37,
+      "lost": 23,
+      "win_rate": 61.7
+    },
+    "by_season": [
+      {
+        "season": 2022,
+        "played": 16,
+        "won": 12,
+        "lost": 4,
+        "win_rate": 75.0
+      },
+      {
+        "season": 2023,
+        "played": 17,
+        "won": 11,
+        "lost": 6,
+        "win_rate": 64.7
+      },
+      {
+        "season": 2024,
+        "played": 12,
+        "won": 5,
+        "lost": 7,
+        "win_rate": 41.7
+      },
+      {
+        "season": 2025,
+        "played": 15,
+        "won": 9,
+        "lost": 6,
+        "win_rate": 60.0
+      }
+    ]
+  },
+  "Lucknow Super Giants": {
+    "overall": {
+      "played": 58,
+      "won": 30,
+      "lost": 28,
+      "win_rate": 51.7
+    },
+    "by_season": [
+      {
+        "season": 2022,
+        "played": 15,
+        "won": 9,
+        "lost": 6,
+        "win_rate": 60.0
+      },
+      {
+        "season": 2023,
+        "played": 15,
+        "won": 8,
+        "lost": 7,
+        "win_rate": 53.3
+      },
+      {
+        "season": 2024,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2025,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      }
+    ]
+  },
+  "Pune Warriors India": {
+    "overall": {
+      "played": 45,
+      "won": 12,
+      "lost": 33,
+      "win_rate": 26.7
+    },
+    "by_season": [
+      {
+        "season": 2011,
+        "played": 13,
+        "won": 4,
+        "lost": 9,
+        "win_rate": 30.8
+      },
+      {
+        "season": 2012,
+        "played": 16,
+        "won": 4,
+        "lost": 12,
+        "win_rate": 25.0
+      },
+      {
+        "season": 2013,
+        "played": 16,
+        "won": 4,
+        "lost": 12,
+        "win_rate": 25.0
+      }
+    ]
+  },
+  "Mumbai Indians": {
+    "overall": {
+      "played": 277,
+      "won": 151,
+      "lost": 126,
+      "win_rate": 54.5
+    },
+    "by_season": [
+      {
+        "season": 2008,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2009,
+        "played": 13,
+        "won": 5,
+        "lost": 8,
+        "win_rate": 38.5
+      },
+      {
+        "season": 2010,
+        "played": 16,
+        "won": 11,
+        "lost": 5,
+        "win_rate": 68.8
+      },
+      {
+        "season": 2011,
+        "played": 16,
+        "won": 10,
+        "lost": 6,
+        "win_rate": 62.5
+      },
+      {
+        "season": 2012,
+        "played": 17,
+        "won": 10,
+        "lost": 7,
+        "win_rate": 58.8
+      },
+      {
+        "season": 2013,
+        "played": 19,
+        "won": 13,
+        "lost": 6,
+        "win_rate": 68.4
+      },
+      {
+        "season": 2014,
+        "played": 15,
+        "won": 7,
+        "lost": 8,
+        "win_rate": 46.7
+      },
+      {
+        "season": 2015,
+        "played": 16,
+        "won": 10,
+        "lost": 6,
+        "win_rate": 62.5
+      },
+      {
+        "season": 2016,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2017,
+        "played": 17,
+        "won": 11,
+        "lost": 6,
+        "win_rate": 64.7
+      },
+      {
+        "season": 2018,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2019,
+        "played": 16,
+        "won": 10,
+        "lost": 6,
+        "win_rate": 62.5
+      },
+      {
+        "season": 2020,
+        "played": 16,
+        "won": 11,
+        "lost": 5,
+        "win_rate": 68.8
+      },
+      {
+        "season": 2021,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2022,
+        "played": 14,
+        "won": 4,
+        "lost": 10,
+        "win_rate": 28.6
+      },
+      {
+        "season": 2023,
+        "played": 16,
+        "won": 9,
+        "lost": 7,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2024,
+        "played": 14,
+        "won": 4,
+        "lost": 10,
+        "win_rate": 28.6
+      },
+      {
+        "season": 2025,
+        "played": 16,
+        "won": 9,
+        "lost": 7,
+        "win_rate": 56.2
+      }
+    ]
+  },
+  "Royal Challengers Bengaluru": {
+    "overall": {
+      "played": 270,
+      "won": 132,
+      "lost": 138,
+      "win_rate": 48.9
+    },
+    "by_season": [
+      {
+        "season": 2008,
+        "played": 14,
+        "won": 4,
+        "lost": 10,
+        "win_rate": 28.6
+      },
+      {
+        "season": 2009,
+        "played": 16,
+        "won": 9,
+        "lost": 7,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2010,
+        "played": 16,
+        "won": 8,
+        "lost": 8,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2011,
+        "played": 16,
+        "won": 10,
+        "lost": 6,
+        "win_rate": 62.5
+      },
+      {
+        "season": 2012,
+        "played": 15,
+        "won": 8,
+        "lost": 7,
+        "win_rate": 53.3
+      },
+      {
+        "season": 2013,
+        "played": 16,
+        "won": 8,
+        "lost": 8,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2014,
+        "played": 14,
+        "won": 5,
+        "lost": 9,
+        "win_rate": 35.7
+      },
+      {
+        "season": 2015,
+        "played": 16,
+        "won": 8,
+        "lost": 8,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2016,
+        "played": 16,
+        "won": 9,
+        "lost": 7,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2017,
+        "played": 13,
+        "won": 3,
+        "lost": 10,
+        "win_rate": 23.1
+      },
+      {
+        "season": 2018,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2019,
+        "played": 14,
+        "won": 5,
+        "lost": 9,
+        "win_rate": 35.7
+      },
+      {
+        "season": 2020,
+        "played": 15,
+        "won": 6,
+        "lost": 9,
+        "win_rate": 40.0
+      },
+      {
+        "season": 2021,
+        "played": 15,
+        "won": 9,
+        "lost": 6,
+        "win_rate": 60.0
+      },
+      {
+        "season": 2022,
+        "played": 16,
+        "won": 9,
+        "lost": 7,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2023,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2024,
+        "played": 15,
+        "won": 7,
+        "lost": 8,
+        "win_rate": 46.7
+      },
+      {
+        "season": 2025,
+        "played": 15,
+        "won": 11,
+        "lost": 4,
+        "win_rate": 73.3
+      }
+    ]
+  },
+  "Sunrisers Hyderabad": {
+    "overall": {
+      "played": 270,
+      "won": 122,
+      "lost": 148,
+      "win_rate": 45.2
+    },
+    "by_season": [
+      {
+        "season": 2008,
+        "played": 14,
+        "won": 2,
+        "lost": 12,
+        "win_rate": 14.3
+      },
+      {
+        "season": 2009,
+        "played": 16,
+        "won": 9,
+        "lost": 7,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2010,
+        "played": 16,
+        "won": 8,
+        "lost": 8,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2011,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2012,
+        "played": 15,
+        "won": 4,
+        "lost": 11,
+        "win_rate": 26.7
+      },
+      {
+        "season": 2013,
+        "played": 17,
+        "won": 9,
+        "lost": 8,
+        "win_rate": 52.9
+      },
+      {
+        "season": 2014,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2015,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2016,
+        "played": 17,
+        "won": 11,
+        "lost": 6,
+        "win_rate": 64.7
+      },
+      {
+        "season": 2017,
+        "played": 14,
+        "won": 8,
+        "lost": 6,
+        "win_rate": 57.1
+      },
+      {
+        "season": 2018,
+        "played": 17,
+        "won": 10,
+        "lost": 7,
+        "win_rate": 58.8
+      },
+      {
+        "season": 2019,
+        "played": 15,
+        "won": 6,
+        "lost": 9,
+        "win_rate": 40.0
+      },
+      {
+        "season": 2020,
+        "played": 16,
+        "won": 8,
+        "lost": 8,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2021,
+        "played": 14,
+        "won": 3,
+        "lost": 11,
+        "win_rate": 21.4
+      },
+      {
+        "season": 2022,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2023,
+        "played": 14,
+        "won": 4,
+        "lost": 10,
+        "win_rate": 28.6
+      },
+      {
+        "season": 2024,
+        "played": 16,
+        "won": 9,
+        "lost": 7,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2025,
+        "played": 13,
+        "won": 6,
+        "lost": 7,
+        "win_rate": 46.2
+      }
+    ]
+  },
+  "Kolkata Knight Riders": {
+    "overall": {
+      "played": 264,
+      "won": 135,
+      "lost": 129,
+      "win_rate": 51.1
+    },
+    "by_season": [
+      {
+        "season": 2008,
+        "played": 13,
+        "won": 6,
+        "lost": 7,
+        "win_rate": 46.2
+      },
+      {
+        "season": 2009,
+        "played": 13,
+        "won": 3,
+        "lost": 10,
+        "win_rate": 23.1
+      },
+      {
+        "season": 2010,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2011,
+        "played": 15,
+        "won": 8,
+        "lost": 7,
+        "win_rate": 53.3
+      },
+      {
+        "season": 2012,
+        "played": 17,
+        "won": 12,
+        "lost": 5,
+        "win_rate": 70.6
+      },
+      {
+        "season": 2013,
+        "played": 16,
+        "won": 6,
+        "lost": 10,
+        "win_rate": 37.5
+      },
+      {
+        "season": 2014,
+        "played": 16,
+        "won": 11,
+        "lost": 5,
+        "win_rate": 68.8
+      },
+      {
+        "season": 2015,
+        "played": 13,
+        "won": 7,
+        "lost": 6,
+        "win_rate": 53.8
+      },
+      {
+        "season": 2016,
+        "played": 15,
+        "won": 8,
+        "lost": 7,
+        "win_rate": 53.3
+      },
+      {
+        "season": 2017,
+        "played": 16,
+        "won": 9,
+        "lost": 7,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2018,
+        "played": 16,
+        "won": 9,
+        "lost": 7,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2019,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2020,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2021,
+        "played": 17,
+        "won": 9,
+        "lost": 8,
+        "win_rate": 52.9
+      },
+      {
+        "season": 2022,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2023,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2024,
+        "played": 14,
+        "won": 11,
+        "lost": 3,
+        "win_rate": 78.6
+      },
+      {
+        "season": 2025,
+        "played": 13,
+        "won": 5,
+        "lost": 8,
+        "win_rate": 38.5
+      }
+    ]
+  },
+  "Rising Pune Supergiants": {
+    "overall": {
+      "played": 30,
+      "won": 15,
+      "lost": 15,
+      "win_rate": 50.0
+    },
+    "by_season": [
+      {
+        "season": 2016,
+        "played": 14,
+        "won": 5,
+        "lost": 9,
+        "win_rate": 35.7
+      },
+      {
+        "season": 2017,
+        "played": 16,
+        "won": 10,
+        "lost": 6,
+        "win_rate": 62.5
+      }
+    ]
+  },
+  "Chennai Super Kings": {
+    "overall": {
+      "played": 251,
+      "won": 142,
+      "lost": 109,
+      "win_rate": 56.6
+    },
+    "by_season": [
+      {
+        "season": 2008,
+        "played": 16,
+        "won": 9,
+        "lost": 7,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2009,
+        "played": 14,
+        "won": 8,
+        "lost": 6,
+        "win_rate": 57.1
+      },
+      {
+        "season": 2010,
+        "played": 16,
+        "won": 9,
+        "lost": 7,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2011,
+        "played": 16,
+        "won": 11,
+        "lost": 5,
+        "win_rate": 68.8
+      },
+      {
+        "season": 2012,
+        "played": 18,
+        "won": 10,
+        "lost": 8,
+        "win_rate": 55.6
+      },
+      {
+        "season": 2013,
+        "played": 18,
+        "won": 12,
+        "lost": 6,
+        "win_rate": 66.7
+      },
+      {
+        "season": 2014,
+        "played": 16,
+        "won": 10,
+        "lost": 6,
+        "win_rate": 62.5
+      },
+      {
+        "season": 2015,
+        "played": 17,
+        "won": 10,
+        "lost": 7,
+        "win_rate": 58.8
+      },
+      {
+        "season": 2018,
+        "played": 16,
+        "won": 11,
+        "lost": 5,
+        "win_rate": 68.8
+      },
+      {
+        "season": 2019,
+        "played": 17,
+        "won": 10,
+        "lost": 7,
+        "win_rate": 58.8
+      },
+      {
+        "season": 2020,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2021,
+        "played": 16,
+        "won": 11,
+        "lost": 5,
+        "win_rate": 68.8
+      },
+      {
+        "season": 2022,
+        "played": 14,
+        "won": 4,
+        "lost": 10,
+        "win_rate": 28.6
+      },
+      {
+        "season": 2023,
+        "played": 15,
+        "won": 10,
+        "lost": 5,
+        "win_rate": 66.7
+      },
+      {
+        "season": 2024,
+        "played": 14,
+        "won": 7,
+        "lost": 7,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2025,
+        "played": 14,
+        "won": 4,
+        "lost": 10,
+        "win_rate": 28.6
+      }
+    ]
+  },
+  "Kochi Tuskers Kerala": {
+    "overall": {
+      "played": 14,
+      "won": 6,
+      "lost": 8,
+      "win_rate": 42.9
+    },
+    "by_season": [
+      {
+        "season": 2011,
+        "played": 14,
+        "won": 6,
+        "lost": 8,
+        "win_rate": 42.9
+      }
+    ]
+  }
+}

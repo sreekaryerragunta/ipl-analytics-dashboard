@@ -1,0 +1,772 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container" style="max-width: 1400px; margin: 0 auto; padding: 2rem;">
+    <h1 style="text-align: center; margin-bottom: 1rem;">Match Archetypes Intelligence</h1>
+    <p
+        style="text-align: center; color: #94A3B8; margin-bottom: 2rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+        We've analyzed every match in history and clustered them into 4 distinct archetypes using machine learning.
+        Filter by period to see how match patterns have evolved.
+    </p>
+
+    <!-- Controls -->
+    <div class="card" style="margin-bottom: 2rem; background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px);">
+        <div style="display: flex; gap: 1rem; align-items: center; justify-content: center; flex-wrap: wrap;">
+            <div style="display: flex; gap: 0.5rem;">
+                <button onclick="setPeriod('overall')" id="btn-overall" class="filter-btn active">Overall</button>
+                <button onclick="setPeriod('last5')" id="btn-last5" class="filter-btn">Last 5 Seasons</button>
+                <button onclick="setPeriod('last3')" id="btn-last3" class="filter-btn">Last 3 Seasons</button>
+            </div>
+            <div style="width: 1px; height: 30px; background: #334155; margin: 0 1rem;"></div>
+            <select id="season-select" onchange="setSeason(this.value)"
+                style="padding: 0.6rem; background: #0F172A; border: 1px solid #334155; color: white; border-radius: 0.5rem; outline: none;">
+                <option value="all">All Seasons</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Debug/Status Message -->
+    <div id="status-message" style="text-align: center; color: #64748B; margin-bottom: 1rem;"></div>
+
+    <!-- Clusters Grid -->
+    <div class="grid" id="clusters-grid" style="margin-bottom: 3rem;">
+        <!-- Populated by JS -->
+    </div>
+
+    <!-- Deep Dive Section -->
+    <div id="deep-dive" style="display: none; animation: fadeIn 0.5s ease;">
+        <div class="card" style="border-top: 4px solid var(--accent);">
+            <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 2rem;">
+                <div>
+                    <h2 id="dd-title" style="margin-bottom: 0.5rem; color: var(--accent);"></h2>
+                    <p id="dd-desc" style="color: #94A3B8;"></p>
+                </div>
+                <button onclick="closeDeepDive()"
+                    style="background: transparent; border: none; color: #94A3B8; cursor: pointer; font-size: 1.5rem;">&times;</button>
+            </div>
+
+            <!-- Key Stats -->
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+                <div class="stat-box">
+                    <div class="label">Matches</div>
+                    <div class="value" id="dd-count"></div>
+                </div>
+                <div class="stat-box">
+                    <div class="label">Avg 1st Innings</div>
+                    <div class="value" id="dd-avg1"></div>
+                </div>
+                <div class="stat-box">
+                    <div class="label">Avg 2nd Innings</div>
+                    <div class="value" id="dd-avg2"></div>
+                </div>
+                <div class="stat-box">
+                    <div class="label">Avg Win Margin</div>
+                    <div class="value" id="dd-margin"></div>
+                </div>
+            </div>
+
+            <!-- Tabbed Navigation -->
+            <div class="tabs" style="margin-bottom: 2rem;">
+                <button class="tab-btn active" onclick="switchTab('overview')">Overview</button>
+                <button class="tab-btn" onclick="switchTab('players')">Player Performances</button>
+                <button class="tab-btn" onclick="switchTab('toss')">Toss Impact</button>
+                <button class="tab-btn" onclick="switchTab('venues')">Venue Analytics</button>
+            </div>
+
+            <!-- Tab Content: Overview -->
+            <div id="tab-overview" class="tab-content active">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                    <div style="background: rgba(15, 23, 42, 0.5); padding: 1rem; border-radius: 0.5rem;">
+                        <h3 style="font-size: 1rem; color: #94A3B8; margin-bottom: 1rem;">Win Context</h3>
+                        <div style="height: 250px; position: relative;">
+                            <canvas id="winPieChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div style="background: rgba(15, 23, 42, 0.5); padding: 1rem; border-radius: 0.5rem;">
+                        <h3 style="font-size: 1rem; color: #94A3B8; margin-bottom: 1rem;">Recent Examples</h3>
+                        <div id="recent-matches-mini" style="max-height: 250px; overflow-y: auto;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content: Players -->
+            <div id="tab-players" class="tab-content">
+                <!-- Note container for season-specific filtering -->
+                <div id="player-stats-note" style="margin-bottom: 1rem;"></div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                    <!-- Top Batsmen -->
+                    <div style="background: rgba(15, 23, 42, 0.5); padding: 1rem; border-radius: 0.5rem;">
+                        <h3 style="font-size: 1rem; color: #94A3B8; margin-bottom: 1rem;">Top Batsmen</h3>
+                        <div style="overflow-x: auto;">
+                            <table style="width: 100%; border-collapse: collapse; font-size: 0.85rem;">
+                                <thead>
+                                    <tr style="border-bottom: 1px solid #334155;">
+                                        <th style="text-align: left; padding: 0.5rem; color: #94A3B8;">Player</th>
+                                        <th style="text-align: center; padding: 0.5rem; color: #94A3B8;">Runs</th>
+                                        <th style="text-align: center; padding: 0.5rem; color: #94A3B8;">SR</th>
+                                        <th style="text-align: center; padding: 0.5rem; color: #94A3B8;">4s/6s</th>
+                                        <th style="text-align: center; padding: 0.5rem; color: #94A3B8;">Mat</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="batsmen-table"></tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Top Bowlers -->
+                    <div style="background: rgba(15, 23, 42, 0.5); padding: 1rem; border-radius: 0.5rem;">
+                        <h3 style="font-size: 1rem; color: #94A3B8; margin-bottom: 1rem;">Top Bowlers</h3>
+                        <div style="overflow-x: auto;">
+                            <table style="width: 100%; border-collapse: collapse; font-size: 0.85rem;">
+                                <thead>
+                                    <tr style="border-bottom: 1px solid #334155;">
+                                        <th style="text-align: left; padding: 0.5rem; color: #94A3B8;">Player</th>
+                                        <th style="text-align: center; padding: 0.5rem; color: #94A3B8;">Wkts</th>
+                                        <th style="text-align: center; padding: 0.5rem; color: #94A3B8;">Econ</th>
+                                        <th style="text-align: center; padding: 0.5rem; color: #94A3B8;">Dots</th>
+                                        <th style="text-align: center; padding: 0.5rem; color: #94A3B8;">Mat</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="bowlers-table"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content: Toss -->
+            <div id="tab-toss" class="tab-content">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                    <div style="background: rgba(15, 23, 42, 0.5); padding: 1rem; border-radius: 0.5rem;">
+                        <h3 style="font-size: 1rem; color: #94A3B8; margin-bottom: 1rem;">Toss Winner Advantage</h3>
+                        <div style="height: 250px; position: relative;">
+                            <canvas id="tossWinChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div style="background: rgba(15, 23, 42, 0.5); padding: 1rem; border-radius: 0.5rem;">
+                        <h3 style="font-size: 1rem; color: #94A3B8; margin-bottom: 1rem;">Decision Impact</h3>
+                        <div style="height: 250px; position: relative;">
+                            <canvas id="tossDecisionChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="toss-insights"
+                    style="margin-top: 1rem; padding: 1rem; background: rgba(15, 23, 42, 0.3); border-radius: 0.5rem; border-left: 4px solid var(--accent);">
+                </div>
+            </div>
+
+            <!-- Tab Content: Venues -->
+            <div id="tab-venues" class="tab-content">
+                <div style="background: rgba(15, 23, 42, 0.5); padding: 1rem; border-radius: 0.5rem;">
+                    <h3 style="font-size: 1rem; color: #94A3B8; margin-bottom: 1rem;">Venue Performance Breakdown</h3>
+                    <div style="overflow-x: auto;">
+                        <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+                            <thead>
+                                <tr style="border-bottom: 1px solid #334155;">
+                                    <th style="text-align: left; padding: 0.75rem; color: #94A3B8;">Venue</th>
+                                    <th style="text-align: center; padding: 0.75rem; color: #94A3B8;">Matches</th>
+                                    <th style="text-align: center; padding: 0.75rem; color: #94A3B8;">Avg 1st Inn</th>
+                                    <th style="text-align: center; padding: 0.75rem; color: #94A3B8;">Avg 2nd Inn</th>
+                                    <th style="text-align: center; padding: 0.75rem; color: #94A3B8;">Chase Success</th>
+                                </tr>
+                            </thead>
+                            <tbody id="venues-table"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .filter-btn {
+        padding: 0.6rem 1.2rem;
+        background: #0F172A;
+        border: 1px solid #334155;
+        color: #94A3B8;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+
+    .filter-btn.active {
+        background: var(--accent);
+        color: white;
+        border-color: var(--accent);
+    }
+
+    .filter-btn:hover:not(.active) {
+        background: #1E293B;
+    }
+
+    .stat-box {
+        background: #1E293B;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        text-align: center;
+    }
+
+    .stat-box .label {
+        font-size: 0.8rem;
+        color: #94A3B8;
+        margin-bottom: 0.25rem;
+    }
+
+    .stat-box .value {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: white;
+    }
+
+    .cluster-card {
+        cursor: pointer;
+        transition: transform 0.2s, border-color 0.2s;
+        border: 1px solid transparent;
+    }
+
+    .cluster-card:hover {
+        transform: translateY(-4px);
+        border-color: var(--accent);
+    }
+
+    .tabs {
+        display: flex;
+        gap: 0.5rem;
+        border-bottom: 2px solid #334155;
+        padding-bottom: 0;
+    }
+
+    .tab-btn {
+        padding: 0.75rem 1.5rem;
+        background: transparent;
+        border: none;
+        color: #94A3B8;
+        cursor: pointer;
+        border-bottom: 3px solid transparent;
+        transition: all 0.2s;
+        font-weight: 600;
+    }
+
+    .tab-btn.active {
+        color: var(--accent);
+        border-bottom-color: var(--accent);
+    }
+
+    .tab-btn:hover:not(.active) {
+        color: #E2E8F0;
+    }
+
+    .tab-content {
+        display: none;
+        animation: fadeIn 0.3s ease;
+    }
+
+    .tab-content.active {
+        display: block;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+
+<script>
+    let allMatches = [];
+    let meta = {};
+    let analytics = {};
+    let charts = {};
+    let currentFilter = {
+        type: 'overall',
+        value: null
+    };
+    let currentTab = 'overview';
+    let currentClusterId = null; // Track currently viewed cluster
+
+    function logStatus(msg, isError = false) {
+        const el = document.getElementById('status-message');
+        el.textContent = msg;
+        el.style.color = isError ? '#F43F5E' : '#64748B';
+        console.log(msg);
+    }
+
+    // Load Data with cache busting
+    logStatus('Loading data...');
+    fetch('/data/archetypes_detailed.json?v=' + new Date().getTime())
+        .then(r => {
+            if (!r.ok) throw new Error('Network response was not ok');
+            return r.json();
+        })
+        .then(data => {
+            allMatches = data.matches;
+            meta = data.meta;
+            analytics = data.analytics || {};
+
+            if (!allMatches || allMatches.length === 0) {
+                logStatus('No matches data found.', true);
+                return;
+            }
+
+            logStatus('');
+
+            // Populate Season Dropdown
+            const seasons = [...new Set(allMatches.map(m => m.season))].sort((a, b) => b - a);
+            const select = document.getElementById('season-select');
+            seasons.forEach(s => {
+                const opt = document.createElement('option');
+                opt.value = s;
+                opt.textContent = `Season ${s}`;
+                select.appendChild(opt);
+            });
+
+            renderGrid();
+        })
+        .catch(err => {
+            logStatus('Error loading data: ' + err.message, true);
+            console.error(err);
+        });
+
+    function setPeriod(type) {
+        currentFilter = { type: type, value: null };
+
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        document.getElementById(`btn-${type}`).classList.add('active');
+        document.getElementById('season-select').value = 'all';
+
+        renderGrid();
+
+        // If Deep Dive is open, refresh it with new period data
+        if (currentClusterId !== null) {
+            const matches = getFilteredMatches();
+            const clusterMatches = matches.filter(m => m.cluster == currentClusterId);
+            if (clusterMatches.length > 0) {
+                showDeepDive(currentClusterId, clusterMatches);
+            } else {
+                closeDeepDive();
+            }
+        }
+    }
+
+    function setSeason(season) {
+        if (season === 'all') {
+            setPeriod('overall');
+            return;
+        }
+        currentFilter = { type: 'season', value: parseInt(season) };
+
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        renderGrid();
+
+        // Refresh Deep Dive if open
+        if (currentClusterId !== null) {
+            const matches = getFilteredMatches();
+            const clusterMatches = matches.filter(m => m.cluster == currentClusterId);
+            if (clusterMatches.length > 0) {
+                showDeepDive(currentClusterId, clusterMatches);
+            } else {
+                closeDeepDive();
+            }
+        }
+    }
+
+    function getFilteredMatches() {
+        if (!allMatches) return [];
+        let matches = allMatches;
+
+        if (currentFilter.type === 'last3') {
+            const distinctSeasons = [...new Set(allMatches.map(m => m.season))].sort((a, b) => b - a);
+            if (distinctSeasons.length > 2) {
+                const cutoff = distinctSeasons[2];
+                matches = matches.filter(m => m.season >= cutoff);
+            }
+        } else if (currentFilter.type === 'last5') {
+            const distinctSeasons = [...new Set(allMatches.map(m => m.season))].sort((a, b) => b - a);
+            if (distinctSeasons.length > 4) {
+                const cutoff = distinctSeasons[4];
+                matches = matches.filter(m => m.season >= cutoff);
+            }
+        } else if (currentFilter.type === 'season') {
+            matches = matches.filter(m => m.season === currentFilter.value);
+        }
+
+        return matches;
+    }
+
+    function renderGrid() {
+        const matches = getFilteredMatches();
+        const grid = document.getElementById('clusters-grid');
+        grid.innerHTML = '';
+
+        if (matches.length === 0) {
+            grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 2rem; color: #64748B;">No matches found for this period.</div>';
+            return;
+        }
+
+        const stats = {};
+        Object.keys(meta).forEach(id => {
+            stats[id] = {
+                matches: [],
+                sumR1: 0,
+                sumR2: 0,
+                count: 0
+            };
+        });
+
+        matches.forEach(m => {
+            if (stats[m.cluster]) {
+                stats[m.cluster].matches.push(m);
+                stats[m.cluster].sumR1 += m.score1;
+                stats[m.cluster].sumR2 += m.score2;
+                stats[m.cluster].count++;
+            }
+        });
+
+        Object.keys(meta).sort().forEach(id => {
+            const s = stats[id];
+            const m = meta[id];
+
+            const avg1 = s.count > 0 ? Math.round(s.sumR1 / s.count) : '-';
+            const avg2 = s.count > 0 ? Math.round(s.sumR2 / s.count) : '-';
+
+            const div = document.createElement('div');
+            div.className = 'card cluster-card';
+            if (s.count > 0) {
+                div.onclick = () => showDeepDive(id, s.matches);
+            } else {
+                div.style.opacity = '0.5';
+                div.style.cursor = 'default';
+            }
+
+            div.innerHTML = `
+                <div style="display:flex; justify-content:space-between; align-items:start">
+                    <h3 style="color:var(--accent); font-size:1.1rem; margin-bottom:0.5rem">${m.name}</h3>
+                    ${s.count > 0 ? '<span style="background:rgba(56, 189, 248, 0.1); color:var(--accent); padding:2px 8px; border-radius:12px; font-size:0.75rem">Click for Analytics</span>' : ''}
+                </div>
+                <p style="color:#94A3B8; font-size:0.9rem; margin-bottom:1.5rem; height:40px">${m.description}</p>
+                
+                <div style="font-size:2.5rem; font-weight:700; color:white; margin-bottom:1.5rem">
+                    ${s.count} <span style="font-size:1rem; font-weight:400; color:#64748B">matches</span>
+                </div>
+
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.5rem; background:#1E293B; padding:0.75rem; border-radius:0.5rem">
+                    <div>
+                        <div style="color:#94A3B8; font-size:0.75rem">Avg 1st Inn</div>
+                        <div style="color:white; font-weight:600">${avg1}</div>
+                    </div>
+                    <div>
+                        <div style="color:#94A3B8; font-size:0.75rem">Avg 2nd Inn</div>
+                        <div style="color:white; font-weight:600">${avg2}</div>
+                    </div>
+                </div>
+            `;
+            grid.appendChild(div);
+        });
+    }
+
+    function showDeepDive(clusterId, matches) {
+        if (!matches || matches.length === 0) return;
+
+        // Store current cluster
+        currentClusterId = clusterId;
+
+        const m = meta[clusterId];
+
+        // Get analytics for the current period
+        const clusterAnalytics = analytics[clusterId] || {};
+
+        // Determine which period's analytics to use
+        let periodKey = 'overall';
+        if (currentFilter.type === 'last3') {
+            periodKey = 'last3';
+        } else if (currentFilter.type === 'last5') {
+            periodKey = 'last5';
+        } else if (currentFilter.type === 'season') {
+            // Use season-specific analytics if available
+            periodKey = `season_${currentFilter.value}`;
+            // Fallback to overall if season-specific data doesn't exist
+            if (!clusterAnalytics[periodKey]) {
+                periodKey = 'overall';
+            }
+        }
+
+        const periodAnalytics = clusterAnalytics[periodKey] || clusterAnalytics['overall'] || {};
+
+        const container = document.getElementById('deep-dive');
+
+        container.style.display = 'block';
+        window.scrollBy({ top: 300, behavior: 'smooth' });
+
+        document.getElementById('dd-title').textContent = m.name;
+        document.getElementById('dd-desc').textContent = m.description;
+
+        const avg1 = Math.round(matches.reduce((sum, match) => sum + match.score1, 0) / matches.length);
+        const avg2 = Math.round(matches.reduce((sum, match) => sum + match.score2, 0) / matches.length);
+        const avgMargin = Math.round(matches.reduce((sum, match) => sum + Math.abs(match.score1 - match.score2), 0) / matches.length);
+
+        document.getElementById('dd-count').textContent = matches.length;
+        document.getElementById('dd-avg1').textContent = avg1;
+        document.getElementById('dd-avg2').textContent = avg2;
+        document.getElementById('dd-margin').textContent = avgMargin + " runs";
+
+        // Render current tab content with period-specific analytics
+        renderTabContent(clusterId, matches, periodAnalytics);
+    }
+
+    function switchTab(tabName) {
+        currentTab = tabName;
+
+        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+
+        event.target.classList.add('active');
+        document.getElementById(`tab-${tabName}`).classList.add('active');
+    }
+
+    function renderTabContent(clusterId, matches, clusterAnalytics) {
+        // Overview Tab
+        renderOverviewTab(matches);
+
+        // Players Tab - pass matches for filtering
+        if (clusterAnalytics.top_batsmen) {
+            renderPlayersTab(clusterAnalytics, matches);
+        }
+
+        // Toss Tab
+        if (clusterAnalytics.toss_impact) {
+            renderTossTab(clusterAnalytics.toss_impact);
+        }
+
+        // Venues Tab - pass filtered matches for dynamic calculation
+        if (clusterAnalytics.venue_stats) {
+            renderVenuesTab(clusterAnalytics.venue_stats, matches);
+        }
+    }
+
+    function renderOverviewTab(matches) {
+        // Win Context Chart
+        let defended = 0;
+        let chased = 0;
+        matches.forEach(match => {
+            if (match.score1 > match.score2) defended++;
+            else chased++;
+        });
+
+        const ctx = document.getElementById('winPieChart');
+        if (charts.pie) charts.pie.destroy();
+
+        charts.pie = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Defended (Bat 1st)', 'Chased (Bat 2nd)'],
+                datasets: [{
+                    data: [defended, chased],
+                    backgroundColor: ['#38BDF8', '#10B981'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'bottom', labels: { color: '#94A3B8' } }
+                }
+            }
+        });
+
+        // Recent Matches Mini
+        const recent = [...matches].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 5);
+        const miniList = document.getElementById('recent-matches-mini');
+        miniList.innerHTML = '';
+        recent.forEach(match => {
+            miniList.innerHTML += `
+                <div style="padding: 0.75rem; border-bottom: 1px solid #334155;">
+                    <div style="color: #E2E8F0; font-weight: 600; margin-bottom: 0.25rem;">${match.team1} vs ${match.team2}</div>
+                    <div style="display: flex; justify-content: space-between; font-size: 0.85rem;">
+                        <span style="color: #94A3B8;">${match.date}</span>
+                        <span style="color: var(--accent);">${match.score1}-${match.score2}</span>
+                    </div>
+                </div>
+            `;
+        });
+    }
+
+    function renderPlayersTab(analytics, filteredMatches) {
+        // Handle note display in dedicated container
+        const noteContainer = document.getElementById('player-stats-note');
+        // Only show note if season is selected but we don't have season-specific data
+        if (currentFilter.type === 'season' && (!analytics || !analytics.top_batsmen || analytics.top_batsmen.length === 0)) {
+            noteContainer.innerHTML = `
+                <div style="color: #F59E0B; font-size: 0.85rem; padding: 0.75rem; background: rgba(245, 158, 11, 0.1); border-radius: 0.5rem; border-left: 3px solid #F59E0B;">
+                    <strong>Note:</strong> Player stats for season ${currentFilter.value} are not available. Showing overall archetype stats.
+                </div>
+            `;
+        } else {
+            noteContainer.innerHTML = '';
+        }
+
+        // Top Batsmen
+        const batsmenTable = document.getElementById('batsmen-table');
+        batsmenTable.innerHTML = '';
+        (analytics.top_batsmen || []).slice(0, 10).forEach((player, idx) => {
+            batsmenTable.innerHTML += `
+                <tr style="border-bottom: 1px solid #1E293B;">
+                    <td style="padding: 0.5rem; color: #E2E8F0;">${player.player}</td>
+                    <td style="text-align: center; padding: 0.5rem; color: var(--accent); font-weight: 600;">${player.runs}</td>
+                    <td style="text-align: center; padding: 0.5rem; color: #10B981;">${player.sr}</td>
+                    <td style="text-align: center; padding: 0.5rem; color: #94A3B8;">${player.fours}/${player.sixes}</td>
+                    <td style="text-align: center; padding: 0.5rem; color: #64748B;">${player.matches}</td>
+                </tr>
+            `;
+        });
+
+        // Top Bowlers
+        const bowlersTable = document.getElementById('bowlers-table');
+        bowlersTable.innerHTML = '';
+        (analytics.top_bowlers || []).slice(0, 10).forEach((player, idx) => {
+            bowlersTable.innerHTML += `
+                <tr style="border-bottom: 1px solid #1E293B;">
+                    <td style="padding: 0.5rem; color: #E2E8F0;">${player.player}</td>
+                    <td style="text-align: center; padding: 0.5rem; color: #F43F5E; font-weight: 600;">${player.wickets}</td>
+                    <td style="text-align: center; padding: 0.5rem; color: #F59E0B;">${player.economy}</td>
+                    <td style="text-align: center; padding: 0.5rem; color: #94A3B8;">${player.dots}</td>
+                    <td style="text-align: center; padding: 0.5rem; color: #64748B;">${player.matches}</td>
+                </tr>
+            `;
+        });
+    }
+
+    function renderTossTab(tossImpact) {
+        // Toss Winner Chart
+        const ctx1 = document.getElementById('tossWinChart');
+        if (charts.tossWin) charts.tossWin.destroy();
+
+        charts.tossWin = new Chart(ctx1, {
+            type: 'doughnut',
+            data: {
+                labels: ['Toss Winner Won', 'Toss Winner Lost'],
+                datasets: [{
+                    data: [tossImpact.toss_winner_won, tossImpact.total_matches - tossImpact.toss_winner_won],
+                    backgroundColor: ['#10B981', '#F43F5E'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'bottom', labels: { color: '#94A3B8' } }
+                }
+            }
+        });
+
+        // Decision Chart
+        const ctx2 = document.getElementById('tossDecisionChart');
+        if (charts.tossDecision) charts.tossDecision.destroy();
+
+        charts.tossDecision = new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: ['Bat First', 'Field First'],
+                datasets: [{
+                    label: 'Win %',
+                    data: [tossImpact.bat_first_win_pct, tossImpact.field_first_win_pct],
+                    backgroundColor: ['#38BDF8', '#A78BFA']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        ticks: { color: '#94A3B8' },
+                        grid: { color: '#334155' }
+                    },
+                    x: {
+                        ticks: { color: '#94A3B8' },
+                        grid: { display: false }
+                    }
+                }
+            }
+        });
+
+        // Insights
+        const insights = document.getElementById('toss-insights');
+        insights.innerHTML = `
+            <strong style="color: var(--accent);">Toss Impact Analysis:</strong><br>
+            Winning the toss resulted in match victory <strong>${tossImpact.toss_win_pct}%</strong> of the time. 
+            Teams choosing to <strong>${tossImpact.bat_first_win_pct > tossImpact.field_first_win_pct ? 'bat first' : 'field first'}</strong> 
+            had a higher success rate in this archetype.
+        `;
+    }
+
+    function renderVenuesTab(venueStats, filteredMatches) {
+        const venuesTable = document.getElementById('venues-table');
+        venuesTable.innerHTML = '';
+
+        // If specific season is selected, calculate venue stats from filtered matches
+        let statsToDisplay = venueStats;
+        if (currentFilter.type === 'season' && filteredMatches) {
+            // Calculate venue stats dynamically from filtered matches
+            const venueGroups = {};
+            filteredMatches.forEach(match => {
+                if (!venueGroups[match.venue]) {
+                    venueGroups[match.venue] = [];
+                }
+                venueGroups[match.venue].push(match);
+            });
+
+            statsToDisplay = Object.keys(venueGroups).map(venue => {
+                const matches = venueGroups[venue];
+                const avgScore1 = Math.round(matches.reduce((sum, m) => sum + m.score1, 0) / matches.length);
+                const avgScore2 = Math.round(matches.reduce((sum, m) => sum + m.score2, 0) / matches.length);
+                const chasesWon = matches.filter(m => m.score2 > m.score1).length;
+                const chaseSuccess = Math.round((chasesWon / matches.length) * 100, 1);
+
+                return {
+                    venue: venue,
+                    matches: matches.length,
+                    avg_score1: avgScore1,
+                    avg_score2: avgScore2,
+                    chase_success: chaseSuccess
+                };
+            }).sort((a, b) => b.matches - a.matches);
+        }
+
+        statsToDisplay.forEach(venue => {
+            venuesTable.innerHTML += `
+                <tr style="border-bottom: 1px solid #1E293B;">
+                    <td style="padding: 0.75rem; color: #E2E8F0;">${venue.venue}</td>
+                    <td style="text-align: center; padding: 0.75rem; color: #94A3B8;">${venue.matches}</td>
+                    <td style="text-align: center; padding: 0.75rem; color: var(--accent);">${venue.avg_score1}</td>
+                    <td style="text-align: center; padding: 0.75rem; color: #10B981;">${venue.avg_score2}</td>
+                    <td style="text-align: center; padding: 0.75rem; color: #F59E0B;">${venue.chase_success}%</td>
+                </tr>
+            `;
+        });
+    }
+
+    function closeDeepDive() {
+        currentClusterId = null; // Clear tracked cluster
+        document.getElementById('deep-dive').style.display = 'none';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
+{% endblock %}

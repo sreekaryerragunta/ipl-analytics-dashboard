@@ -1,0 +1,725 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div style="max-width: 1600px; margin: 0 auto;">
+    <h1 style="margin-bottom: 2rem; text-align: center;">Player Matchup Analysis</h1>
+
+    <!-- Search Controls -->
+    <div class="card" style="margin-bottom: 2rem; background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px);">
+        <div style="display: grid; grid-template-columns: 1fr 1fr auto; gap: 2rem; align-items: end;">
+            <div>
+                <label style="display: block; color: #94A3B8; margin-bottom: 0.5rem; font-size: 0.9rem;">Batsman</label>
+                <input type="text" id="batsman-input" list="batsmen-list" placeholder="Start typing batsman name..."
+                    style="width: 100%; padding: 0.8rem; background: #0F172A; border: 1px solid #334155; color: white; border-radius: 0.5rem; outline: none;">
+                <datalist id="batsmen-list"></datalist>
+            </div>
+            <div>
+                <label style="display: block; color: #94A3B8; margin-bottom: 0.5rem; font-size: 0.9rem;">Bowler</label>
+                <input type="text" id="bowler-input" list="bowlers-list" placeholder="Start typing bowler name..."
+                    style="width: 100%; padding: 0.8rem; background: #0F172A; border: 1px solid #334155; color: white; border-radius: 0.5rem; outline: none;">
+                <datalist id="bowlers-list"></datalist>
+            </div>
+            <button onclick="analyzeMatchup()"
+                style="padding: 0.8rem 2rem; background: var(--accent); color: white; border: none; border-radius: 0.5rem; font-weight: 600; cursor: pointer; height: 46px;">
+                Analyze H2H
+            </button>
+        </div>
+    </div>
+
+    <!-- Period Filters -->
+    <div id="period-controls" style="display: none; margin-bottom: 2rem;">
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <button id="filter-last3" onclick="setPeriod('last3')"
+                style="padding: 0.6rem 1.5rem; background: #F59E0B; color: white; border: none; border-radius: 0.5rem; font-weight: 600; cursor: pointer;">
+                Last 3 Seasons
+            </button>
+            <button id="filter-last5" onclick="setPeriod('last5')"
+                style="padding: 0.6rem 1.5rem; background: #334155; color: white; border: none; border-radius: 0.5rem; font-weight: 600; cursor: pointer;">
+                Last 5 Seasons
+            </button>
+            <button id="filter-overall" onclick="setPeriod('overall')"
+                style="padding: 0.6rem 1.5rem; background: #334155; color: white; border: none; border-radius: 0.5rem; font-weight: 600; cursor: pointer;">
+                Overall
+            </button>
+        </div>
+    </div>
+
+    <!-- Results Container -->
+    <div id="results-container" style="display: none;">
+
+        <!-- Summary Card -->
+        <div class="card"
+            style="margin-bottom: 2rem; background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(16, 185, 129, 0.1) 100%); border: 2px solid rgba(56, 189, 248, 0.3);">
+            <div style="text-align: center; margin-bottom: 1.5rem;">
+                <h2 id="matchup-title" style="font-size: 1.5rem; color: white; margin-bottom: 0.5rem;"></h2>
+                <p id="period-label" style="color: #64748B; font-size: 0.9rem;"></p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1.5rem;">
+                <div style="text-align: center;">
+                    <div style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 0.5rem;">Balls Faced</div>
+                    <div id="stat-balls" style="font-size: 2rem; font-weight: 700; color: var(--accent);"></div>
+                </div>
+                <div style="text-align: center;">
+                    <div style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 0.5rem;">Runs Scored</div>
+                    <div id="stat-runs" style="font-size: 2rem; font-weight: 700; color: #10B981;"></div>
+                </div>
+                <div style="text-align: center;">
+                    <div style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 0.5rem;">Dismissals</div>
+                    <div id="stat-dismissals" style="font-size: 2rem; font-weight: 700; color: #F43F5E;"></div>
+                </div>
+                <div style="text-align: center;">
+                    <div style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 0.5rem;">Average</div>
+                    <div id="stat-avg" style="font-size: 2rem; font-weight: 700; color: #F59E0B;"></div>
+                </div>
+                <div style="text-align: center;">
+                    <div style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 0.5rem;">Strike Rate</div>
+                    <div id="stat-sr" style="font-size: 2rem; font-weight: 700; color: #38BDF8;"></div>
+                </div>
+                <div style="text-align: center;">
+                    <div style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 0.5rem;">Boundary %</div>
+                    <div id="stat-boundary-pct" style="font-size: 2rem; font-weight: 700; color: #A78BFA;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Grid -->
+        <div
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+
+            <!-- Season-wise Trend Chart -->
+            <div class="card">
+                <h3
+                    style="color: #94A3B8; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem;">
+                    Performance Timeline</h3>
+                <canvas id="seasonTrendChart" style="max-height: 300px;"></canvas>
+            </div>
+
+            <!-- Runs Distribution Chart -->
+            <div class="card">
+                <h3
+                    style="color: #94A3B8; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem;">
+                    Scoring Pattern</h3>
+                <canvas id="scoringPatternChart" style="max-height: 300px;"></canvas>
+            </div>
+
+            <!-- Phase-wise Performance Chart -->
+            <div class="card">
+                <h3
+                    style="color: #94A3B8; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem;">
+                    Phase-wise Performance</h3>
+                <canvas id="phaseChart" style="max-height: 300px;"></canvas>
+            </div>
+
+            <!-- Dismissal Breakdown Chart -->
+            <div class="card">
+                <h3
+                    style="color: #94A3B8; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem;">
+                    Dismissal Analysis</h3>
+                <canvas id="dismissalChart" style="max-height: 300px;"></canvas>
+            </div>
+
+        </div>
+
+        <!-- Detailed Analysis Grid -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;">
+
+            <!-- Venue-wise Performance -->
+            <div class="card">
+                <h3
+                    style="color: #94A3B8; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem;">
+                    Venue-wise Performance</h3>
+                <div style="overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; font-size: 0.85rem;">
+                        <thead>
+                            <tr style="border-bottom: 1px solid #334155;">
+                                <th style="text-align: left; padding: 0.5rem; color: #94A3B8;">Venue</th>
+                                <th style="text-align: center; padding: 0.5rem; color: #94A3B8;">Balls</th>
+                                <th style="text-align: center; padding: 0.5rem; color: #94A3B8;">Runs</th>
+                                <th style="text-align: center; padding: 0.5rem; color: #94A3B8;">SR</th>
+                            </tr>
+                        </thead>
+                        <tbody id="venue-table-body"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Context Comparison -->
+            <div class="card">
+                <h3
+                    style="color: #94A3B8; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem;">
+                    Batting Context</h3>
+                <div id="context-comparison"></div>
+            </div>
+        </div>
+
+        <!-- Insights -->
+        <div class="card">
+            <h3
+                style="color: #94A3B8; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem;">
+                Key Insights</h3>
+            <div id="insights-container" style="display: grid; gap: 0.75rem;"></div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    let matchupData = {};
+    let currentPeriod = 'last3';
+    let currentMatchupKey = null;
+    let charts = {};
+
+    // Register ChartDataLabels plugin
+    if (typeof ChartDataLabels !== 'undefined') {
+        Chart.register(ChartDataLabels);
+    }
+
+    // Load data
+    fetch('/data/player_matchup_data.json')
+        .then(r => r.json())
+        .then(data => {
+            matchupData = data;
+
+            // Populate autocomplete lists
+            const batsmenList = document.getElementById('batsmen-list');
+            const bowlersList = document.getElementById('bowlers-list');
+
+            data.batsmen.forEach(b => {
+                const option = document.createElement('option');
+                option.value = b;
+                batsmenList.appendChild(option);
+            });
+
+            data.bowlers.forEach(b => {
+                const option = document.createElement('option');
+                option.value = b;
+                bowlersList.appendChild(option);
+            });
+
+            console.log(`Loaded ${data.batsmen.length} batsmen and ${data.bowlers.length} bowlers`);
+        })
+        .catch(err => {
+            console.error('Error loading matchup data:', err);
+            alert('Error loading player data. Please ensure the data file exists.');
+        });
+
+    function analyzeMatchup() {
+        const batsman = document.getElementById('batsman-input').value.trim();
+        const bowler = document.getElementById('bowler-input').value.trim();
+
+        if (!batsman || !bowler) {
+            alert('Please select both a batsman and a bowler');
+            return;
+        }
+
+        // Create key
+        const key = `${batsman.replace(/ /g, '_')}_vs_${bowler.replace(/ /g, '_')}`;
+        currentMatchupKey = key;
+
+        const data = matchupData.matchups[key];
+
+        if (!data) {
+            alert('No data found for this matchup. They may not have faced each other enough times.');
+            return;
+        }
+
+        document.getElementById('results-container').style.display = 'block';
+        document.getElementById('period-controls').style.display = 'block';
+        document.getElementById('matchup-title').textContent = `${batsman} vs ${bowler}`;
+
+        // Intelligently select best available period
+        if (data.last_3) {
+            currentPeriod = 'last3';
+            setPeriod('last3');
+        } else if (data.last_5) {
+            currentPeriod = 'last5';
+            setPeriod('last5');
+        } else {
+            currentPeriod = 'overall';
+            setPeriod('overall');
+        }
+    }
+
+    function setPeriod(period) {
+        currentPeriod = period;
+
+        // Update button styles
+        document.getElementById('filter-last3').style.background = period === 'last3' ? '#F59E0B' : '#334155';
+        document.getElementById('filter-last5').style.background = period === 'last5' ? '#38BDF8' : '#334155';
+        document.getElementById('filter-overall').style.background = period === 'overall' ? '#10B981' : '#334155';
+
+        updateDisplay();
+    }
+
+    function updateDisplay() {
+        if (!currentMatchupKey || !matchupData.matchups[currentMatchupKey]) return;
+
+        const data = matchupData.matchups[currentMatchupKey];
+        let stats = null;
+        let periodLabel = '';
+
+        if (currentPeriod === 'last3') {
+            stats = data.last_3;
+            periodLabel = 'Last 3 Seasons';
+        } else if (currentPeriod === 'last5') {
+            stats = data.last_5;
+            periodLabel = 'Last 5 Seasons';
+        } else {
+            stats = data.overall;
+            periodLabel = 'Overall Career';
+        }
+
+        // If no data for this period, try to find an available one
+        if (!stats) {
+            if (data.last_3) {
+                currentPeriod = 'last3';
+                setPeriod('last3');
+                return;
+            } else if (data.last_5) {
+                currentPeriod = 'last5';
+                setPeriod('last5');
+                return;
+            } else if (data.overall) {
+                currentPeriod = 'overall';
+                setPeriod('overall');
+                return;
+            } else {
+                alert('No data available for this matchup');
+                return;
+            }
+        }
+
+        document.getElementById('period-label').textContent = periodLabel;
+
+        // Update summary stats
+        document.getElementById('stat-balls').textContent = stats.balls;
+        document.getElementById('stat-runs').textContent = stats.runs;
+        document.getElementById('stat-dismissals').textContent = stats.dismissals;
+        document.getElementById('stat-avg').textContent = stats.avg.toFixed(2);
+        document.getElementById('stat-sr').textContent = stats.sr.toFixed(2);
+        document.getElementById('stat-boundary-pct').textContent = (stats.boundary_pct || 0).toFixed(1) + '%';
+
+        // Update charts
+        updateSeasonTrendChart(data);
+        updateScoringPatternChart(stats);
+        updatePhaseChart(data);
+        updateDismissalChart(data);
+
+        // Update venue table
+        updateVenueTable(data);
+
+        // Update context comparison
+        updateContextComparison(data);
+
+        // Generate insights
+        generateInsights(data, stats);
+    }
+
+    function updateSeasonTrendChart(data) {
+        const ctx = document.getElementById('seasonTrendChart');
+
+        if (charts.seasonTrend) {
+            charts.seasonTrend.destroy();
+        }
+
+        if (!data.season_wise || Object.keys(data.season_wise).length === 0) {
+            ctx.getContext('2d').clearRect(0, 0, ctx.width, ctx.height);
+            return;
+        }
+
+        const seasons = Object.keys(data.season_wise).sort();
+        const runs = seasons.map(s => data.season_wise[s].runs);
+        const srs = seasons.map(s => data.season_wise[s].sr);
+
+        // Find min and max for highlighting
+        const minSR = Math.min(...srs);
+        const maxSR = Math.max(...srs);
+
+        const pointRadii = srs.map(v => (v === minSR || v === maxSR) ? 6 : 0);
+        const pointColors = srs.map(v => (v === maxSR) ? '#10B981' : (v === minSR ? '#F43F5E' : '#38BDF8'));
+
+        charts.seasonTrend = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: seasons,
+                datasets: [{
+                    label: 'Strike Rate',
+                    data: srs,
+                    borderColor: '#38BDF8',
+                    backgroundColor: 'rgba(56, 189, 248, 0.1)',
+                    tension: 0.4,
+                    fill: true,
+                    pointRadius: pointRadii,
+                    pointBackgroundColor: pointColors,
+                    pointBorderColor: '#fff',
+                    pointBorderWidth: 2,
+                    datalabels: {
+                        display: function (context) {
+                            const val = context.dataset.data[context.dataIndex];
+                            return val === minSR || val === maxSR;
+                        },
+                        color: function (context) {
+                            const val = context.dataset.data[context.dataIndex];
+                            return val === maxSR ? '#10B981' : '#F43F5E';
+                        },
+                        align: 'top',
+                        font: { weight: 'bold' },
+                        formatter: (value) => value.toFixed(0)
+                    }
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: { labels: { color: '#94A3B8' } },
+                    datalabels: {
+                        color: '#94A3B8'
+                    }
+                },
+                scales: {
+                    y: {
+                        ticks: { color: '#94A3B8' },
+                        grid: { color: '#334155' }
+                    },
+                    x: {
+                        ticks: { color: '#94A3B8' },
+                        grid: { color: '#334155' }
+                    }
+                }
+            }
+        });
+    }
+
+    function updateScoringPatternChart(stats) {
+        const ctx = document.getElementById('scoringPatternChart');
+
+        if (charts.scoringPattern) {
+            charts.scoringPattern.destroy();
+        }
+
+        if (!stats.scoring_pattern) {
+            return;
+        }
+
+        const pattern = stats.scoring_pattern;
+
+        charts.scoringPattern = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Dots', 'Singles', 'Twos', 'Threes', 'Fours', 'Sixes'],
+                datasets: [{
+                    data: [pattern.dots, pattern.singles, pattern.twos, pattern.threes, pattern.fours, pattern.sixes],
+                    backgroundColor: ['#64748B', '#38BDF8', '#10B981', '#F59E0B', '#F43F5E', '#A78BFA'],
+                    borderColor: '#1E293B',
+                    borderWidth: 2,
+                    datalabels: {
+                        color: '#fff',
+                        font: { weight: 'bold', size: 11 },
+                        formatter: (value, ctx) => {
+                            if (value === 0) return '';
+                            let sum = 0;
+                            let dataArr = ctx.chart.data.datasets[0].data;
+                            dataArr.map(data => {
+                                sum += data;
+                            });
+                            let percentage = (value * 100 / sum).toFixed(0) + "%";
+                            return value > 2 ? `${value}\n(${percentage})` : value;
+                        },
+                        textAlign: 'center'
+                    }
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        position: 'right',
+                        labels: { color: '#94A3B8', font: { size: 10 } }
+                    },
+                    datalabels: {
+                        display: true
+                    }
+                }
+            }
+        });
+    }
+
+    // Register the datalabels plugin
+    Chart.register(ChartDataLabels);
+
+    // ... (rest of the script)
+
+    function updatePhaseChart(data) {
+        const ctx = document.getElementById('phaseChart');
+
+        if (charts.phase) {
+            charts.phase.destroy();
+        }
+
+        if (!data.phase_wise || Object.keys(data.phase_wise).length === 0) {
+            return;
+        }
+
+        const phases = data.phase_wise;
+        const labels = [];
+        const ballsData = [];
+        const runsData = [];
+        const srData = [];
+
+        ['powerplay', 'middle', 'death'].forEach(phase => {
+            if (phases[phase]) {
+                labels.push(phase.charAt(0).toUpperCase() + phase.slice(1));
+                ballsData.push(phases[phase].balls);
+                runsData.push(phases[phase].runs);
+                srData.push(phases[phase].sr);
+            }
+        });
+
+        charts.phase = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Balls',
+                    data: ballsData,
+                    backgroundColor: 'rgba(56, 189, 248, 0.7)',
+                    borderColor: '#38BDF8',
+                    borderWidth: 1,
+                    yAxisID: 'y',
+                    datalabels: {
+                        color: '#E2E8F0',
+                        anchor: 'end',
+                        align: 'top',
+                        offset: -4
+                    }
+                }, {
+                    label: 'Runs',
+                    data: runsData,
+                    backgroundColor: 'rgba(16, 185, 129, 0.7)',
+                    borderColor: '#10B981',
+                    borderWidth: 1,
+                    yAxisID: 'y',
+                    datalabels: {
+                        color: '#E2E8F0',
+                        anchor: 'end',
+                        align: 'top',
+                        offset: -4
+                    }
+                }, {
+                    label: 'Strike Rate',
+                    data: srData,
+                    type: 'line',
+                    borderColor: '#F59E0B',
+                    backgroundColor: '#F59E0B',
+                    borderWidth: 2,
+                    pointRadius: 4,
+                    yAxisID: 'y1',
+                    datalabels: {
+                        color: '#F59E0B',
+                        anchor: 'end',
+                        align: 'top',
+                        formatter: (value) => value.toFixed(0)
+                    }
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: { labels: { color: '#94A3B8' } },
+                    datalabels: {
+                        font: { weight: 'bold', size: 10 }
+                    },
+                    tooltip: {
+                        mode: 'index',
+                        intersect: false
+                    }
+                },
+                scales: {
+                    y: {
+                        type: 'linear',
+                        display: true,
+                        position: 'left',
+                        title: { display: true, text: 'Count', color: '#94A3B8' },
+                        ticks: { color: '#94A3B8' },
+                        grid: { color: '#334155' }
+                    },
+                    y1: {
+                        type: 'linear',
+                        display: true,
+                        position: 'right',
+                        title: { display: true, text: 'Strike Rate', color: '#F59E0B' },
+                        grid: { drawOnChartArea: false },
+                        ticks: { color: '#F59E0B' }
+                    },
+                    x: {
+                        ticks: { color: '#94A3B8' },
+                        grid: { color: '#334155' }
+                    }
+                }
+            }
+        });
+    }
+
+    function updateDismissalChart(data) {
+        const ctx = document.getElementById('dismissalChart');
+
+        if (charts.dismissal) {
+            charts.dismissal.destroy();
+        }
+
+        if (!data.dismissal_types || Object.keys(data.dismissal_types).length === 0) {
+            ctx.getContext('2d').clearRect(0, 0, ctx.width, ctx.height);
+            return;
+        }
+
+        const types = Object.keys(data.dismissal_types);
+        const counts = Object.values(data.dismissal_types);
+
+        charts.dismissal = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: types,
+                datasets: [{
+                    label: 'Dismissals',
+                    data: counts,
+                    backgroundColor: '#F43F5E'
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: { display: false },
+                    datalabels: {
+                        color: '#E2E8F0',
+                        anchor: 'end',
+                        align: 'end',
+                        offset: 4,
+                        font: { weight: 'bold' }
+                    }
+                },
+                scales: {
+                    y: {
+                        ticks: { color: '#94A3B8' },
+                        grid: { color: '#334155' }
+                    },
+                    x: {
+                        ticks: { color: '#94A3B8' },
+                        grid: { color: '#334155' },
+                        suggestedMax: Math.max(...counts) + 1
+                    }
+                }
+            }
+        });
+    }
+
+    function updateVenueTable(data) {
+        const venueBody = document.getElementById('venue-table-body');
+        venueBody.innerHTML = '';
+
+        if (data.by_venue && Object.keys(data.by_venue).length > 0) {
+            Object.entries(data.by_venue).forEach(([venue, vStats]) => {
+                const tr = document.createElement('tr');
+                tr.style.borderBottom = '1px solid #1E293B';
+                tr.innerHTML = `
+                    <td style="padding: 0.5rem; color: #E2E8F0; font-size: 0.8rem;">${venue}</td>
+                    <td style="text-align: center; padding: 0.5rem; color: #94A3B8;">${vStats.balls}</td>
+                    <td style="text-align: center; padding: 0.5rem; color: #10B981;">${vStats.runs}</td>
+                    <td style="text-align: center; padding: 0.5rem; color: var(--accent);">${vStats.sr.toFixed(1)}</td>
+                `;
+                venueBody.appendChild(tr);
+            });
+        } else {
+            venueBody.innerHTML = '<tr><td colspan="4" style="text-align: center; padding: 1rem; color: #64748B;">No venue-specific data</td></tr>';
+        }
+    }
+
+    function updateContextComparison(data) {
+        const contextDiv = document.getElementById('context-comparison');
+        let contextHTML = '';
+
+        if (data.batting_first) {
+            contextHTML += `
+                <div style="margin-bottom: 1rem; padding: 1rem; background: rgba(15, 23, 42, 0.5); border-radius: 0.5rem;">
+                    <div style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 0.5rem;">Batting First</div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <span>Balls: ${data.batting_first.balls}</span>
+                        <span>Runs: ${data.batting_first.runs}</span>
+                        <span>SR: ${data.batting_first.sr.toFixed(1)}</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        if (data.chasing) {
+            contextHTML += `
+                <div style="padding: 1rem; background: rgba(15, 23, 42, 0.5); border-radius: 0.5rem;">
+                    <div style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 0.5rem;">Chasing</div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <span>Balls: ${data.chasing.balls}</span>
+                        <span>Runs: ${data.chasing.runs}</span>
+                        <span>SR: ${data.chasing.sr.toFixed(1)}</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        if (!contextHTML) {
+            contextHTML = '<div style="color: #64748B; text-align: center; padding: 2rem;">No context-specific data</div>';
+        }
+
+        contextDiv.innerHTML = contextHTML;
+    }
+
+    function generateInsights(data, stats) {
+        const insightsContainer = document.getElementById('insights-container');
+        insightsContainer.innerHTML = '';
+
+        const insights = [];
+
+        if (stats.dismissals === 0) {
+            insights.push(`${data.batsman} has never been dismissed by ${data.bowler} in this period!`);
+        } else if (stats.dismissals >= 3) {
+            insights.push(`${data.bowler} has dismissed ${data.batsman} ${stats.dismissals} times - a strong matchup for the bowler.`);
+        }
+
+        if (stats.sr > 150) {
+            insights.push(`Explosive matchup! ${data.batsman} scores at ${stats.sr.toFixed(1)} strike rate.`);
+        } else if (stats.sr < 100) {
+            insights.push(`${data.bowler} has kept ${data.batsman} quiet with a strike rate of just ${stats.sr.toFixed(1)}.`);
+        }
+
+        if (stats.boundary_pct && stats.boundary_pct > 50) {
+            insights.push(`Boundary dependent: ${stats.boundary_pct.toFixed(0)}% of runs from boundaries.`);
+        }
+
+        if (stats.dot_pct > 50) {
+            insights.push(`Over ${stats.dot_pct.toFixed(0)}% dot balls - ${data.bowler} builds pressure effectively.`);
+        }
+
+        // Phase insights
+        if (data.phase_wise && data.phase_wise.powerplay && data.phase_wise.powerplay.sr > 140) {
+            insights.push(`Aggressive in powerplay with SR of ${data.phase_wise.powerplay.sr.toFixed(1)}.`);
+        }
+
+        if (insights.length === 0) {
+            insights.push('This is a balanced matchup with no clear advantage.');
+        }
+
+        insights.forEach(insight => {
+            const div = document.createElement('div');
+            div.style.padding = '0.75rem';
+            div.style.borderLeft = '4px solid var(--accent)';
+            div.style.background = 'rgba(15, 23, 42, 0.3)';
+            div.style.borderRadius = '0 0.5rem 0.5rem 0';
+            div.textContent = insight;
+            insightsContainer.appendChild(div);
+        });
+    }
+</script>
+{% endblock %}

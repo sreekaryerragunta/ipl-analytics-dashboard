@@ -1,0 +1,52 @@
+{
+  "total_runs": 374283,
+  "total_wickets": 13823,
+  "total_sixes": 14259,
+  "total_fours": 31972,
+  "total_matches": 1169,
+  "seasons_count": 18,
+  "champions": {
+    "2008": "Rajasthan Royals",
+    "2009": "Deccan Chargers",
+    "2010": "Chennai Super Kings",
+    "2011": "Chennai Super Kings",
+    "2012": "Kolkata Knight Riders",
+    "2013": "Mumbai Indians",
+    "2014": "Kolkata Knight Riders",
+    "2015": "Mumbai Indians",
+    "2016": "Sunrisers Hyderabad",
+    "2017": "Mumbai Indians",
+    "2018": "Chennai Super Kings",
+    "2019": "Mumbai Indians",
+    "2020": "Mumbai Indians",
+    "2021": "Chennai Super Kings",
+    "2022": "Gujarat Titans",
+    "2023": "Chennai Super Kings",
+    "2024": "Kolkata Knight Riders",
+    "2025": "Royal Challengers Bengaluru"
+  },
+  "top_scorers": {
+    "V Kohli": 8671,
+    "RG Sharma": 7048,
+    "S Dhawan": 6769,
+    "DA Warner": 6567,
+    "SK Raina": 5536,
+    "MS Dhoni": 5439,
+    "KL Rahul": 5235,
+    "AB de Villiers": 5181,
+    "AM Rahane": 5032,
+    "CH Gayle": 4997
+  },
+  "top_wicket_takers": {
+    "YS Chahal": 229,
+    "B Kumar": 213,
+    "SP Narine": 212,
+    "DJ Bravo": 207,
+    "R Ashwin": 205,
+    "JJ Bumrah": 203,
+    "PP Chawla": 201,
+    "SL Malinga": 188,
+    "A Mishra": 183,
+    "RA Jadeja": 179
+  }
+}

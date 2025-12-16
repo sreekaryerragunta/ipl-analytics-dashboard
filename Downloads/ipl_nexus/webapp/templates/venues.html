@@ -1,0 +1,666 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1 style="margin-bottom: 2rem;">🏟️ Venue Intelligence</h1>
+
+<!-- Filters Section -->
+<div class="card" style="margin-bottom: 2rem;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+        <!-- Season Filter -->
+        <div>
+            <label style="display: block; margin-bottom: 0.5rem; color: #94A3B8; font-size: 0.875rem;">Season
+                Range</label>
+            <select id="season-filter"
+                style="width: 100%; padding: 0.75rem; background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 8px; color: white; font-size: 1rem;">
+                <option value="all">All Seasons</option>
+                <option value="last5">Last 5 Seasons</option>
+                <option value="last3">Last 3 Seasons</option>
+                <option value="specific">Specific Season</option>
+            </select>
+        </div>
+
+        <!-- Specific Season Dropdown -->
+        <div id="specific-season-container" style="display: none;">
+            <label style="display: block; margin-bottom: 0.5rem; color: #94A3B8; font-size: 0.875rem;">Select
+                Season</label>
+            <select id="specific-season-filter"
+                style="width: 100%; padding: 0.75rem; background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 8px; color: white; font-size: 1rem;">
+                <option value="">Select...</option>
+            </select>
+        </div>
+
+        <!-- Team Filter -->
+        <div>
+            <label style="display: block; margin-bottom: 0.5rem; color: #94A3B8; font-size: 0.875rem;">Team</label>
+            <select id="team-filter"
+                style="width: 100%; padding: 0.75rem; background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 8px; color: white; font-size: 1rem;">
+                <option value="all">All Teams</option>
+            </select>
+        </div>
+
+        <!-- Venue Type Filter -->
+        <div>
+            <label style="display: block; margin-bottom: 0.5rem; color: #94A3B8; font-size: 0.875rem;">Venue
+                Type</label>
+            <select id="type-filter"
+                style="width: 100%; padding: 0.75rem; background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 8px; color: white; font-size: 1rem;">
+                <option value="all">All Types</option>
+                <option value="Batting-Friendly">Batting-Friendly (170+)</option>
+                <option value="Balanced">Balanced (155-169)</option>
+                <option value="Bowling-Friendly">Bowling-Friendly (<155)< /option>
+                <option value="Bowling-Friendly">Bowling-Friendly (<140)< /option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<!-- Toss Overview Section -->
+<div class="card" style="margin-bottom: 2rem;">
+    <h2 style="margin-bottom: 1.5rem;">🪙 Overall Toss Analysis</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+        <div>
+            <canvas id="toss-decision-chart" style="max-height: 200px;"></canvas>
+        </div>
+        <div>
+            <canvas id="toss-advantage-chart" style="max-height: 200px;"></canvas>
+        </div>
+    </div>
+</div>
+
+<!-- Venue Cards Grid -->
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;"
+    id="venue-grid">
+    <!-- Populated by JS -->
+</div>
+
+<!-- Venue Detail Modal -->
+<div id="venue-detail-modal"
+    style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); z-index: 1000; overflow-y: auto; padding: 2rem;">
+    <div class="card" style="max-width: 1200px; margin: 0 auto; position: relative;">
+        <button id="close-modal-btn"
+            style="position: absolute; top: 1rem; right: 1rem; background: rgba(255,255,255,0.1); border: none; color: white; padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-weight: 600; z-index: 10;">✕
+            Close</button>
+
+        <h2 id="modal-venue-name" style="margin-bottom: 1.5rem; color: var(--accent);"></h2>
+
+        <!-- Tabs -->
+        <div
+            style="display: flex; gap: 1rem; margin-bottom: 2rem; border-bottom: 2px solid rgba(255,255,255,0.1); flex-wrap: wrap;">
+            <button class="tab-btn active" data-tab="overview">Overview</button>
+            <button class="tab-btn" data-tab="teams">Team Performance</button>
+            <button class="tab-btn" data-tab="toss">Toss Analytics</button>
+            <button class="tab-btn" data-tab="characteristics">Characteristics</button>
+        </div>
+
+        <!-- Tab Content -->
+        <div id="tab-content">
+            <!-- Dynamically populated -->
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    let venueAnalyticsData;
+    let tossDecisionChart, tossAdvantageChart;
+    let currentFilters = {
+        season: 'all',
+        team: 'all',
+        type: 'all'
+    };
+
+    // Load data
+    fetch('/data/venue_analytics.json')
+        .then(r => r.json())
+        .then(data => {
+            venueAnalyticsData = data;
+
+            // Populate team filter
+            const teams = new Set();
+            Object.values(data.venues).forEach(venue => {
+                venue.team_performance.forEach(tp => teams.add(tp.team));
+            });
+
+            const teamFilter = document.getElementById('team-filter');
+            Array.from(teams).sort().forEach(team => {
+                const option = document.createElement('option');
+                option.value = team;
+                option.textContent = team;
+                teamFilter.appendChild(option);
+            });
+
+            // Populate specific season filter
+            const allSeasons = new Set();
+            Object.values(data.venues).forEach(venue => {
+                venue.seasons_played.forEach(s => allSeasons.add(s));
+            });
+
+            const seasonFilter = document.getElementById('specific-season-filter');
+            Array.from(allSeasons).sort((a, b) => b - a).forEach(season => {
+                const option = document.createElement('option');
+                option.value = season;
+                option.textContent = season;
+                seasonFilter.appendChild(option);
+            });
+
+            // Create toss charts
+            createTossCharts(data.overall_toss_stats);
+
+            // Render venues
+            renderVenues();
+        });
+
+    // Filter event listeners
+    document.getElementById('season-filter').addEventListener('change', (e) => {
+        const value = e.target.value;
+        const specificContainer = document.getElementById('specific-season-container');
+
+        if (value === 'specific') {
+            specificContainer.style.display = 'block';
+            currentFilters.season = document.getElementById('specific-season-filter').value || 'all';
+        } else {
+            specificContainer.style.display = 'none';
+            currentFilters.season = value;
+        }
+        renderVenues();
+    });
+
+    document.getElementById('specific-season-filter').addEventListener('change', (e) => {
+        currentFilters.season = e.target.value || 'all';
+        renderVenues();
+    });
+
+    document.getElementById('team-filter').addEventListener('change', (e) => {
+        currentFilters.team = e.target.value;
+        renderVenues();
+    });
+
+    document.getElementById('type-filter').addEventListener('change', (e) => {
+        currentFilters.type = e.target.value;
+        renderVenues();
+    });
+
+    function renderVenues() {
+        const grid = document.getElementById('venue-grid');
+        grid.innerHTML = '';
+
+        let venues = Object.values(venueAnalyticsData.venues);
+        let filteredVenues = [];
+
+        // Filter and extract correct stats based on filters
+        venues.forEach(venue => {
+            // Apply venue type filter
+            if (currentFilters.type !== 'all' && venue.venue_type !== currentFilters.type) {
+                return;
+            }
+
+            let venueData = {
+                ...venue,
+                displayMatches: venue.total_matches,
+                displayWinRate: null,
+                displayWins: null
+            };
+
+            // If team filter is active
+            if (currentFilters.team !== 'all') {
+                // Check if team has played at this venue
+                const teamSeasonData = venue.team_season_breakdown[currentFilters.team];
+
+                if (!teamSeasonData) {
+                    return; // Team never played here, skip this venue
+                }
+
+                // Get the right season filter
+                let seasonKey = 'all';
+                if (currentFilters.season === 'last5') {
+                    seasonKey = 'last5';
+                } else if (currentFilters.season === 'last3') {
+                    seasonKey = 'last3';
+                } else if (!isNaN(parseInt(currentFilters.season))) {
+                    // Specific season - use season_YYYY key  
+                    const specificSeason = parseInt(currentFilters.season);
+                    seasonKey = `season_${specificSeason}`;
+
+                    // Check if team played here in this season
+                    if (!teamSeasonData[seasonKey]) {
+                        return; // Team didn't play here in this season
+                    }
+                }
+
+                const teamStats = teamSeasonData[seasonKey];
+
+                if (!teamStats || teamStats.played === 0) {
+                    return; // No matches in this filter combination
+                }
+
+                venueData.displayMatches = teamStats.played;
+                venueData.displayWins = teamStats.won;
+                venueData.displayWinRate = teamStats.played > 0 ? Math.round((teamStats.won / teamStats.played) * 100 * 10) / 10 : 0;
+
+            } else {
+                // No team filter, but apply season filter to venue
+                if (currentFilters.season !== 'all' && currentFilters.season !== 'specific') {
+                    if (!isNaN(parseInt(currentFilters.season))) {
+                        // Specific season
+                        const specificSeason = parseInt(currentFilters.season);
+                        if (!venue.seasons_played.includes(specificSeason)) {
+                            return;
+                        }
+                        // For specific season without team filter, show all matches from that season
+                        // We don't have per-season match counts, so show all-time for now
+                    } else {
+                        // Last 3 or Last 5
+                        const currentYear = new Date().getFullYear();
+                        const cutoff = currentFilters.season === 'last5' ? currentYear - 5 : currentYear - 3;
+
+                        // Check if venue had matches in the season range
+                        const hasRecentMatches = venue.seasons_played.some(s => s >= cutoff);
+                        if (!hasRecentMatches) {
+                            return;
+                        }
+
+                        // Update display matches to show filtered count
+                        const seasonKey = currentFilters.season === 'last5' ? 'last5' : 'last3';
+                        if (venue.season_match_counts && venue.season_match_counts[seasonKey]) {
+                            venueData.displayMatches = venue.season_match_counts[seasonKey];
+                        }
+                    }
+                }
+            }
+
+            filteredVenues.push(venueData);
+        });
+
+        // Sort by matches
+        filteredVenues.sort((a, b) => b.displayMatches - a.displayMatches);
+
+        if (filteredVenues.length === 0) {
+            grid.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #94A3B8; padding: 2rem;">No venues match the selected filters</p>';
+            return;
+        }
+
+        filteredVenues.forEach(venue => {
+            const card = document.createElement('div');
+            card.className = 'venue-card';
+            card.style.cssText = 'cursor: pointer; transition: all 0.3s; background: linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.6)); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 12px; padding: 1.5rem;';
+
+            const typeColor = {
+                'High-Scoring': '#10B981',
+                'Batting-Friendly': '#38BDF8',
+                'Balanced': '#F59E0B',
+                'Bowling-Friendly': '#F87171'
+            }[venue.venue_type] || '#94A3B8';
+
+            const showTeamStats = currentFilters.team !== 'all' && venue.displayWinRate !== null;
+
+            card.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                    <h3 style="margin: 0; font-size: 1.1rem; flex: 1;">${venue.venue_name}</h3>
+                    <span style="background: ${typeColor}20; color: ${typeColor}; padding: 0.25rem 0.75rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; white-space: nowrap;">${venue.venue_type}</span>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; font-size: 0.875rem;">
+                    <div>
+                        <div style="color: #64748B; margin-bottom: 0.25rem;">${showTeamStats ? currentFilters.team + ' Matches' : 'Matches'}</div>
+                        <div style="font-size: 1.5rem; font-weight: 700; color: var(--accent);">${venue.displayMatches}</div>
+                    </div>
+                    <div>
+                        <div style="color: #64748B; margin-bottom: 0.25rem;">Avg Score</div>
+                        <div style="font-size: 1.5rem; font-weight: 700; color: ${typeColor};">${venue.avg_first_innings}</div>
+                    </div>
+                </div>
+                ${showTeamStats ? `
+                <div style="margin-bottom: 0.75rem;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 0.25rem; font-size: 0.875rem;">
+                        <span style="color: #94A3B8;">${currentFilters.team} Win%</span>
+                        <span style="font-weight: 600;">${venue.displayWinRate}%</span>
+                    </div>
+                    <div style="background: #1E293B; height: 6px; border-radius: 3px; overflow: hidden;">
+                        <div style="width: ${venue.displayWinRate}%; background: ${venue.displayWinRate >= 50 ? '#10B981' : '#F87171'}; height: 100%;"></div>
+                    </div>
+                    <div style="margin-top: 0.5rem; font-size: 0.75rem; color: #64748B;">
+                        ${venue.displayWins} wins in ${venue.displayMatches} matches
+                    </div>
+                </div>
+                ` : `
+                <div style="margin-bottom: 0.75rem;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 0.25rem; font-size: 0.875rem;">
+                        <span style="color: #94A3B8;">Bat First Win%</span>
+                        <span style="font-weight: 600;">${venue.bat_first_win_pct}%</span>
+                    </div>
+                    <div style="background: #1E293B; height: 6px; border-radius: 3px; overflow: hidden;">
+                        <div style="width: ${venue.bat_first_win_pct}%; background: #38BDF8; height: 100%;"></div>
+                    </div>
+                </div>
+                `}
+                <div style="padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.875rem; color: #94A3B8;">
+                    🪙 Toss Advantage: <strong style="color: ${venue.toss_win_match_win_pct > 55 ? '#10B981' : venue.toss_win_match_win_pct < 45 ? '#F87171' : '#F59E0B'};">${venue.toss_win_match_win_pct}%</strong>
+                </div>
+            `;
+
+            card.addEventListener('click', () => showVenueDetail(venue));
+            card.addEventListener('mouseenter', (e) => {
+                e.currentTarget.style.transform = 'translateY(-4px)';
+                e.currentTarget.style.boxShadow = '0 10px 40px rgba(56, 189, 248, 0.3)';
+                e.currentTarget.style.borderColor = 'rgba(56, 189, 248, 0.5)';
+            });
+            card.addEventListener('mouseleave', (e) => {
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = 'none';
+                e.currentTarget.style.borderColor = 'rgba(56, 189, 248, 0.2)';
+            });
+
+            grid.appendChild(card);
+        });
+    }
+
+    function createTossCharts(stats) {
+        // Toss Decision Chart
+        const ctx1 = document.getElementById('toss-decision-chart').getContext('2d');
+        tossDecisionChart = new Chart(ctx1, {
+            type: 'doughnut',
+            data: {
+                labels: ['Bat First', 'Field First'],
+                datasets: [{
+                    data: [stats.total_bat_decisions, stats.total_field_decisions],
+                    backgroundColor: ['#38BDF8', '#10B981'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: { display: true, position: 'bottom', labels: { color: '#fff', padding: 15, font: { size: 12 } } },
+                    title: { display: true, text: 'Toss Decisions', color: '#fff', font: { size: 16, weight: 'bold' } }
+                }
+            }
+        });
+
+        // Toss Advantage Chart
+        const ctx2 = document.getElementById('toss-advantage-chart').getContext('2d');
+        tossAdvantageChart = new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: ['Won Toss', 'Lost Toss'],
+                datasets: [{
+                    label: 'Match Win %',
+                    data: [stats.toss_advantage_pct, 100 - stats.toss_advantage_pct],
+                    backgroundColor: ['#10B981', '#F87171'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    y: { beginAtZero: true, max: 100, ticks: { color: '#94A3B8' }, grid: { color: 'rgba(255,255,255,0.1)' } },
+                    x: { ticks: { color: '#94A3B8' }, grid: { display: false } }
+                },
+                plugins: {
+                    legend: { display: false },
+                    title: { display: true, text: 'Toss Impact on Match Result', color: '#fff', font: { size: 16, weight: 'bold' } }
+                }
+            }
+        });
+    }
+
+    function showVenueDetail(venue) {
+        const modal = document.getElementById('venue-detail-modal');
+        document.getElementById('modal-venue-name').textContent = venue.venue_name;
+
+        // Show overview tab by default
+        showTab('overview', venue);
+
+        modal.style.display = 'block';
+
+        // Tab switching
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.onclick = () => {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                showTab(btn.getAttribute('data-tab'), venue);
+            };
+        });
+    }
+
+    function showTab(tab, venue) {
+        const content = document.getElementById('tab-content');
+
+        if (tab === 'overview') {
+            content.innerHTML = `
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+                    <div class="stat-card">
+                        <div style="color: #64748B; margin-bottom: 0.5rem;">Total Matches</div>
+                        <div style="font-size: 2rem; font-weight: 700; color: var(--accent);">${venue.total_matches}</div>
+                    </div>
+                    <div class="stat-card">
+                        <div style="color: #64748B; margin-bottom: 0.5rem;">Avg 1st Innings</div>
+                        <div style="font-size: 2rem; font-weight: 700; color: #38BDF8;">${venue.avg_first_innings}</div>
+                    </div>
+                    <div class="stat-card">
+                        <div style="color: #64748B; margin-bottom: 0.5rem;">Avg 2nd Innings</div>
+                        <div style="font-size: 2rem; font-weight: 700; color: #10B981;">${venue.avg_second_innings}</div>
+                    </div>
+                    <div class="stat-card">
+                        <div style="color: #64748B; margin-bottom: 0.5rem;">Venue Type</div>
+                        <div style="font-size: 1.5rem; font-weight: 700; color: #F59E0B;">${venue.venue_type}</div>
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                    <div>
+                        <h3 style="margin-bottom: 1rem;">Bat First vs Chase</h3>
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span>Bat First Wins</span>
+                                <strong>${venue.bat_first_wins} (${venue.bat_first_win_pct}%)</strong>
+                            </div>
+                            <div style="background: #1E293B; height: 8px; border-radius: 4px; overflow: hidden;">
+                                <div style="width: ${venue.bat_first_win_pct}%; background: #38BDF8; height: 100%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span>Chase Wins</span>
+                                <strong>${venue.chase_wins} (${venue.chase_win_pct}%)</strong>
+                            </div>
+                            <div style="background: #1E293B; height: 8px; border-radius: 4px; overflow: hidden;">
+                                <div style="width: ${venue.chase_win_pct}%; background: #10B981; height: 100%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 style="margin-bottom: 1rem;">Toss Quick Stats</h3>
+                        <div style="padding: 1rem; background: rgba(56, 189, 248, 0.1); border-radius: 8px; border: 1px solid rgba(56, 189, 248, 0.3);">
+                            <div style="margin-bottom: 0.75rem;">Toss Win → Match Win: <strong style="color: var(--accent);">${venue.toss_win_match_win_pct}%</strong></div>
+                            <div style="margin-bottom: 0.75rem;">Bat Decisions: <strong>${venue.toss_bat_decisions} (${venue.toss_bat_pct}%)</strong></div>
+                            <div>Field Decisions: <strong>${venue.toss_field_decisions} (${100 - venue.toss_bat_pct}%)</strong></div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        } else if (tab === 'teams') {
+            let tableHTML = `
+                <table style="width: 100%; border-collapse: collapse;">
+                    <thead>
+                        <tr style="border-bottom: 2px solid rgba(255,255,255,0.1);">
+                            <th style="padding: 1rem; text-align: left; color: var(--accent);">Team</th>
+                            <th style="padding: 1rem; text-align: center; color: var(--accent);">P</th>
+                            <th style="padding: 1rem; text-align: center; color: var(--accent);">W</th>
+                            <th style="padding: 1rem; text-align: center; color: var(--accent);">L</th>
+                            <th style="padding: 1rem; text-align: center; color: var(--accent);">Win %</th>
+                            <th style="padding: 1rem; text-align: left; color: var(--accent);">Form</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            venue.team_performance.forEach(tp => {
+                tableHTML += `
+                    <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                        <td style="padding: 1rem; font-weight: 600;">${tp.team}</td>
+                        <td style="padding: 1rem; text-align: center; color: #38BDF8;">${tp.played}</td>
+                        <td style="padding: 1rem; text-align: center; color: #10B981;">${tp.won}</td>
+                        <td style="padding: 1rem; text-align: center; color: #F87171;">${tp.lost}</td>
+                        <td style="padding: 1rem; text-align: center; font-weight: 600;">${tp.win_rate}%</td>
+                        <td style="padding: 1rem;">
+                            <div style="background: #1E293B; height: 6px; border-radius: 3px; overflow: hidden;">
+                                <div style="width: ${tp.win_rate}%; background: ${tp.win_rate >= 50 ? '#10B981' : '#F59E0B'}; height: 100%;"></div>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+            });
+
+            tableHTML += '</tbody></table>';
+            content.innerHTML = tableHTML;
+        } else if (tab === 'toss') {
+            content.innerHTML = `
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                    <div class="stat-card">
+                        <h3 style="margin-bottom: 1rem;">Toss Win Match Win</h3>
+                        <div style="font-size: 3rem; font-weight: 700; color: ${venue.toss_win_match_win_pct > 55 ? '#10B981' : venue.toss_win_match_win_pct < 45 ? '#F87171' : '#F59E0B'};">${venue.toss_win_match_win_pct}%</div>
+                        <p style="color: #94A3B8; margin-top: 0.5rem;">Teams winning toss also won match</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 style="margin-bottom: 1rem;">Preferred Decision</h3>
+                        <div style="font-size: 2rem; font-weight: 700; color: var(--accent);">${venue.toss_bat_pct > 50 ? 'Bat' : 'Field'} First</div>
+                        <p style="color: #94A3B8; margin-top: 0.5rem;">${Math.max(venue.toss_bat_pct, 100 - venue.toss_bat_pct).toFixed(1)}% choose this option</p>
+                    </div>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <h3 style="margin-bottom: 1rem;">Decision Breakdown</h3>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                        <div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span style="color: #94A3B8;">Bat First Decisions</span>
+                                <strong>${venue.toss_bat_decisions} (${venue.toss_bat_pct}%)</strong>
+                            </div>
+                            <div style="background: #1E293B; height: 8px; border-radius: 4px; overflow: hidden;">
+                                <div style="width: ${venue.toss_bat_pct}%; background: #38BDF8; height: 100%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span style="color: #94A3B8;">Field First Decisions</span>
+                                <strong>${venue.toss_field_decisions} (${100 - venue.toss_bat_pct}%)</strong>
+                            </div>
+                            <div style="background: #1E293B; height: 8px; border-radius: 4px; overflow: hidden;">
+                                <div style="width: ${100 - venue.toss_bat_pct}%; background: #10B981; height: 100%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        } else if (tab === 'characteristics') {
+            const batting = venue.batting_stats || {};
+            content.innerHTML = `
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+                    <div class="stat-card">
+                        <div style="color: #64748B; margin-bottom: 0.5rem;">Venue Classification</div>
+                        <div style="font-size: 1.5rem; font-weight: 700; color: #F59E0B;">${venue.venue_type}</div>
+                    </div>
+                    <div class="stat-card">
+                        <div style="color: #64748B; margin-bottom: 0.5rem;">Avg Wickets (1st Inn)</div>
+                        <div style="font-size: 1.5rem; font-weight: 700; color: #F87171;">${venue.avg_wickets_first_innings}</div>
+                    </div>
+                    <div class="stat-card">
+                        <div style="color: #64748B; margin-bottom: 0.5rem;">Avg Wickets (2nd Inn)</div>
+                        <div style="font-size: 1.5rem; font-weight: 700; color: #F87171;">${venue.avg_wickets_second_innings}</div>
+                    </div>
+                    <div class="stat-card">
+                        <div style="color: #64748B; margin-bottom: 0.5rem;">Seasons Played</div>
+                        <div style="font-size: 1.5rem; font-weight: 700; color: var(--accent);">${venue.seasons_played.length}</div>
+                    </div>
+                </div>
+                
+                <h3 style="margin: 2rem 0 1rem; color: var(--accent); border-bottom: 2px solid rgba(56, 189, 248, 0.3); padding-bottom: 0.5rem;">⚡ Batting Statistics</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+                    <div class="stat-card">
+                        <div style="color: #64748B; margin-bottom: 0.5rem;">Highest Team Score</div>
+                        <div style="font-size: 1.8rem; font-weight: 700; color: #10B981;">${batting.highest_score || 'N/A'}</div>
+                        <div style="color: #94A3B8; font-size: 0.85rem; margin-top: 0.25rem;">
+                            ${batting.highest_score_team || 'N/A'} (${batting.highest_score_season || 'N/A'})
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div style="color: #64748B; margin-bottom: 0.5rem;">Boundaries Per Match</div>
+                        <div style="font-size: 1.3rem; font-weight: 700; color: #F59E0B;">
+                            ${batting.avg_fours_per_match || 0} fours, ${batting.avg_sixes_per_match || 0} sixes
+                        </div>
+                        <div style="color: #94A3B8; font-size: 0.85rem; margin-top: 0.25rem;">
+                            Total: ${batting.total_fours || 0} 4s, ${batting.total_sixes || 0} 6s
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 style="margin: 2rem 0 1rem; color: var(--accent); border-bottom: 2px solid rgba(56, 189, 248, 0.3); padding-bottom: 0.5rem;">🧤 Fielding Statistics</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+                    <div class="stat-card">
+                        <div style="color: #64748B; margin-bottom: 0.5rem;">Total Catches</div>
+                        <div style="font-size: 1.8rem; font-weight: 700; color: #38BDF8;">${batting.total_catches || 0}</div>
+                        <div style="color: #94A3B8; font-size: 0.85rem; margin-top: 0.25rem;">
+                            ${batting.catches_per_match || 0} per match
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div style="color: #64748B; margin-bottom: 0.5rem;">Fielding Rank</div>
+                        <div style="font-size: 1.8rem; font-weight: 700; color: #F59E0B;">
+                            ${batting.fielding_rank ? '#' + batting.fielding_rank : 'Not Ranked'}
+                        </div>
+                        <div style="color: #94A3B8; font-size: 0.85rem; margin-top: 0.25rem;">
+                            ${batting.fielding_rank ? 'By catches per match' : '< 10 matches played'}
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div style="color: #64748B; margin-bottom: 0.5rem;">Run Outs</div>
+                        <div style="font-size: 1.8rem; font-weight: 700; color: #10B981;">${batting.total_runouts || 0}</div>
+                        <div style="color: #94A3B8; font-size: 0.85rem; margin-top: 0.25rem;">
+                            ${batting.runouts_per_match || 0} per match
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+    }
+
+    // Close modal
+    document.getElementById('close-modal-btn').addEventListener('click', () => {
+        document.getElementById('venue-detail-modal').style.display = 'none';
+    });
+</script>
+
+<style>
+    .venue-card {
+        position: relative;
+    }
+
+    .tab-btn {
+        padding: 0.75rem 1.5rem;
+        background: rgba(56, 189, 248, 0.1);
+        border: 1px solid rgba(56, 189, 248, 0.3);
+        border-radius: 8px 8px 0 0;
+        color: #38BDF8;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s;
+        border-bottom: none;
+    }
+
+    .tab-btn:hover {
+        background: rgba(56, 189, 248, 0.2);
+    }
+
+    .tab-btn.active {
+        background: rgba(56, 189, 248, 0.3);
+        color: white;
+        border-color: rgba(56, 189, 248, 0.6);
+    }
+
+    .stat-card {
+        padding: 1.5rem;
+        background: linear-gradient(135deg, rgba(56, 189, 248, 0.08), rgba(16, 185, 129, 0.08));
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+    }
+</style>
+{% endblock %}

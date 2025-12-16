@@ -1,0 +1,356 @@
+{
+  "top_allrounders": [
+    {
+      "player": "R Ashwin",
+      "runs": 759.0,
+      "matches": 83.0,
+      "wickets": 4402.0,
+      "allrounder_index": 88799.0
+    },
+    {
+      "player": "SP Narine",
+      "runs": 1178.0,
+      "matches": 95.0,
+      "wickets": 3860.0,
+      "allrounder_index": 78378.0
+    },
+    {
+      "player": "RA Jadeja",
+      "runs": 2745.0,
+      "matches": 172.0,
+      "wickets": 3670.0,
+      "allrounder_index": 76145.0
+    },
+    {
+      "player": "PP Chawla",
+      "runs": 612.0,
+      "matches": 82.0,
+      "wickets": 3729.0,
+      "allrounder_index": 75192.0
+    },
+    {
+      "player": "Harbhajan Singh",
+      "runs": 833.0,
+      "matches": 88.0,
+      "wickets": 3496.0,
+      "allrounder_index": 70753.0
+    },
+    {
+      "player": "DJ Bravo",
+      "runs": 1560.0,
+      "matches": 110.0,
+      "wickets": 3296.0,
+      "allrounder_index": 67480.0
+    },
+    {
+      "player": "AR Patel",
+      "runs": 1461.0,
+      "matches": 103.0,
+      "wickets": 2959.0,
+      "allrounder_index": 60641.0
+    },
+    {
+      "player": "SR Watson",
+      "runs": 3880.0,
+      "matches": 141.0,
+      "wickets": 2137.0,
+      "allrounder_index": 46620.0
+    },
+    {
+      "player": "IK Pathan",
+      "runs": 1150.0,
+      "matches": 82.0,
+      "wickets": 2113.0,
+      "allrounder_index": 43410.0
+    },
+    {
+      "player": "KH Pandya",
+      "runs": 1560.0,
+      "matches": 98.0,
+      "wickets": 2026.0,
+      "allrounder_index": 42080.0
+    },
+    {
+      "player": "JH Kallis",
+      "runs": 2427.0,
+      "matches": 95.0,
+      "wickets": 1799.0,
+      "allrounder_index": 38407.0
+    },
+    {
+      "player": "JA Morkel",
+      "runs": 975.0,
+      "matches": 67.0,
+      "wickets": 1807.0,
+      "allrounder_index": 37115.0
+    },
+    {
+      "player": "CH Morris",
+      "runs": 618.0,
+      "matches": 49.0,
+      "wickets": 1801.0,
+      "allrounder_index": 36638.0
+    },
+    {
+      "player": "KA Pollard",
+      "runs": 3437.0,
+      "matches": 168.0,
+      "wickets": 1586.0,
+      "allrounder_index": 35157.0
+    },
+    {
+      "player": "AD Russell",
+      "runs": 2330.0,
+      "matches": 96.0,
+      "wickets": 1620.0,
+      "allrounder_index": 34730.0
+    },
+    {
+      "player": "Shakib Al Hasan",
+      "runs": 795.0,
+      "matches": 52.0,
+      "wickets": 1515.0,
+      "allrounder_index": 31095.0
+    },
+    {
+      "player": "HH Pandya",
+      "runs": 2387.0,
+      "matches": 118.0,
+      "wickets": 1301.0,
+      "allrounder_index": 28407.0
+    },
+    {
+      "player": "YK Pathan",
+      "runs": 3222.0,
+      "matches": 153.0,
+      "wickets": 1184.0,
+      "allrounder_index": 26902.0
+    },
+    {
+      "player": "JP Faulkner",
+      "runs": 527.0,
+      "matches": 45.0,
+      "wickets": 1287.0,
+      "allrounder_index": 26267.0
+    },
+    {
+      "player": "SK Raina",
+      "runs": 5536.0,
+      "matches": 200.0,
+      "wickets": 930.0,
+      "allrounder_index": 24136.0
+    },
+    {
+      "player": "SM Curran",
+      "runs": 699.0,
+      "matches": 39.0,
+      "wickets": 1029.0,
+      "allrounder_index": 21279.0
+    },
+    {
+      "player": "GJ Maxwell",
+      "runs": 2751.0,
+      "matches": 123.0,
+      "wickets": 916.0,
+      "allrounder_index": 21071.0
+    },
+    {
+      "player": "MC Henriques",
+      "runs": 1000.0,
+      "matches": 54.0,
+      "wickets": 979.0,
+      "allrounder_index": 20580.0
+    },
+    {
+      "player": "Yuvraj Singh",
+      "runs": 2754.0,
+      "matches": 126.0,
+      "wickets": 882.0,
+      "allrounder_index": 20394.0
+    },
+    {
+      "player": "R Tewatia",
+      "runs": 853.0,
+      "matches": 58.0,
+      "wickets": 866.0,
+      "allrounder_index": 18173.0
+    },
+    {
+      "player": "AD Mathews",
+      "runs": 724.0,
+      "matches": 41.0,
+      "wickets": 807.0,
+      "allrounder_index": 16864.0
+    },
+    {
+      "player": "CH Gayle",
+      "runs": 4997.0,
+      "matches": 141.0,
+      "wickets": 584.0,
+      "allrounder_index": 16677.0
+    },
+    {
+      "player": "MP Stoinis",
+      "runs": 1524.0,
+      "matches": 77.0,
+      "wickets": 751.0,
+      "allrounder_index": 16544.0
+    },
+    {
+      "player": "JP Duminy",
+      "runs": 2029.0,
+      "matches": 75.0,
+      "wickets": 701.0,
+      "allrounder_index": 16049.0
+    },
+    {
+      "player": "MM Ali",
+      "runs": 1034.0,
+      "matches": 52.0,
+      "wickets": 721.0,
+      "allrounder_index": 15454.0
+    },
+    {
+      "player": "BA Stokes",
+      "runs": 935.0,
+      "matches": 43.0,
+      "wickets": 723.0,
+      "allrounder_index": 15395.0
+    },
+    {
+      "player": "DR Smith",
+      "runs": 2385.0,
+      "matches": 88.0,
+      "wickets": 557.0,
+      "allrounder_index": 13525.0
+    },
+    {
+      "player": "RG Sharma",
+      "runs": 6282.0,
+      "matches": 240.0,
+      "wickets": 349.0,
+      "allrounder_index": 13262.0
+    },
+    {
+      "player": "STR Binny",
+      "runs": 880.0,
+      "matches": 66.0,
+      "wickets": 611.0,
+      "allrounder_index": 13100.0
+    },
+    {
+      "player": "V Kohli",
+      "runs": 7476.0,
+      "matches": 233.0,
+      "wickets": 264.0,
+      "allrounder_index": 12756.0
+    },
+    {
+      "player": "MR Marsh",
+      "runs": 665.0,
+      "matches": 35.0,
+      "wickets": 578.0,
+      "allrounder_index": 12225.0
+    },
+    {
+      "player": "A Symonds",
+      "runs": 974.0,
+      "matches": 36.0,
+      "wickets": 540.0,
+      "allrounder_index": 11774.0
+    },
+    {
+      "player": "DJ Hooda",
+      "runs": 1347.0,
+      "matches": 88.0,
+      "wickets": 365.0,
+      "allrounder_index": 8647.0
+    },
+    {
+      "player": "DJ Hussey",
+      "runs": 1322.0,
+      "matches": 61.0,
+      "wickets": 323.0,
+      "allrounder_index": 7782.0
+    },
+    {
+      "player": "S Dhawan",
+      "runs": 6754.0,
+      "matches": 219.0,
+      "wickets": 49.0,
+      "allrounder_index": 7734.0
+    },
+    {
+      "player": "SC Ganguly",
+      "runs": 1349.0,
+      "matches": 56.0,
+      "wickets": 280.0,
+      "allrounder_index": 6949.0
+    },
+    {
+      "player": "CJ Anderson",
+      "runs": 538.0,
+      "matches": 29.0,
+      "wickets": 315.0,
+      "allrounder_index": 6838.0
+    },
+    {
+      "player": "ST Jayasuriya",
+      "runs": 768.0,
+      "matches": 30.0,
+      "wickets": 301.0,
+      "allrounder_index": 6788.0
+    },
+    {
+      "player": "TM Dilshan",
+      "runs": 1153.0,
+      "matches": 50.0,
+      "wickets": 275.0,
+      "allrounder_index": 6653.0
+    },
+    {
+      "player": "C Green",
+      "runs": 515.0,
+      "matches": 20.0,
+      "wickets": 291.0,
+      "allrounder_index": 6335.0
+    },
+    {
+      "player": "N Rana",
+      "runs": 2603.0,
+      "matches": 100.0,
+      "wickets": 185.0,
+      "allrounder_index": 6303.0
+    },
+    {
+      "player": "V Shankar",
+      "runs": 1064.0,
+      "matches": 54.0,
+      "wickets": 258.0,
+      "allrounder_index": 6224.0
+    },
+    {
+      "player": "BJ Hodge",
+      "runs": 1400.0,
+      "matches": 63.0,
+      "wickets": 238.0,
+      "allrounder_index": 6160.0
+    },
+    {
+      "player": "Abhishek Sharma",
+      "runs": 1017.0,
+      "matches": 48.0,
+      "wickets": 236.0,
+      "allrounder_index": 5737.0
+    },
+    {
+      "player": "V Sehwag",
+      "runs": 2728.0,
+      "matches": 104.0,
+      "wickets": 138.0,
+      "allrounder_index": 5488.0
+    }
+  ],
+  "most_catches": [],
+  "wicketkeeper_records": []
+}

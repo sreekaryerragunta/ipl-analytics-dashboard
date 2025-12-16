@@ -1,0 +1,456 @@
+{
+  "opening_partnerships_50plus": [],
+  "opening_partnerships_100plus": [],
+  "top_opening_partnerships": [
+    {
+      "runs": 6,
+      "team": "Rajasthan Royals",
+      "batsmen": [
+        "NV Ojha"
+      ],
+      "match_id": 392233,
+      "season": 2009
+    },
+    {
+      "runs": 6,
+      "team": "Royal Challengers Bangalore",
+      "batsmen": [
+        "MA Agarwal"
+      ],
+      "match_id": 548324,
+      "season": 2012
+    },
+    {
+      "runs": 6,
+      "team": "Kolkata Knight Riders",
+      "batsmen": [
+        "SP Narine"
+      ],
+      "match_id": 1136609,
+      "season": 2018
+    },
+    {
+      "runs": 6,
+      "team": "Royal Challengers Bangalore",
+      "batsmen": [
+        "V Kohli"
+      ],
+      "match_id": 1178424,
+      "season": 2019
+    },
+    {
+      "runs": 6,
+      "team": "Rajasthan Royals",
+      "batsmen": [
+        "RV Uthappa"
+      ],
+      "match_id": 1216530,
+      "season": 2020
+    },
+    {
+      "runs": 6,
+      "team": "Rajasthan Royals",
+      "batsmen": [
+        "YBK Jaiswal"
+      ],
+      "match_id": 1359482,
+      "season": 2023
+    },
+    {
+      "runs": 6,
+      "team": "Rajasthan Royals",
+      "batsmen": [
+        "YBK Jaiswal"
+      ],
+      "match_id": 1359530,
+      "season": 2023
+    },
+    {
+      "runs": 5,
+      "team": "Chennai Super Kings",
+      "batsmen": [
+        "M Vijay"
+      ],
+      "match_id": 419153,
+      "season": 2009
+    },
+    {
+      "runs": 5,
+      "team": "Deccan Chargers",
+      "batsmen": [
+        "S Dhawan"
+      ],
+      "match_id": 501199,
+      "season": 2011
+    },
+    {
+      "runs": 5,
+      "team": "Kings XI Punjab",
+      "batsmen": [
+        "AC Gilchrist"
+      ],
+      "match_id": 548374,
+      "season": 2012
+    },
+    {
+      "runs": 5,
+      "team": "Kolkata Knight Riders",
+      "batsmen": [
+        "MS Bisla"
+      ],
+      "match_id": 598034,
+      "season": 2013
+    },
+    {
+      "runs": 5,
+      "team": "Delhi Daredevils",
+      "batsmen": [
+        "DPMD Jayawardene"
+      ],
+      "match_id": 598067,
+      "season": 2013
+    },
+    {
+      "runs": 5,
+      "team": "Sunrisers Hyderabad",
+      "batsmen": [
+        "DA Warner"
+      ],
+      "match_id": 980907,
+      "season": 2016
+    },
+    {
+      "runs": 5,
+      "team": "Delhi Daredevils",
+      "batsmen": [
+        "Q de Kock"
+      ],
+      "match_id": 981003,
+      "season": 2016
+    },
+    {
+      "runs": 5,
+      "team": "Sunrisers Hyderabad",
+      "batsmen": [
+        "DA Warner"
+      ],
+      "match_id": 1178420,
+      "season": 2019
+    },
+    {
+      "runs": 4,
+      "team": "Kings XI Punjab",
+      "batsmen": [
+        "K Goel"
+      ],
+      "match_id": 335983,
+      "season": 2007
+    },
+    {
+      "runs": 4,
+      "team": "Chennai Super Kings",
+      "batsmen": [
+        "S Vidyut"
+      ],
+      "match_id": 336009,
+      "season": 2007
+    },
+    {
+      "runs": 4,
+      "team": "Deccan Chargers",
+      "batsmen": [
+        "AC Gilchrist"
+      ],
+      "match_id": 336011,
+      "season": 2007
+    },
+    {
+      "runs": 4,
+      "team": "Rajasthan Royals",
+      "batsmen": [
+        "GC Smith"
+      ],
+      "match_id": 336011,
+      "season": 2007
+    },
+    {
+      "runs": 4,
+      "team": "Delhi Daredevils",
+      "batsmen": [
+        "G Gambhir"
+      ],
+      "match_id": 336015,
+      "season": 2007
+    },
+    {
+      "runs": 4,
+      "team": "Mumbai Indians",
+      "batsmen": [
+        "ST Jayasuriya"
+      ],
+      "match_id": 336021,
+      "season": 2007
+    },
+    {
+      "runs": 4,
+      "team": "Mumbai Indians",
+      "batsmen": [
+        "ST Jayasuriya"
+      ],
+      "match_id": 336024,
+      "season": 2007
+    },
+    {
+      "runs": 4,
+      "team": "Delhi Daredevils",
+      "batsmen": [
+        "G Gambhir"
+      ],
+      "match_id": 336026,
+      "season": 2007
+    },
+    {
+      "runs": 4,
+      "team": "Kings XI Punjab",
+      "batsmen": [
+        "SE Marsh"
+      ],
+      "match_id": 336039,
+      "season": 2007
+    },
+    {
+      "runs": 4,
+      "team": "Kolkata Knight Riders",
+      "batsmen": [
+        "BB McCullum"
+      ],
+      "match_id": 392233,
+      "season": 2009
+    },
+    {
+      "runs": 4,
+      "team": "Mumbai Indians",
+      "batsmen": [
+        "ST Jayasuriya"
+      ],
+      "match_id": 419107,
+      "season": 2009
+    },
+    {
+      "runs": 4,
+      "team": "Rajasthan Royals",
+      "batsmen": [
+        "SA Asnodkar"
+      ],
+      "match_id": 419111,
+      "season": 2009
+    },
+    {
+      "runs": 4,
+      "team": "Delhi Daredevils",
+      "batsmen": [
+        "TM Dilshan"
+      ],
+      "match_id": 419114,
+      "season": 2009
+    },
+    {
+      "runs": 4,
+      "team": "Royal Challengers Bangalore",
+      "batsmen": [
+        "MK Pandey"
+      ],
+      "match_id": 419115,
+      "season": 2009
+    },
+    {
+      "runs": 4,
+      "team": "Kings XI Punjab",
+      "batsmen": [
+        "RS Bopara"
+      ],
+      "match_id": 419117,
+      "season": 2009
+    },
+    {
+      "runs": 4,
+      "team": "Kolkata Knight Riders",
+      "batsmen": [
+        "CH Gayle"
+      ],
+      "match_id": 419122,
+      "season": 2009
+    },
+    {
+      "runs": 4,
+      "team": "Mumbai Indians",
+      "batsmen": [
+        "S Dhawan"
+      ],
+      "match_id": 419122,
+      "season": 2009
+    },
+    {
+      "runs": 4,
+      "team": "Kolkata Knight Riders",
+      "batsmen": [
+        "SC Ganguly"
+      ],
+      "match_id": 419135,
+      "season": 2009
+    },
+    {
+      "runs": 4,
+      "team": "Delhi Daredevils",
+      "batsmen": [
+        "DA Warner"
+      ],
+      "match_id": 419149,
+      "season": 2009
+    },
+    {
+      "runs": 4,
+      "team": "Mumbai Indians",
+      "batsmen": [
+        "C Madan"
+      ],
+      "match_id": 419152,
+      "season": 2009
+    },
+    {
+      "runs": 4,
+      "team": "Deccan Chargers",
+      "batsmen": [
+        "AC Gilchrist"
+      ],
+      "match_id": 419156,
+      "season": 2009
+    },
+    {
+      "runs": 4,
+      "team": "Rajasthan Royals",
+      "batsmen": [
+        "SR Watson"
+      ],
+      "match_id": 419158,
+      "season": 2009
+    },
+    {
+      "runs": 4,
+      "team": "Deccan Chargers",
+      "batsmen": [
+        "AC Gilchrist"
+      ],
+      "match_id": 419164,
+      "season": 2009
+    },
+    {
+      "runs": 4,
+      "team": "Rajasthan Royals",
+      "batsmen": [
+        "AG Paunikar"
+      ],
+      "match_id": 501199,
+      "season": 2011
+    },
+    {
+      "runs": 4,
+      "team": "Kolkata Knight Riders",
+      "batsmen": [
+        "JH Kallis"
+      ],
+      "match_id": 501203,
+      "season": 2011
+    },
+    {
+      "runs": 4,
+      "team": "Deccan Chargers",
+      "batsmen": [
+        "S Sohal"
+      ],
+      "match_id": 501212,
+      "season": 2011
+    },
+    {
+      "runs": 4,
+      "team": "Kings XI Punjab",
+      "batsmen": [
+        "AC Gilchrist"
+      ],
+      "match_id": 501212,
+      "season": 2011
+    },
+    {
+      "runs": 4,
+      "team": "Deccan Chargers",
+      "batsmen": [
+        "S Sohal"
+      ],
+      "match_id": 501216,
+      "season": 2011
+    },
+    {
+      "runs": 4,
+      "team": "Chennai Super Kings",
+      "batsmen": [
+        "MEK Hussey"
+      ],
+      "match_id": 501221,
+      "season": 2011
+    },
+    {
+      "runs": 4,
+      "team": "Kolkata Knight Riders",
+      "batsmen": [
+        "JH Kallis"
+      ],
+      "match_id": 501222,
+      "season": 2011
+    },
+    {
+      "runs": 4,
+      "team": "Rajasthan Royals",
+      "batsmen": [
+        "SR Watson"
+      ],
+      "match_id": 501225,
+      "season": 2011
+    },
+    {
+      "runs": 4,
+      "team": "Deccan Chargers",
+      "batsmen": [
+        "S Dhawan"
+      ],
+      "match_id": 501243,
+      "season": 2011
+    },
+    {
+      "runs": 4,
+      "team": "Chennai Super Kings",
+      "batsmen": [
+        "MEK Hussey"
+      ],
+      "match_id": 501249,
+      "season": 2011
+    },
+    {
+      "runs": 4,
+      "team": "Royal Challengers Bangalore",
+      "batsmen": [
+        "CH Gayle"
+      ],
+      "match_id": 501255,
+      "season": 2011
+    },
+    {
+      "runs": 4,
+      "team": "Mumbai Indians",
+      "batsmen": [
+        "TL Suman"
+      ],
+      "match_id": 501267,
+      "season": 2011
+    }
+  ]
+}

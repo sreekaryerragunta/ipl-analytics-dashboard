@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Analytics 2008-2025</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="/" class="logo">IPL <span style="color:var(--text-light)">NEXUS</span></a>
+        <div class="nav-links">
+            <a href="/">Overview</a>
+            <a href="/teams">Team Analysis</a>
+            <a href="/venues">Venue & Toss</a>
+            <a href="/predict">Team Matchup</a>
+            <a href="/player-matchup">Player Matchup</a>
+            <a href="/archetypes">Archetypes</a>
+            <a href="/stats">Stats & Records</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer>
+        <p>Built with ❤️ by Antigravity | IPL Analytics 2008-2025</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>

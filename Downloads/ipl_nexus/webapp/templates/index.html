@@ -1,0 +1,361 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="header-section" style="text-align:center; padding: 3rem 0 2rem;">
+    <h1
+        style="font-size: 3rem; background: linear-gradient(45deg, #FF4B4B, #FF9068); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: transparent;">
+        IPL Analytics Hub</h1>
+    <p style="font-size: 1.1rem; color: #94A3B8; max-width: 700px; margin: 1rem auto;">
+        Deep dive into 18 seasons of IPL cricket. Explore team performance, venue dynamics, match archetypes, and
+        predictive insights.
+    </p>
+</div>
+
+<!-- Key Stats Grid -->
+<div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); margin-bottom: 2rem;">
+    <div class="card">
+        <div class="stat-label">Total Matches</div>
+        <div class="stat-value" id="total-matches">...</div>
+    </div>
+    <div class="card">
+        <div class="stat-label">Total Runs</div>
+        <div class="stat-value" id="total-runs" style="color: #10B981;">...</div>
+    </div>
+    <div class="card">
+        <div class="stat-label">Total Wickets</div>
+        <div class="stat-value" id="total-wickets" style="color: #F59E0B;">...</div>
+    </div>
+    <div class="card">
+        <div class="stat-label">Sixes Hit</div>
+        <div class="stat-value" id="total-sixes" style="color: #8B5CF6;">...</div>
+    </div>
+    <div class="card">
+        <div class="stat-label">Fours Hit</div>
+        <div class="stat-value" id="total-fours" style="color: #06B6D4;">...</div>
+    </div>
+    <div class="card">
+        <div class="stat-label">Avg Match Score</div>
+        <div class="stat-value" id="avg-score">...</div>
+    </div>
+</div>
+
+<!-- IPL Champions Timeline -->
+<div class="card" style="margin-bottom: 2rem;">
+    <h2 style="margin-bottom: 1.5rem;">🏆 IPL Champions (2008-2024)</h2>
+    <div id="champions-grid"
+        style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem;">
+        <!-- Populated by JS -->
+    </div>
+</div>
+
+<!-- Scoring Trends -->
+<div class="card" style="margin-bottom: 2rem;">
+    <h2 style="margin-bottom: 1.5rem;">📈 Scoring Evolution Over Seasons</h2>
+    <div class="chart-container">
+        <canvas id="scoringTrendChart"></canvas>
+    </div>
+</div>
+
+<!-- Two Column Layout -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
+    <!-- Top Teams by Peak Elo -->
+    <div class="card">
+        <h2 style="margin-bottom: 1.5rem;">📊 Top Teams by Current Elo</h2>
+        <div id="top-teams-list"></div>
+    </div>
+
+    <!-- Batting First vs Chasing -->
+    <div class="card">
+        <h2 style="margin-bottom: 1.5rem;">⚔️ Batting First vs Chasing</h2>
+        <div class="chart-container" style="height: 300px;">
+            <canvas id="batFirstChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<!-- Toss Impact Analysis -->
+<div class="card" style="margin-bottom: 2rem;">
+    <h2 style="margin-bottom: 1.5rem;">🪙 Toss Impact Analysis</h2>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;">
+        <div>
+            <div class="stat-label">Toss Winner Win %</div>
+            <div class="stat-value" id="toss-win-pct" style="font-size: 2rem;">...</div>
+        </div>
+        <div>
+            <div class="stat-label">Bat First Win %</div>
+            <div class="stat-value" id="bat-first-pct" style="font-size: 2rem;">...</div>
+        </div>
+        <div>
+            <div class="stat-label">Chase Win %</div>
+            <div class="stat-value" id="chase-pct" style="font-size: 2rem;">...</div>
+        </div>
+    </div>
+</div>
+
+<!-- Quick Navigation -->
+<div class="card">
+    <h2 style="margin-bottom: 1.5rem;">🔍 Explore More</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+        <a href="/teams" style="text-decoration: none;">
+            <div class="nav-card">
+                <h3 style="color: var(--accent); margin-bottom: 0.5rem;">Team Analysis</h3>
+                <p style="color: #94A3B8; font-size: 0.9rem;">Track Elo ratings and performance trends</p>
+            </div>
+        </a>
+        <a href="/venues" style="text-decoration: none;">
+            <div class="nav-card">
+                <h3 style="color: var(--accent); margin-bottom: 0.5rem;">Venue Insights</h3>
+                <p style="color: #94A3B8; font-size: 0.9rem;">Ground-wise scoring patterns & toss advantage</p>
+            </div>
+        </a>
+        <a href="/archetypes" style="text-decoration: none;">
+            <div class="nav-card">
+                <h3 style="color: var(--accent); margin-bottom: 0.5rem;">Match Archetypes</h3>
+                <p style="color: #94A3B8; font-size: 0.9rem;">ML-powered match classification</p>
+            </div>
+        </a>
+        <a href="/predict" style="text-decoration: none;">
+            <div class="nav-card">
+                <h3 style="color: var(--accent); margin-bottom: 0.5rem;">Match Predictor</h3>
+                <p style="color: #94A3B8; font-size: 0.9rem;">Head-to-head win probabilities</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<script>
+    let eloData, venueData, seasonData, overviewStats;
+
+    // Team colors for champions
+    const teamColors = {
+        'Mumbai Indians': '#004BA0',
+        'Chennai Super Kings': '#FDB913',
+        'Kolkata Knight Riders': '#3A225D',
+        'Rajasthan Royals': '#254AA5',
+        'Royal Challengers Bengaluru': '#EC1C24',
+        'Sunrisers Hyderabad': '#FF822A',
+        'Gujarat Titans': '#1C2841',
+        'Delhi Capitals': '#282968',
+        'Punjab Kings': '#ED1B24',
+        'Deccan Chargers': '#6A7BA1'
+    };
+
+    // Load all data
+    Promise.all([
+        fetch('/data/elo_history.json').then(r => r.json()),
+        fetch('/data/venue_stats.json').then(r => r.json()),
+        fetch('/data/current_elo.json').then(r => r.json()),
+        fetch('/data/season_stats.json').then(r => r.json()),
+        fetch('/data/overview_stats.json').then(r => r.json())
+    ]).then(([elo, venues, currentElo, seasons, overview]) => {
+        eloData = elo;
+        venueData = venues;
+        seasonData = seasons;
+        overviewStats = overview;
+
+        // Display overview stats
+        document.getElementById('total-matches').innerText = overview.total_matches.toLocaleString();
+        document.getElementById('total-runs').innerText = (overview.total_runs / 1000).toFixed(0) + 'K';
+        document.getElementById('total-wickets').innerText = (overview.total_wickets / 1000).toFixed(1) + 'K';
+        document.getElementById('total-sixes').innerText = (overview.total_sixes / 1000).toFixed(1) + 'K';
+        document.getElementById('total-fours').innerText = (overview.total_fours / 1000).toFixed(1) + 'K';
+
+        // Average score
+        const avgScore = Math.round(seasons.reduce((sum, s) => sum + s.avg_first_innings, 0) / seasons.length);
+        document.getElementById('avg-score').innerText = avgScore;
+
+        // Render champions
+        renderChampions(overview.champions);
+
+        // Toss analysis
+        const totalSeasonMatches = seasons.reduce((sum, s) => sum + s.matches, 0);
+        const avgBatFirst = seasons.reduce((sum, s) => sum + (s.bat_first_win_pct * s.matches), 0) / totalSeasonMatches;
+
+        const totalVenueMatches = venues.reduce((sum, v) => sum + v.matches, 0);
+        const avgTossWin = venues.reduce((sum, v) => sum + (v.toss_win_pct * v.matches), 0) / totalVenueMatches;
+
+        document.getElementById('toss-win-pct').innerText = avgTossWin.toFixed(1) + '%';
+        document.getElementById('bat-first-pct').innerText = avgBatFirst.toFixed(1) + '%';
+        document.getElementById('chase-pct').innerText = (100 - avgBatFirst).toFixed(1) + '%';
+
+        // Top teams by current Elo
+        const topTeams = Object.entries(currentElo)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 8);
+
+        const topTeamsList = document.getElementById('top-teams-list');
+        topTeams.forEach((team, idx) => {
+            const div = document.createElement('div');
+            div.style.cssText = 'display:flex; justify-content:space-between; padding:0.75rem 0; border-bottom: 1px solid rgba(255,255,255,0.05)';
+            div.innerHTML = `
+            <span style="display:flex; align-items:center; gap:0.75rem;">
+                <span style="color:#64748B; font-weight:600;">#${idx + 1}</span>
+                <span>${team[0]}</span>
+            </span>
+            <span style="color:var(--accent); font-weight:600;">${Math.round(team[1])}</span>
+        `;
+            topTeamsList.appendChild(div);
+        });
+
+        // Create charts
+        createScoringTrendChart(seasons);
+        createBatFirstChart(avgBatFirst);
+    });
+
+    function renderChampions(champions) {
+        const grid = document.getElementById('champions-grid');
+
+        // Sort by year
+        const years = Object.keys(champions).map(Number).sort();
+
+        years.forEach(year => {
+            const team = champions[year];
+            const color = teamColors[team] || '#38BDF8';
+
+            const card = document.createElement('div');
+            card.className = 'champion-card';
+            card.style.cssText = `
+            background: linear-gradient(135deg, ${color}22, ${color}11);
+            border: 2px solid ${color}44;
+            border-radius: 0.75rem;
+            padding: 1.25rem;
+            transition: all 0.3s;
+            cursor: pointer;
+        `;
+
+            card.innerHTML = `
+            <div style="font-size: 1.5rem; font-weight: 800; color: ${color}; margin-bottom: 0.5rem;">${year}</div>
+            <div style="font-size: 0.95rem; color: #F8FAFC; font-weight: 600;">${team}</div>
+        `;
+
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-5px) scale(1.02)';
+                card.style.borderColor = color;
+            });
+
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0) scale(1)';
+                card.style.borderColor = color + '44';
+            });
+
+            grid.appendChild(card);
+        });
+    }
+
+    function createScoringTrendChart(seasons) {
+        const ctx = document.getElementById('scoringTrendChart').getContext('2d');
+
+        const labels = seasons.map(s => s.season.toString());
+        const avgScores = seasons.map(s => s.avg_first_innings);
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Average First Innings Score',
+                    data: avgScores,
+                    borderColor: '#38BDF8',
+                    backgroundColor: 'rgba(56, 189, 248, 0.1)',
+                    tension: 0.4,
+                    fill: true,
+                    pointRadius: 4,
+                    pointHoverRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { labels: { color: '#F8FAFC' } },
+                    tooltip: {
+                        callbacks: {
+                            label: function (context) {
+                                return 'Avg Score: ' + context.parsed.y;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        ticks: { color: '#94A3B8' },
+                        beginAtZero: false,
+                        min: 130
+                    },
+                    x: {
+                        grid: { display: false },
+                        ticks: { color: '#94A3B8' }
+                    }
+                }
+            }
+        });
+    }
+
+    function createBatFirstChart(batFirstPct) {
+        const ctx = document.getElementById('batFirstChart').getContext('2d');
+
+        new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Batting First Wins', 'Chasing Wins'],
+                datasets: [{
+                    data: [batFirstPct, 100 - batFirstPct],
+                    backgroundColor: ['#FF4B4B', '#38BDF8'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        labels: { color: '#F8FAFC' },
+                        position: 'bottom'
+                    }
+                }
+            }
+        });
+    }
+</script>
+
+<style>
+    .nav-card {
+        background: rgba(56, 189, 248, 0.05);
+        border: 1px solid rgba(56, 189, 248, 0.2);
+        border-radius: 0.75rem;
+        padding: 1.5rem;
+        transition: all 0.3s;
+    }
+
+    .nav-card:hover {
+        background: rgba(56, 189, 248, 0.1);
+        border-color: var(--accent);
+        transform: translateY(-3px);
+    }
+
+    .champion-card {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .champion-card::before {
+        content: '🏆';
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 1.5rem;
+        opacity: 0.3;
+    }
+
+    @media (max-width: 768px) {
+        .grid {
+            grid-template-columns: 1fr 1fr !important;
+        }
+
+        div[style*="grid-template-columns: 1fr 1fr"] {
+            grid-template-columns: 1fr !important;
+        }
+    }
+</style>
+{% endblock %}

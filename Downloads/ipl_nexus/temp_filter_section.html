@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1 style="margin-bottom: 2rem;">🏟️ Venue Intelligence</h1>
+
+<!-- Filters Section -->
+<div class="card" style="margin-bottom: 2rem;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+        <!-- Season Filter -->
+        <div>
+            <label style="display: block; margin-bottom: 0.5rem; color: #94A3B8; font-size: 0.875rem;">Season
+                Range</label>
+            <select id="season-filter"
+                style="width: 100%; padding: 0.75rem; background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 8px; color: white; font-size: 1rem;">
+                <option value="all">All Seasons</option>
+                <option value="last5">Last 5 Seasons</option>
+                <option value="last3">Last 3 Seasons</option>
+                <option value="specific">Specific Season</option>
+            </select>
+        </div>
+
+        <!-- Specific Season Dropdown -->
+        <div id="specific-season-container" style="display: none;">
+            <label style="display: block; margin-bottom: 0.5rem; color: #94A3B8; font-size: 0.875rem;">Select
+                Season</label>
+            <select id="specific-season-filter"
+                style="width: 100%; padding: 0.75rem; background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 8px; color: white; font-size: 1rem;">
+                <option value="">Select...</option>
+            </select>
+        </div>
+
+        <!-- Team Filter -->
+        <div>
+            <label style="display: block; margin-bottom: 0.5rem; color: #94A3B8; font-size: 0.875rem;">Team</label>
+            <select id="team-filter"
+                style="width: 100%; padding: 0.75rem; background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 8px; color: white; font-size: 1rem;">
+                <option value="all">All Teams</option>
+            </select>
+        </div>
+
+        <!-- Venue Type Filter -->
+        <div>
+            <label style="display: block; margin-bottom: 0.5rem; color: #94A3B8; font-size: 0.875rem;">Venue
+                Type</label>
+            <select id="type-filter"
+                style="width: 100%; padding: 0.75rem; background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 8px; color: white; font-size: 1rem;">
+                <option value="all">All Types</option>
+                <option value="High-Scoring">High-Scoring (190+)</option>
+                <option value="Batting-Friendly">Batting-Friendly (170-189)</option>
+                <option value="Balanced">Balanced (161-169)</option>
+                <option value="Bowling-Friendly">Bowling-Friendly (≤160)</option>
+            </select>
+        </div>
+    </div>
+</div>

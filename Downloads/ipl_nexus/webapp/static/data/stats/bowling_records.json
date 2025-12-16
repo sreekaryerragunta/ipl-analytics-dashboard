@@ -1,0 +1,3365 @@
+{
+  "most_wickets": [
+    {
+      "player": "R Ashwin",
+      "runs": 5058,
+      "balls": 4402,
+      "wickets": 4402,
+      "matches": 197,
+      "economy": 6.89,
+      "avg": 1.15,
+      "sr": 1.0
+    },
+    {
+      "player": "SP Narine",
+      "runs": 4355,
+      "balls": 3860,
+      "wickets": 3860,
+      "matches": 163,
+      "economy": 6.77,
+      "avg": 1.13,
+      "sr": 1.0
+    },
+    {
+      "player": "B Kumar",
+      "runs": 4631,
+      "balls": 3779,
+      "wickets": 3779,
+      "matches": 163,
+      "economy": 7.35,
+      "avg": 1.23,
+      "sr": 1.0
+    },
+    {
+      "player": "PP Chawla",
+      "runs": 4950,
+      "balls": 3729,
+      "wickets": 3729,
+      "matches": 183,
+      "economy": 7.96,
+      "avg": 1.33,
+      "sr": 1.0
+    },
+    {
+      "player": "RA Jadeja",
+      "runs": 4626,
+      "balls": 3670,
+      "wickets": 3670,
+      "matches": 200,
+      "economy": 7.56,
+      "avg": 1.26,
+      "sr": 1.0
+    },
+    {
+      "player": "Harbhajan Singh",
+      "runs": 4101,
+      "balls": 3496,
+      "wickets": 3496,
+      "matches": 160,
+      "economy": 7.04,
+      "avg": 1.17,
+      "sr": 1.0
+    },
+    {
+      "player": "A Mishra",
+      "runs": 4173,
+      "balls": 3432,
+      "wickets": 3432,
+      "matches": 161,
+      "economy": 7.3,
+      "avg": 1.22,
+      "sr": 1.0
+    },
+    {
+      "player": "YS Chahal",
+      "runs": 4188,
+      "balls": 3327,
+      "wickets": 3327,
+      "matches": 147,
+      "economy": 7.55,
+      "avg": 1.26,
+      "sr": 1.0
+    },
+    {
+      "player": "DJ Bravo",
+      "runs": 4436,
+      "balls": 3296,
+      "wickets": 3296,
+      "matches": 158,
+      "economy": 8.08,
+      "avg": 1.35,
+      "sr": 1.0
+    },
+    {
+      "player": "UT Yadav",
+      "runs": 4318,
+      "balls": 3110,
+      "wickets": 3110,
+      "matches": 143,
+      "economy": 8.33,
+      "avg": 1.39,
+      "sr": 1.0
+    },
+    {
+      "player": "SL Malinga",
+      "runs": 3486,
+      "balls": 2974,
+      "wickets": 2974,
+      "matches": 122,
+      "economy": 7.03,
+      "avg": 1.17,
+      "sr": 1.0
+    },
+    {
+      "player": "AR Patel",
+      "runs": 3570,
+      "balls": 2959,
+      "wickets": 2959,
+      "matches": 138,
+      "economy": 7.24,
+      "avg": 1.21,
+      "sr": 1.0
+    },
+    {
+      "player": "JJ Bumrah",
+      "runs": 3577,
+      "balls": 2936,
+      "wickets": 2936,
+      "matches": 123,
+      "economy": 7.31,
+      "avg": 1.22,
+      "sr": 1.0
+    },
+    {
+      "player": "Sandeep Sharma",
+      "runs": 3503,
+      "balls": 2734,
+      "wickets": 2734,
+      "matches": 118,
+      "economy": 7.69,
+      "avg": 1.28,
+      "sr": 1.0
+    },
+    {
+      "player": "Rashid Khan",
+      "runs": 3073,
+      "balls": 2711,
+      "wickets": 2711,
+      "matches": 112,
+      "economy": 6.8,
+      "avg": 1.13,
+      "sr": 1.0
+    },
+    {
+      "player": "P Kumar",
+      "runs": 3342,
+      "balls": 2637,
+      "wickets": 2637,
+      "matches": 119,
+      "economy": 7.6,
+      "avg": 1.27,
+      "sr": 1.0
+    },
+    {
+      "player": "Mohammed Shami",
+      "runs": 3486,
+      "balls": 2521,
+      "wickets": 2521,
+      "matches": 110,
+      "economy": 8.3,
+      "avg": 1.38,
+      "sr": 1.0
+    },
+    {
+      "player": "I Sharma",
+      "runs": 3064,
+      "balls": 2294,
+      "wickets": 2294,
+      "matches": 104,
+      "economy": 8.01,
+      "avg": 1.34,
+      "sr": 1.0
+    },
+    {
+      "player": "DW Steyn",
+      "runs": 2583,
+      "balls": 2282,
+      "wickets": 2282,
+      "matches": 95,
+      "economy": 6.79,
+      "avg": 1.13,
+      "sr": 1.0
+    },
+    {
+      "player": "Z Khan",
+      "runs": 2860,
+      "balls": 2276,
+      "wickets": 2276,
+      "matches": 99,
+      "economy": 7.54,
+      "avg": 1.26,
+      "sr": 1.0
+    },
+    {
+      "player": "R Vinay Kumar",
+      "runs": 3041,
+      "balls": 2186,
+      "wickets": 2186,
+      "matches": 104,
+      "economy": 8.35,
+      "avg": 1.39,
+      "sr": 1.0
+    },
+    {
+      "player": "TA Boult",
+      "runs": 2925,
+      "balls": 2162,
+      "wickets": 2162,
+      "matches": 91,
+      "economy": 8.12,
+      "avg": 1.35,
+      "sr": 1.0
+    },
+    {
+      "player": "MM Sharma",
+      "runs": 2943,
+      "balls": 2137,
+      "wickets": 2137,
+      "matches": 103,
+      "economy": 8.26,
+      "avg": 1.38,
+      "sr": 1.0
+    },
+    {
+      "player": "SR Watson",
+      "runs": 2742,
+      "balls": 2137,
+      "wickets": 2137,
+      "matches": 105,
+      "economy": 7.7,
+      "avg": 1.28,
+      "sr": 1.0
+    },
+    {
+      "player": "IK Pathan",
+      "runs": 2711,
+      "balls": 2113,
+      "wickets": 2113,
+      "matches": 101,
+      "economy": 7.7,
+      "avg": 1.28,
+      "sr": 1.0
+    },
+    {
+      "player": "HV Patel",
+      "runs": 2869,
+      "balls": 2046,
+      "wickets": 2046,
+      "matches": 92,
+      "economy": 8.41,
+      "avg": 1.4,
+      "sr": 1.0
+    },
+    {
+      "player": "JD Unadkat",
+      "runs": 2978,
+      "balls": 2039,
+      "wickets": 2039,
+      "matches": 95,
+      "economy": 8.76,
+      "avg": 1.46,
+      "sr": 1.0
+    },
+    {
+      "player": "KH Pandya",
+      "runs": 2442,
+      "balls": 2026,
+      "wickets": 2026,
+      "matches": 108,
+      "economy": 7.23,
+      "avg": 1.21,
+      "sr": 1.0
+    },
+    {
+      "player": "A Nehra",
+      "runs": 2537,
+      "balls": 1974,
+      "wickets": 1974,
+      "matches": 88,
+      "economy": 7.71,
+      "avg": 1.29,
+      "sr": 1.0
+    },
+    {
+      "player": "PP Ojha",
+      "runs": 2399,
+      "balls": 1945,
+      "wickets": 1945,
+      "matches": 90,
+      "economy": 7.4,
+      "avg": 1.23,
+      "sr": 1.0
+    },
+    {
+      "player": "DS Kulkarni",
+      "runs": 2513,
+      "balls": 1876,
+      "wickets": 1876,
+      "matches": 92,
+      "economy": 8.04,
+      "avg": 1.34,
+      "sr": 1.0
+    },
+    {
+      "player": "RP Singh",
+      "runs": 2417,
+      "balls": 1874,
+      "wickets": 1874,
+      "matches": 82,
+      "economy": 7.74,
+      "avg": 1.29,
+      "sr": 1.0
+    },
+    {
+      "player": "Mohammed Siraj",
+      "runs": 2545,
+      "balls": 1827,
+      "wickets": 1827,
+      "matches": 83,
+      "economy": 8.36,
+      "avg": 1.39,
+      "sr": 1.0
+    },
+    {
+      "player": "JA Morkel",
+      "runs": 2409,
+      "balls": 1807,
+      "wickets": 1807,
+      "matches": 87,
+      "economy": 8.0,
+      "avg": 1.33,
+      "sr": 1.0
+    },
+    {
+      "player": "CH Morris",
+      "runs": 2377,
+      "balls": 1801,
+      "wickets": 1801,
+      "matches": 81,
+      "economy": 7.92,
+      "avg": 1.32,
+      "sr": 1.0
+    },
+    {
+      "player": "JH Kallis",
+      "runs": 2348,
+      "balls": 1799,
+      "wickets": 1799,
+      "matches": 89,
+      "economy": 7.83,
+      "avg": 1.31,
+      "sr": 1.0
+    },
+    {
+      "player": "SN Thakur",
+      "runs": 2593,
+      "balls": 1782,
+      "wickets": 1782,
+      "matches": 83,
+      "economy": 8.73,
+      "avg": 1.46,
+      "sr": 1.0
+    },
+    {
+      "player": "K Rabada",
+      "runs": 2374,
+      "balls": 1719,
+      "wickets": 1719,
+      "matches": 72,
+      "economy": 8.29,
+      "avg": 1.38,
+      "sr": 1.0
+    },
+    {
+      "player": "M Morkel",
+      "runs": 2136,
+      "balls": 1699,
+      "wickets": 1699,
+      "matches": 70,
+      "economy": 7.54,
+      "avg": 1.26,
+      "sr": 1.0
+    },
+    {
+      "player": "DL Chahar",
+      "runs": 2148,
+      "balls": 1677,
+      "wickets": 1677,
+      "matches": 76,
+      "economy": 7.69,
+      "avg": 1.28,
+      "sr": 1.0
+    },
+    {
+      "player": "R Bhatia",
+      "runs": 2059,
+      "balls": 1661,
+      "wickets": 1661,
+      "matches": 91,
+      "economy": 7.44,
+      "avg": 1.24,
+      "sr": 1.0
+    },
+    {
+      "player": "AD Russell",
+      "runs": 2443,
+      "balls": 1620,
+      "wickets": 1620,
+      "matches": 100,
+      "economy": 9.05,
+      "avg": 1.51,
+      "sr": 1.0
+    },
+    {
+      "player": "AB Dinda",
+      "runs": 2103,
+      "balls": 1589,
+      "wickets": 1589,
+      "matches": 75,
+      "economy": 7.94,
+      "avg": 1.32,
+      "sr": 1.0
+    },
+    {
+      "player": "KA Pollard",
+      "runs": 2200,
+      "balls": 1586,
+      "wickets": 1586,
+      "matches": 107,
+      "economy": 8.32,
+      "avg": 1.39,
+      "sr": 1.0
+    },
+    {
+      "player": "M Muralitharan",
+      "runs": 1765,
+      "balls": 1581,
+      "wickets": 1581,
+      "matches": 66,
+      "economy": 6.7,
+      "avg": 1.12,
+      "sr": 1.0
+    },
+    {
+      "player": "L Balaji",
+      "runs": 2083,
+      "balls": 1574,
+      "wickets": 1574,
+      "matches": 73,
+      "economy": 7.94,
+      "avg": 1.32,
+      "sr": 1.0
+    },
+    {
+      "player": "Kuldeep Yadav",
+      "runs": 2099,
+      "balls": 1569,
+      "wickets": 1569,
+      "matches": 73,
+      "economy": 8.03,
+      "avg": 1.34,
+      "sr": 1.0
+    },
+    {
+      "player": "SK Trivedi",
+      "runs": 1944,
+      "balls": 1557,
+      "wickets": 1557,
+      "matches": 75,
+      "economy": 7.49,
+      "avg": 1.25,
+      "sr": 1.0
+    },
+    {
+      "player": "RD Chahar",
+      "runs": 1976,
+      "balls": 1556,
+      "wickets": 1556,
+      "matches": 71,
+      "economy": 7.62,
+      "avg": 1.27,
+      "sr": 1.0
+    },
+    {
+      "player": "Shakib Al Hasan",
+      "runs": 1864,
+      "balls": 1515,
+      "wickets": 1515,
+      "matches": 70,
+      "economy": 7.38,
+      "avg": 1.23,
+      "sr": 1.0
+    },
+    {
+      "player": "S Nadeem",
+      "runs": 1800,
+      "balls": 1444,
+      "wickets": 1444,
+      "matches": 70,
+      "economy": 7.48,
+      "avg": 1.25,
+      "sr": 1.0
+    },
+    {
+      "player": "KV Sharma",
+      "runs": 1898,
+      "balls": 1383,
+      "wickets": 1383,
+      "matches": 74,
+      "economy": 8.23,
+      "avg": 1.37,
+      "sr": 1.0
+    },
+    {
+      "player": "MM Patel",
+      "runs": 1733,
+      "balls": 1382,
+      "wickets": 1382,
+      "matches": 63,
+      "economy": 7.52,
+      "avg": 1.25,
+      "sr": 1.0
+    },
+    {
+      "player": "CV Varun",
+      "runs": 1706,
+      "balls": 1351,
+      "wickets": 1351,
+      "matches": 58,
+      "economy": 7.58,
+      "avg": 1.26,
+      "sr": 1.0
+    },
+    {
+      "player": "MJ McClenaghan",
+      "runs": 1839,
+      "balls": 1346,
+      "wickets": 1346,
+      "matches": 56,
+      "economy": 8.2,
+      "avg": 1.37,
+      "sr": 1.0
+    },
+    {
+      "player": "Imran Tahir",
+      "runs": 1729,
+      "balls": 1340,
+      "wickets": 1340,
+      "matches": 59,
+      "economy": 7.74,
+      "avg": 1.29,
+      "sr": 1.0
+    },
+    {
+      "player": "HH Pandya",
+      "runs": 1883,
+      "balls": 1301,
+      "wickets": 1301,
+      "matches": 83,
+      "economy": 8.68,
+      "avg": 1.45,
+      "sr": 1.0
+    },
+    {
+      "player": "MG Johnson",
+      "runs": 1740,
+      "balls": 1301,
+      "wickets": 1301,
+      "matches": 54,
+      "economy": 8.02,
+      "avg": 1.34,
+      "sr": 1.0
+    },
+    {
+      "player": "JP Faulkner",
+      "runs": 1849,
+      "balls": 1287,
+      "wickets": 1287,
+      "matches": 60,
+      "economy": 8.62,
+      "avg": 1.44,
+      "sr": 1.0
+    },
+    {
+      "player": "TG Southee",
+      "runs": 1774,
+      "balls": 1262,
+      "wickets": 1262,
+      "matches": 54,
+      "economy": 8.43,
+      "avg": 1.41,
+      "sr": 1.0
+    },
+    {
+      "player": "Ravi Bishnoi",
+      "runs": 1573,
+      "balls": 1252,
+      "wickets": 1252,
+      "matches": 54,
+      "economy": 7.54,
+      "avg": 1.26,
+      "sr": 1.0
+    },
+    {
+      "player": "S Kaul",
+      "runs": 1772,
+      "balls": 1238,
+      "wickets": 1238,
+      "matches": 55,
+      "economy": 8.59,
+      "avg": 1.43,
+      "sr": 1.0
+    },
+    {
+      "player": "M Prasidh Krishna",
+      "runs": 1741,
+      "balls": 1231,
+      "wickets": 1231,
+      "matches": 51,
+      "economy": 8.49,
+      "avg": 1.41,
+      "sr": 1.0
+    },
+    {
+      "player": "SK Warne",
+      "runs": 1465,
+      "balls": 1223,
+      "wickets": 1223,
+      "matches": 54,
+      "economy": 7.19,
+      "avg": 1.2,
+      "sr": 1.0
+    },
+    {
+      "player": "Mustafizur Rahman",
+      "runs": 1579,
+      "balls": 1205,
+      "wickets": 1205,
+      "matches": 51,
+      "economy": 7.86,
+      "avg": 1.31,
+      "sr": 1.0
+    },
+    {
+      "player": "Arshdeep Singh",
+      "runs": 1683,
+      "balls": 1195,
+      "wickets": 1195,
+      "matches": 54,
+      "economy": 8.45,
+      "avg": 1.41,
+      "sr": 1.0
+    },
+    {
+      "player": "YK Pathan",
+      "runs": 1443,
+      "balls": 1184,
+      "wickets": 1184,
+      "matches": 82,
+      "economy": 7.31,
+      "avg": 1.22,
+      "sr": 1.0
+    },
+    {
+      "player": "M Kartik",
+      "runs": 1418,
+      "balls": 1182,
+      "wickets": 1182,
+      "matches": 55,
+      "economy": 7.2,
+      "avg": 1.2,
+      "sr": 1.0
+    },
+    {
+      "player": "Avesh Khan",
+      "runs": 1558,
+      "balls": 1113,
+      "wickets": 1113,
+      "matches": 50,
+      "economy": 8.4,
+      "avg": 1.4,
+      "sr": 1.0
+    },
+    {
+      "player": "KK Ahmed",
+      "runs": 1536,
+      "balls": 1113,
+      "wickets": 1113,
+      "matches": 47,
+      "economy": 8.28,
+      "avg": 1.38,
+      "sr": 1.0
+    },
+    {
+      "player": "SB Jakati",
+      "runs": 1474,
+      "balls": 1101,
+      "wickets": 1101,
+      "matches": 57,
+      "economy": 8.03,
+      "avg": 1.34,
+      "sr": 1.0
+    },
+    {
+      "player": "T Natarajan",
+      "runs": 1564,
+      "balls": 1096,
+      "wickets": 1096,
+      "matches": 48,
+      "economy": 8.56,
+      "avg": 1.43,
+      "sr": 1.0
+    },
+    {
+      "player": "PJ Cummins",
+      "runs": 1500,
+      "balls": 1069,
+      "wickets": 1069,
+      "matches": 45,
+      "economy": 8.42,
+      "avg": 1.4,
+      "sr": 1.0
+    },
+    {
+      "player": "VR Aaron",
+      "runs": 1527,
+      "balls": 1065,
+      "wickets": 1065,
+      "matches": 50,
+      "economy": 8.6,
+      "avg": 1.43,
+      "sr": 1.0
+    },
+    {
+      "player": "Washington Sundar",
+      "runs": 1289,
+      "balls": 1052,
+      "wickets": 1052,
+      "matches": 57,
+      "economy": 7.35,
+      "avg": 1.23,
+      "sr": 1.0
+    },
+    {
+      "player": "JO Holder",
+      "runs": 1489,
+      "balls": 1049,
+      "wickets": 1049,
+      "matches": 46,
+      "economy": 8.52,
+      "avg": 1.42,
+      "sr": 1.0
+    },
+    {
+      "player": "SM Curran",
+      "runs": 1570,
+      "balls": 1029,
+      "wickets": 1029,
+      "matches": 48,
+      "economy": 9.15,
+      "avg": 1.53,
+      "sr": 1.0
+    },
+    {
+      "player": "A Nortje",
+      "runs": 1432,
+      "balls": 1016,
+      "wickets": 1016,
+      "matches": 43,
+      "economy": 8.46,
+      "avg": 1.41,
+      "sr": 1.0
+    },
+    {
+      "player": "JC Archer",
+      "runs": 1210,
+      "balls": 987,
+      "wickets": 987,
+      "matches": 40,
+      "economy": 7.36,
+      "avg": 1.23,
+      "sr": 1.0
+    },
+    {
+      "player": "A Kumble",
+      "runs": 1089,
+      "balls": 983,
+      "wickets": 983,
+      "matches": 42,
+      "economy": 6.65,
+      "avg": 1.11,
+      "sr": 1.0
+    },
+    {
+      "player": "MC Henriques",
+      "runs": 1302,
+      "balls": 979,
+      "wickets": 979,
+      "matches": 60,
+      "economy": 7.98,
+      "avg": 1.33,
+      "sr": 1.0
+    },
+    {
+      "player": "S Gopal",
+      "runs": 1291,
+      "balls": 958,
+      "wickets": 958,
+      "matches": 48,
+      "economy": 8.09,
+      "avg": 1.35,
+      "sr": 1.0
+    },
+    {
+      "player": "S Sreesanth",
+      "runs": 1221,
+      "balls": 947,
+      "wickets": 947,
+      "matches": 44,
+      "economy": 7.74,
+      "avg": 1.29,
+      "sr": 1.0
+    },
+    {
+      "player": "Iqbal Abdulla",
+      "runs": 1125,
+      "balls": 943,
+      "wickets": 943,
+      "matches": 48,
+      "economy": 7.16,
+      "avg": 1.19,
+      "sr": 1.0
+    },
+    {
+      "player": "R Sharma",
+      "runs": 1100,
+      "balls": 935,
+      "wickets": 935,
+      "matches": 44,
+      "economy": 7.06,
+      "avg": 1.18,
+      "sr": 1.0
+    },
+    {
+      "player": "SK Raina",
+      "runs": 1139,
+      "balls": 930,
+      "wickets": 930,
+      "matches": 69,
+      "economy": 7.35,
+      "avg": 1.22,
+      "sr": 1.0
+    },
+    {
+      "player": "MS Gony",
+      "runs": 1317,
+      "balls": 925,
+      "wickets": 925,
+      "matches": 44,
+      "economy": 8.54,
+      "avg": 1.42,
+      "sr": 1.0
+    },
+    {
+      "player": "DT Christian",
+      "runs": 1218,
+      "balls": 922,
+      "wickets": 922,
+      "matches": 49,
+      "economy": 7.93,
+      "avg": 1.32,
+      "sr": 1.0
+    },
+    {
+      "player": "B Lee",
+      "runs": 1126,
+      "balls": 916,
+      "wickets": 916,
+      "matches": 38,
+      "economy": 7.38,
+      "avg": 1.23,
+      "sr": 1.0
+    },
+    {
+      "player": "GJ Maxwell",
+      "runs": 1241,
+      "balls": 916,
+      "wickets": 916,
+      "matches": 76,
+      "economy": 8.13,
+      "avg": 1.35,
+      "sr": 1.0
+    },
+    {
+      "player": "PJ Sangwan",
+      "runs": 1267,
+      "balls": 905,
+      "wickets": 905,
+      "matches": 42,
+      "economy": 8.4,
+      "avg": 1.4,
+      "sr": 1.0
+    },
+    {
+      "player": "M Ashwin",
+      "runs": 1182,
+      "balls": 898,
+      "wickets": 898,
+      "matches": 44,
+      "economy": 7.9,
+      "avg": 1.32,
+      "sr": 1.0
+    },
+    {
+      "player": "NM Coulter-Nile",
+      "runs": 1125,
+      "balls": 892,
+      "wickets": 892,
+      "matches": 38,
+      "economy": 7.57,
+      "avg": 1.26,
+      "sr": 1.0
+    },
+    {
+      "player": "Yuvraj Singh",
+      "runs": 1091,
+      "balls": 882,
+      "wickets": 882,
+      "matches": 73,
+      "economy": 7.42,
+      "avg": 1.24,
+      "sr": 1.0
+    },
+    {
+      "player": "R Tewatia",
+      "runs": 1117,
+      "balls": 866,
+      "wickets": 866,
+      "matches": 52,
+      "economy": 7.74,
+      "avg": 1.29,
+      "sr": 1.0
+    },
+    {
+      "player": "RJ Harris",
+      "runs": 1085,
+      "balls": 865,
+      "wickets": 865,
+      "matches": 37,
+      "economy": 7.53,
+      "avg": 1.25,
+      "sr": 1.0
+    },
+    {
+      "player": "LH Ferguson",
+      "runs": 1191,
+      "balls": 855,
+      "wickets": 855,
+      "matches": 38,
+      "economy": 8.36,
+      "avg": 1.39,
+      "sr": 1.0
+    },
+    {
+      "player": "AB Agarkar",
+      "runs": 1174,
+      "balls": 820,
+      "wickets": 820,
+      "matches": 42,
+      "economy": 8.59,
+      "avg": 1.43,
+      "sr": 1.0
+    },
+    {
+      "player": "AD Mathews",
+      "runs": 1095,
+      "balls": 807,
+      "wickets": 807,
+      "matches": 44,
+      "economy": 8.14,
+      "avg": 1.36,
+      "sr": 1.0
+    },
+    {
+      "player": "S Aravind",
+      "runs": 1057,
+      "balls": 788,
+      "wickets": 788,
+      "matches": 38,
+      "economy": 8.05,
+      "avg": 1.34,
+      "sr": 1.0
+    }
+  ],
+  "best_avg": [
+    {
+      "player": "NB Singh",
+      "runs": 18,
+      "balls": 25,
+      "wickets": 25,
+      "matches": 2,
+      "economy": 4.32,
+      "avg": 0.72,
+      "sr": 1.0
+    },
+    {
+      "player": "MP Yadav",
+      "runs": 43,
+      "balls": 48,
+      "wickets": 48,
+      "matches": 2,
+      "economy": 5.38,
+      "avg": 0.9,
+      "sr": 1.0
+    },
+    {
+      "player": "DJ Thornely",
+      "runs": 40,
+      "balls": 44,
+      "wickets": 44,
+      "matches": 4,
+      "economy": 5.45,
+      "avg": 0.91,
+      "sr": 1.0
+    },
+    {
+      "player": "M Manhas",
+      "runs": 42,
+      "balls": 42,
+      "wickets": 42,
+      "matches": 3,
+      "economy": 6.0,
+      "avg": 1.0,
+      "sr": 1.0
+    },
+    {
+      "player": "MW Short",
+      "runs": 25,
+      "balls": 25,
+      "wickets": 25,
+      "matches": 3,
+      "economy": 6.0,
+      "avg": 1.0,
+      "sr": 1.0
+    },
+    {
+      "player": "Sohail Tanvir",
+      "runs": 275,
+      "balls": 265,
+      "wickets": 265,
+      "matches": 11,
+      "economy": 6.23,
+      "avg": 1.04,
+      "sr": 1.0
+    },
+    {
+      "player": "A Chandila",
+      "runs": 245,
+      "balls": 234,
+      "wickets": 234,
+      "matches": 12,
+      "economy": 6.28,
+      "avg": 1.05,
+      "sr": 1.0
+    },
+    {
+      "player": "FH Edwards",
+      "runs": 160,
+      "balls": 150,
+      "wickets": 150,
+      "matches": 6,
+      "economy": 6.4,
+      "avg": 1.07,
+      "sr": 1.0
+    },
+    {
+      "player": "JW Hastings",
+      "runs": 66,
+      "balls": 61,
+      "wickets": 61,
+      "matches": 3,
+      "economy": 6.49,
+      "avg": 1.08,
+      "sr": 1.0
+    },
+    {
+      "player": "PH Solanki",
+      "runs": 39,
+      "balls": 36,
+      "wickets": 36,
+      "matches": 2,
+      "economy": 6.5,
+      "avg": 1.08,
+      "sr": 1.0
+    },
+    {
+      "player": "SMSM Senanayake",
+      "runs": 211,
+      "balls": 195,
+      "wickets": 195,
+      "matches": 8,
+      "economy": 6.49,
+      "avg": 1.08,
+      "sr": 1.0
+    },
+    {
+      "player": "MJ Clarke",
+      "runs": 72,
+      "balls": 66,
+      "wickets": 66,
+      "matches": 5,
+      "economy": 6.55,
+      "avg": 1.09,
+      "sr": 1.0
+    },
+    {
+      "player": "RV Patel",
+      "runs": 22,
+      "balls": 20,
+      "wickets": 20,
+      "matches": 1,
+      "economy": 6.6,
+      "avg": 1.1,
+      "sr": 1.0
+    },
+    {
+      "player": "SM Harwood",
+      "runs": 74,
+      "balls": 67,
+      "wickets": 67,
+      "matches": 3,
+      "economy": 6.63,
+      "avg": 1.1,
+      "sr": 1.0
+    },
+    {
+      "player": "SM Pollock",
+      "runs": 307,
+      "balls": 280,
+      "wickets": 280,
+      "matches": 13,
+      "economy": 6.58,
+      "avg": 1.1,
+      "sr": 1.0
+    },
+    {
+      "player": "A Kumble",
+      "runs": 1089,
+      "balls": 983,
+      "wickets": 983,
+      "matches": 42,
+      "economy": 6.65,
+      "avg": 1.11,
+      "sr": 1.0
+    },
+    {
+      "player": "GD McGrath",
+      "runs": 366,
+      "balls": 329,
+      "wickets": 329,
+      "matches": 14,
+      "economy": 6.67,
+      "avg": 1.11,
+      "sr": 1.0
+    },
+    {
+      "player": "GH Vihari",
+      "runs": 48,
+      "balls": 43,
+      "wickets": 43,
+      "matches": 6,
+      "economy": 6.7,
+      "avg": 1.12,
+      "sr": 1.0
+    },
+    {
+      "player": "IS Sodhi",
+      "runs": 204,
+      "balls": 182,
+      "wickets": 182,
+      "matches": 8,
+      "economy": 6.73,
+      "avg": 1.12,
+      "sr": 1.0
+    },
+    {
+      "player": "J Yadav",
+      "runs": 447,
+      "balls": 398,
+      "wickets": 398,
+      "matches": 20,
+      "economy": 6.74,
+      "avg": 1.12,
+      "sr": 1.0
+    },
+    {
+      "player": "M Muralitharan",
+      "runs": 1765,
+      "balls": 1581,
+      "wickets": 1581,
+      "matches": 66,
+      "economy": 6.7,
+      "avg": 1.12,
+      "sr": 1.0
+    },
+    {
+      "player": "PD Collingwood",
+      "runs": 101,
+      "balls": 90,
+      "wickets": 90,
+      "matches": 6,
+      "economy": 6.73,
+      "avg": 1.12,
+      "sr": 1.0
+    },
+    {
+      "player": "DW Steyn",
+      "runs": 2583,
+      "balls": 2282,
+      "wickets": 2282,
+      "matches": 95,
+      "economy": 6.79,
+      "avg": 1.13,
+      "sr": 1.0
+    },
+    {
+      "player": "Mohammad Hafeez",
+      "runs": 71,
+      "balls": 63,
+      "wickets": 63,
+      "matches": 4,
+      "economy": 6.76,
+      "avg": 1.13,
+      "sr": 1.0
+    },
+    {
+      "player": "RE van der Merwe",
+      "runs": 515,
+      "balls": 455,
+      "wickets": 455,
+      "matches": 21,
+      "economy": 6.79,
+      "avg": 1.13,
+      "sr": 1.0
+    },
+    {
+      "player": "RN ten Doeschate",
+      "runs": 94,
+      "balls": 83,
+      "wickets": 83,
+      "matches": 10,
+      "economy": 6.8,
+      "avg": 1.13,
+      "sr": 1.0
+    },
+    {
+      "player": "Rashid Khan",
+      "runs": 3073,
+      "balls": 2711,
+      "wickets": 2711,
+      "matches": 112,
+      "economy": 6.8,
+      "avg": 1.13,
+      "sr": 1.0
+    },
+    {
+      "player": "SP Narine",
+      "runs": 4355,
+      "balls": 3860,
+      "wickets": 3860,
+      "matches": 163,
+      "economy": 6.77,
+      "avg": 1.13,
+      "sr": 1.0
+    },
+    {
+      "player": "AS Roy",
+      "runs": 137,
+      "balls": 120,
+      "wickets": 120,
+      "matches": 7,
+      "economy": 6.85,
+      "avg": 1.14,
+      "sr": 1.0
+    },
+    {
+      "player": "DL Vettori",
+      "runs": 894,
+      "balls": 785,
+      "wickets": 785,
+      "matches": 34,
+      "economy": 6.83,
+      "avg": 1.14,
+      "sr": 1.0
+    },
+    {
+      "player": "KMDN Kulasekara",
+      "runs": 122,
+      "balls": 107,
+      "wickets": 107,
+      "matches": 5,
+      "economy": 6.84,
+      "avg": 1.14,
+      "sr": 1.0
+    },
+    {
+      "player": "T Henderson",
+      "runs": 41,
+      "balls": 36,
+      "wickets": 36,
+      "matches": 2,
+      "economy": 6.83,
+      "avg": 1.14,
+      "sr": 1.0
+    },
+    {
+      "player": "T Thushara",
+      "runs": 164,
+      "balls": 144,
+      "wickets": 144,
+      "matches": 6,
+      "economy": 6.83,
+      "avg": 1.14,
+      "sr": 1.0
+    },
+    {
+      "player": "J Botha",
+      "runs": 818,
+      "balls": 709,
+      "wickets": 709,
+      "matches": 34,
+      "economy": 6.92,
+      "avg": 1.15,
+      "sr": 1.0
+    },
+    {
+      "player": "MJ Santner",
+      "runs": 364,
+      "balls": 316,
+      "wickets": 316,
+      "matches": 15,
+      "economy": 6.91,
+      "avg": 1.15,
+      "sr": 1.0
+    },
+    {
+      "player": "MM Ali",
+      "runs": 829,
+      "balls": 721,
+      "wickets": 721,
+      "matches": 48,
+      "economy": 6.9,
+      "avg": 1.15,
+      "sr": 1.0
+    },
+    {
+      "player": "R Ashwin",
+      "runs": 5058,
+      "balls": 4402,
+      "wickets": 4402,
+      "matches": 197,
+      "economy": 6.89,
+      "avg": 1.15,
+      "sr": 1.0
+    },
+    {
+      "player": "R Rampaul",
+      "runs": 319,
+      "balls": 278,
+      "wickets": 278,
+      "matches": 12,
+      "economy": 6.88,
+      "avg": 1.15,
+      "sr": 1.0
+    },
+    {
+      "player": "C Nanda",
+      "runs": 58,
+      "balls": 50,
+      "wickets": 50,
+      "matches": 3,
+      "economy": 6.96,
+      "avg": 1.16,
+      "sr": 1.0
+    },
+    {
+      "player": "GR Napier",
+      "runs": 28,
+      "balls": 24,
+      "wickets": 24,
+      "matches": 1,
+      "economy": 7.0,
+      "avg": 1.17,
+      "sr": 1.0
+    },
+    {
+      "player": "Harbhajan Singh",
+      "runs": 4101,
+      "balls": 3496,
+      "wickets": 3496,
+      "matches": 160,
+      "economy": 7.04,
+      "avg": 1.17,
+      "sr": 1.0
+    },
+    {
+      "player": "NL McCullum",
+      "runs": 35,
+      "balls": 30,
+      "wickets": 30,
+      "matches": 2,
+      "economy": 7.0,
+      "avg": 1.17,
+      "sr": 1.0
+    },
+    {
+      "player": "SL Malinga",
+      "runs": 3486,
+      "balls": 2974,
+      "wickets": 2974,
+      "matches": 122,
+      "economy": 7.03,
+      "avg": 1.17,
+      "sr": 1.0
+    },
+    {
+      "player": "Shoaib Akhtar",
+      "runs": 54,
+      "balls": 46,
+      "wickets": 46,
+      "matches": 3,
+      "economy": 7.04,
+      "avg": 1.17,
+      "sr": 1.0
+    },
+    {
+      "player": "AD Mascarenhas",
+      "runs": 365,
+      "balls": 310,
+      "wickets": 310,
+      "matches": 13,
+      "economy": 7.06,
+      "avg": 1.18,
+      "sr": 1.0
+    },
+    {
+      "player": "DP Nannes",
+      "runs": 815,
+      "balls": 689,
+      "wickets": 689,
+      "matches": 29,
+      "economy": 7.1,
+      "avg": 1.18,
+      "sr": 1.0
+    },
+    {
+      "player": "Gurkeerat Singh",
+      "runs": 97,
+      "balls": 82,
+      "wickets": 82,
+      "matches": 6,
+      "economy": 7.1,
+      "avg": 1.18,
+      "sr": 1.0
+    },
+    {
+      "player": "R Sharma",
+      "runs": 1100,
+      "balls": 935,
+      "wickets": 935,
+      "matches": 44,
+      "economy": 7.06,
+      "avg": 1.18,
+      "sr": 1.0
+    },
+    {
+      "player": "SE Bond",
+      "runs": 225,
+      "balls": 191,
+      "wickets": 191,
+      "matches": 8,
+      "economy": 7.07,
+      "avg": 1.18,
+      "sr": 1.0
+    },
+    {
+      "player": "DE Bollinger",
+      "runs": 716,
+      "balls": 600,
+      "wickets": 600,
+      "matches": 27,
+      "economy": 7.16,
+      "avg": 1.19,
+      "sr": 1.0
+    }
+  ],
+  "best_economy": [
+    {
+      "player": "A Kumble",
+      "economy": 6.65,
+      "wickets": 983,
+      "matches": 42
+    },
+    {
+      "player": "M Muralitharan",
+      "economy": 6.7,
+      "wickets": 1581,
+      "matches": 66
+    },
+    {
+      "player": "J Yadav",
+      "economy": 6.74,
+      "wickets": 398,
+      "matches": 20
+    },
+    {
+      "player": "SP Narine",
+      "economy": 6.77,
+      "wickets": 3860,
+      "matches": 163
+    },
+    {
+      "player": "DW Steyn",
+      "economy": 6.79,
+      "wickets": 2282,
+      "matches": 95
+    },
+    {
+      "player": "RE van der Merwe",
+      "economy": 6.79,
+      "wickets": 455,
+      "matches": 21
+    },
+    {
+      "player": "Rashid Khan",
+      "economy": 6.8,
+      "wickets": 2711,
+      "matches": 112
+    },
+    {
+      "player": "DL Vettori",
+      "economy": 6.83,
+      "wickets": 785,
+      "matches": 34
+    },
+    {
+      "player": "R Ashwin",
+      "economy": 6.89,
+      "wickets": 4402,
+      "matches": 197
+    },
+    {
+      "player": "MM Ali",
+      "economy": 6.9,
+      "wickets": 721,
+      "matches": 48
+    },
+    {
+      "player": "J Botha",
+      "economy": 6.92,
+      "wickets": 709,
+      "matches": 34
+    },
+    {
+      "player": "SL Malinga",
+      "economy": 7.03,
+      "wickets": 2974,
+      "matches": 122
+    },
+    {
+      "player": "Harbhajan Singh",
+      "economy": 7.04,
+      "wickets": 3496,
+      "matches": 160
+    },
+    {
+      "player": "R Sharma",
+      "economy": 7.06,
+      "wickets": 935,
+      "matches": 44
+    },
+    {
+      "player": "DP Nannes",
+      "economy": 7.1,
+      "wickets": 689,
+      "matches": 29
+    },
+    {
+      "player": "DE Bollinger",
+      "economy": 7.16,
+      "wickets": 600,
+      "matches": 27
+    },
+    {
+      "player": "Iqbal Abdulla",
+      "economy": 7.16,
+      "wickets": 943,
+      "matches": 48
+    },
+    {
+      "player": "SK Warne",
+      "economy": 7.19,
+      "wickets": 1223,
+      "matches": 54
+    },
+    {
+      "player": "M Kartik",
+      "economy": 7.2,
+      "wickets": 1182,
+      "matches": 55
+    },
+    {
+      "player": "KH Pandya",
+      "economy": 7.23,
+      "wickets": 2026,
+      "matches": 108
+    },
+    {
+      "player": "AR Patel",
+      "economy": 7.24,
+      "wickets": 2959,
+      "matches": 138
+    },
+    {
+      "player": "MF Maharoof",
+      "economy": 7.24,
+      "wickets": 441,
+      "matches": 20
+    },
+    {
+      "player": "Ankit Sharma",
+      "economy": 7.25,
+      "wickets": 375,
+      "matches": 21
+    },
+    {
+      "player": "JP Duminy",
+      "economy": 7.25,
+      "wickets": 701,
+      "matches": 49
+    },
+    {
+      "player": "RR Powar",
+      "economy": 7.29,
+      "wickets": 443,
+      "matches": 26
+    },
+    {
+      "player": "A Mishra",
+      "economy": 7.3,
+      "wickets": 3432,
+      "matches": 161
+    },
+    {
+      "player": "JJ Bumrah",
+      "economy": 7.31,
+      "wickets": 2936,
+      "matches": 123
+    },
+    {
+      "player": "YK Pathan",
+      "economy": 7.31,
+      "wickets": 1184,
+      "matches": 82
+    },
+    {
+      "player": "B Kumar",
+      "economy": 7.35,
+      "wickets": 3779,
+      "matches": 163
+    },
+    {
+      "player": "SK Raina",
+      "economy": 7.35,
+      "wickets": 930,
+      "matches": 69
+    },
+    {
+      "player": "Washington Sundar",
+      "economy": 7.35,
+      "wickets": 1052,
+      "matches": 57
+    },
+    {
+      "player": "JC Archer",
+      "economy": 7.36,
+      "wickets": 987,
+      "matches": 40
+    },
+    {
+      "player": "B Lee",
+      "economy": 7.38,
+      "wickets": 916,
+      "matches": 38
+    },
+    {
+      "player": "Shakib Al Hasan",
+      "economy": 7.38,
+      "wickets": 1515,
+      "matches": 70
+    },
+    {
+      "player": "PP Ojha",
+      "economy": 7.4,
+      "wickets": 1945,
+      "matches": 90
+    },
+    {
+      "player": "Yuvraj Singh",
+      "economy": 7.42,
+      "wickets": 882,
+      "matches": 73
+    },
+    {
+      "player": "R Bhatia",
+      "economy": 7.44,
+      "wickets": 1661,
+      "matches": 91
+    },
+    {
+      "player": "MA Starc",
+      "economy": 7.47,
+      "wickets": 663,
+      "matches": 28
+    },
+    {
+      "player": "Harpreet Brar",
+      "economy": 7.48,
+      "wickets": 516,
+      "matches": 29
+    },
+    {
+      "player": "S Nadeem",
+      "economy": 7.48,
+      "wickets": 1444,
+      "matches": 70
+    },
+    {
+      "player": "SK Trivedi",
+      "economy": 7.49,
+      "wickets": 1557,
+      "matches": 75
+    },
+    {
+      "player": "STR Binny",
+      "economy": 7.49,
+      "wickets": 611,
+      "matches": 63
+    },
+    {
+      "player": "SW Tait",
+      "economy": 7.51,
+      "wickets": 534,
+      "matches": 21
+    },
+    {
+      "player": "MM Patel",
+      "economy": 7.52,
+      "wickets": 1382,
+      "matches": 63
+    },
+    {
+      "player": "GB Hogg",
+      "economy": 7.53,
+      "wickets": 466,
+      "matches": 21
+    },
+    {
+      "player": "RJ Harris",
+      "economy": 7.53,
+      "wickets": 865,
+      "matches": 37
+    },
+    {
+      "player": "M Morkel",
+      "economy": 7.54,
+      "wickets": 1699,
+      "matches": 70
+    },
+    {
+      "player": "Ravi Bishnoi",
+      "economy": 7.54,
+      "wickets": 1252,
+      "matches": 54
+    },
+    {
+      "player": "Z Khan",
+      "economy": 7.54,
+      "wickets": 2276,
+      "matches": 99
+    },
+    {
+      "player": "YS Chahal",
+      "economy": 7.55,
+      "wickets": 3327,
+      "matches": 147
+    }
+  ],
+  "best_sr": [
+    {
+      "player": "A Ashish Reddy",
+      "sr": 1.0,
+      "wickets": 270,
+      "avg": 1.48,
+      "matches": 20
+    },
+    {
+      "player": "A Chandila",
+      "sr": 1.0,
+      "wickets": 234,
+      "avg": 1.05,
+      "matches": 12
+    },
+    {
+      "player": "A Choudhary",
+      "sr": 1.0,
+      "wickets": 108,
+      "avg": 1.33,
+      "matches": 5
+    },
+    {
+      "player": "A Dananjaya",
+      "sr": 1.0,
+      "wickets": 25,
+      "avg": 1.88,
+      "matches": 1
+    },
+    {
+      "player": "A Flintoff",
+      "sr": 1.0,
+      "wickets": 66,
+      "avg": 1.61,
+      "matches": 3
+    },
+    {
+      "player": "A Kumble",
+      "sr": 1.0,
+      "wickets": 983,
+      "avg": 1.11,
+      "matches": 42
+    },
+    {
+      "player": "A Mishra",
+      "sr": 1.0,
+      "wickets": 3432,
+      "avg": 1.22,
+      "matches": 161
+    },
+    {
+      "player": "A Mithun",
+      "sr": 1.0,
+      "wickets": 312,
+      "avg": 1.53,
+      "matches": 16
+    },
+    {
+      "player": "A Nehra",
+      "sr": 1.0,
+      "wickets": 1974,
+      "avg": 1.29,
+      "matches": 88
+    },
+    {
+      "player": "A Nortje",
+      "sr": 1.0,
+      "wickets": 1016,
+      "avg": 1.41,
+      "matches": 43
+    },
+    {
+      "player": "A Singh",
+      "sr": 1.0,
+      "wickets": 486,
+      "avg": 1.31,
+      "matches": 23
+    },
+    {
+      "player": "A Symonds",
+      "sr": 1.0,
+      "wickets": 540,
+      "avg": 1.29,
+      "matches": 30
+    },
+    {
+      "player": "A Uniyal",
+      "sr": 1.0,
+      "wickets": 38,
+      "avg": 1.76,
+      "matches": 2
+    },
+    {
+      "player": "A Zampa",
+      "sr": 1.0,
+      "wickets": 425,
+      "avg": 1.32,
+      "matches": 20
+    },
+    {
+      "player": "AA Chavan",
+      "sr": 1.0,
+      "wickets": 255,
+      "avg": 1.33,
+      "matches": 13
+    },
+    {
+      "player": "AA Jhunjhunwala",
+      "sr": 1.0,
+      "wickets": 88,
+      "avg": 1.48,
+      "matches": 10
+    },
+    {
+      "player": "AA Noffke",
+      "sr": 1.0,
+      "wickets": 25,
+      "avg": 1.64,
+      "matches": 1
+    },
+    {
+      "player": "AB Agarkar",
+      "sr": 1.0,
+      "wickets": 820,
+      "avg": 1.43,
+      "matches": 42
+    },
+    {
+      "player": "AB Dinda",
+      "sr": 1.0,
+      "wickets": 1589,
+      "avg": 1.32,
+      "matches": 75
+    },
+    {
+      "player": "AB McDonald",
+      "sr": 1.0,
+      "wickets": 188,
+      "avg": 1.4,
+      "matches": 10
+    },
+    {
+      "player": "AC Thomas",
+      "sr": 1.0,
+      "wickets": 327,
+      "avg": 1.27,
+      "matches": 15
+    },
+    {
+      "player": "AC Voges",
+      "sr": 1.0,
+      "wickets": 56,
+      "avg": 1.36,
+      "matches": 7
+    },
+    {
+      "player": "AD Mascarenhas",
+      "sr": 1.0,
+      "wickets": 310,
+      "avg": 1.18,
+      "matches": 13
+    },
+    {
+      "player": "AD Mathews",
+      "sr": 1.0,
+      "wickets": 807,
+      "avg": 1.36,
+      "matches": 44
+    },
+    {
+      "player": "AD Russell",
+      "sr": 1.0,
+      "wickets": 1620,
+      "avg": 1.51,
+      "matches": 100
+    },
+    {
+      "player": "AF Milne",
+      "sr": 1.0,
+      "wickets": 217,
+      "avg": 1.56,
+      "matches": 10
+    },
+    {
+      "player": "AG Murtaza",
+      "sr": 1.0,
+      "wickets": 269,
+      "avg": 1.2,
+      "matches": 12
+    },
+    {
+      "player": "AJ Finch",
+      "sr": 1.0,
+      "wickets": 44,
+      "avg": 1.52,
+      "matches": 5
+    },
+    {
+      "player": "AJ Hosein",
+      "sr": 1.0,
+      "wickets": 24,
+      "avg": 1.71,
+      "matches": 1
+    },
+    {
+      "player": "AJ Tye",
+      "sr": 1.0,
+      "wickets": 714,
+      "avg": 1.41,
+      "matches": 30
+    },
+    {
+      "player": "AK Markram",
+      "sr": 1.0,
+      "wickets": 110,
+      "avg": 1.44,
+      "matches": 12
+    },
+    {
+      "player": "AL Menaria",
+      "sr": 1.0,
+      "wickets": 113,
+      "avg": 1.27,
+      "matches": 12
+    },
+    {
+      "player": "AM Nayar",
+      "sr": 1.0,
+      "wickets": 239,
+      "avg": 1.35,
+      "matches": 19
+    },
+    {
+      "player": "AM Salvi",
+      "sr": 1.0,
+      "wickets": 156,
+      "avg": 1.31,
+      "matches": 7
+    },
+    {
+      "player": "AN Ahmed",
+      "sr": 1.0,
+      "wickets": 362,
+      "avg": 1.42,
+      "matches": 17
+    },
+    {
+      "player": "AP Dole",
+      "sr": 1.0,
+      "wickets": 73,
+      "avg": 1.56,
+      "matches": 3
+    },
+    {
+      "player": "AR Patel",
+      "sr": 1.0,
+      "wickets": 2959,
+      "avg": 1.21,
+      "matches": 138
+    },
+    {
+      "player": "AS Joseph",
+      "sr": 1.0,
+      "wickets": 454,
+      "avg": 1.56,
+      "matches": 22
+    },
+    {
+      "player": "AS Rajpoot",
+      "sr": 1.0,
+      "wickets": 567,
+      "avg": 1.49,
+      "matches": 29
+    },
+    {
+      "player": "AS Raut",
+      "sr": 1.0,
+      "wickets": 30,
+      "avg": 1.5,
+      "matches": 5
+    },
+    {
+      "player": "AS Roy",
+      "sr": 1.0,
+      "wickets": 120,
+      "avg": 1.14,
+      "matches": 7
+    },
+    {
+      "player": "AU Rashid",
+      "sr": 1.0,
+      "wickets": 60,
+      "avg": 1.52,
+      "matches": 3
+    },
+    {
+      "player": "AUK Pathan",
+      "sr": 1.0,
+      "wickets": 41,
+      "avg": 1.54,
+      "matches": 3
+    },
+    {
+      "player": "Abdul Samad",
+      "sr": 1.0,
+      "wickets": 55,
+      "avg": 2.05,
+      "matches": 5
+    },
+    {
+      "player": "Abhishek Sharma",
+      "sr": 1.0,
+      "wickets": 236,
+      "avg": 1.46,
+      "matches": 22
+    },
+    {
+      "player": "Akash Deep",
+      "sr": 1.0,
+      "wickets": 152,
+      "avg": 1.77,
+      "matches": 7
+    },
+    {
+      "player": "Akash Madhwal",
+      "sr": 1.0,
+      "wickets": 185,
+      "avg": 1.32,
+      "matches": 9
+    },
+    {
+      "player": "Akash Singh",
+      "sr": 1.0,
+      "wickets": 141,
+      "avg": 1.61,
+      "matches": 7
+    },
+    {
+      "player": "Anand Rajan",
+      "sr": 1.0,
+      "wickets": 162,
+      "avg": 1.27,
+      "matches": 8
+    },
+    {
+      "player": "Ankit Sharma",
+      "sr": 1.0,
+      "wickets": 375,
+      "avg": 1.21,
+      "matches": 21
+    }
+  ],
+  "best_bowling": [
+    {
+      "match_id": 392190,
+      "player": "Kamran Khan",
+      "runs": 36,
+      "balls": 34,
+      "wickets": 34,
+      "economy": 6.35,
+      "season": 2009.0,
+      "date": "2009-04-23",
+      "team1": "Rajasthan Royals",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Newlands"
+    },
+    {
+      "match_id": 1082625,
+      "player": "JJ Bumrah",
+      "runs": 38,
+      "balls": 34,
+      "wickets": 34,
+      "economy": 6.71,
+      "season": 2017.0,
+      "date": "2017-04-29",
+      "team1": "Gujarat Lions",
+      "team2": "Mumbai Indians",
+      "venue": "Saurashtra Cricket Association Stadium"
+    },
+    {
+      "match_id": 419121,
+      "player": "J Theron",
+      "runs": 28,
+      "balls": 32,
+      "wickets": 32,
+      "economy": 5.25,
+      "season": 2010.0,
+      "date": "2010-03-21",
+      "team1": "Punjab Kings",
+      "team2": "Chennai Super Kings",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "match_id": 598004,
+      "player": "DW Steyn",
+      "runs": 52,
+      "balls": 32,
+      "wickets": 32,
+      "economy": 9.75,
+      "season": 2013.0,
+      "date": "2013-04-07",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "match_id": 829741,
+      "player": "CH Morris",
+      "runs": 49,
+      "balls": 32,
+      "wickets": 32,
+      "economy": 9.19,
+      "season": 2015.0,
+      "date": "2015-04-21",
+      "team1": "Rajasthan Royals",
+      "team2": "Punjab Kings",
+      "venue": "Narendra Modi Stadium"
+    },
+    {
+      "match_id": 1216547,
+      "player": "Navdeep Saini",
+      "runs": 50,
+      "balls": 32,
+      "wickets": 32,
+      "economy": 9.38,
+      "season": 2021.0,
+      "date": "2020-09-28",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Mumbai Indians",
+      "venue": "Dubai International Cricket Stadium"
+    },
+    {
+      "match_id": 392222,
+      "player": "SL Malinga",
+      "runs": 33,
+      "balls": 31,
+      "wickets": 31,
+      "economy": 6.39,
+      "season": 2009.0,
+      "date": "2009-05-12",
+      "team1": "Punjab Kings",
+      "team2": "Mumbai Indians",
+      "venue": "SuperSport Park"
+    },
+    {
+      "match_id": 598004,
+      "player": "R Vinay Kumar",
+      "runs": 48,
+      "balls": 31,
+      "wickets": 31,
+      "economy": 9.29,
+      "season": 2013.0,
+      "date": "2013-04-07",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "match_id": 598017,
+      "player": "R Rampaul",
+      "runs": 40,
+      "balls": 31,
+      "wickets": 31,
+      "economy": 7.74,
+      "season": 2013.0,
+      "date": "2013-04-16",
+      "team1": "Delhi Capitals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 1175365,
+      "player": "K Rabada",
+      "runs": 48,
+      "balls": 31,
+      "wickets": 31,
+      "economy": 9.29,
+      "season": 2019.0,
+      "date": "2019-03-30",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium"
+    },
+    {
+      "match_id": 1175365,
+      "player": "M Prasidh Krishna",
+      "runs": 43,
+      "balls": 31,
+      "wickets": 31,
+      "economy": 8.32,
+      "season": 2019.0,
+      "date": "2019-03-30",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium"
+    },
+    {
+      "match_id": 1216517,
+      "player": "JJ Bumrah",
+      "runs": 29,
+      "balls": 31,
+      "wickets": 31,
+      "economy": 5.61,
+      "season": 2021.0,
+      "date": "2020-10-18",
+      "team1": "Mumbai Indians",
+      "team2": "Punjab Kings",
+      "venue": "Dubai International Cricket Stadium"
+    },
+    {
+      "match_id": 1216547,
+      "player": "JJ Bumrah",
+      "runs": 59,
+      "balls": 31,
+      "wickets": 31,
+      "economy": 11.42,
+      "season": 2021.0,
+      "date": "2020-09-28",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Mumbai Indians",
+      "venue": "Dubai International Cricket Stadium"
+    },
+    {
+      "match_id": 1304068,
+      "player": "DJ Bravo",
+      "runs": 42,
+      "balls": 31,
+      "wickets": 31,
+      "economy": 8.13,
+      "season": 2022.0,
+      "date": "2022-04-12",
+      "team1": "Chennai Super Kings",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Dr DY Patil Sports Academy"
+    },
+    {
+      "match_id": 1359480,
+      "player": "TU Deshpande",
+      "runs": 46,
+      "balls": 31,
+      "wickets": 31,
+      "economy": 8.9,
+      "season": 2023.0,
+      "date": "2023-04-03",
+      "team1": "Chennai Super Kings",
+      "team2": "Lucknow Super Giants",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "match_id": 1370350,
+      "player": "M Pathirana",
+      "runs": 38,
+      "balls": 31,
+      "wickets": 31,
+      "economy": 7.35,
+      "season": 2023.0,
+      "date": "2023-05-23",
+      "team1": "Chennai Super Kings",
+      "team2": "Gujarat Titans",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "match_id": 336014,
+      "player": "Umar Gul",
+      "runs": 47,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 9.4,
+      "season": 2008.0,
+      "date": "2008-05-11",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "match_id": 392210,
+      "player": "SM Harwood",
+      "runs": 26,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 5.2,
+      "season": 2009.0,
+      "date": "2009-05-05",
+      "team1": "Rajasthan Royals",
+      "team2": "Punjab Kings",
+      "venue": "Kingsmead"
+    },
+    {
+      "match_id": 392222,
+      "player": "B Lee",
+      "runs": 25,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 5.0,
+      "season": 2009.0,
+      "date": "2009-05-12",
+      "team1": "Punjab Kings",
+      "team2": "Mumbai Indians",
+      "venue": "SuperSport Park"
+    },
+    {
+      "match_id": 392226,
+      "player": "MF Maharoof",
+      "runs": 31,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 6.2,
+      "season": 2009.0,
+      "date": "2009-05-15",
+      "team1": "Delhi Capitals",
+      "team2": "Punjab Kings",
+      "venue": "OUTsurance Oval"
+    },
+    {
+      "match_id": 419107,
+      "player": "SW Tait",
+      "runs": 47,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 9.4,
+      "season": 2010.0,
+      "date": "2010-03-13",
+      "team1": "Mumbai Indians",
+      "team2": "Rajasthan Royals",
+      "venue": "Brabourne Stadium"
+    },
+    {
+      "match_id": 501270,
+      "player": "AN Ahmed",
+      "runs": 56,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 11.2,
+      "season": 2011.0,
+      "date": "2011-05-27",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Mumbai Indians",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "match_id": 548377,
+      "player": "SW Tait",
+      "runs": 40,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 8.0,
+      "season": 2012.0,
+      "date": "2012-05-20",
+      "team1": "Rajasthan Royals",
+      "team2": "Mumbai Indians",
+      "venue": "Sawai Mansingh Stadium"
+    },
+    {
+      "match_id": 598017,
+      "player": "UT Yadav",
+      "runs": 37,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 7.4,
+      "season": 2013.0,
+      "date": "2013-04-16",
+      "team1": "Delhi Capitals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 729315,
+      "player": "SP Narine",
+      "runs": 39,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 7.8,
+      "season": 2014.0,
+      "date": "2014-04-29",
+      "team1": "Rajasthan Royals",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Sheikh Zayed Stadium"
+    },
+    {
+      "match_id": 829741,
+      "player": "MG Johnson",
+      "runs": 39,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 7.8,
+      "season": 2015.0,
+      "date": "2015-04-21",
+      "team1": "Rajasthan Royals",
+      "team2": "Punjab Kings",
+      "venue": "Narendra Modi Stadium"
+    },
+    {
+      "match_id": 1136603,
+      "player": "JC Archer",
+      "runs": 42,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 8.4,
+      "season": 2018.0,
+      "date": "2018-05-11",
+      "team1": "Chennai Super Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "Sawai Mansingh Stadium"
+    },
+    {
+      "match_id": 1181766,
+      "player": "KMA Paul",
+      "runs": 33,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 6.6,
+      "season": 2019.0,
+      "date": "2019-05-08",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Delhi Capitals",
+      "venue": "ACA-VDCA Stadium"
+    },
+    {
+      "match_id": 1216517,
+      "player": "Mohammed Shami",
+      "runs": 35,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 7.0,
+      "season": 2021.0,
+      "date": "2020-10-18",
+      "team1": "Mumbai Indians",
+      "team2": "Punjab Kings",
+      "venue": "Dubai International Cricket Stadium"
+    },
+    {
+      "match_id": 1216522,
+      "player": "R Tewatia",
+      "runs": 30,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 6.0,
+      "season": 2021.0,
+      "date": "2020-10-17",
+      "team1": "Rajasthan Royals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Dubai International Cricket Stadium"
+    },
+    {
+      "match_id": 1254077,
+      "player": "AR Patel",
+      "runs": 34,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 6.8,
+      "season": 2021.0,
+      "date": "2021-04-25",
+      "team1": "Delhi Capitals",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "match_id": 1254077,
+      "player": "Rashid Khan",
+      "runs": 39,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 7.8,
+      "season": 2021.0,
+      "date": "2021-04-25",
+      "team1": "Delhi Capitals",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "match_id": 1254096,
+      "player": "M Prasidh Krishna",
+      "runs": 43,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 8.6,
+      "season": 2021.0,
+      "date": "2021-09-23",
+      "team1": "Mumbai Indians",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Zayed Cricket Stadium, Abu Dhabi"
+    },
+    {
+      "match_id": 1304049,
+      "player": "Mohammed Siraj",
+      "runs": 60,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 12.0,
+      "season": 2022.0,
+      "date": "2022-03-27",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Punjab Kings",
+      "venue": "Dr DY Patil Sports Academy"
+    },
+    {
+      "match_id": 1304055,
+      "player": "M Prasidh Krishna",
+      "runs": 37,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 7.4,
+      "season": 2022.0,
+      "date": "2022-04-02",
+      "team1": "Rajasthan Royals",
+      "team2": "Mumbai Indians",
+      "venue": "Dr DY Patil Sports Academy"
+    },
+    {
+      "match_id": 1304091,
+      "player": "SN Thakur",
+      "runs": 44,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 8.8,
+      "season": 2022.0,
+      "date": "2022-05-01",
+      "team1": "Lucknow Super Giants",
+      "team2": "Delhi Capitals",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 1304105,
+      "player": "DR Sams",
+      "runs": 16,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 3.2,
+      "season": 2022.0,
+      "date": "2022-05-12",
+      "team1": "Chennai Super Kings",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 1359479,
+      "player": "Mohammed Siraj",
+      "runs": 21,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 4.2,
+      "season": 2023.0,
+      "date": "2023-04-02",
+      "team1": "Mumbai Indians",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 1359493,
+      "player": "M Jansen",
+      "runs": 38,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 7.6,
+      "season": 2023.0,
+      "date": "2023-04-14",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens"
+    },
+    {
+      "match_id": 1359536,
+      "player": "M Jansen",
+      "runs": 39,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 7.8,
+      "season": 2023.0,
+      "date": "2023-05-15",
+      "team1": "Gujarat Titans",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Narendra Modi Stadium"
+    },
+    {
+      "match_id": 1359537,
+      "player": "Yash Thakur",
+      "runs": 41,
+      "balls": 30,
+      "wickets": 30,
+      "economy": 8.2,
+      "season": 2023.0,
+      "date": "2023-05-16",
+      "team1": "Lucknow Super Giants",
+      "team2": "Mumbai Indians",
+      "venue": "Ekana Cricket Stadium"
+    },
+    {
+      "match_id": 336032,
+      "player": "MF Maharoof",
+      "runs": 27,
+      "balls": 29,
+      "wickets": 29,
+      "economy": 5.59,
+      "season": 2008.0,
+      "date": "2008-05-24",
+      "team1": "Mumbai Indians",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium"
+    },
+    {
+      "match_id": 336040,
+      "player": "JA Morkel",
+      "runs": 27,
+      "balls": 29,
+      "wickets": 29,
+      "economy": 5.59,
+      "season": 2008.0,
+      "date": "2008-06-01",
+      "team1": "Chennai Super Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "Dr DY Patil Sports Academy"
+    },
+    {
+      "match_id": 392190,
+      "player": "BAW Mendis",
+      "runs": 38,
+      "balls": 29,
+      "wickets": 29,
+      "economy": 7.86,
+      "season": 2009.0,
+      "date": "2009-04-23",
+      "team1": "Rajasthan Royals",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Newlands"
+    },
+    {
+      "match_id": 392218,
+      "player": "SL Malinga",
+      "runs": 37,
+      "balls": 29,
+      "wickets": 29,
+      "economy": 7.66,
+      "season": 2009.0,
+      "date": "2009-05-10",
+      "team1": "Mumbai Indians",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "St George's Park"
+    },
+    {
+      "match_id": 392231,
+      "player": "AB Agarkar",
+      "runs": 47,
+      "balls": 29,
+      "wickets": 29,
+      "economy": 9.72,
+      "season": 2009.0,
+      "date": "2009-05-18",
+      "team1": "Chennai Super Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "SuperSport Park"
+    },
+    {
+      "match_id": 392239,
+      "player": "P Kumar",
+      "runs": 43,
+      "balls": 29,
+      "wickets": 29,
+      "economy": 8.9,
+      "season": 2009.0,
+      "date": "2009-05-24",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "New Wanderers Stadium"
+    },
+    {
+      "match_id": 501222,
+      "player": "Z Khan",
+      "runs": 53,
+      "balls": 29,
+      "wickets": 29,
+      "economy": 10.97,
+      "season": 2011.0,
+      "date": "2011-04-22",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Eden Gardens"
+    },
+    {
+      "match_id": 501227,
+      "player": "A Mithun",
+      "runs": 37,
+      "balls": 29,
+      "wickets": 29,
+      "economy": 7.66,
+      "season": 2011.0,
+      "date": "2011-04-26",
+      "team1": "Delhi Capitals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Arun Jaitley Stadium"
+    },
+    {
+      "match_id": 501247,
+      "player": "CH Gayle",
+      "runs": 26,
+      "balls": 29,
+      "wickets": 29,
+      "economy": 5.38,
+      "season": 2011.0,
+      "date": "2011-05-08",
+      "team1": "Kochi Tuskers Kerala",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium"
+    }
+  ],
+  "most_economical": [
+    {
+      "player": "A Nehra",
+      "wickets": 24,
+      "runs": 6,
+      "balls": 24,
+      "economy": 1.5,
+      "season": 2009.0,
+      "team1": "Delhi Capitals",
+      "team2": "Punjab Kings",
+      "venue": "OUTsurance Oval"
+    },
+    {
+      "player": "YS Chahal",
+      "wickets": 24,
+      "runs": 6,
+      "balls": 24,
+      "economy": 1.5,
+      "season": 2019.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Chennai Super Kings",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "player": "R Sharma",
+      "wickets": 24,
+      "runs": 7,
+      "balls": 24,
+      "economy": 1.75,
+      "season": 2011.0,
+      "team1": "Mumbai Indians",
+      "team2": "Pune Warriors India",
+      "venue": "Dr DY Patil Sports Academy"
+    },
+    {
+      "player": "Rashid Khan",
+      "wickets": 24,
+      "runs": 7,
+      "balls": 24,
+      "economy": 1.75,
+      "season": 2021.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Delhi Capitals",
+      "venue": "Dubai International Cricket Stadium"
+    },
+    {
+      "player": "DR Smith",
+      "wickets": 25,
+      "runs": 8,
+      "balls": 25,
+      "economy": 1.92,
+      "season": 2016.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Gujarat Lions",
+      "venue": "Green Park"
+    },
+    {
+      "player": "LH Ferguson",
+      "wickets": 25,
+      "runs": 8,
+      "balls": 25,
+      "economy": 1.92,
+      "season": 2017.0,
+      "team1": "Rising Pune Supergiants",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Maharashtra Cricket Association Stadium"
+    },
+    {
+      "player": "M Muralitharan",
+      "wickets": 24,
+      "runs": 8,
+      "balls": 24,
+      "economy": 2.0,
+      "season": 2009.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Punjab Kings",
+      "venue": "Kingsmead"
+    },
+    {
+      "player": "P Kumar",
+      "wickets": 24,
+      "runs": 8,
+      "balls": 24,
+      "economy": 2.0,
+      "season": 2012.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Punjab Kings",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "DW Steyn",
+      "wickets": 24,
+      "runs": 8,
+      "balls": 24,
+      "economy": 2.0,
+      "season": 2012.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "KV Sharma",
+      "wickets": 24,
+      "runs": 8,
+      "balls": 24,
+      "economy": 2.0,
+      "season": 2013.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Chennai Super Kings",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "player": "MG Johnson",
+      "wickets": 24,
+      "runs": 8,
+      "balls": 24,
+      "economy": 2.0,
+      "season": 2013.0,
+      "team1": "Pune Warriors India",
+      "team2": "Mumbai Indians",
+      "venue": "Maharashtra Cricket Association Stadium"
+    },
+    {
+      "player": "A Mishra",
+      "wickets": 24,
+      "runs": 8,
+      "balls": 24,
+      "economy": 2.0,
+      "season": 2013.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Rajasthan Royals",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "Sohail Tanvir",
+      "wickets": 27,
+      "runs": 10,
+      "balls": 27,
+      "economy": 2.22,
+      "season": 2008.0,
+      "team1": "Rajasthan Royals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Sawai Mansingh Stadium"
+    },
+    {
+      "player": "DW Steyn",
+      "wickets": 27,
+      "runs": 10,
+      "balls": 27,
+      "economy": 2.22,
+      "season": 2012.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "SM Pollock",
+      "wickets": 24,
+      "runs": 9,
+      "balls": 24,
+      "economy": 2.25,
+      "season": 2008.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "FH Edwards",
+      "wickets": 24,
+      "runs": 9,
+      "balls": 24,
+      "economy": 2.25,
+      "season": 2009.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Newlands"
+    },
+    {
+      "player": "Harbhajan Singh",
+      "wickets": 24,
+      "runs": 9,
+      "balls": 24,
+      "economy": 2.25,
+      "season": 2009.0,
+      "team1": "Punjab Kings",
+      "team2": "Mumbai Indians",
+      "venue": "SuperSport Park"
+    },
+    {
+      "player": "Mustafizur Rahman",
+      "wickets": 24,
+      "runs": 9,
+      "balls": 24,
+      "economy": 2.25,
+      "season": 2016.0,
+      "team1": "Punjab Kings",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "Imran Tahir",
+      "wickets": 24,
+      "runs": 9,
+      "balls": 24,
+      "economy": 2.25,
+      "season": 2019.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Chennai Super Kings",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "player": "Mohammed Siraj",
+      "wickets": 24,
+      "runs": 9,
+      "balls": 24,
+      "economy": 2.25,
+      "season": 2021.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Sheikh Zayed Stadium"
+    },
+    {
+      "player": "S Badree",
+      "wickets": 25,
+      "runs": 10,
+      "balls": 25,
+      "economy": 2.4,
+      "season": 2017.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Mumbai Indians",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "B Lee",
+      "wickets": 24,
+      "runs": 10,
+      "balls": 24,
+      "economy": 2.5,
+      "season": 2008.0,
+      "team1": "Punjab Kings",
+      "team2": "Mumbai Indians",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "player": "IK Pathan",
+      "wickets": 24,
+      "runs": 10,
+      "balls": 24,
+      "economy": 2.5,
+      "season": 2008.0,
+      "team1": "Punjab Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "player": "B Lee",
+      "wickets": 24,
+      "runs": 10,
+      "balls": 24,
+      "economy": 2.5,
+      "season": 2011.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens"
+    },
+    {
+      "player": "A Mishra",
+      "wickets": 24,
+      "runs": 10,
+      "balls": 24,
+      "economy": 2.5,
+      "season": 2011.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Punjab Kings",
+      "venue": "Himachal Pradesh Cricket Association Stadium"
+    },
+    {
+      "player": "Z Khan",
+      "wickets": 24,
+      "runs": 10,
+      "balls": 24,
+      "economy": 2.5,
+      "season": 2015.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Delhi Capitals",
+      "venue": "Shaheed Veer Narayan Singh International Stadium"
+    },
+    {
+      "player": "R Bhatia",
+      "wickets": 24,
+      "runs": 10,
+      "balls": 24,
+      "economy": 2.5,
+      "season": 2016.0,
+      "team1": "Mumbai Indians",
+      "team2": "Rising Pune Supergiants",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "AR Patel",
+      "wickets": 24,
+      "runs": 10,
+      "balls": 24,
+      "economy": 2.5,
+      "season": 2022.0,
+      "team1": "Punjab Kings",
+      "team2": "Delhi Capitals",
+      "venue": "Brabourne Stadium"
+    },
+    {
+      "player": "JJ Bumrah",
+      "wickets": 24,
+      "runs": 10,
+      "balls": 24,
+      "economy": 2.5,
+      "season": 2022.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Mumbai Indians",
+      "venue": "Dr DY Patil Sports Academy"
+    },
+    {
+      "player": "Mohammad Hafeez",
+      "wickets": 25,
+      "runs": 11,
+      "balls": 25,
+      "economy": 2.64,
+      "season": 2008.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens"
+    },
+    {
+      "player": "UT Yadav",
+      "wickets": 25,
+      "runs": 11,
+      "balls": 25,
+      "economy": 2.64,
+      "season": 2012.0,
+      "team1": "Mumbai Indians",
+      "team2": "Delhi Capitals",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "SP Narine",
+      "wickets": 25,
+      "runs": 11,
+      "balls": 25,
+      "economy": 2.64,
+      "season": 2013.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "L Ngidi",
+      "wickets": 25,
+      "runs": 11,
+      "balls": 25,
+      "economy": 2.64,
+      "season": 2018.0,
+      "team1": "Punjab Kings",
+      "team2": "Chennai Super Kings",
+      "venue": "Maharashtra Cricket Association Stadium"
+    },
+    {
+      "player": "M Muralitharan",
+      "wickets": 24,
+      "runs": 11,
+      "balls": 24,
+      "economy": 2.75,
+      "season": 2009.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "St George's Park"
+    },
+    {
+      "player": "SP Narine",
+      "wickets": 24,
+      "runs": 11,
+      "balls": 24,
+      "economy": 2.75,
+      "season": 2012.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Eden Gardens"
+    },
+    {
+      "player": "A Nehra",
+      "wickets": 24,
+      "runs": 11,
+      "balls": 24,
+      "economy": 2.75,
+      "season": 2015.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "Sandeep Sharma",
+      "wickets": 24,
+      "runs": 11,
+      "balls": 24,
+      "economy": 2.75,
+      "season": 2016.0,
+      "team1": "Mumbai Indians",
+      "team2": "Punjab Kings",
+      "venue": "ACA-VDCA Stadium"
+    },
+    {
+      "player": "Rashid Khan",
+      "wickets": 24,
+      "runs": 11,
+      "balls": 24,
+      "economy": 2.75,
+      "season": 2018.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "Rashid Khan",
+      "wickets": 24,
+      "runs": 11,
+      "balls": 24,
+      "economy": 2.75,
+      "season": 2018.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Chennai Super Kings",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "YS Chahal",
+      "wickets": 24,
+      "runs": 11,
+      "balls": 24,
+      "economy": 2.75,
+      "season": 2021.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Mumbai Indians",
+      "venue": "Dubai International Cricket Stadium"
+    },
+    {
+      "player": "HV Patel",
+      "wickets": 24,
+      "runs": 11,
+      "balls": 24,
+      "economy": 2.75,
+      "season": 2022.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Dr DY Patil Sports Academy"
+    },
+    {
+      "player": "Mohammed Shami",
+      "wickets": 24,
+      "runs": 11,
+      "balls": 24,
+      "economy": 2.75,
+      "season": 2023.0,
+      "team1": "Delhi Capitals",
+      "team2": "Gujarat Titans",
+      "venue": "Narendra Modi Stadium"
+    },
+    {
+      "player": "YS Chahal",
+      "wickets": 24,
+      "runs": 11,
+      "balls": 24,
+      "economy": 2.75,
+      "season": 2024.0,
+      "team1": "Mumbai Indians",
+      "team2": "Rajasthan Royals",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "GD McGrath",
+      "wickets": 25,
+      "runs": 12,
+      "balls": 25,
+      "economy": 2.88,
+      "season": 2008.0,
+      "team1": "Delhi Capitals",
+      "team2": "Rajasthan Royals",
+      "venue": "Sawai Mansingh Stadium"
+    },
+    {
+      "player": "SM Pollock",
+      "wickets": 25,
+      "runs": 12,
+      "balls": 25,
+      "economy": 2.88,
+      "season": 2008.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "AB Dinda",
+      "wickets": 25,
+      "runs": 12,
+      "balls": 25,
+      "economy": 2.88,
+      "season": 2009.0,
+      "team1": "Rajasthan Royals",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Kingsmead"
+    },
+    {
+      "player": "B Kumar",
+      "wickets": 25,
+      "runs": 12,
+      "balls": 25,
+      "economy": 2.88,
+      "season": 2013.0,
+      "team1": "Pune Warriors India",
+      "team2": "Chennai Super Kings",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "player": "A Zampa",
+      "wickets": 25,
+      "runs": 12,
+      "balls": 25,
+      "economy": 2.88,
+      "season": 2021.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Sheikh Zayed Stadium"
+    },
+    {
+      "player": "KH Pandya",
+      "wickets": 25,
+      "runs": 12,
+      "balls": 25,
+      "economy": 2.88,
+      "season": 2022.0,
+      "team1": "Lucknow Super Giants",
+      "team2": "Punjab Kings",
+      "venue": "Maharashtra Cricket Association Stadium"
+    },
+    {
+      "player": "M Muralitharan",
+      "wickets": 27,
+      "runs": 13,
+      "balls": 27,
+      "economy": 2.89,
+      "season": 2008.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Chennai Super Kings",
+      "venue": "MA Chidambaram Stadium"
+    }
+  ],
+  "hat_tricks": []
+}

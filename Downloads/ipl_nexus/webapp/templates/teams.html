@@ -1,0 +1,676 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1 style="margin-bottom: 2rem;">Team Analysis</h1>
+
+<!-- Team Selector and Season Filter -->
+<div style="margin-bottom: 2rem; display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
+    <div style="display: flex; gap: 1rem; align-items: center;">
+        <label style="color: #94A3B8; font-weight: 600;">Select Team:</label>
+        <select id="team-selector"
+            style="min-width: 300px; padding: 0.5rem 1rem; background: #1E293B; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 0.5rem; color: #F8FAFC;">
+            <option value="">Loading teams...</option>
+        </select>
+    </div>
+    <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+        <label style="color: #94A3B8; font-weight: 600;">Season Filter:</label>
+        <button class="master-filter-btn active" data-filter="all">All Seasons</button>
+        <button class="master-filter-btn" data-filter="last5">Last 5</button>
+        <button class="master-filter-btn" data-filter="last3">Last 3</button>
+    </div>
+    <div id="season-dropdown-container" style="display: none; flex-wrap: wrap; gap: 0.5rem; align-items: center;">
+        <label style="color: #94A3B8; font-weight: 600;">Select Season:</label>
+        <select id="specific-season-selector"
+            style="min-width: 150px; padding: 0.5rem 1rem; background: #1E293B; border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 0.5rem; color: #F8FAFC;">
+            <option value="all">All Seasons</option>
+        </select>
+    </div>
+</div>
+
+<!-- Team Overview Stats -->
+<div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); margin-bottom: 2rem;">
+    <div class="card">
+        <div class="stat-label">Matches Played</div>
+        <div class="stat-value" id="total-played" style="color: #38BDF8;">-</div>
+    </div>
+    <div class="card">
+        <div class="stat-value" id="total-won" style="color: #10B981;">-</div>
+        <div class="stat-label">Won</div>
+    </div>
+    <div class="card">
+        <div class="stat-value" id="total-lost" style="color: #F59E0B;">-</div>
+        <div class="stat-label">Lost</div>
+    </div>
+    <div class="card">
+        <div class="stat-value" id="win-rate" style="font-size: 2rem;">-</div>
+        <div class="stat-label">Win Rate</div>
+    </div>
+</div>
+
+<!-- Advanced Analytics Cards -->
+<div
+    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+
+    <!-- Batting First vs Chasing -->
+    <div class="card analytics-card">
+        <h3 style="margin: 0 0 1rem 0; color: var(--accent); font-size: 1.1rem;">🏏 Batting First vs Chasing</h3>
+        <div style="height: 180px; margin-bottom: 1rem;">
+            <canvas id="batVsChaseChart"></canvas>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; font-size: 0.9rem;">
+            <div>
+                <div style="color: #94A3B8;">Batting First</div>
+                <div style="font-weight: 700; color: #FF4B4B;" id="bat-first-wr">-</div>
+            </div>
+            <div>
+                <div style="color: #94A3B8;">Chasing</div>
+                <div style="font-weight: 700; color: #38BDF8;" id="chase-wr">-</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Form -->
+    <div class="card analytics-card">
+        <h3 style="margin: 0 0 1rem 0; color: var(--accent); font-size: 1.1rem;">📊 Recent Form (Last 10)</h3>
+        <div id="form-string" style="display: flex; gap: 0.5rem; margin-bottom: 1rem; justify-content: center;">
+            <!-- Populated by JS -->
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+            <div style="text-align: center;">
+                <div style="font-size: 2rem; font-weight: 700; color: #10B981;" id="recent-wins">-</div>
+                <div style="color: #94A3B8; font-size: 0.85rem;">Wins</div>
+            </div>
+            <div style="text-align: center;">
+                <div style="font-size: 2rem; font-weight: 700; color: #F59E0B;" id="recent-losses">-</div>
+                <div style="color: #94A3B8; font-size: 0.85rem;">Losses</div>
+            </div>
+        </div>
+        <div style="background: #1E293B; height: 8px; border-radius: 4px; overflow: hidden;">
+            <div id="recent-form-bar" style="width: 0%; background: #10B981; height: 100%; transition: width 0.5s;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Toss Impact -->
+    <div class="card analytics-card">
+        <h3 style="margin: 0 0 1rem 0; color: var(--accent); font-size: 1.1rem;">🪙 Toss Impact</h3>
+        <div style="height: 180px; margin-bottom: 1rem;">
+            <canvas id="tossChart"></canvas>
+        </div>
+        <div style="text-align: center;">
+            <div style="color: #94A3B8; font-size: 0.9rem;">Toss Win Advantage</div>
+            <div style="font-size: 1.5rem; font-weight: 700;" id="toss-advantage">-</div>
+        </div>
+    </div>
+</div>
+
+<!-- Performance Graph with Filters -->
+<div class="card" style="margin-bottom: 2rem;">
+    <div
+        style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+        <h2 style="margin: 0;">📈 Performance Trend</h2>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <button class="filter-btn active" data-filter="all">All Seasons</button>
+            <button class="filter-btn" data-filter="last5">Last 5</button>
+            <button class="filter-btn" data-filter="last3">Last 3</button>
+        </div>
+    </div>
+    <div class="chart-container" style="height: 400px;">
+        <canvas id="performanceChart"></canvas>
+    </div>
+</div>
+
+<!-- Venue Performance -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
+    <div class="card">
+        <h2 style="margin: 0 0 1.5rem 0;">🏟️ Best Venues</h2>
+        <div id="top-venues"></div>
+    </div>
+    <div class="card">
+        <h2 style="margin: 0 0 1.5rem 0;">📉 Challenging Venues</h2>
+        <div id="worst-venues"></div>
+    </div>
+</div>
+
+<!-- Season Breakdown - Interactive Cards -->
+<div class="card">
+    <h2 style="margin-bottom: 1.5rem;">📋 Season-wise Performance</h2>
+    <div id="season-cards-grid"
+        style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+        <p style="color: #94A3B8; text-align: center; grid-column: 1/-1;">Select a team to view performance</p>
+    </div>
+
+    <!-- Match Details Expandable Section -->
+    <div id="match-details-container"
+        style="display: none; margin-top: 2rem; padding-top: 2rem; border-top: 2px solid rgba(255,255,255,0.1);">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+            <h3 id="season-detail-title" style="margin: 0; color: var(--accent);">📊 Season 2024 Matches</h3>
+            <button id="close-details-btn"
+                style="background: rgba(255,255,255,0.1); border: none; color: white; padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-weight: 600;">Close</button>
+        </div>
+        <div id="matches-list"
+            style="display: flex; flex-direction: column; gap: 0.75rem; max-height: 500px; overflow-y: auto; padding-right: 0.5rem;">
+            <!-- Match cards will be inserted here -->
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    let teamPerformanceData, teamAnalyticsData, teamMatchesData;
+    let mainChart = null, batChaseChart = null, tossChart = null;
+    let currentTeam = null;
+    let currentFilter = 'all';
+
+    // Load data
+    Promise.all([
+        fetch('/data/team_performance.json').then(r => r.json()),
+        fetch('/data/team_analytics.json').then(r => r.json()),
+        fetch('/data/team_matches.json').then(r => r.json())
+    ]).then(([performance, analytics, matches]) => {
+        teamPerformanceData = performance;
+        teamAnalyticsData = analytics;
+        teamMatchesData = matches;
+
+        const select = document.getElementById('team-selector');
+        const teams = Object.keys(performance).sort();
+
+        select.innerHTML = '<option value="">Select a team...</option>';
+        teams.forEach(team => {
+            select.appendChild(new Option(team, team));
+        });
+
+        if (teams.length > 0) {
+            select.value = teams[0];
+            loadTeam(teams[0]);
+        }
+    });
+
+    document.getElementById('team-selector').addEventListener('change', (e) => {
+        if (e.target.value) loadTeam(e.target.value);
+    });
+
+    // Master filter buttons
+    document.querySelectorAll('.master-filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.master-filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentFilter = btn.dataset.filter;
+
+            // Show/hide season dropdown
+            const dropdown = document.getElementById('season-dropdown-container');
+            if (currentFilter === 'all') {
+                dropdown.style.display = 'flex';
+                // Reset to all seasons option
+                document.getElementById('specific-season-selector').value = 'all';
+            } else {
+                dropdown.style.display = 'none';
+            }
+
+            if (currentTeam) loadTeam(currentTeam); // Reload entire team with new filter
+        });
+    });
+
+    // Specific season selector
+    document.getElementById('specific-season-selector').addEventListener('change', (e) => {
+        if (currentTeam) {
+            const selectedSeason = e.target.value;
+            if (selectedSeason === 'all') {
+                currentFilter = 'all';
+                loadTeam(currentTeam);
+            } else {
+                // Filter by specific season
+                currentFilter = 'season_' + selectedSeason;
+                loadTeam(currentTeam);
+            }
+        }
+    });
+
+    // Performance chart filter buttons (synced with master filter)
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentFilter = btn.dataset.filter;
+
+            // Also update master filter
+            document.querySelectorAll('.master-filter-btn').forEach(b => b.classList.remove('active'));
+            const masterBtn = document.querySelector(`.master-filter-btn[data-filter="${currentFilter}"]`);
+            if (masterBtn) masterBtn.classList.add('active');
+
+            // Hide season dropdown if not "all" and reset to "all"
+            const dropdown = document.getElementById('season-dropdown-container');
+            const seasonSelect = document.getElementById('specific-season-selector');
+            if (currentFilter === 'all') {
+                dropdown.style.display = 'flex';
+                seasonSelect.value = 'all';
+            } else {
+                dropdown.style.display = 'none';
+                seasonSelect.value = 'all';
+            }
+
+            if (currentTeam) updateMainChart(currentTeam, currentFilter);
+        });
+    });
+
+    // Populate season dropdown when team loads
+    function populateSeasonDropdown(seasons) {
+        const select = document.getElementById('specific-season-selector');
+        select.innerHTML = '<option value="all">All Seasons</option>';
+        seasons.forEach(s => {
+            const opt = document.createElement('option');
+            opt.value = s.season;
+            opt.innerText = s.season;
+            select.appendChild(opt);
+        });
+    }
+
+    function loadTeam(teamName) {
+        currentTeam = teamName;
+        const perf = teamPerformanceData[teamName];
+        const analytics = teamAnalyticsData[teamName];
+
+        // Populate season dropdown
+        populateSeasonDropdown(perf.by_season);
+
+        // Update season dropdown to reflect current filter
+        const seasonSelect = document.getElementById('specific-season-selector');
+        if (currentFilter.startsWith('season_')) {
+            const season = currentFilter.replace('season_', '');
+            seasonSelect.value = season;
+        } else {
+            seasonSelect.value = 'all';
+        }
+
+        // Calculate filtered stats based on currentFilter
+        let filteredSeasons = perf.by_season;
+        if (currentFilter === 'last5') {
+            filteredSeasons = perf.by_season.slice(-5);
+        } else if (currentFilter === 'last3') {
+            filteredSeasons = perf.by_season.slice(-3);
+        } else if (currentFilter.startsWith('season_')) {
+            // Specific season selected
+            const selectedSeason = parseInt(currentFilter.replace('season_', ''));
+            filteredSeasons = perf.by_season.filter(s => s.season === selectedSeason);
+        }
+
+        // Calculate totals from filtered seasons
+        const totalPlayed = filteredSeasons.reduce((sum, s) => sum + s.played, 0);
+        const totalWon = filteredSeasons.reduce((sum, s) => sum + s.won, 0);
+        const totalLost = filteredSeasons.reduce((sum, s) => sum + s.lost, 0);
+        const winRate = totalPlayed > 0 ? ((totalWon / totalPlayed) * 100).toFixed(1) : 0;
+
+        // Update basic stats with filtered data
+        document.getElementById('total-played').innerText = totalPlayed;
+        document.getElementById('total-won').innerText = totalWon;
+        document.getElementById('total-lost').innerText = totalLost;
+        document.getElementById('win-rate').innerText = winRate + '%';
+
+        // Batting First vs Chasing (use filtered data)
+        let batChaseFilter = currentFilter;
+        let batChaseData;
+
+        if (currentFilter.startsWith('season_')) {
+            // Use per-season data
+            batChaseData = analytics.season_analytics[currentFilter];
+            if (!batChaseData) {
+                batChaseData = analytics.bat_chase_by_filter['all'];
+            }
+        } else {
+            batChaseData = analytics.bat_chase_by_filter[batChaseFilter] || analytics.bat_chase_by_filter['all'];
+        }
+
+        createBatVsChaseChart(batChaseData.batting_first, batChaseData.chasing);
+        document.getElementById('bat-first-wr').innerText = batChaseData.batting_first.win_rate + '%';
+        document.getElementById('chase-wr').innerText = batChaseData.chasing.win_rate + '%';
+
+        // Recent Form
+        renderRecentForm(analytics.recent_form);
+
+        // Toss Impact (use filtered data)
+        let tossData;
+
+        if (currentFilter.startsWith('season_')) {
+            // Use per-season data
+            const seasonData = analytics.season_analytics[currentFilter];
+            if (seasonData) {
+                tossData = seasonData.toss_impact;
+            } else {
+                tossData = analytics.toss_impact_by_filter['all'];
+            }
+        } else {
+            tossData = analytics.toss_impact_by_filter[currentFilter] || analytics.toss_impact_by_filter['all'];
+        }
+
+        createTossChart(tossData);
+        const advantage = tossData.toss_win_advantage;
+        document.getElementById('toss-advantage').innerText = (advantage > 0 ? '+' : '') + advantage + '%';
+        document.getElementById('toss-advantage').style.color = advantage > 0 ? '#10B981' : '#F59E0B';
+
+        // Venue Performance (use filtered data based on currentFilter)
+        let venueFilter = currentFilter;
+        if (currentFilter.startsWith('season_')) {
+            venueFilter = 'all'; // Use all-time venue data for specific season (we don't have per-season venue data)
+        }
+        const venueData = analytics.venue_stats_by_filter[venueFilter] || analytics.venue_stats_by_filter['all'];
+        renderVenues('top-venues', venueData.top);
+        renderVenues('worst-venues', venueData.worst);
+
+        // Main chart
+        updateMainChart(teamName, currentFilter);
+
+        // Season cards
+        renderSeasonCards(perf.by_season);
+    }
+
+    function createBatVsChaseChart(batFirst, chase) {
+        const ctx = document.getElementById('batVsChaseChart').getContext('2d');
+        if (batChaseChart) batChaseChart.destroy();
+
+        batChaseChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Bat First Wins', 'Bat First Losses', 'Chase Wins', 'Chase Losses'],
+                datasets: [{
+                    data: [batFirst.won, batFirst.lost, chase.won, chase.lost],
+                    backgroundColor: ['#FF4B4B', '#FCA5A5', '#38BDF8', '#93C5FD'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false }
+                }
+            }
+        });
+    }
+
+    function createTossChart(tossData) {
+        const ctx = document.getElementById('tossChart').getContext('2d');
+        if (tossChart) tossChart.destroy();
+
+        const wonTossWinRate = (tossData.won_toss_won_match / tossData.won_toss_total * 100) || 0;
+        const lostTossWinRate = (tossData.lost_toss_won_match / tossData.lost_toss_total * 100) || 0;
+
+        tossChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Won Toss', 'Lost Toss'],
+                datasets: [{
+                    label: 'Win %',
+                    data: [wonTossWinRate, lostTossWinRate],
+                    backgroundColor: ['#10B981', '#F59E0B']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        ticks: { color: '#94A3B8' }
+                    },
+                    x: {
+                        grid: { display: false },
+                        ticks: { color: '#94A3B8' }
+                    }
+                }
+            }
+        });
+    }
+
+    function renderRecentForm(form) {
+        const container = document.getElementById('form-string');
+        container.innerHTML = '';
+
+        form.form_string.split('').forEach(result => {
+            const dot = document.createElement('div');
+            dot.style.cssText = `
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: ${result === 'W' ? '#10B981' : '#F59E0B'};
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: white;
+            font-size: 0.85rem;
+        `;
+            dot.innerText = result;
+            container.appendChild(dot);
+        });
+
+        document.getElementById('recent-wins').innerText = form.last_10_wins;
+        document.getElementById('recent-losses').innerText = form.last_10_losses;
+        document.getElementById('recent-form-bar').style.width = form.win_rate + '%';
+    }
+
+    function renderVenues(containerId, venues) {
+        const container = document.getElementById(containerId);
+        container.innerHTML = '';
+
+        if (!venues || venues.length === 0) {
+            container.innerHTML = '<p style="color:#94A3B8; text-align:center;">No data</p>';
+            return;
+        }
+
+        venues.forEach(v => {
+            const div = document.createElement('div');
+            div.style.cssText = 'padding: 0.75rem 0; border-bottom: 1px solid rgba(255,255,255,0.05);';
+            div.innerHTML = `
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                <span style="font-size: 0.9rem;">${v.venue.substring(0, 30)}${v.venue.length > 30 ? '...' : ''}</span>
+                <span style="font-weight: 700; color: ${v.win_rate >= 50 ? '#10B981' : '#F59E0B'};">${v.win_rate}%</span>
+            </div>
+            <div style="background: #1E293B; height: 6px; border-radius: 3px; overflow: hidden;">
+                <div style="width: ${v.win_rate}%; background: ${v.win_rate >= 50 ? '#10B981' : '#F59E0B'}; height: 100%;"></div>
+            </div>
+            <div style="font-size: 0.75rem; color: #64748B; margin-top: 0.25rem;">${v.won}W - ${v.played - v.won}L (${v.played} matches)</div>
+        `;
+            container.appendChild(div);
+        });
+    }
+
+    function updateMainChart(teamName, filter) {
+        const data = teamPerformanceData[teamName];
+        let seasonData = [...data.by_season];
+
+        if (filter === 'last5') {
+            seasonData = seasonData.slice(-5);
+        } else if (filter === 'last3') {
+            seasonData = seasonData.slice(-3);
+        } else if (filter.startsWith('season_')) {
+            // Specific season selected
+            const selectedSeason = parseInt(filter.replace('season_', ''));
+            seasonData = seasonData.filter(s => s.season === selectedSeason);
+        }
+
+        const ctx = document.getElementById('performanceChart').getContext('2d');
+        if (mainChart) mainChart.destroy();
+
+        mainChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: seasonData.map(s => s.season),
+                datasets: [
+                    { label: 'Won', data: seasonData.map(s => s.won), backgroundColor: '#10B981' },
+                    { label: 'Lost', data: seasonData.map(s => s.lost), backgroundColor: '#F59E0B' },
+                    {
+                        label: 'Total',
+                        data: seasonData.map(s => s.played),
+                        type: 'line',
+                        borderColor: '#38BDF8',
+                        borderWidth: 3,
+                        fill: false,
+                        tension: 0.4,
+                        pointRadius: 5
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { labels: { color: '#F8FAFC' } } },
+                scales: {
+                    y: { grid: { color: 'rgba(255,255,255,0.1)' }, ticks: { color: '#94A3B8' }, beginAtZero: true },
+                    x: { grid: { display: false }, ticks: { color: '#94A3B8' } }
+                }
+            }
+        });
+    }
+
+    function renderSeasonCards(seasonData) {
+        const container = document.getElementById('season-cards-grid');
+        const sortedSeasons = [...seasonData].sort((a, b) => b.season - a.season);
+
+        let html = '';
+        sortedSeasons.forEach(s => {
+            const winRateColor = s.win_rate >= 60 ? '#10B981' : s.win_rate >= 40 ? '#F59E0B' : '#F87171';
+            html += `
+                <div class="season-card" data-season="${s.season}" style="background: linear-gradient(135deg, rgba(56, 189, 248, 0.08), rgba(16, 185, 129, 0.08)); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 1.25rem; cursor: pointer; transition: all 0.3s;">
+                    <div style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.75rem; color: var(--accent);">${s.season}</div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.875rem; color: #94A3B8;">
+                        <span>P: ${s.played}</span>
+                        <span style="color: #10B981;">W: ${s.won}</span>
+                        <span style="color: #F59E0B;">L: ${s.lost}</span>
+                    </div>
+                    <div style="font-size: 1.75rem; font-weight: 700; margin-bottom: 0.5rem; color: ${winRateColor};">${s.win_rate}%</div>
+                    <div style="background: #1E293B; height: 6px; border-radius: 3px; overflow: hidden;">
+                        <div style="width: ${s.win_rate}%; background: ${winRateColor}; height: 100%; transition: width 0.3s;"></div>
+                    </div>
+                </div>
+            `;
+        });
+
+        container.innerHTML = html;
+
+        // Add click handlers
+        document.querySelectorAll('.season-card').forEach(card => {
+            card.addEventListener('click', () => {
+                const season = card.getAttribute('data-season');
+                showMatchDetails(season);
+            });
+
+            card.addEventListener('mouseenter', (e) => {
+                e.currentTarget.style.transform = 'translateY(-4px)';
+                e.currentTarget.style.boxShadow = '0 10px 40px rgba(56, 189, 248, 0.2)';
+                e.currentTarget.style.borderColor = 'rgba(56, 189, 248, 0.4)';
+            });
+
+            card.addEventListener('mouseleave', (e) => {
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = 'none';
+                e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)';
+            });
+        });
+    }
+
+    function showMatchDetails(season) {
+        const matches = teamMatchesData[currentTeam][season] || [];
+        const container = document.getElementById('matches-list');
+        const detailsSection = document.getElementById('match-details-container');
+        const titleElement = document.getElementById('season-detail-title');
+
+        titleElement.textContent = `📊 Season ${season} Matches (${matches.length} Total)`;
+
+        let html = '';
+        matches.forEach((match, idx) => {
+            const resultColor = match.won ? '#10B981' : '#F87171';
+            const resultBg = match.won ? 'rgba(16, 185, 129, 0.1)' : 'rgba(248, 113, 113, 0.1)';
+            const tossWon = match.toss_winner === currentTeam;
+
+            html += `
+                <div style="background: linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.6)); border: 1px solid ${match.won ? 'rgba(16, 185, 129, 0.3)' : 'rgba(248, 113, 113, 0.3)'}; border-radius: 12px; padding: 1rem; transition: all 0.3s; cursor: pointer;" class="match-card">
+                    <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 0.75rem;">
+                        <div style="flex: 1;">
+                            <div style="font-size: 0.75rem; color: #64748B; margin-bottom: 0.25rem;">${match.date}</div>
+                            <div style="font-weight: 600; font-size: 1.1rem; margin-bottom: 0.5rem;">vs ${match.opponent}</div>
+                            <div style="font-size: 0.875rem; color: #94A3B8;">📍 ${match.venue}</div>
+                        </div>
+                        <div style="background: ${resultBg}; color: ${resultColor}; padding: 0.5rem 1rem; border-radius: 8px; font-weight: 700; min-width: 80px; text-align: center;">
+                            ${match.result}
+                        </div>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.875rem;">
+                        <div>
+                            <div style="color: #64748B; margin-bottom: 0.25rem;">🪙 Toss</div>
+                            <div style="color: ${tossWon ? '#10B981' : '#F59E0B'}; font-weight: 600;">${match.toss_winner} (${match.toss_decision})</div>
+                        </div>
+                        <div>
+                            <div style="color: #64748B; margin-bottom: 0.25rem;">📊 Margin</div>
+                            <div style="font-weight: 600;">${match.margin}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+
+        container.innerHTML = html;
+        detailsSection.style.display = 'block';
+
+        // Smooth scroll to details
+        detailsSection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+        // Add hover effects to match cards
+        document.querySelectorAll('.match-card').forEach(card => {
+            card.addEventListener('mouseenter', (e) => {
+                e.currentTarget.style.transform = 'scale(1.02)';
+                e.currentTarget.style.boxShadow = '0 8px 30px rgba(56, 189, 248, 0.15)';
+            });
+            card.addEventListener('mouseleave', (e) => {
+                e.currentTarget.style.transform = 'scale(1)';
+                e.currentTarget.style.boxShadow = 'none';
+            });
+        });
+    }
+
+    // Close button handler
+    document.getElementById('close-details-btn').addEventListener('click', () => {
+        document.getElementById('match-details-container').style.display = 'none';
+    });
+</script>
+
+<style>
+    .analytics-card {
+        background: linear-gradient(135deg, rgba(56, 189, 248, 0.05), rgba(16, 185, 129, 0.05));
+        border: 1px solid rgba(56, 189, 248, 0.2);
+    }
+
+    .master-filter-btn,
+    .filter-btn {
+        padding: 0.5rem 1rem;
+        background: rgba(56, 189, 248, 0.1);
+        border: 1px solid rgba(56, 189, 248, 0.3);
+        border-radius: 0.5rem;
+        color: #38BDF8;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .master-filter-btn:hover,
+    .filter-btn:hover {
+        background: rgba(56, 189, 248, 0.2);
+    }
+
+    .master-filter-btn.active,
+    .filter-btn.active {
+        background: #38BDF8;
+        color: #0F172A;
+    }
+
+    @media (max-width: 768px) {
+        div[style*="grid-template-columns: 1fr 1fr"] {
+            grid-template-columns: 1fr !important;
+        }
+    }
+</style>
+{% endblock %}

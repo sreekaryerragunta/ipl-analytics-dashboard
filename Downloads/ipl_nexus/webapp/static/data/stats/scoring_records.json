@@ -1,0 +1,1810 @@
+{
+  "highest_totals": [
+    {
+      "team": "Sunrisers Hyderabad",
+      "score": 287,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2024,
+      "date": "2024-04-15",
+      "won": true
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "score": 286,
+      "opponent": "Rajasthan Royals",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2025,
+      "date": "2025-03-23",
+      "won": true
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "score": 278,
+      "opponent": "Kolkata Knight Riders",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2025,
+      "date": "2025-05-25",
+      "won": true
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "score": 277,
+      "opponent": "Mumbai Indians",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2024,
+      "date": "2024-03-27",
+      "won": true
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "score": 272,
+      "opponent": "Delhi Capitals",
+      "venue": "ACA-VDCA Stadium",
+      "season": 2024,
+      "date": "2024-04-03",
+      "won": true
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "score": 266,
+      "opponent": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2024,
+      "date": "2024-04-20",
+      "won": true
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "score": 263,
+      "opponent": "Pune Warriors India",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2013,
+      "date": "2013-04-23",
+      "won": true
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "score": 261,
+      "opponent": "Punjab Kings",
+      "venue": "Eden Gardens",
+      "season": 2024,
+      "date": "2024-04-26",
+      "won": false
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "score": 257,
+      "opponent": "Punjab Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "season": 2023,
+      "date": "2023-04-28",
+      "won": true
+    },
+    {
+      "team": "Delhi Capitals",
+      "score": 257,
+      "opponent": "Mumbai Indians",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2024,
+      "date": "2024-04-27",
+      "won": true
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "score": 248,
+      "opponent": "Gujarat Lions",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2016,
+      "date": "2016-05-14",
+      "won": true
+    },
+    {
+      "team": "Chennai Super Kings",
+      "score": 246,
+      "opponent": "Rajasthan Royals",
+      "venue": "MA Chidambaram Stadium",
+      "season": 2010,
+      "date": "2010-04-03",
+      "won": true
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "score": 245,
+      "opponent": "Punjab Kings",
+      "venue": "Holkar Cricket Stadium",
+      "season": 2018,
+      "date": "2018-05-12",
+      "won": true
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 245,
+      "opponent": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2025,
+      "date": "2025-04-12",
+      "won": false
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 243,
+      "opponent": "Gujarat Titans",
+      "venue": "Narendra Modi Stadium",
+      "season": 2025,
+      "date": "2025-03-25",
+      "won": true
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "score": 241,
+      "opponent": "Punjab Kings",
+      "venue": "Himachal Pradesh Cricket Association Stadium",
+      "season": 2024,
+      "date": "2024-05-09",
+      "won": true
+    },
+    {
+      "team": "Chennai Super Kings",
+      "score": 240,
+      "opponent": "Punjab Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "season": 2008,
+      "date": "2008-04-19",
+      "won": true
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "score": 238,
+      "opponent": "Kolkata Knight Riders",
+      "venue": "Eden Gardens",
+      "season": 2025,
+      "date": "2025-04-08",
+      "won": true
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 236,
+      "opponent": "Lucknow Super Giants",
+      "venue": "Himachal Pradesh Cricket Association Stadium",
+      "season": 2025,
+      "date": "2025-05-04",
+      "won": true
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "score": 235,
+      "opponent": "Mumbai Indians",
+      "venue": "Wankhede Stadium",
+      "season": 2015,
+      "date": "2015-05-10",
+      "won": true
+    },
+    {
+      "team": "Mumbai Indians",
+      "score": 235,
+      "opponent": "Sunrisers Hyderabad",
+      "venue": "Zayed Cricket Stadium, Abu Dhabi",
+      "season": 2021,
+      "date": "2021-10-08",
+      "won": true
+    },
+    {
+      "team": "Chennai Super Kings",
+      "score": 235,
+      "opponent": "Kolkata Knight Riders",
+      "venue": "Eden Gardens",
+      "season": 2023,
+      "date": "2023-04-23",
+      "won": true
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "score": 235,
+      "opponent": "Lucknow Super Giants",
+      "venue": "Ekana Cricket Stadium",
+      "season": 2024,
+      "date": "2024-05-05",
+      "won": true
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "score": 235,
+      "opponent": "Gujarat Titans",
+      "venue": "Narendra Modi Stadium",
+      "season": 2025,
+      "date": "2025-05-22",
+      "won": true
+    },
+    {
+      "team": "Mumbai Indians",
+      "score": 234,
+      "opponent": "Delhi Capitals",
+      "venue": "Wankhede Stadium",
+      "season": 2024,
+      "date": "2024-04-07",
+      "won": true
+    },
+    {
+      "team": "Gujarat Titans",
+      "score": 233,
+      "opponent": "Mumbai Indians",
+      "venue": "Narendra Modi Stadium",
+      "season": 2023,
+      "date": "2023-05-26",
+      "won": true
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 232,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "Himachal Pradesh Cricket Association Stadium",
+      "season": 2011,
+      "date": "2011-05-17",
+      "won": true
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "score": 232,
+      "opponent": "Mumbai Indians",
+      "venue": "Eden Gardens",
+      "season": 2019,
+      "date": "2019-04-28",
+      "won": true
+    },
+    {
+      "team": "Delhi Capitals",
+      "score": 231,
+      "opponent": "Punjab Kings",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2011,
+      "date": "2011-04-23",
+      "won": true
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 231,
+      "opponent": "Chennai Super Kings",
+      "venue": "Barabati Stadium",
+      "season": 2014,
+      "date": "2014-05-07",
+      "won": true
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "score": 231,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2019,
+      "date": "2019-03-31",
+      "won": true
+    },
+    {
+      "team": "Gujarat Titans",
+      "score": 231,
+      "opponent": "Chennai Super Kings",
+      "venue": "Narendra Modi Stadium",
+      "season": 2024,
+      "date": "2024-05-10",
+      "won": true
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "score": 231,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "Ekana Cricket Stadium",
+      "season": 2025,
+      "date": "2025-05-23",
+      "won": true
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 230,
+      "opponent": "Mumbai Indians",
+      "venue": "Wankhede Stadium",
+      "season": 2017,
+      "date": "2017-05-11",
+      "won": true
+    },
+    {
+      "team": "Chennai Super Kings",
+      "score": 230,
+      "opponent": "Gujarat Titans",
+      "venue": "Narendra Modi Stadium",
+      "season": 2025,
+      "date": "2025-05-25",
+      "won": true
+    },
+    {
+      "team": "Delhi Capitals",
+      "score": 228,
+      "opponent": "Kolkata Knight Riders",
+      "venue": "Sharjah Cricket Stadium",
+      "season": 2021,
+      "date": "2020-10-03",
+      "won": true
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "score": 228,
+      "opponent": "Kolkata Knight Riders",
+      "venue": "Eden Gardens",
+      "season": 2023,
+      "date": "2023-04-14",
+      "won": true
+    },
+    {
+      "team": "Mumbai Indians",
+      "score": 228,
+      "opponent": "Gujarat Titans",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+      "season": 2025,
+      "date": "2025-05-30",
+      "won": true
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "score": 227,
+      "opponent": "Sunrisers Hyderabad",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2016,
+      "date": "2016-04-12",
+      "won": true
+    },
+    {
+      "team": "Gujarat Titans",
+      "score": 227,
+      "opponent": "Lucknow Super Giants",
+      "venue": "Narendra Modi Stadium",
+      "season": 2023,
+      "date": "2023-05-07",
+      "won": true
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "score": 227,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "Ekana Cricket Stadium",
+      "season": 2025,
+      "date": "2025-05-27",
+      "won": false
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 226,
+      "opponent": "Chennai Super Kings",
+      "venue": "Wankhede Stadium",
+      "season": 2014,
+      "date": "2014-05-30",
+      "won": true
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "score": 226,
+      "opponent": "Punjab Kings",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2015,
+      "date": "2015-05-06",
+      "won": true
+    },
+    {
+      "team": "Chennai Super Kings",
+      "score": 226,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2023,
+      "date": "2023-04-17",
+      "won": true
+    },
+    {
+      "team": "Delhi Capitals",
+      "score": 224,
+      "opponent": "Gujarat Titans",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2024,
+      "date": "2024-04-24",
+      "won": true
+    },
+    {
+      "team": "Gujarat Titans",
+      "score": 224,
+      "opponent": "Sunrisers Hyderabad",
+      "venue": "Narendra Modi Stadium",
+      "season": 2025,
+      "date": "2025-05-02",
+      "won": true
+    },
+    {
+      "team": "Chennai Super Kings",
+      "score": 223,
+      "opponent": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2013,
+      "date": "2013-05-08",
+      "won": true
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 223,
+      "opponent": "Rajasthan Royals",
+      "venue": "Sharjah Cricket Stadium",
+      "season": 2021,
+      "date": "2020-09-27",
+      "won": false
+    },
+    {
+      "team": "Chennai Super Kings",
+      "score": 223,
+      "opponent": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2023,
+      "date": "2023-05-20",
+      "won": true
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "score": 223,
+      "opponent": "Rajasthan Royals",
+      "venue": "Eden Gardens",
+      "season": 2024,
+      "date": "2024-04-16",
+      "won": false
+    }
+  ],
+  "lowest_totals": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "score": 62,
+      "opponent": "Rajasthan Royals",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2019,
+      "date": "2019-04-30"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "score": 67,
+      "opponent": "Mumbai Indians",
+      "venue": "Wankhede Stadium",
+      "season": 2008,
+      "date": "2008-05-16"
+    },
+    {
+      "team": "Delhi Capitals",
+      "score": 67,
+      "opponent": "Punjab Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "season": 2017,
+      "date": "2017-04-30"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "score": 68,
+      "opponent": "Sunrisers Hyderabad",
+      "venue": "Brabourne Stadium",
+      "season": 2022,
+      "date": "2022-04-23"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "score": 70,
+      "opponent": "Rajasthan Royals",
+      "venue": "Sheikh Zayed Stadium",
+      "season": 2014,
+      "date": "2014-04-26"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "score": 70,
+      "opponent": "Chennai Super Kings",
+      "venue": "MA Chidambaram Stadium",
+      "season": 2019,
+      "date": "2019-03-23"
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 73,
+      "opponent": "Rising Pune Supergiants",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "season": 2017,
+      "date": "2017-05-14"
+    },
+    {
+      "team": "Delhi Capitals",
+      "score": 80,
+      "opponent": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2013,
+      "date": "2013-05-04"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "score": 81,
+      "opponent": "Kolkata Knight Riders",
+      "venue": "Eden Gardens",
+      "season": 2011,
+      "date": "2011-04-17"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "score": 82,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "Dr DY Patil Sports Academy",
+      "season": 2010,
+      "date": "2010-04-24"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "score": 84,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "Sheikh Zayed Stadium",
+      "season": 2021,
+      "date": "2020-10-21"
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 88,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "Holkar Cricket Stadium",
+      "season": 2018,
+      "date": "2018-05-14"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "score": 89,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2011,
+      "date": "2011-05-14"
+    },
+    {
+      "team": "Gujarat Titans",
+      "score": 89,
+      "opponent": "Delhi Capitals",
+      "venue": "Narendra Modi Stadium",
+      "season": 2024,
+      "date": "2024-04-17"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "score": 90,
+      "opponent": "Mumbai Indians",
+      "venue": "Sharjah Cricket Stadium",
+      "season": 2021,
+      "date": "2021-10-05"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "score": 92,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2010,
+      "date": "2010-03-18"
+    },
+    {
+      "team": "Mumbai Indians",
+      "score": 92,
+      "opponent": "Delhi Capitals",
+      "venue": "Wankhede Stadium",
+      "season": 2012,
+      "date": "2012-04-16"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "score": 92,
+      "opponent": "Kolkata Knight Riders",
+      "venue": "Zayed Cricket Stadium, Abu Dhabi",
+      "season": 2021,
+      "date": "2021-09-20"
+    },
+    {
+      "team": "Mumbai Indians",
+      "score": 94,
+      "opponent": "Rajasthan Royals",
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2011,
+      "date": "2011-04-29"
+    },
+    {
+      "team": "Delhi Capitals",
+      "score": 95,
+      "opponent": "Mumbai Indians",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2011,
+      "date": "2011-04-10"
+    },
+    {
+      "team": "Delhi Capitals",
+      "score": 95,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2015,
+      "date": "2015-04-26"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "score": 95,
+      "opponent": "Punjab Kings",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2025,
+      "date": "2025-04-18"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "score": 97,
+      "opponent": "Kochi Tuskers Kerala",
+      "venue": "Holkar Cricket Stadium",
+      "season": 2011,
+      "date": "2011-05-15"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "score": 97,
+      "opponent": "Delhi Capitals",
+      "venue": "Eden Gardens",
+      "season": 2012,
+      "date": "2012-04-05"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "score": 97,
+      "opponent": "Mumbai Indians",
+      "venue": "Wankhede Stadium",
+      "season": 2022,
+      "date": "2022-05-12"
+    },
+    {
+      "team": "Delhi Capitals",
+      "score": 98,
+      "opponent": "Kolkata Knight Riders",
+      "venue": "Eden Gardens",
+      "season": 2016,
+      "date": "2016-04-10"
+    },
+    {
+      "team": "Pune Warriors India",
+      "score": 99,
+      "opponent": "Punjab Kings",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "season": 2013,
+      "date": "2013-04-07"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "score": 100,
+      "opponent": "Mumbai Indians",
+      "venue": "Wankhede Stadium",
+      "season": 2012,
+      "date": "2012-04-29"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "score": 101,
+      "opponent": "Sunrisers Hyderabad",
+      "venue": "Newlands",
+      "season": 2009,
+      "date": "2009-04-19"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "score": 101,
+      "opponent": "Kolkata Knight Riders",
+      "venue": "Kingsmead",
+      "season": 2009,
+      "date": "2009-05-20"
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 101,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+      "season": 2025,
+      "date": "2025-05-29"
+    },
+    {
+      "team": "Rajasthan Royals",
+      "score": 103,
+      "opponent": "Mumbai Indians",
+      "venue": "Dr DY Patil Sports Academy",
+      "season": 2008,
+      "date": "2008-05-07"
+    },
+    {
+      "team": "Rising Pune Supergiants",
+      "score": 103,
+      "opponent": "Kolkata Knight Riders",
+      "venue": "Eden Gardens",
+      "season": 2016,
+      "date": "2016-05-14"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "score": 103,
+      "opponent": "Kolkata Knight Riders",
+      "venue": "MA Chidambaram Stadium",
+      "season": 2025,
+      "date": "2025-04-11"
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 104,
+      "opponent": "Delhi Capitals",
+      "venue": "Newlands",
+      "season": 2009,
+      "date": "2009-04-19"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "score": 105,
+      "opponent": "Rajasthan Royals",
+      "venue": "SuperSport Park",
+      "season": 2009,
+      "date": "2009-05-07"
+    },
+    {
+      "team": "Royal Challengers Bengaluru",
+      "score": 106,
+      "opponent": "Chennai Super Kings",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2013,
+      "date": "2013-05-18"
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 106,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "season": 2015,
+      "date": "2015-05-13"
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 106,
+      "opponent": "Chennai Super Kings",
+      "venue": "Wankhede Stadium",
+      "season": 2021,
+      "date": "2021-04-16"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "score": 107,
+      "opponent": "Mumbai Indians",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2017,
+      "date": "2017-05-19"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "score": 108,
+      "opponent": "Chennai Super Kings",
+      "venue": "MA Chidambaram Stadium",
+      "season": 2019,
+      "date": "2019-04-09"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "score": 109,
+      "opponent": "Rajasthan Royals",
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2008,
+      "date": "2008-05-04"
+    },
+    {
+      "team": "Kochi Tuskers Kerala",
+      "score": 109,
+      "opponent": "Rajasthan Royals",
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2011,
+      "date": "2011-04-24"
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "score": 110,
+      "opponent": "Kolkata Knight Riders",
+      "venue": "Eden Gardens",
+      "season": 2008,
+      "date": "2008-04-20"
+    },
+    {
+      "team": "Chennai Super Kings",
+      "score": 110,
+      "opponent": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2012,
+      "date": "2012-04-10"
+    },
+    {
+      "team": "Delhi Capitals",
+      "score": 110,
+      "opponent": "Mumbai Indians",
+      "venue": "Dubai International Cricket Stadium",
+      "season": 2021,
+      "date": "2020-10-31"
+    },
+    {
+      "team": "Delhi Capitals",
+      "score": 111,
+      "opponent": "Punjab Kings",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2010,
+      "date": "2010-04-11"
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "score": 111,
+      "opponent": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2015,
+      "date": "2015-05-02"
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 111,
+      "opponent": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2016,
+      "date": "2016-04-15"
+    },
+    {
+      "team": "Punjab Kings",
+      "score": 111,
+      "opponent": "Kolkata Knight Riders",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+      "season": 2025,
+      "date": "2025-04-15"
+    }
+  ],
+  "highest_aggregates": [
+    {
+      "total": 549,
+      "team1": "Sunrisers Hyderabad",
+      "score1": 287,
+      "team2": "Royal Challengers Bengaluru",
+      "score2": 262,
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2024,
+      "date": "2024-04-15"
+    },
+    {
+      "total": 528,
+      "team1": "Sunrisers Hyderabad",
+      "score1": 286,
+      "team2": "Rajasthan Royals",
+      "score2": 242,
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2025,
+      "date": "2025-03-23"
+    },
+    {
+      "total": 523,
+      "team1": "Sunrisers Hyderabad",
+      "score1": 277,
+      "team2": "Mumbai Indians",
+      "score2": 246,
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2024,
+      "date": "2024-03-27"
+    },
+    {
+      "total": 523,
+      "team1": "Kolkata Knight Riders",
+      "score1": 261,
+      "team2": "Punjab Kings",
+      "score2": 262,
+      "venue": "Eden Gardens",
+      "season": 2024,
+      "date": "2024-04-26"
+    },
+    {
+      "total": 504,
+      "team1": "Delhi Capitals",
+      "score1": 257,
+      "team2": "Mumbai Indians",
+      "score2": 247,
+      "venue": "Arun Jaitley Stadium",
+      "season": 2024,
+      "date": "2024-04-27"
+    },
+    {
+      "total": 492,
+      "team1": "Punjab Kings",
+      "score1": 245,
+      "team2": "Sunrisers Hyderabad",
+      "score2": 247,
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2025,
+      "date": "2025-04-12"
+    },
+    {
+      "total": 475,
+      "team1": "Punjab Kings",
+      "score1": 243,
+      "team2": "Gujarat Titans",
+      "score2": 232,
+      "venue": "Narendra Modi Stadium",
+      "season": 2025,
+      "date": "2025-03-25"
+    },
+    {
+      "total": 472,
+      "team1": "Lucknow Super Giants",
+      "score1": 238,
+      "team2": "Kolkata Knight Riders",
+      "score2": 234,
+      "venue": "Eden Gardens",
+      "season": 2025,
+      "date": "2025-04-08"
+    },
+    {
+      "total": 469,
+      "team1": "Chennai Super Kings",
+      "score1": 246,
+      "team2": "Rajasthan Royals",
+      "score2": 223,
+      "venue": "MA Chidambaram Stadium",
+      "season": 2010,
+      "date": "2010-04-03"
+    },
+    {
+      "total": 465,
+      "team1": "Sunrisers Hyderabad",
+      "score1": 266,
+      "team2": "Delhi Capitals",
+      "score2": 199,
+      "venue": "Arun Jaitley Stadium",
+      "season": 2024,
+      "date": "2024-04-20"
+    },
+    {
+      "total": 459,
+      "team1": "Kolkata Knight Riders",
+      "score1": 245,
+      "team2": "Punjab Kings",
+      "score2": 214,
+      "venue": "Holkar Cricket Stadium",
+      "season": 2018,
+      "date": "2018-05-12"
+    },
+    {
+      "total": 458,
+      "team1": "Lucknow Super Giants",
+      "score1": 257,
+      "team2": "Punjab Kings",
+      "score2": 201,
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "season": 2023,
+      "date": "2023-04-28"
+    },
+    {
+      "total": 457,
+      "team1": "Lucknow Super Giants",
+      "score1": 227,
+      "team2": "Royal Challengers Bengaluru",
+      "score2": 230,
+      "venue": "Ekana Cricket Stadium",
+      "season": 2025,
+      "date": "2025-05-27"
+    },
+    {
+      "total": 453,
+      "team1": "Punjab Kings",
+      "score1": 230,
+      "team2": "Mumbai Indians",
+      "score2": 223,
+      "venue": "Wankhede Stadium",
+      "season": 2017,
+      "date": "2017-05-11"
+    },
+    {
+      "total": 449,
+      "team1": "Punjab Kings",
+      "score1": 223,
+      "team2": "Rajasthan Royals",
+      "score2": 226,
+      "venue": "Sharjah Cricket Stadium",
+      "season": 2021,
+      "date": "2020-09-27"
+    },
+    {
+      "total": 447,
+      "team1": "Chennai Super Kings",
+      "score1": 240,
+      "team2": "Punjab Kings",
+      "score2": 207,
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "season": 2008,
+      "date": "2008-04-19"
+    },
+    {
+      "total": 447,
+      "team1": "Kolkata Knight Riders",
+      "score1": 223,
+      "team2": "Rajasthan Royals",
+      "score2": 224,
+      "venue": "Eden Gardens",
+      "season": 2024,
+      "date": "2024-04-16"
+    },
+    {
+      "total": 446,
+      "team1": "Sunrisers Hyderabad",
+      "score1": 278,
+      "team2": "Kolkata Knight Riders",
+      "score2": 168,
+      "venue": "Arun Jaitley Stadium",
+      "season": 2025,
+      "date": "2025-05-25"
+    },
+    {
+      "total": 444,
+      "team1": "Chennai Super Kings",
+      "score1": 226,
+      "team2": "Royal Challengers Bengaluru",
+      "score2": 218,
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2023,
+      "date": "2023-04-17"
+    },
+    {
+      "total": 444,
+      "team1": "Delhi Capitals",
+      "score1": 224,
+      "team2": "Gujarat Titans",
+      "score2": 220,
+      "venue": "Arun Jaitley Stadium",
+      "season": 2024,
+      "date": "2024-04-24"
+    },
+    {
+      "total": 443,
+      "team1": "Kolkata Knight Riders",
+      "score1": 222,
+      "team2": "Royal Challengers Bengaluru",
+      "score2": 221,
+      "venue": "Eden Gardens",
+      "season": 2024,
+      "date": "2024-04-21"
+    },
+    {
+      "total": 439,
+      "team1": "Mumbai Indians",
+      "score1": 234,
+      "team2": "Delhi Capitals",
+      "score2": 205,
+      "venue": "Wankhede Stadium",
+      "season": 2024,
+      "date": "2024-04-07"
+    },
+    {
+      "total": 438,
+      "team1": "Delhi Capitals",
+      "score1": 228,
+      "team2": "Kolkata Knight Riders",
+      "score2": 210,
+      "venue": "Sharjah Cricket Stadium",
+      "season": 2021,
+      "date": "2020-10-03"
+    },
+    {
+      "total": 438,
+      "team1": "Punjab Kings",
+      "score1": 221,
+      "team2": "Rajasthan Royals",
+      "score2": 217,
+      "venue": "Wankhede Stadium",
+      "season": 2021,
+      "date": "2021-04-12"
+    },
+    {
+      "total": 438,
+      "team1": "Kolkata Knight Riders",
+      "score1": 272,
+      "team2": "Delhi Capitals",
+      "score2": 166,
+      "venue": "ACA-VDCA Stadium",
+      "season": 2024,
+      "date": "2024-04-03"
+    },
+    {
+      "total": 437,
+      "team1": "Chennai Super Kings",
+      "score1": 218,
+      "team2": "Mumbai Indians",
+      "score2": 219,
+      "venue": "Arun Jaitley Stadium",
+      "season": 2021,
+      "date": "2021-05-01"
+    },
+    {
+      "total": 437,
+      "team1": "Lucknow Super Giants",
+      "score1": 235,
+      "team2": "Gujarat Titans",
+      "score2": 202,
+      "venue": "Narendra Modi Stadium",
+      "season": 2025,
+      "date": "2025-05-22"
+    },
+    {
+      "total": 436,
+      "team1": "Mumbai Indians",
+      "score1": 228,
+      "team2": "Gujarat Titans",
+      "score2": 208,
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+      "season": 2025,
+      "date": "2025-05-30"
+    },
+    {
+      "total": 435,
+      "team1": "Punjab Kings",
+      "score1": 236,
+      "team2": "Lucknow Super Giants",
+      "score2": 199,
+      "venue": "Himachal Pradesh Cricket Association Stadium",
+      "season": 2025,
+      "date": "2025-05-04"
+    },
+    {
+      "total": 433,
+      "team1": "Delhi Capitals",
+      "score1": 231,
+      "team2": "Punjab Kings",
+      "score2": 202,
+      "venue": "Arun Jaitley Stadium",
+      "season": 2011,
+      "date": "2011-04-23"
+    },
+    {
+      "total": 433,
+      "team1": "Sunrisers Hyderabad",
+      "score1": 228,
+      "team2": "Kolkata Knight Riders",
+      "score2": 205,
+      "venue": "Eden Gardens",
+      "season": 2023,
+      "date": "2023-04-14"
+    },
+    {
+      "total": 431,
+      "team1": "Sunrisers Hyderabad",
+      "score1": 214,
+      "team2": "Rajasthan Royals",
+      "score2": 217,
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2008,
+      "date": "2008-04-24"
+    },
+    {
+      "total": 431,
+      "team1": "Royal Challengers Bengaluru",
+      "score1": 235,
+      "team2": "Mumbai Indians",
+      "score2": 196,
+      "venue": "Wankhede Stadium",
+      "season": 2015,
+      "date": "2015-05-10"
+    },
+    {
+      "total": 431,
+      "team1": "Rajasthan Royals",
+      "score1": 214,
+      "team2": "Sunrisers Hyderabad",
+      "score2": 217,
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2023,
+      "date": "2023-05-07"
+    },
+    {
+      "total": 430,
+      "team1": "Kolkata Knight Riders",
+      "score1": 232,
+      "team2": "Mumbai Indians",
+      "score2": 198,
+      "venue": "Eden Gardens",
+      "season": 2019,
+      "date": "2019-04-28"
+    },
+    {
+      "total": 430,
+      "team1": "Punjab Kings",
+      "score1": 214,
+      "team2": "Mumbai Indians",
+      "score2": 216,
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "season": 2023,
+      "date": "2023-05-03"
+    },
+    {
+      "total": 430,
+      "team1": "Royal Challengers Bengaluru",
+      "score1": 221,
+      "team2": "Mumbai Indians",
+      "score2": 209,
+      "venue": "Wankhede Stadium",
+      "season": 2025,
+      "date": "2025-04-07"
+    },
+    {
+      "total": 429,
+      "team1": "Rajasthan Royals",
+      "score1": 222,
+      "team2": "Delhi Capitals",
+      "score2": 207,
+      "venue": "Wankhede Stadium",
+      "season": 2022,
+      "date": "2022-04-22"
+    },
+    {
+      "total": 429,
+      "team1": "Punjab Kings",
+      "score1": 214,
+      "team2": "Sunrisers Hyderabad",
+      "score2": 215,
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2024,
+      "date": "2024-05-19"
+    },
+    {
+      "total": 428,
+      "team1": "Punjab Kings",
+      "score1": 226,
+      "team2": "Chennai Super Kings",
+      "score2": 202,
+      "venue": "Wankhede Stadium",
+      "season": 2014,
+      "date": "2014-05-30"
+    },
+    {
+      "total": 428,
+      "team1": "Mumbai Indians",
+      "score1": 235,
+      "team2": "Sunrisers Hyderabad",
+      "score2": 193,
+      "venue": "Zayed Cricket Stadium, Abu Dhabi",
+      "season": 2021,
+      "date": "2021-10-08"
+    },
+    {
+      "total": 428,
+      "team1": "Punjab Kings",
+      "score1": 219,
+      "team2": "Rajasthan Royals",
+      "score2": 209,
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2025,
+      "date": "2025-05-18"
+    },
+    {
+      "total": 427,
+      "team1": "Rajasthan Royals",
+      "score1": 217,
+      "team2": "Kolkata Knight Riders",
+      "score2": 210,
+      "venue": "Brabourne Stadium",
+      "season": 2022,
+      "date": "2022-04-18"
+    },
+    {
+      "total": 427,
+      "team1": "Gujarat Titans",
+      "score1": 231,
+      "team2": "Chennai Super Kings",
+      "score2": 196,
+      "venue": "Narendra Modi Stadium",
+      "season": 2024,
+      "date": "2024-05-10"
+    },
+    {
+      "total": 426,
+      "team1": "Rajasthan Royals",
+      "score1": 212,
+      "team2": "Mumbai Indians",
+      "score2": 214,
+      "venue": "Wankhede Stadium",
+      "season": 2023,
+      "date": "2023-04-30"
+    },
+    {
+      "total": 425,
+      "team1": "Royal Challengers Bengaluru",
+      "score1": 212,
+      "team2": "Lucknow Super Giants",
+      "score2": 213,
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2023,
+      "date": "2023-04-10"
+    },
+    {
+      "total": 424,
+      "team1": "Royal Challengers Bengaluru",
+      "score1": 213,
+      "team2": "Chennai Super Kings",
+      "score2": 211,
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2025,
+      "date": "2025-05-03"
+    },
+    {
+      "total": 423,
+      "team1": "Chennai Super Kings",
+      "score1": 210,
+      "team2": "Lucknow Super Giants",
+      "score2": 213,
+      "venue": "MA Chidambaram Stadium",
+      "season": 2024,
+      "date": "2024-04-23"
+    },
+    {
+      "total": 422,
+      "team1": "Gujarat Lions",
+      "score1": 208,
+      "team2": "Delhi Capitals",
+      "score2": 214,
+      "venue": "Arun Jaitley Stadium",
+      "season": 2017,
+      "date": "2017-05-04"
+    },
+    {
+      "total": 422,
+      "team1": "Royal Challengers Bengaluru",
+      "score1": 218,
+      "team2": "Sunrisers Hyderabad",
+      "score2": 204,
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2018,
+      "date": "2018-05-17"
+    }
+  ],
+  "highest_chases": [
+    {
+      "target": 261,
+      "chasing_team": "Punjab Kings",
+      "bowling_team": "Kolkata Knight Riders",
+      "wickets_left": 8,
+      "venue": "Eden Gardens",
+      "season": 2024,
+      "date": "2024-04-26"
+    },
+    {
+      "target": 245,
+      "chasing_team": "Sunrisers Hyderabad",
+      "bowling_team": "Punjab Kings",
+      "wickets_left": 8,
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2025,
+      "date": "2025-04-12"
+    },
+    {
+      "target": 227,
+      "chasing_team": "Royal Challengers Bengaluru",
+      "bowling_team": "Lucknow Super Giants",
+      "wickets_left": 6,
+      "venue": "Ekana Cricket Stadium",
+      "season": 2025,
+      "date": "2025-05-27"
+    },
+    {
+      "target": 223,
+      "chasing_team": "Rajasthan Royals",
+      "bowling_team": "Punjab Kings",
+      "wickets_left": 4,
+      "venue": "Sharjah Cricket Stadium",
+      "season": 2021,
+      "date": "2020-09-27"
+    },
+    {
+      "target": 223,
+      "chasing_team": "Rajasthan Royals",
+      "bowling_team": "Kolkata Knight Riders",
+      "wickets_left": 2,
+      "venue": "Eden Gardens",
+      "season": 2024,
+      "date": "2024-04-16"
+    },
+    {
+      "target": 218,
+      "chasing_team": "Mumbai Indians",
+      "bowling_team": "Chennai Super Kings",
+      "wickets_left": 4,
+      "venue": "Arun Jaitley Stadium",
+      "season": 2021,
+      "date": "2021-05-01"
+    },
+    {
+      "target": 214,
+      "chasing_team": "Rajasthan Royals",
+      "bowling_team": "Sunrisers Hyderabad",
+      "wickets_left": 3,
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2008,
+      "date": "2008-04-24"
+    },
+    {
+      "target": 214,
+      "chasing_team": "Mumbai Indians",
+      "bowling_team": "Punjab Kings",
+      "wickets_left": 6,
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "season": 2023,
+      "date": "2023-05-03"
+    },
+    {
+      "target": 214,
+      "chasing_team": "Sunrisers Hyderabad",
+      "bowling_team": "Rajasthan Royals",
+      "wickets_left": 4,
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2023,
+      "date": "2023-05-07"
+    },
+    {
+      "target": 214,
+      "chasing_team": "Chennai Super Kings",
+      "bowling_team": "Gujarat Titans",
+      "wickets_left": 5,
+      "venue": "Narendra Modi Stadium",
+      "season": 2023,
+      "date": "2023-05-29"
+    },
+    {
+      "target": 214,
+      "chasing_team": "Sunrisers Hyderabad",
+      "bowling_team": "Punjab Kings",
+      "wickets_left": 4,
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2024,
+      "date": "2024-05-19"
+    },
+    {
+      "target": 212,
+      "chasing_team": "Lucknow Super Giants",
+      "bowling_team": "Royal Challengers Bengaluru",
+      "wickets_left": 1,
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2023,
+      "date": "2023-04-10"
+    },
+    {
+      "target": 212,
+      "chasing_team": "Mumbai Indians",
+      "bowling_team": "Rajasthan Royals",
+      "wickets_left": 6,
+      "venue": "Wankhede Stadium",
+      "season": 2023,
+      "date": "2023-04-30"
+    },
+    {
+      "target": 210,
+      "chasing_team": "Lucknow Super Giants",
+      "bowling_team": "Chennai Super Kings",
+      "wickets_left": 6,
+      "venue": "Brabourne Stadium",
+      "season": 2022,
+      "date": "2022-03-31"
+    },
+    {
+      "target": 210,
+      "chasing_team": "Lucknow Super Giants",
+      "bowling_team": "Chennai Super Kings",
+      "wickets_left": 6,
+      "venue": "MA Chidambaram Stadium",
+      "season": 2024,
+      "date": "2024-04-23"
+    },
+    {
+      "target": 209,
+      "chasing_team": "Delhi Capitals",
+      "bowling_team": "Lucknow Super Giants",
+      "wickets_left": 1,
+      "venue": "ACA-VDCA Stadium",
+      "season": 2025,
+      "date": "2025-03-24"
+    },
+    {
+      "target": 209,
+      "chasing_team": "Rajasthan Royals",
+      "bowling_team": "Gujarat Titans",
+      "wickets_left": 8,
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2025,
+      "date": "2025-04-28"
+    },
+    {
+      "target": 208,
+      "chasing_team": "Delhi Capitals",
+      "bowling_team": "Gujarat Lions",
+      "wickets_left": 7,
+      "venue": "Arun Jaitley Stadium",
+      "season": 2017,
+      "date": "2017-05-04"
+    },
+    {
+      "target": 206,
+      "chasing_team": "Delhi Capitals",
+      "bowling_team": "Punjab Kings",
+      "wickets_left": 6,
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2025,
+      "date": "2025-05-24"
+    },
+    {
+      "target": 205,
+      "chasing_team": "Chennai Super Kings",
+      "bowling_team": "Royal Challengers Bengaluru",
+      "wickets_left": 5,
+      "venue": "MA Chidambaram Stadium",
+      "season": 2012,
+      "date": "2012-04-12"
+    },
+    {
+      "target": 205,
+      "chasing_team": "Punjab Kings",
+      "bowling_team": "Chennai Super Kings",
+      "wickets_left": 6,
+      "venue": "Sheikh Zayed Stadium",
+      "season": 2014,
+      "date": "2014-04-18"
+    },
+    {
+      "target": 205,
+      "chasing_team": "Punjab Kings",
+      "bowling_team": "Sunrisers Hyderabad",
+      "wickets_left": 6,
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2014,
+      "date": "2014-05-14"
+    },
+    {
+      "target": 205,
+      "chasing_team": "Chennai Super Kings",
+      "bowling_team": "Royal Challengers Bengaluru",
+      "wickets_left": 5,
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2018,
+      "date": "2018-04-25"
+    },
+    {
+      "target": 205,
+      "chasing_team": "Kolkata Knight Riders",
+      "bowling_team": "Royal Challengers Bengaluru",
+      "wickets_left": 5,
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2019,
+      "date": "2019-04-05"
+    },
+    {
+      "target": 205,
+      "chasing_team": "Punjab Kings",
+      "bowling_team": "Royal Challengers Bengaluru",
+      "wickets_left": 5,
+      "venue": "Dr DY Patil Sports Academy",
+      "season": 2022,
+      "date": "2022-03-27"
+    },
+    {
+      "target": 205,
+      "chasing_team": "Sunrisers Hyderabad",
+      "bowling_team": "Lucknow Super Giants",
+      "wickets_left": 6,
+      "venue": "Ekana Cricket Stadium",
+      "season": 2025,
+      "date": "2025-05-19"
+    },
+    {
+      "target": 204,
+      "chasing_team": "Kolkata Knight Riders",
+      "bowling_team": "Gujarat Titans",
+      "wickets_left": 3,
+      "venue": "Narendra Modi Stadium",
+      "season": 2023,
+      "date": "2023-04-09"
+    },
+    {
+      "target": 203,
+      "chasing_team": "Royal Challengers Bengaluru",
+      "bowling_team": "Punjab Kings",
+      "wickets_left": 8,
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2010,
+      "date": "2010-03-16"
+    },
+    {
+      "target": 203,
+      "chasing_team": "Gujarat Titans",
+      "bowling_team": "Delhi Capitals",
+      "wickets_left": 7,
+      "venue": "Narendra Modi Stadium",
+      "season": 2025,
+      "date": "2025-04-19"
+    },
+    {
+      "target": 203,
+      "chasing_team": "Punjab Kings",
+      "bowling_team": "Mumbai Indians",
+      "wickets_left": 5,
+      "venue": "Narendra Modi Stadium",
+      "season": 2025,
+      "date": "2025-06-01"
+    },
+    {
+      "target": 202,
+      "chasing_team": "Chennai Super Kings",
+      "bowling_team": "Kolkata Knight Riders",
+      "wickets_left": 5,
+      "venue": "MA Chidambaram Stadium",
+      "season": 2018,
+      "date": "2018-04-10"
+    },
+    {
+      "target": 200,
+      "chasing_team": "Punjab Kings",
+      "bowling_team": "Kolkata Knight Riders",
+      "wickets_left": 8,
+      "venue": "Eden Gardens",
+      "season": 2010,
+      "date": "2010-04-04"
+    },
+    {
+      "target": 200,
+      "chasing_team": "Punjab Kings",
+      "bowling_team": "Chennai Super Kings",
+      "wickets_left": 4,
+      "venue": "MA Chidambaram Stadium",
+      "season": 2023,
+      "date": "2023-04-30"
+    },
+    {
+      "target": 200,
+      "chasing_team": "Mumbai Indians",
+      "bowling_team": "Sunrisers Hyderabad",
+      "wickets_left": 8,
+      "venue": "Wankhede Stadium",
+      "season": 2023,
+      "date": "2023-05-21"
+    },
+    {
+      "target": 200,
+      "chasing_team": "Royal Challengers Bengaluru",
+      "bowling_team": "Gujarat Titans",
+      "wickets_left": 9,
+      "venue": "Narendra Modi Stadium",
+      "season": 2024,
+      "date": "2024-04-28"
+    },
+    {
+      "target": 199,
+      "chasing_team": "Kolkata Knight Riders",
+      "bowling_team": "Punjab Kings",
+      "wickets_left": 3,
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2014,
+      "date": "2014-06-01"
+    },
+    {
+      "target": 199,
+      "chasing_team": "Mumbai Indians",
+      "bowling_team": "Royal Challengers Bengaluru",
+      "wickets_left": 6,
+      "venue": "Wankhede Stadium",
+      "season": 2023,
+      "date": "2023-05-09"
+    },
+    {
+      "target": 199,
+      "chasing_team": "Punjab Kings",
+      "bowling_team": "Gujarat Titans",
+      "wickets_left": 3,
+      "venue": "Narendra Modi Stadium",
+      "season": 2024,
+      "date": "2024-04-04"
+    },
+    {
+      "target": 199,
+      "chasing_team": "Gujarat Titans",
+      "bowling_team": "Delhi Capitals",
+      "wickets_left": 10,
+      "venue": "Arun Jaitley Stadium",
+      "season": 2025,
+      "date": "2025-05-18"
+    },
+    {
+      "target": 198,
+      "chasing_team": "Mumbai Indians",
+      "bowling_team": "Punjab Kings",
+      "wickets_left": 8,
+      "venue": "Holkar Cricket Stadium",
+      "season": 2017,
+      "date": "2017-04-20"
+    },
+    {
+      "target": 198,
+      "chasing_team": "Sunrisers Hyderabad",
+      "bowling_team": "Rajasthan Royals",
+      "wickets_left": 5,
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2019,
+      "date": "2019-03-29"
+    },
+    {
+      "target": 197,
+      "chasing_team": "Mumbai Indians",
+      "bowling_team": "Punjab Kings",
+      "wickets_left": 3,
+      "venue": "Wankhede Stadium",
+      "season": 2019,
+      "date": "2019-04-10"
+    },
+    {
+      "target": 197,
+      "chasing_team": "Gujarat Titans",
+      "bowling_team": "Royal Challengers Bengaluru",
+      "wickets_left": 6,
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2023,
+      "date": "2023-05-21"
+    },
+    {
+      "target": 196,
+      "chasing_team": "Rajasthan Royals",
+      "bowling_team": "Sunrisers Hyderabad",
+      "wickets_left": 5,
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2012,
+      "date": "2012-04-17"
+    },
+    {
+      "target": 196,
+      "chasing_team": "Gujarat Titans",
+      "bowling_team": "Rajasthan Royals",
+      "wickets_left": 3,
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2024,
+      "date": "2024-04-10"
+    },
+    {
+      "target": 196,
+      "chasing_team": "Mumbai Indians",
+      "bowling_team": "Royal Challengers Bengaluru",
+      "wickets_left": 7,
+      "venue": "Wankhede Stadium",
+      "season": 2024,
+      "date": "2024-04-11"
+    },
+    {
+      "target": 196,
+      "chasing_team": "Rajasthan Royals",
+      "bowling_team": "Lucknow Super Giants",
+      "wickets_left": 7,
+      "venue": "Ekana Cricket Stadium",
+      "season": 2024,
+      "date": "2024-04-27"
+    },
+    {
+      "target": 195,
+      "chasing_team": "Gujarat Lions",
+      "bowling_team": "Rising Pune Supergiants",
+      "wickets_left": 3,
+      "venue": "Maharashtra Cricket Association Stadium",
+      "season": 2016,
+      "date": "2016-04-29"
+    },
+    {
+      "target": 195,
+      "chasing_team": "Delhi Capitals",
+      "bowling_team": "Gujarat Lions",
+      "wickets_left": 2,
+      "venue": "Green Park",
+      "season": 2017,
+      "date": "2017-05-10"
+    },
+    {
+      "target": 195,
+      "chasing_team": "Rajasthan Royals",
+      "bowling_team": "Mumbai Indians",
+      "wickets_left": 8,
+      "venue": "Sheikh Zayed Stadium",
+      "season": 2021,
+      "date": "2020-10-25"
+    }
+  ]
+}

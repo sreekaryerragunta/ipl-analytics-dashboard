@@ -1,0 +1,298 @@
+[
+  {
+    "venue": "M Chinnaswamy Stadium",
+    "matches": 98,
+    "avg_first_innings": 172.7,
+    "avg_second_innings": 155.59,
+    "highest_total": 287,
+    "lowest_total": 62
+  },
+  {
+    "venue": "Punjab Cricket Association IS Bindra Stadium",
+    "matches": 61,
+    "avg_first_innings": 168.28,
+    "avg_second_innings": 157.36,
+    "highest_total": 257,
+    "lowest_total": 67
+  },
+  {
+    "venue": "Arun Jaitley Stadium",
+    "matches": 96,
+    "avg_first_innings": 172.98,
+    "avg_second_innings": 157.25,
+    "highest_total": 278,
+    "lowest_total": 95
+  },
+  {
+    "venue": "Wankhede Stadium",
+    "matches": 125,
+    "avg_first_innings": 170.52,
+    "avg_second_innings": 159.91,
+    "highest_total": 235,
+    "lowest_total": 67
+  },
+  {
+    "venue": "Eden Gardens",
+    "matches": 100,
+    "avg_first_innings": 168.6,
+    "avg_second_innings": 153.64,
+    "highest_total": 261,
+    "lowest_total": 81
+  },
+  {
+    "venue": "Sawai Mansingh Stadium",
+    "matches": 64,
+    "avg_first_innings": 165.53,
+    "avg_second_innings": 152.58,
+    "highest_total": 219,
+    "lowest_total": 94
+  },
+  {
+    "venue": "Rajiv Gandhi International Stadium",
+    "matches": 82,
+    "avg_first_innings": 165.3,
+    "avg_second_innings": 154.5,
+    "highest_total": 286,
+    "lowest_total": 80
+  },
+  {
+    "venue": "MA Chidambaram Stadium",
+    "matches": 91,
+    "avg_first_innings": 163.87,
+    "avg_second_innings": 150.1,
+    "highest_total": 246,
+    "lowest_total": 70
+  },
+  {
+    "venue": "Dr DY Patil Sports Academy",
+    "matches": 37,
+    "avg_first_innings": 159.65,
+    "avg_second_innings": 148.0,
+    "highest_total": 216,
+    "lowest_total": 82
+  },
+  {
+    "venue": "Newlands",
+    "matches": 7,
+    "avg_first_innings": 139.43,
+    "avg_second_innings": 112.57,
+    "highest_total": 184,
+    "lowest_total": 101
+  },
+  {
+    "venue": "St George's Park",
+    "matches": 7,
+    "avg_first_innings": 159.0,
+    "avg_second_innings": 131.43,
+    "highest_total": 187,
+    "lowest_total": 141
+  },
+  {
+    "venue": "Kingsmead",
+    "matches": 15,
+    "avg_first_innings": 152.0,
+    "avg_second_innings": 138.2,
+    "highest_total": 211,
+    "lowest_total": 101
+  },
+  {
+    "venue": "SuperSport Park",
+    "matches": 12,
+    "avg_first_innings": 154.83,
+    "avg_second_innings": 149.58,
+    "highest_total": 188,
+    "lowest_total": 105
+  },
+  {
+    "venue": "Buffalo Park",
+    "matches": 3,
+    "avg_first_innings": 147.33,
+    "avg_second_innings": 119.0,
+    "highest_total": 178,
+    "lowest_total": 116
+  },
+  {
+    "venue": "New Wanderers Stadium",
+    "matches": 8,
+    "avg_first_innings": 144.0,
+    "avg_second_innings": 142.5,
+    "highest_total": 163,
+    "lowest_total": 123
+  },
+  {
+    "venue": "De Beers Diamond Oval",
+    "matches": 3,
+    "avg_first_innings": 158.0,
+    "avg_second_innings": 141.0,
+    "highest_total": 168,
+    "lowest_total": 140
+  },
+  {
+    "venue": "OUTsurance Oval",
+    "matches": 2,
+    "avg_first_innings": 135.0,
+    "avg_second_innings": 129.5,
+    "highest_total": 150,
+    "lowest_total": 120
+  },
+  {
+    "venue": "Brabourne Stadium",
+    "matches": 27,
+    "avg_first_innings": 178.52,
+    "avg_second_innings": 166.11,
+    "highest_total": 217,
+    "lowest_total": 68
+  },
+  {
+    "venue": "Narendra Modi Stadium",
+    "matches": 45,
+    "avg_first_innings": 180.38,
+    "avg_second_innings": 164.47,
+    "highest_total": 243,
+    "lowest_total": 89
+  },
+  {
+    "venue": "Barabati Stadium",
+    "matches": 7,
+    "avg_first_innings": 167.71,
+    "avg_second_innings": 157.71,
+    "highest_total": 231,
+    "lowest_total": 126
+  },
+  {
+    "venue": "Vidarbha Cricket Association Stadium, Jamtha",
+    "matches": 3,
+    "avg_first_innings": 149.33,
+    "avg_second_innings": 144.67,
+    "highest_total": 159,
+    "lowest_total": 138
+  },
+  {
+    "venue": "Himachal Pradesh Cricket Association Stadium",
+    "matches": 14,
+    "avg_first_innings": 187.5,
+    "avg_second_innings": 158.71,
+    "highest_total": 241,
+    "lowest_total": 120
+  },
+  {
+    "venue": "Nehru Stadium",
+    "matches": 5,
+    "avg_first_innings": 146.8,
+    "avg_second_innings": 125.8,
+    "highest_total": 161,
+    "lowest_total": 129
+  },
+  {
+    "venue": "Holkar Cricket Stadium",
+    "matches": 9,
+    "avg_first_innings": 160.33,
+    "avg_second_innings": 158.78,
+    "highest_total": 245,
+    "lowest_total": 88
+  },
+  {
+    "venue": "ACA-VDCA Stadium",
+    "matches": 17,
+    "avg_first_innings": 169.53,
+    "avg_second_innings": 141.94,
+    "highest_total": 272,
+    "lowest_total": 121
+  },
+  {
+    "venue": "Maharashtra Cricket Association Stadium",
+    "matches": 51,
+    "avg_first_innings": 162.37,
+    "avg_second_innings": 144.35,
+    "highest_total": 211,
+    "lowest_total": 73
+  },
+  {
+    "venue": "Shaheed Veer Narayan Singh International Stadium",
+    "matches": 6,
+    "avg_first_innings": 146.33,
+    "avg_second_innings": 143.83,
+    "highest_total": 164,
+    "lowest_total": 119
+  },
+  {
+    "venue": "JSCA International Stadium Complex",
+    "matches": 7,
+    "avg_first_innings": 149.0,
+    "avg_second_innings": 144.71,
+    "highest_total": 185,
+    "lowest_total": 115
+  },
+  {
+    "venue": "Sheikh Zayed Stadium",
+    "matches": 29,
+    "avg_first_innings": 158.86,
+    "avg_second_innings": 145.62,
+    "highest_total": 205,
+    "lowest_total": 70
+  },
+  {
+    "venue": "Sharjah Cricket Stadium",
+    "matches": 28,
+    "avg_first_innings": 159.04,
+    "avg_second_innings": 147.5,
+    "highest_total": 228,
+    "lowest_total": 90
+  },
+  {
+    "venue": "Dubai International Cricket Stadium",
+    "matches": 46,
+    "avg_first_innings": 163.76,
+    "avg_second_innings": 149.09,
+    "highest_total": 219,
+    "lowest_total": 110
+  },
+  {
+    "venue": "Saurashtra Cricket Association Stadium",
+    "matches": 10,
+    "avg_first_innings": 168.9,
+    "avg_second_innings": 162.7,
+    "highest_total": 213,
+    "lowest_total": 135
+  },
+  {
+    "venue": "Green Park",
+    "matches": 4,
+    "avg_first_innings": 161.25,
+    "avg_second_innings": 163.25,
+    "highest_total": 195,
+    "lowest_total": 124
+  },
+  {
+    "venue": "Zayed Cricket Stadium, Abu Dhabi",
+    "matches": 8,
+    "avg_first_innings": 159.0,
+    "avg_second_innings": 150.38,
+    "highest_total": 235,
+    "lowest_total": 92
+  },
+  {
+    "venue": "Ekana Cricket Stadium",
+    "matches": 21,
+    "avg_first_innings": 177.76,
+    "avg_second_innings": 166.0,
+    "highest_total": 235,
+    "lowest_total": 121
+  },
+  {
+    "venue": "Barsapara Cricket Stadium, Guwahati",
+    "matches": 5,
+    "avg_first_innings": 174.6,
+    "avg_second_innings": 161.6,
+    "highest_total": 199,
+    "lowest_total": 144
+  },
+  {
+    "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+    "matches": 11,
+    "avg_first_innings": 168.91,
+    "avg_second_innings": 160.18,
+    "highest_total": 228,
+    "lowest_total": 101
+  }
+]

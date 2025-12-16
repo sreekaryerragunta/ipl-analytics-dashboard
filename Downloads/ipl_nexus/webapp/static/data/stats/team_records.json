@@ -1,0 +1,1042 @@
+{
+  "team_records": {
+    "Kolkata Knight Riders": {
+      "team": "Kolkata Knight Riders",
+      "matches": 264,
+      "wins": 135,
+      "losses": 128,
+      "win_pct": 51.14
+    },
+    "Royal Challengers Bengaluru": {
+      "team": "Royal Challengers Bengaluru",
+      "matches": 269,
+      "wins": 132,
+      "losses": 135,
+      "win_pct": 49.07
+    },
+    "Rajasthan Royals": {
+      "team": "Rajasthan Royals",
+      "matches": 234,
+      "wins": 114,
+      "losses": 119,
+      "win_pct": 48.72
+    },
+    "Lucknow Super Giants": {
+      "team": "Lucknow Super Giants",
+      "matches": 57,
+      "wins": 30,
+      "losses": 27,
+      "win_pct": 52.63
+    },
+    "Kochi Tuskers Kerala": {
+      "team": "Kochi Tuskers Kerala",
+      "matches": 14,
+      "wins": 6,
+      "losses": 8,
+      "win_pct": 42.86
+    },
+    "Gujarat Titans": {
+      "team": "Gujarat Titans",
+      "matches": 60,
+      "wins": 37,
+      "losses": 23,
+      "win_pct": 61.67
+    },
+    "Sunrisers Hyderabad": {
+      "team": "Sunrisers Hyderabad",
+      "matches": 270,
+      "wins": 122,
+      "losses": 148,
+      "win_pct": 45.19
+    },
+    "Chennai Super Kings": {
+      "team": "Chennai Super Kings",
+      "matches": 251,
+      "wins": 142,
+      "losses": 109,
+      "win_pct": 56.57
+    },
+    "Delhi Capitals": {
+      "team": "Delhi Capitals",
+      "matches": 264,
+      "wins": 118,
+      "losses": 145,
+      "win_pct": 44.7
+    },
+    "Punjab Kings": {
+      "team": "Punjab Kings",
+      "matches": 263,
+      "wins": 119,
+      "losses": 143,
+      "win_pct": 45.25
+    },
+    "Pune Warriors India": {
+      "team": "Pune Warriors India",
+      "matches": 45,
+      "wins": 12,
+      "losses": 33,
+      "win_pct": 26.67
+    },
+    "Gujarat Lions": {
+      "team": "Gujarat Lions",
+      "matches": 30,
+      "wins": 13,
+      "losses": 17,
+      "win_pct": 43.33
+    },
+    "Mumbai Indians": {
+      "team": "Mumbai Indians",
+      "matches": 277,
+      "wins": 151,
+      "losses": 126,
+      "win_pct": 54.51
+    },
+    "Rising Pune Supergiants": {
+      "team": "Rising Pune Supergiants",
+      "matches": 30,
+      "wins": 15,
+      "losses": 15,
+      "win_pct": 50.0
+    }
+  },
+  "head_to_head": {
+    "Kolkata Knight Riders": {
+      "Royal Challengers Bengaluru": {
+        "matches": 35,
+        "wins": 20,
+        "losses": 15
+      },
+      "Rajasthan Royals": {
+        "matches": 30,
+        "wins": 16,
+        "losses": 14
+      },
+      "Lucknow Super Giants": {
+        "matches": 6,
+        "wins": 2,
+        "losses": 4
+      },
+      "Kochi Tuskers Kerala": {
+        "matches": 2,
+        "wins": 0,
+        "losses": 2
+      },
+      "Gujarat Titans": {
+        "matches": 4,
+        "wins": 1,
+        "losses": 3
+      },
+      "Sunrisers Hyderabad": {
+        "matches": 39,
+        "wins": 26,
+        "losses": 13
+      },
+      "Chennai Super Kings": {
+        "matches": 31,
+        "wins": 11,
+        "losses": 20
+      },
+      "Delhi Capitals": {
+        "matches": 34,
+        "wins": 19,
+        "losses": 15
+      },
+      "Punjab Kings": {
+        "matches": 35,
+        "wins": 21,
+        "losses": 14
+      },
+      "Pune Warriors India": {
+        "matches": 5,
+        "wins": 4,
+        "losses": 1
+      },
+      "Gujarat Lions": {
+        "matches": 4,
+        "wins": 1,
+        "losses": 3
+      },
+      "Mumbai Indians": {
+        "matches": 35,
+        "wins": 11,
+        "losses": 24
+      },
+      "Rising Pune Supergiants": {
+        "matches": 4,
+        "wins": 3,
+        "losses": 1
+      }
+    },
+    "Royal Challengers Bengaluru": {
+      "Kolkata Knight Riders": {
+        "matches": 35,
+        "wins": 15,
+        "losses": 20
+      },
+      "Rajasthan Royals": {
+        "matches": 32,
+        "wins": 17,
+        "losses": 15
+      },
+      "Lucknow Super Giants": {
+        "matches": 6,
+        "wins": 4,
+        "losses": 2
+      },
+      "Kochi Tuskers Kerala": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0
+      },
+      "Gujarat Titans": {
+        "matches": 6,
+        "wins": 3,
+        "losses": 3
+      },
+      "Sunrisers Hyderabad": {
+        "matches": 36,
+        "wins": 16,
+        "losses": 20
+      },
+      "Chennai Super Kings": {
+        "matches": 34,
+        "wins": 13,
+        "losses": 21
+      },
+      "Delhi Capitals": {
+        "matches": 33,
+        "wins": 19,
+        "losses": 14
+      },
+      "Punjab Kings": {
+        "matches": 37,
+        "wins": 19,
+        "losses": 18
+      },
+      "Pune Warriors India": {
+        "matches": 5,
+        "wins": 5,
+        "losses": 0
+      },
+      "Gujarat Lions": {
+        "matches": 5,
+        "wins": 3,
+        "losses": 2
+      },
+      "Mumbai Indians": {
+        "matches": 34,
+        "wins": 14,
+        "losses": 20
+      },
+      "Rising Pune Supergiants": {
+        "matches": 4,
+        "wins": 2,
+        "losses": 2
+      }
+    },
+    "Rajasthan Royals": {
+      "Kolkata Knight Riders": {
+        "matches": 30,
+        "wins": 12,
+        "losses": 18
+      },
+      "Royal Challengers Bengaluru": {
+        "matches": 32,
+        "wins": 14,
+        "losses": 18
+      },
+      "Lucknow Super Giants": {
+        "matches": 6,
+        "wins": 4,
+        "losses": 2
+      },
+      "Kochi Tuskers Kerala": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "Gujarat Titans": {
+        "matches": 8,
+        "wins": 2,
+        "losses": 6
+      },
+      "Sunrisers Hyderabad": {
+        "matches": 30,
+        "wins": 16,
+        "losses": 14
+      },
+      "Chennai Super Kings": {
+        "matches": 31,
+        "wins": 15,
+        "losses": 16
+      },
+      "Delhi Capitals": {
+        "matches": 30,
+        "wins": 15,
+        "losses": 15
+      },
+      "Punjab Kings": {
+        "matches": 30,
+        "wins": 17,
+        "losses": 13
+      },
+      "Pune Warriors India": {
+        "matches": 5,
+        "wins": 4,
+        "losses": 1
+      },
+      "Gujarat Lions": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Mumbai Indians": {
+        "matches": 30,
+        "wins": 14,
+        "losses": 16
+      },
+      "Rising Pune Supergiants": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    "Lucknow Super Giants": {
+      "Kolkata Knight Riders": {
+        "matches": 6,
+        "wins": 4,
+        "losses": 2
+      },
+      "Royal Challengers Bengaluru": {
+        "matches": 6,
+        "wins": 2,
+        "losses": 4
+      },
+      "Rajasthan Royals": {
+        "matches": 6,
+        "wins": 2,
+        "losses": 4
+      },
+      "Kochi Tuskers Kerala": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Gujarat Titans": {
+        "matches": 7,
+        "wins": 3,
+        "losses": 4
+      },
+      "Sunrisers Hyderabad": {
+        "matches": 6,
+        "wins": 4,
+        "losses": 2
+      },
+      "Chennai Super Kings": {
+        "matches": 5,
+        "wins": 3,
+        "losses": 2
+      },
+      "Delhi Capitals": {
+        "matches": 7,
+        "wins": 3,
+        "losses": 4
+      },
+      "Punjab Kings": {
+        "matches": 6,
+        "wins": 3,
+        "losses": 3
+      },
+      "Pune Warriors India": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Gujarat Lions": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Mumbai Indians": {
+        "matches": 8,
+        "wins": 6,
+        "losses": 2
+      },
+      "Rising Pune Supergiants": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    "Kochi Tuskers Kerala": {
+      "Kolkata Knight Riders": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0
+      },
+      "Royal Challengers Bengaluru": {
+        "matches": 2,
+        "wins": 0,
+        "losses": 2
+      },
+      "Rajasthan Royals": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "Lucknow Super Giants": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Gujarat Titans": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Sunrisers Hyderabad": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1
+      },
+      "Chennai Super Kings": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "Delhi Capitals": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "Punjab Kings": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1
+      },
+      "Pune Warriors India": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1
+      },
+      "Gujarat Lions": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Mumbai Indians": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0
+      },
+      "Rising Pune Supergiants": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    "Gujarat Titans": {
+      "Kolkata Knight Riders": {
+        "matches": 4,
+        "wins": 3,
+        "losses": 1
+      },
+      "Royal Challengers Bengaluru": {
+        "matches": 6,
+        "wins": 3,
+        "losses": 3
+      },
+      "Rajasthan Royals": {
+        "matches": 8,
+        "wins": 6,
+        "losses": 2
+      },
+      "Lucknow Super Giants": {
+        "matches": 7,
+        "wins": 4,
+        "losses": 3
+      },
+      "Kochi Tuskers Kerala": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Sunrisers Hyderabad": {
+        "matches": 6,
+        "wins": 5,
+        "losses": 1
+      },
+      "Chennai Super Kings": {
+        "matches": 8,
+        "wins": 4,
+        "losses": 4
+      },
+      "Delhi Capitals": {
+        "matches": 7,
+        "wins": 4,
+        "losses": 3
+      },
+      "Punjab Kings": {
+        "matches": 6,
+        "wins": 3,
+        "losses": 3
+      },
+      "Pune Warriors India": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Gujarat Lions": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Mumbai Indians": {
+        "matches": 8,
+        "wins": 5,
+        "losses": 3
+      },
+      "Rising Pune Supergiants": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    "Sunrisers Hyderabad": {
+      "Kolkata Knight Riders": {
+        "matches": 39,
+        "wins": 12,
+        "losses": 27
+      },
+      "Royal Challengers Bengaluru": {
+        "matches": 36,
+        "wins": 19,
+        "losses": 17
+      },
+      "Rajasthan Royals": {
+        "matches": 30,
+        "wins": 14,
+        "losses": 16
+      },
+      "Lucknow Super Giants": {
+        "matches": 6,
+        "wins": 2,
+        "losses": 4
+      },
+      "Kochi Tuskers Kerala": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0
+      },
+      "Gujarat Titans": {
+        "matches": 6,
+        "wins": 1,
+        "losses": 5
+      },
+      "Chennai Super Kings": {
+        "matches": 32,
+        "wins": 11,
+        "losses": 21
+      },
+      "Delhi Capitals": {
+        "matches": 36,
+        "wins": 17,
+        "losses": 19
+      },
+      "Punjab Kings": {
+        "matches": 34,
+        "wins": 20,
+        "losses": 14
+      },
+      "Pune Warriors India": {
+        "matches": 6,
+        "wins": 5,
+        "losses": 1
+      },
+      "Gujarat Lions": {
+        "matches": 5,
+        "wins": 5,
+        "losses": 0
+      },
+      "Mumbai Indians": {
+        "matches": 35,
+        "wins": 14,
+        "losses": 21
+      },
+      "Rising Pune Supergiants": {
+        "matches": 4,
+        "wins": 1,
+        "losses": 3
+      }
+    },
+    "Chennai Super Kings": {
+      "Kolkata Knight Riders": {
+        "matches": 31,
+        "wins": 20,
+        "losses": 11
+      },
+      "Royal Challengers Bengaluru": {
+        "matches": 34,
+        "wins": 21,
+        "losses": 13
+      },
+      "Rajasthan Royals": {
+        "matches": 31,
+        "wins": 16,
+        "losses": 15
+      },
+      "Lucknow Super Giants": {
+        "matches": 5,
+        "wins": 2,
+        "losses": 3
+      },
+      "Kochi Tuskers Kerala": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "Gujarat Titans": {
+        "matches": 8,
+        "wins": 4,
+        "losses": 4
+      },
+      "Sunrisers Hyderabad": {
+        "matches": 32,
+        "wins": 21,
+        "losses": 11
+      },
+      "Delhi Capitals": {
+        "matches": 31,
+        "wins": 19,
+        "losses": 12
+      },
+      "Punjab Kings": {
+        "matches": 32,
+        "wins": 16,
+        "losses": 16
+      },
+      "Pune Warriors India": {
+        "matches": 6,
+        "wins": 4,
+        "losses": 2
+      },
+      "Gujarat Lions": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Mumbai Indians": {
+        "matches": 39,
+        "wins": 18,
+        "losses": 21
+      },
+      "Rising Pune Supergiants": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    "Delhi Capitals": {
+      "Kolkata Knight Riders": {
+        "matches": 34,
+        "wins": 14,
+        "losses": 20
+      },
+      "Royal Challengers Bengaluru": {
+        "matches": 33,
+        "wins": 12,
+        "losses": 21
+      },
+      "Rajasthan Royals": {
+        "matches": 30,
+        "wins": 14,
+        "losses": 16
+      },
+      "Lucknow Super Giants": {
+        "matches": 7,
+        "wins": 4,
+        "losses": 3
+      },
+      "Kochi Tuskers Kerala": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      "Gujarat Titans": {
+        "matches": 7,
+        "wins": 3,
+        "losses": 4
+      },
+      "Sunrisers Hyderabad": {
+        "matches": 36,
+        "wins": 18,
+        "losses": 18
+      },
+      "Chennai Super Kings": {
+        "matches": 31,
+        "wins": 12,
+        "losses": 19
+      },
+      "Punjab Kings": {
+        "matches": 34,
+        "wins": 16,
+        "losses": 18
+      },
+      "Pune Warriors India": {
+        "matches": 5,
+        "wins": 3,
+        "losses": 2
+      },
+      "Gujarat Lions": {
+        "matches": 4,
+        "wins": 3,
+        "losses": 1
+      },
+      "Mumbai Indians": {
+        "matches": 37,
+        "wins": 16,
+        "losses": 21
+      },
+      "Rising Pune Supergiants": {
+        "matches": 4,
+        "wins": 2,
+        "losses": 2
+      }
+    },
+    "Punjab Kings": {
+      "Kolkata Knight Riders": {
+        "matches": 35,
+        "wins": 13,
+        "losses": 22
+      },
+      "Royal Challengers Bengaluru": {
+        "matches": 37,
+        "wins": 18,
+        "losses": 19
+      },
+      "Rajasthan Royals": {
+        "matches": 30,
+        "wins": 12,
+        "losses": 18
+      },
+      "Lucknow Super Giants": {
+        "matches": 6,
+        "wins": 3,
+        "losses": 3
+      },
+      "Kochi Tuskers Kerala": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0
+      },
+      "Gujarat Titans": {
+        "matches": 6,
+        "wins": 3,
+        "losses": 3
+      },
+      "Sunrisers Hyderabad": {
+        "matches": 34,
+        "wins": 14,
+        "losses": 20
+      },
+      "Chennai Super Kings": {
+        "matches": 32,
+        "wins": 15,
+        "losses": 17
+      },
+      "Delhi Capitals": {
+        "matches": 34,
+        "wins": 17,
+        "losses": 17
+      },
+      "Pune Warriors India": {
+        "matches": 6,
+        "wins": 3,
+        "losses": 3
+      },
+      "Gujarat Lions": {
+        "matches": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "Mumbai Indians": {
+        "matches": 34,
+        "wins": 16,
+        "losses": 18
+      },
+      "Rising Pune Supergiants": {
+        "matches": 4,
+        "wins": 2,
+        "losses": 2
+      }
+    },
+    "Pune Warriors India": {
+      "Kolkata Knight Riders": {
+        "matches": 5,
+        "wins": 1,
+        "losses": 4
+      },
+      "Royal Challengers Bengaluru": {
+        "matches": 5,
+        "wins": 0,
+        "losses": 5
+      },
+      "Rajasthan Royals": {
+        "matches": 5,
+        "wins": 1,
+        "losses": 4
+      },
+      "Lucknow Super Giants": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Kochi Tuskers Kerala": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0
+      },
+      "Gujarat Titans": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Sunrisers Hyderabad": {
+        "matches": 6,
+        "wins": 1,
+        "losses": 5
+      },
+      "Chennai Super Kings": {
+        "matches": 6,
+        "wins": 2,
+        "losses": 4
+      },
+      "Delhi Capitals": {
+        "matches": 5,
+        "wins": 2,
+        "losses": 3
+      },
+      "Punjab Kings": {
+        "matches": 6,
+        "wins": 3,
+        "losses": 3
+      },
+      "Gujarat Lions": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Mumbai Indians": {
+        "matches": 6,
+        "wins": 1,
+        "losses": 5
+      },
+      "Rising Pune Supergiants": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    "Gujarat Lions": {
+      "Kolkata Knight Riders": {
+        "matches": 4,
+        "wins": 3,
+        "losses": 1
+      },
+      "Royal Challengers Bengaluru": {
+        "matches": 5,
+        "wins": 2,
+        "losses": 3
+      },
+      "Rajasthan Royals": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Lucknow Super Giants": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Kochi Tuskers Kerala": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Gujarat Titans": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Sunrisers Hyderabad": {
+        "matches": 5,
+        "wins": 0,
+        "losses": 5
+      },
+      "Chennai Super Kings": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Delhi Capitals": {
+        "matches": 4,
+        "wins": 1,
+        "losses": 3
+      },
+      "Punjab Kings": {
+        "matches": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "Pune Warriors India": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Mumbai Indians": {
+        "matches": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "Rising Pune Supergiants": {
+        "matches": 4,
+        "wins": 3,
+        "losses": 1
+      }
+    },
+    "Mumbai Indians": {
+      "Kolkata Knight Riders": {
+        "matches": 35,
+        "wins": 24,
+        "losses": 11
+      },
+      "Royal Challengers Bengaluru": {
+        "matches": 34,
+        "wins": 19,
+        "losses": 15
+      },
+      "Rajasthan Royals": {
+        "matches": 30,
+        "wins": 16,
+        "losses": 14
+      },
+      "Lucknow Super Giants": {
+        "matches": 8,
+        "wins": 2,
+        "losses": 6
+      },
+      "Kochi Tuskers Kerala": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1
+      },
+      "Gujarat Titans": {
+        "matches": 8,
+        "wins": 3,
+        "losses": 5
+      },
+      "Sunrisers Hyderabad": {
+        "matches": 35,
+        "wins": 20,
+        "losses": 15
+      },
+      "Chennai Super Kings": {
+        "matches": 39,
+        "wins": 21,
+        "losses": 18
+      },
+      "Delhi Capitals": {
+        "matches": 37,
+        "wins": 21,
+        "losses": 16
+      },
+      "Punjab Kings": {
+        "matches": 34,
+        "wins": 17,
+        "losses": 17
+      },
+      "Pune Warriors India": {
+        "matches": 6,
+        "wins": 5,
+        "losses": 1
+      },
+      "Gujarat Lions": {
+        "matches": 4,
+        "wins": 1,
+        "losses": 3
+      },
+      "Rising Pune Supergiants": {
+        "matches": 6,
+        "wins": 2,
+        "losses": 4
+      }
+    },
+    "Rising Pune Supergiants": {
+      "Kolkata Knight Riders": {
+        "matches": 4,
+        "wins": 1,
+        "losses": 3
+      },
+      "Royal Challengers Bengaluru": {
+        "matches": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "Rajasthan Royals": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Lucknow Super Giants": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Kochi Tuskers Kerala": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Gujarat Titans": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Sunrisers Hyderabad": {
+        "matches": 4,
+        "wins": 3,
+        "losses": 1
+      },
+      "Chennai Super Kings": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Delhi Capitals": {
+        "matches": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "Punjab Kings": {
+        "matches": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      "Pune Warriors India": {
+        "matches": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      "Gujarat Lions": {
+        "matches": 4,
+        "wins": 1,
+        "losses": 3
+      },
+      "Mumbai Indians": {
+        "matches": 6,
+        "wins": 4,
+        "losses": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,1519 @@
+{
+  "tied_matches": [
+    {
+      "match_id": 392190,
+      "date": "2009-04-23",
+      "team1": "Rajasthan Royals",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Newlands",
+      "season": 2009,
+      "score": 150
+    },
+    {
+      "match_id": 419121,
+      "date": "2010-03-21",
+      "team1": "Punjab Kings",
+      "team2": "Chennai Super Kings",
+      "venue": "MA Chidambaram Stadium",
+      "season": 2010,
+      "score": 136
+    },
+    {
+      "match_id": 598004,
+      "date": "2013-04-07",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2013,
+      "score": 130
+    },
+    {
+      "match_id": 598017,
+      "date": "2013-04-16",
+      "team1": "Delhi Capitals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2013,
+      "score": 152
+    },
+    {
+      "match_id": 729315,
+      "date": "2014-04-29",
+      "team1": "Rajasthan Royals",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Sheikh Zayed Stadium",
+      "season": 2014,
+      "score": 152
+    },
+    {
+      "match_id": 829741,
+      "date": "2015-04-21",
+      "team1": "Rajasthan Royals",
+      "team2": "Punjab Kings",
+      "venue": "Narendra Modi Stadium",
+      "season": 2015,
+      "score": 191
+    },
+    {
+      "match_id": 1082625,
+      "date": "2017-04-29",
+      "team1": "Gujarat Lions",
+      "team2": "Mumbai Indians",
+      "venue": "Saurashtra Cricket Association Stadium",
+      "season": 2017,
+      "score": 153
+    },
+    {
+      "match_id": 1175365,
+      "date": "2019-03-30",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2019,
+      "score": 185
+    },
+    {
+      "match_id": 1178426,
+      "date": "2019-05-02",
+      "team1": "Mumbai Indians",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Wankhede Stadium",
+      "season": 2019,
+      "score": 162
+    },
+    {
+      "match_id": 1216493,
+      "date": "2020-09-20",
+      "team1": "Delhi Capitals",
+      "team2": "Punjab Kings",
+      "venue": "Dubai International Cricket Stadium",
+      "season": 2021,
+      "score": 157
+    },
+    {
+      "match_id": 1216512,
+      "date": "2020-10-18",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Sheikh Zayed Stadium",
+      "season": 2021,
+      "score": 163
+    },
+    {
+      "match_id": 1216517,
+      "date": "2020-10-18",
+      "team1": "Mumbai Indians",
+      "team2": "Punjab Kings",
+      "venue": "Dubai International Cricket Stadium",
+      "season": 2021,
+      "score": 176
+    },
+    {
+      "match_id": 1216547,
+      "date": "2020-09-28",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Mumbai Indians",
+      "venue": "Dubai International Cricket Stadium",
+      "season": 2021,
+      "score": 201
+    },
+    {
+      "match_id": 1254077,
+      "date": "2021-04-25",
+      "team1": "Delhi Capitals",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "MA Chidambaram Stadium",
+      "season": 2021,
+      "score": 159
+    },
+    {
+      "match_id": 1473469,
+      "date": "2025-04-16",
+      "team1": "Delhi Capitals",
+      "team2": "Rajasthan Royals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2025,
+      "score": 188
+    }
+  ],
+  "narrow_wins": [
+    {
+      "match_id": 336025,
+      "date": "2008-05-18",
+      "winner": "Chennai Super Kings",
+      "margin": "3 runs",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Chennai Super Kings",
+      "venue": "Eden Gardens",
+      "season": 2008
+    },
+    {
+      "match_id": 336028,
+      "date": "2008-05-21",
+      "winner": "Punjab Kings",
+      "margin": "1 runs",
+      "team1": "Punjab Kings",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium",
+      "season": 2008
+    },
+    {
+      "match_id": 336034,
+      "date": "2008-05-03",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "3 runs",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2008
+    },
+    {
+      "match_id": 392200,
+      "date": "2009-04-29",
+      "winner": "Punjab Kings",
+      "margin": "3 runs",
+      "team1": "Punjab Kings",
+      "team2": "Mumbai Indians",
+      "venue": "Kingsmead",
+      "season": 2009
+    },
+    {
+      "match_id": 392224,
+      "date": "2009-05-14",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "2 wickets",
+      "team1": "Chennai Super Kings",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Kingsmead",
+      "season": 2009
+    },
+    {
+      "match_id": 392225,
+      "date": "2009-05-14",
+      "winner": "Rajasthan Royals",
+      "margin": "2 runs",
+      "team1": "Rajasthan Royals",
+      "team2": "Mumbai Indians",
+      "venue": "Kingsmead",
+      "season": 2009
+    },
+    {
+      "match_id": 392229,
+      "date": "2009-05-17",
+      "winner": "Punjab Kings",
+      "margin": "1 runs",
+      "team1": "Punjab Kings",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "New Wanderers Stadium",
+      "season": 2009
+    },
+    {
+      "match_id": 419107,
+      "date": "2010-03-13",
+      "winner": "Mumbai Indians",
+      "margin": "4 runs",
+      "team1": "Mumbai Indians",
+      "team2": "Rajasthan Royals",
+      "venue": "Brabourne Stadium",
+      "season": 2010
+    },
+    {
+      "match_id": 419141,
+      "date": "2010-04-05",
+      "winner": "Rajasthan Royals",
+      "margin": "2 runs",
+      "team1": "Rajasthan Royals",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Vidarbha Cricket Association Stadium, Jamtha",
+      "season": 2010
+    },
+    {
+      "match_id": 501198,
+      "date": "2011-04-08",
+      "winner": "Chennai Super Kings",
+      "margin": "2 runs",
+      "team1": "Chennai Super Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "MA Chidambaram Stadium",
+      "season": 2011
+    },
+    {
+      "match_id": 548323,
+      "date": "2012-04-15",
+      "winner": "Punjab Kings",
+      "margin": "2 runs",
+      "team1": "Punjab Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens",
+      "season": 2012
+    },
+    {
+      "match_id": 548345,
+      "date": "2012-04-29",
+      "winner": "Delhi Capitals",
+      "margin": "1 runs",
+      "team1": "Delhi Capitals",
+      "team2": "Rajasthan Royals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2012
+    },
+    {
+      "match_id": 548351,
+      "date": "2012-05-03",
+      "winner": "Mumbai Indians",
+      "margin": "1 runs",
+      "team1": "Mumbai Indians",
+      "team2": "Pune Warriors India",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "season": 2012
+    },
+    {
+      "match_id": 548355,
+      "date": "2012-05-06",
+      "winner": "Mumbai Indians",
+      "margin": "2 wickets",
+      "team1": "Chennai Super Kings",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium",
+      "season": 2012
+    },
+    {
+      "match_id": 597999,
+      "date": "2013-04-04",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "2 runs",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Mumbai Indians",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2013
+    },
+    {
+      "match_id": 598016,
+      "date": "2013-04-16",
+      "winner": "Punjab Kings",
+      "margin": "4 runs",
+      "team1": "Punjab Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "season": 2013
+    },
+    {
+      "match_id": 598037,
+      "date": "2013-04-29",
+      "winner": "Mumbai Indians",
+      "margin": "4 runs",
+      "team1": "Mumbai Indians",
+      "team2": "Punjab Kings",
+      "venue": "Wankhede Stadium",
+      "season": 2013
+    },
+    {
+      "match_id": 598054,
+      "date": "2013-05-10",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "4 runs",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2013
+    },
+    {
+      "match_id": 729299,
+      "date": "2014-04-24",
+      "winner": "Kolkata Knight Riders",
+      "margin": "2 runs",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Sharjah Cricket Stadium",
+      "season": 2014
+    },
+    {
+      "match_id": 729301,
+      "date": "2014-04-25",
+      "winner": "Sunrisers Hyderabad",
+      "margin": "4 runs",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Delhi Capitals",
+      "venue": "Dubai International Cricket Stadium",
+      "season": 2014
+    },
+    {
+      "match_id": 829707,
+      "date": "2015-04-09",
+      "winner": "Chennai Super Kings",
+      "margin": "1 runs",
+      "team1": "Chennai Super Kings",
+      "team2": "Delhi Capitals",
+      "venue": "MA Chidambaram Stadium",
+      "season": 2015
+    },
+    {
+      "match_id": 829731,
+      "date": "2015-04-18",
+      "winner": "Delhi Capitals",
+      "margin": "4 runs",
+      "team1": "Delhi Capitals",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "ACA-VDCA Stadium",
+      "season": 2015
+    },
+    {
+      "match_id": 829765,
+      "date": "2015-04-28",
+      "winner": "Chennai Super Kings",
+      "margin": "2 runs",
+      "team1": "Chennai Super Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "MA Chidambaram Stadium",
+      "season": 2015
+    },
+    {
+      "match_id": 829791,
+      "date": "2015-05-09",
+      "winner": "Kolkata Knight Riders",
+      "margin": "1 wickets",
+      "team1": "Punjab Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens",
+      "season": 2015
+    },
+    {
+      "match_id": 980939,
+      "date": "2016-04-24",
+      "winner": "Kolkata Knight Riders",
+      "margin": "2 wickets",
+      "team1": "Rising Pune Supergiants",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "season": 2016
+    },
+    {
+      "match_id": 980945,
+      "date": "2016-04-27",
+      "winner": "Gujarat Lions",
+      "margin": "1 runs",
+      "team1": "Gujarat Lions",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2016
+    },
+    {
+      "match_id": 980977,
+      "date": "2016-05-09",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "1 runs",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Punjab Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "season": 2016
+    },
+    {
+      "match_id": 980979,
+      "date": "2016-05-10",
+      "winner": "Sunrisers Hyderabad",
+      "margin": "4 runs",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Rising Pune Supergiants",
+      "venue": "ACA-VDCA Stadium",
+      "season": 2016
+    },
+    {
+      "match_id": 1082618,
+      "date": "2017-04-24",
+      "winner": "Rising Pune Supergiants",
+      "margin": "3 runs",
+      "team1": "Rising Pune Supergiants",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium",
+      "season": 2017
+    },
+    {
+      "match_id": 1082640,
+      "date": "2017-05-10",
+      "winner": "Delhi Capitals",
+      "margin": "2 wickets",
+      "team1": "Gujarat Lions",
+      "team2": "Delhi Capitals",
+      "venue": "Green Park",
+      "season": 2017
+    },
+    {
+      "match_id": 1082650,
+      "date": "2017-05-21",
+      "winner": "Mumbai Indians",
+      "margin": "1 runs",
+      "team1": "Mumbai Indians",
+      "team2": "Rising Pune Supergiants",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2017
+    },
+    {
+      "match_id": 1136561,
+      "date": "2018-04-07",
+      "winner": "Chennai Super Kings",
+      "margin": "1 wickets",
+      "team1": "Mumbai Indians",
+      "team2": "Chennai Super Kings",
+      "venue": "Wankhede Stadium",
+      "season": 2018
+    },
+    {
+      "match_id": 1136567,
+      "date": "2018-04-12",
+      "winner": "Sunrisers Hyderabad",
+      "margin": "1 wickets",
+      "team1": "Mumbai Indians",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2018
+    },
+    {
+      "match_id": 1136572,
+      "date": "2018-04-15",
+      "winner": "Punjab Kings",
+      "margin": "4 runs",
+      "team1": "Punjab Kings",
+      "team2": "Chennai Super Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "season": 2018
+    },
+    {
+      "match_id": 1136580,
+      "date": "2018-04-22",
+      "winner": "Chennai Super Kings",
+      "margin": "4 runs",
+      "team1": "Chennai Super Kings",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2018
+    },
+    {
+      "match_id": 1136582,
+      "date": "2018-04-23",
+      "winner": "Punjab Kings",
+      "margin": "4 runs",
+      "team1": "Punjab Kings",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2018
+    },
+    {
+      "match_id": 1136592,
+      "date": "2018-05-02",
+      "winner": "Delhi Capitals",
+      "margin": "4 runs",
+      "team1": "Delhi Capitals",
+      "team2": "Rajasthan Royals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2018
+    },
+    {
+      "match_id": 1136610,
+      "date": "2018-05-16",
+      "winner": "Mumbai Indians",
+      "margin": "3 runs",
+      "team1": "Mumbai Indians",
+      "team2": "Punjab Kings",
+      "venue": "Wankhede Stadium",
+      "season": 2018
+    },
+    {
+      "match_id": 1136617,
+      "date": "2018-05-22",
+      "winner": "Chennai Super Kings",
+      "margin": "2 wickets",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Chennai Super Kings",
+      "venue": "Wankhede Stadium",
+      "season": 2018
+    },
+    {
+      "match_id": 1178414,
+      "date": "2019-04-21",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "1 runs",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Chennai Super Kings",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2019
+    },
+    {
+      "match_id": 1181766,
+      "date": "2019-05-08",
+      "winner": "Delhi Capitals",
+      "margin": "2 wickets",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Delhi Capitals",
+      "venue": "ACA-VDCA Stadium",
+      "season": 2019
+    },
+    {
+      "match_id": 1181768,
+      "date": "2019-05-12",
+      "winner": "Mumbai Indians",
+      "margin": "1 runs",
+      "team1": "Mumbai Indians",
+      "team2": "Chennai Super Kings",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2019
+    },
+    {
+      "match_id": 1216523,
+      "date": "2020-10-10",
+      "winner": "Kolkata Knight Riders",
+      "margin": "2 runs",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Punjab Kings",
+      "venue": "Sheikh Zayed Stadium",
+      "season": 2021
+    },
+    {
+      "match_id": 1254058,
+      "date": "2021-04-09",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "2 wickets",
+      "team1": "Mumbai Indians",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "MA Chidambaram Stadium",
+      "season": 2021
+    },
+    {
+      "match_id": 1254061,
+      "date": "2021-04-12",
+      "winner": "Punjab Kings",
+      "margin": "4 runs",
+      "team1": "Punjab Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "Wankhede Stadium",
+      "season": 2021
+    },
+    {
+      "match_id": 1254079,
+      "date": "2021-04-27",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "1 runs",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Delhi Capitals",
+      "venue": "Narendra Modi Stadium",
+      "season": 2021
+    },
+    {
+      "match_id": 1254095,
+      "date": "2021-10-06",
+      "winner": "Sunrisers Hyderabad",
+      "margin": "4 runs",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Zayed Cricket Stadium, Abu Dhabi",
+      "season": 2021
+    },
+    {
+      "match_id": 1254098,
+      "date": "2021-09-26",
+      "winner": "Chennai Super Kings",
+      "margin": "2 wickets",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Chennai Super Kings",
+      "venue": "Zayed Cricket Stadium, Abu Dhabi",
+      "season": 2021
+    },
+    {
+      "match_id": 1254111,
+      "date": "2021-09-21",
+      "winner": "Rajasthan Royals",
+      "margin": "2 runs",
+      "team1": "Rajasthan Royals",
+      "team2": "Punjab Kings",
+      "venue": "Dubai International Cricket Stadium",
+      "season": 2021
+    },
+    {
+      "match_id": 1304066,
+      "date": "2022-04-10",
+      "winner": "Rajasthan Royals",
+      "margin": "3 runs",
+      "team1": "Rajasthan Royals",
+      "team2": "Lucknow Super Giants",
+      "venue": "Wankhede Stadium",
+      "season": 2022
+    }
+  ],
+  "wide_wins": [
+    {
+      "match_id": 335982,
+      "date": "2008-04-18",
+      "winner": "Kolkata Knight Riders",
+      "margin": "140 runs",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2008
+    },
+    {
+      "match_id": 335984,
+      "date": "2008-04-19",
+      "winner": "Delhi Capitals",
+      "margin": "9 wickets",
+      "team1": "Rajasthan Royals",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2008
+    },
+    {
+      "match_id": 335988,
+      "date": "2008-04-22",
+      "winner": "Delhi Capitals",
+      "margin": "9 wickets",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Delhi Capitals",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2008
+    },
+    {
+      "match_id": 335993,
+      "date": "2008-04-26",
+      "winner": "Chennai Super Kings",
+      "margin": "9 wickets",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Chennai Super Kings",
+      "venue": "MA Chidambaram Stadium",
+      "season": 2008
+    },
+    {
+      "match_id": 335994,
+      "date": "2008-04-27",
+      "winner": "Sunrisers Hyderabad",
+      "margin": "10 wickets",
+      "team1": "Mumbai Indians",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Dr DY Patil Sports Academy",
+      "season": 2008
+    },
+    {
+      "match_id": 336012,
+      "date": "2008-05-28",
+      "winner": "Mumbai Indians",
+      "margin": "9 wickets",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Mumbai Indians",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2008
+    },
+    {
+      "match_id": 336016,
+      "date": "2008-05-12",
+      "winner": "Punjab Kings",
+      "margin": "9 wickets",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Punjab Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "season": 2008
+    },
+    {
+      "match_id": 336018,
+      "date": "2008-05-14",
+      "winner": "Mumbai Indians",
+      "margin": "9 wickets",
+      "team1": "Chennai Super Kings",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium",
+      "season": 2008
+    },
+    {
+      "match_id": 336038,
+      "date": "2008-05-30",
+      "winner": "Rajasthan Royals",
+      "margin": "105 runs",
+      "team1": "Rajasthan Royals",
+      "team2": "Delhi Capitals",
+      "venue": "Wankhede Stadium",
+      "season": 2008
+    },
+    {
+      "match_id": 336039,
+      "date": "2008-05-31",
+      "winner": "Chennai Super Kings",
+      "margin": "9 wickets",
+      "team1": "Punjab Kings",
+      "team2": "Chennai Super Kings",
+      "venue": "Wankhede Stadium",
+      "season": 2008
+    },
+    {
+      "match_id": 392183,
+      "date": "2009-04-19",
+      "winner": "Delhi Capitals",
+      "margin": "10 wickets",
+      "team1": "Punjab Kings",
+      "team2": "Delhi Capitals",
+      "venue": "Newlands",
+      "season": 2009
+    },
+    {
+      "match_id": 392208,
+      "date": "2009-05-03",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "9 wickets",
+      "team1": "Mumbai Indians",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "New Wanderers Stadium",
+      "season": 2009
+    },
+    {
+      "match_id": 392211,
+      "date": "2009-05-05",
+      "winner": "Delhi Capitals",
+      "margin": "9 wickets",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Delhi Capitals",
+      "venue": "Kingsmead",
+      "season": 2009
+    },
+    {
+      "match_id": 419115,
+      "date": "2010-03-18",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "10 wickets",
+      "team1": "Rajasthan Royals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2010
+    },
+    {
+      "match_id": 419143,
+      "date": "2010-04-07",
+      "winner": "Rajasthan Royals",
+      "margin": "9 wickets",
+      "team1": "Punjab Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2010
+    },
+    {
+      "match_id": 419153,
+      "date": "2010-04-13",
+      "winner": "Chennai Super Kings",
+      "margin": "9 wickets",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Chennai Super Kings",
+      "venue": "MA Chidambaram Stadium",
+      "season": 2010
+    },
+    {
+      "match_id": 419161,
+      "date": "2010-04-19",
+      "winner": "Kolkata Knight Riders",
+      "margin": "9 wickets",
+      "team1": "Mumbai Indians",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens",
+      "season": 2010
+    },
+    {
+      "match_id": 419164,
+      "date": "2010-04-24",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "9 wickets",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Dr DY Patil Sports Academy",
+      "season": 2010
+    },
+    {
+      "match_id": 501205,
+      "date": "2011-04-12",
+      "winner": "Mumbai Indians",
+      "margin": "9 wickets",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Mumbai Indians",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2011
+    },
+    {
+      "match_id": 501209,
+      "date": "2011-04-15",
+      "winner": "Kolkata Knight Riders",
+      "margin": "9 wickets",
+      "team1": "Rajasthan Royals",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2011
+    },
+    {
+      "match_id": 501222,
+      "date": "2011-04-22",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "9 wickets",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Eden Gardens",
+      "season": 2011
+    },
+    {
+      "match_id": 501247,
+      "date": "2011-05-08",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "9 wickets",
+      "team1": "Kochi Tuskers Kerala",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2011
+    },
+    {
+      "match_id": 501252,
+      "date": "2011-05-11",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "9 wickets",
+      "team1": "Rajasthan Royals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2011
+    },
+    {
+      "match_id": 501260,
+      "date": "2011-05-17",
+      "winner": "Punjab Kings",
+      "margin": "111 runs",
+      "team1": "Punjab Kings",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Himachal Pradesh Cricket Association Stadium",
+      "season": 2011
+    },
+    {
+      "match_id": 501263,
+      "date": "2011-05-20",
+      "winner": "Rajasthan Royals",
+      "margin": "10 wickets",
+      "team1": "Mumbai Indians",
+      "team2": "Rajasthan Royals",
+      "venue": "Wankhede Stadium",
+      "season": 2011
+    },
+    {
+      "match_id": 548329,
+      "date": "2012-05-10",
+      "winner": "Delhi Capitals",
+      "margin": "9 wickets",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Delhi Capitals",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2012
+    },
+    {
+      "match_id": 548360,
+      "date": "2012-05-09",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "9 wickets",
+      "team1": "Mumbai Indians",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Wankhede Stadium",
+      "season": 2012
+    },
+    {
+      "match_id": 548364,
+      "date": "2012-05-12",
+      "winner": "Chennai Super Kings",
+      "margin": "9 wickets",
+      "team1": "Delhi Capitals",
+      "team2": "Chennai Super Kings",
+      "venue": "MA Chidambaram Stadium",
+      "season": 2012
+    },
+    {
+      "match_id": 548377,
+      "date": "2012-05-20",
+      "winner": "Mumbai Indians",
+      "margin": "10 wickets",
+      "team1": "Rajasthan Royals",
+      "team2": "Mumbai Indians",
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2012
+    },
+    {
+      "match_id": 598007,
+      "date": "2013-04-10",
+      "winner": "Chennai Super Kings",
+      "margin": "10 wickets",
+      "team1": "Punjab Kings",
+      "team2": "Chennai Super Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "season": 2013
+    },
+    {
+      "match_id": 598024,
+      "date": "2013-04-21",
+      "winner": "Delhi Capitals",
+      "margin": "9 wickets",
+      "team1": "Mumbai Indians",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2013
+    },
+    {
+      "match_id": 598027,
+      "date": "2013-04-23",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "130 runs",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Pune Warriors India",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2013
+    },
+    {
+      "match_id": 598049,
+      "date": "2013-05-07",
+      "winner": "Rajasthan Royals",
+      "margin": "9 wickets",
+      "team1": "Delhi Capitals",
+      "team2": "Rajasthan Royals",
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2013
+    },
+    {
+      "match_id": 733997,
+      "date": "2014-05-11",
+      "winner": "Kolkata Knight Riders",
+      "margin": "9 wickets",
+      "team1": "Punjab Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Barabati Stadium",
+      "season": 2014
+    },
+    {
+      "match_id": 829749,
+      "date": "2015-04-24",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "9 wickets",
+      "team1": "Rajasthan Royals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Narendra Modi Stadium",
+      "season": 2015
+    },
+    {
+      "match_id": 829757,
+      "date": "2015-04-26",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "10 wickets",
+      "team1": "Delhi Capitals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2015
+    },
+    {
+      "match_id": 829767,
+      "date": "2015-05-01",
+      "winner": "Delhi Capitals",
+      "margin": "9 wickets",
+      "team1": "Punjab Kings",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2015
+    },
+    {
+      "match_id": 829785,
+      "date": "2015-05-06",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "138 runs",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Punjab Kings",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2015
+    },
+    {
+      "match_id": 829815,
+      "date": "2015-05-17",
+      "winner": "Mumbai Indians",
+      "margin": "9 wickets",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Mumbai Indians",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2015
+    },
+    {
+      "match_id": 980901,
+      "date": "2016-04-09",
+      "winner": "Rising Pune Supergiants",
+      "margin": "9 wickets",
+      "team1": "Mumbai Indians",
+      "team2": "Rising Pune Supergiants",
+      "venue": "Wankhede Stadium",
+      "season": 2016
+    },
+    {
+      "match_id": 980903,
+      "date": "2016-04-10",
+      "winner": "Kolkata Knight Riders",
+      "margin": "9 wickets",
+      "team1": "Delhi Capitals",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens",
+      "season": 2016
+    },
+    {
+      "match_id": 980929,
+      "date": "2016-04-21",
+      "winner": "Sunrisers Hyderabad",
+      "margin": "10 wickets",
+      "team1": "Gujarat Lions",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Saurashtra Cricket Association Stadium",
+      "season": 2016
+    },
+    {
+      "match_id": 980987,
+      "date": "2016-05-14",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "144 runs",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Gujarat Lions",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2016
+    },
+    {
+      "match_id": 980995,
+      "date": "2016-05-16",
+      "winner": "Royal Challengers Bengaluru",
+      "margin": "9 wickets",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Eden Gardens",
+      "season": 2016
+    },
+    {
+      "match_id": 1082593,
+      "date": "2017-04-07",
+      "winner": "Kolkata Knight Riders",
+      "margin": "10 wickets",
+      "team1": "Gujarat Lions",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Saurashtra Cricket Association Stadium",
+      "season": 2017
+    },
+    {
+      "match_id": 1082596,
+      "date": "2017-04-09",
+      "winner": "Sunrisers Hyderabad",
+      "margin": "9 wickets",
+      "team1": "Gujarat Lions",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2017
+    },
+    {
+      "match_id": 1082626,
+      "date": "2017-04-30",
+      "winner": "Punjab Kings",
+      "margin": "10 wickets",
+      "team1": "Delhi Capitals",
+      "team2": "Punjab Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "season": 2017
+    },
+    {
+      "match_id": 1082635,
+      "date": "2017-05-06",
+      "winner": "Mumbai Indians",
+      "margin": "146 runs",
+      "team1": "Mumbai Indians",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2017
+    },
+    {
+      "match_id": 1082645,
+      "date": "2017-05-14",
+      "winner": "Rising Pune Supergiants",
+      "margin": "9 wickets",
+      "team1": "Punjab Kings",
+      "team2": "Rising Pune Supergiants",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "season": 2017
+    },
+    {
+      "match_id": 1136564,
+      "date": "2018-04-09",
+      "winner": "Sunrisers Hyderabad",
+      "margin": "9 wickets",
+      "team1": "Rajasthan Royals",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2018
+    }
+  ],
+  "close_chases": [
+    {
+      "match_id": 335990,
+      "date": "2008-04-24",
+      "winner": "Rajasthan Royals",
+      "target": 214,
+      "wickets_left": 3,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Rajasthan Royals",
+      "venue": "Rajiv Gandhi International Stadium",
+      "season": 2008
+    },
+    {
+      "match_id": 336015,
+      "date": "2008-05-11",
+      "winner": "Rajasthan Royals",
+      "target": 156,
+      "wickets_left": 3,
+      "team1": "Delhi Capitals",
+      "team2": "Rajasthan Royals",
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2008
+    },
+    {
+      "match_id": 336035,
+      "date": "2008-05-25",
+      "winner": "Kolkata Knight Riders",
+      "target": 174,
+      "wickets_left": 3,
+      "team1": "Punjab Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens",
+      "season": 2008
+    },
+    {
+      "match_id": 336040,
+      "date": "2008-06-01",
+      "winner": "Rajasthan Royals",
+      "target": 163,
+      "wickets_left": 3,
+      "team1": "Chennai Super Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "Dr DY Patil Sports Academy",
+      "season": 2008
+    },
+    {
+      "match_id": 392216,
+      "date": "2009-05-09",
+      "winner": "Punjab Kings",
+      "target": 168,
+      "wickets_left": 3,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Punjab Kings",
+      "venue": "De Beers Diamond Oval",
+      "season": 2009
+    },
+    {
+      "match_id": 501213,
+      "date": "2011-04-17",
+      "winner": "Delhi Capitals",
+      "target": 187,
+      "wickets_left": 3,
+      "team1": "Pune Warriors India",
+      "team2": "Delhi Capitals",
+      "venue": "Dr DY Patil Sports Academy",
+      "season": 2011
+    },
+    {
+      "match_id": 501227,
+      "date": "2011-04-26",
+      "winner": "Royal Challengers Bengaluru",
+      "target": 160,
+      "wickets_left": 3,
+      "team1": "Delhi Capitals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2011
+    },
+    {
+      "match_id": 548355,
+      "date": "2012-05-06",
+      "winner": "Mumbai Indians",
+      "target": 173,
+      "wickets_left": 2,
+      "team1": "Chennai Super Kings",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium",
+      "season": 2012
+    },
+    {
+      "match_id": 734049,
+      "date": "2014-06-01",
+      "winner": "Kolkata Knight Riders",
+      "target": 199,
+      "wickets_left": 3,
+      "team1": "Punjab Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2014
+    },
+    {
+      "match_id": 829713,
+      "date": "2015-04-11",
+      "winner": "Royal Challengers Bengaluru",
+      "target": 177,
+      "wickets_left": 3,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Eden Gardens",
+      "season": 2015
+    },
+    {
+      "match_id": 829715,
+      "date": "2015-04-12",
+      "winner": "Rajasthan Royals",
+      "target": 184,
+      "wickets_left": 3,
+      "team1": "Delhi Capitals",
+      "team2": "Rajasthan Royals",
+      "venue": "Arun Jaitley Stadium",
+      "season": 2015
+    },
+    {
+      "match_id": 829791,
+      "date": "2015-05-09",
+      "winner": "Kolkata Knight Riders",
+      "target": 183,
+      "wickets_left": 1,
+      "team1": "Punjab Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens",
+      "season": 2015
+    },
+    {
+      "match_id": 980939,
+      "date": "2016-04-24",
+      "winner": "Kolkata Knight Riders",
+      "target": 160,
+      "wickets_left": 2,
+      "team1": "Rising Pune Supergiants",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "season": 2016
+    },
+    {
+      "match_id": 980949,
+      "date": "2016-04-29",
+      "winner": "Gujarat Lions",
+      "target": 195,
+      "wickets_left": 3,
+      "team1": "Rising Pune Supergiants",
+      "team2": "Gujarat Lions",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "season": 2016
+    },
+    {
+      "match_id": 1082640,
+      "date": "2017-05-10",
+      "winner": "Delhi Capitals",
+      "target": 195,
+      "wickets_left": 2,
+      "team1": "Gujarat Lions",
+      "team2": "Delhi Capitals",
+      "venue": "Green Park",
+      "season": 2017
+    },
+    {
+      "match_id": 1136561,
+      "date": "2018-04-07",
+      "winner": "Chennai Super Kings",
+      "target": 165,
+      "wickets_left": 1,
+      "team1": "Mumbai Indians",
+      "team2": "Chennai Super Kings",
+      "venue": "Wankhede Stadium",
+      "season": 2018
+    },
+    {
+      "match_id": 1136581,
+      "date": "2018-04-22",
+      "winner": "Rajasthan Royals",
+      "target": 167,
+      "wickets_left": 3,
+      "team1": "Mumbai Indians",
+      "team2": "Rajasthan Royals",
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2018
+    },
+    {
+      "match_id": 1178399,
+      "date": "2019-04-10",
+      "winner": "Mumbai Indians",
+      "target": 197,
+      "wickets_left": 3,
+      "team1": "Punjab Kings",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium",
+      "season": 2019
+    },
+    {
+      "match_id": 1178418,
+      "date": "2019-04-25",
+      "winner": "Rajasthan Royals",
+      "target": 175,
+      "wickets_left": 3,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Rajasthan Royals",
+      "venue": "Eden Gardens",
+      "season": 2019
+    },
+    {
+      "match_id": 1181766,
+      "date": "2019-05-08",
+      "winner": "Delhi Capitals",
+      "target": 162,
+      "wickets_left": 2,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Delhi Capitals",
+      "venue": "ACA-VDCA Stadium",
+      "season": 2019
+    },
+    {
+      "match_id": 1254058,
+      "date": "2021-04-09",
+      "winner": "Royal Challengers Bengaluru",
+      "target": 159,
+      "wickets_left": 2,
+      "team1": "Mumbai Indians",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "MA Chidambaram Stadium",
+      "season": 2021
+    },
+    {
+      "match_id": 1254098,
+      "date": "2021-09-26",
+      "winner": "Chennai Super Kings",
+      "target": 171,
+      "wickets_left": 2,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Chennai Super Kings",
+      "venue": "Zayed Cricket Stadium, Abu Dhabi",
+      "season": 2021
+    },
+    {
+      "match_id": 1304075,
+      "date": "2022-04-17",
+      "winner": "Gujarat Titans",
+      "target": 169,
+      "wickets_left": 3,
+      "team1": "Chennai Super Kings",
+      "team2": "Gujarat Titans",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "season": 2022
+    },
+    {
+      "match_id": 1304079,
+      "date": "2022-04-21",
+      "winner": "Chennai Super Kings",
+      "target": 155,
+      "wickets_left": 3,
+      "team1": "Mumbai Indians",
+      "team2": "Chennai Super Kings",
+      "venue": "Dr DY Patil Sports Academy",
+      "season": 2022
+    },
+    {
+      "match_id": 1359487,
+      "date": "2023-04-09",
+      "winner": "Kolkata Knight Riders",
+      "target": 204,
+      "wickets_left": 3,
+      "team1": "Gujarat Titans",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Narendra Modi Stadium",
+      "season": 2023
+    },
+    {
+      "match_id": 1359489,
+      "date": "2023-04-10",
+      "winner": "Lucknow Super Giants",
+      "target": 212,
+      "wickets_left": 1,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Lucknow Super Giants",
+      "venue": "M Chinnaswamy Stadium",
+      "season": 2023
+    },
+    {
+      "match_id": 1359495,
+      "date": "2023-04-15",
+      "winner": "Punjab Kings",
+      "target": 159,
+      "wickets_left": 2,
+      "team1": "Lucknow Super Giants",
+      "team2": "Punjab Kings",
+      "venue": "Ekana Cricket Stadium",
+      "season": 2023
+    },
+    {
+      "match_id": 1359497,
+      "date": "2023-04-16",
+      "winner": "Rajasthan Royals",
+      "target": 177,
+      "wickets_left": 3,
+      "team1": "Gujarat Titans",
+      "team2": "Rajasthan Royals",
+      "venue": "Narendra Modi Stadium",
+      "season": 2023
+    },
+    {
+      "match_id": 1422135,
+      "date": "2024-04-04",
+      "winner": "Punjab Kings",
+      "target": 199,
+      "wickets_left": 3,
+      "team1": "Gujarat Titans",
+      "team2": "Punjab Kings",
+      "venue": "Narendra Modi Stadium",
+      "season": 2024
+    },
+    {
+      "match_id": 1426262,
+      "date": "2024-04-10",
+      "winner": "Gujarat Titans",
+      "target": 196,
+      "wickets_left": 3,
+      "team1": "Rajasthan Royals",
+      "team2": "Gujarat Titans",
+      "venue": "Sawai Mansingh Stadium",
+      "season": 2024
+    },
+    {
+      "match_id": 1426269,
+      "date": "2024-04-16",
+      "winner": "Rajasthan Royals",
+      "target": 223,
+      "wickets_left": 2,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Rajasthan Royals",
+      "venue": "Eden Gardens",
+      "season": 2024
+    },
+    {
+      "match_id": 1473441,
+      "date": "2025-03-24",
+      "winner": "Delhi Capitals",
+      "target": 209,
+      "wickets_left": 1,
+      "team1": "Lucknow Super Giants",
+      "team2": "Delhi Capitals",
+      "venue": "ACA-VDCA Stadium",
+      "season": 2025
+    },
+    {
+      "match_id": 1473493,
+      "date": "2025-05-06",
+      "winner": "Gujarat Titans",
+      "target": 155,
+      "wickets_left": 3,
+      "team1": "Mumbai Indians",
+      "team2": "Gujarat Titans",
+      "venue": "Wankhede Stadium",
+      "season": 2025
+    },
+    {
+      "match_id": 1473494,
+      "date": "2025-05-07",
+      "winner": "Chennai Super Kings",
+      "target": 179,
+      "wickets_left": 2,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Chennai Super Kings",
+      "venue": "Eden Gardens",
+      "season": 2025
+    }
+  ]
+}

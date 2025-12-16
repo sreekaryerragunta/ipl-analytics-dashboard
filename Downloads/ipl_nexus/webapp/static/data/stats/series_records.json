@@ -1,0 +1,1474 @@
+{
+  "points_tables": {
+    "2008": [
+      {
+        "team": "Rajasthan Royals",
+        "matches": 16,
+        "wins": 13,
+        "losses": 3,
+        "no_result": 0,
+        "points": 26,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 15,
+        "wins": 10,
+        "losses": 5,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Chennai Super Kings",
+        "matches": 16,
+        "wins": 9,
+        "losses": 7,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Mumbai Indians",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 13,
+        "wins": 6,
+        "losses": 7,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 14,
+        "wins": 4,
+        "losses": 10,
+        "no_result": 0,
+        "points": 8,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 14,
+        "wins": 2,
+        "losses": 12,
+        "no_result": 0,
+        "points": 4,
+        "nrr": 0.0
+      }
+    ],
+    "2009": [
+      {
+        "team": "Delhi Capitals",
+        "matches": 15,
+        "wins": 10,
+        "losses": 5,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 16,
+        "wins": 9,
+        "losses": 7,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 16,
+        "wins": 9,
+        "losses": 7,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Chennai Super Kings",
+        "matches": 14,
+        "wins": 8,
+        "losses": 6,
+        "no_result": 0,
+        "points": 16,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rajasthan Royals",
+        "matches": 13,
+        "wins": 5,
+        "losses": 8,
+        "no_result": 0,
+        "points": 10,
+        "nrr": 0.0
+      },
+      {
+        "team": "Mumbai Indians",
+        "matches": 13,
+        "wins": 5,
+        "losses": 8,
+        "no_result": 0,
+        "points": 10,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 13,
+        "wins": 3,
+        "losses": 10,
+        "no_result": 0,
+        "points": 6,
+        "nrr": 0.0
+      }
+    ],
+    "2010": [
+      {
+        "team": "Mumbai Indians",
+        "matches": 16,
+        "wins": 11,
+        "losses": 5,
+        "no_result": 0,
+        "points": 22,
+        "nrr": 0.0
+      },
+      {
+        "team": "Chennai Super Kings",
+        "matches": 16,
+        "wins": 9,
+        "losses": 7,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 16,
+        "wins": 8,
+        "losses": 8,
+        "no_result": 0,
+        "points": 16,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 16,
+        "wins": 8,
+        "losses": 8,
+        "no_result": 0,
+        "points": 16,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rajasthan Royals",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 14,
+        "wins": 3,
+        "losses": 11,
+        "no_result": 0,
+        "points": 6,
+        "nrr": 0.0
+      }
+    ],
+    "2011": [
+      {
+        "team": "Chennai Super Kings",
+        "matches": 16,
+        "wins": 11,
+        "losses": 5,
+        "no_result": 0,
+        "points": 22,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 16,
+        "wins": 10,
+        "losses": 6,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Mumbai Indians",
+        "matches": 16,
+        "wins": 10,
+        "losses": 6,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 15,
+        "wins": 8,
+        "losses": 7,
+        "no_result": 0,
+        "points": 16,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rajasthan Royals",
+        "matches": 13,
+        "wins": 6,
+        "losses": 7,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kochi Tuskers Kerala",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 13,
+        "wins": 4,
+        "losses": 9,
+        "no_result": 0,
+        "points": 8,
+        "nrr": 0.0
+      },
+      {
+        "team": "Pune Warriors India",
+        "matches": 13,
+        "wins": 4,
+        "losses": 9,
+        "no_result": 0,
+        "points": 8,
+        "nrr": 0.0
+      }
+    ],
+    "2012": [
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 17,
+        "wins": 12,
+        "losses": 5,
+        "no_result": 0,
+        "points": 24,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 18,
+        "wins": 11,
+        "losses": 7,
+        "no_result": 0,
+        "points": 22,
+        "nrr": 0.0
+      },
+      {
+        "team": "Chennai Super Kings",
+        "matches": 18,
+        "wins": 10,
+        "losses": 8,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Mumbai Indians",
+        "matches": 17,
+        "wins": 10,
+        "losses": 7,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 15,
+        "wins": 8,
+        "losses": 7,
+        "no_result": 0,
+        "points": 16,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 16,
+        "wins": 8,
+        "losses": 8,
+        "no_result": 0,
+        "points": 16,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rajasthan Royals",
+        "matches": 16,
+        "wins": 7,
+        "losses": 9,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 15,
+        "wins": 4,
+        "losses": 11,
+        "no_result": 0,
+        "points": 8,
+        "nrr": 0.0
+      },
+      {
+        "team": "Pune Warriors India",
+        "matches": 16,
+        "wins": 4,
+        "losses": 12,
+        "no_result": 0,
+        "points": 8,
+        "nrr": 0.0
+      }
+    ],
+    "2013": [
+      {
+        "team": "Mumbai Indians",
+        "matches": 19,
+        "wins": 13,
+        "losses": 6,
+        "no_result": 0,
+        "points": 26,
+        "nrr": 0.0
+      },
+      {
+        "team": "Chennai Super Kings",
+        "matches": 18,
+        "wins": 12,
+        "losses": 6,
+        "no_result": 0,
+        "points": 24,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rajasthan Royals",
+        "matches": 18,
+        "wins": 11,
+        "losses": 7,
+        "no_result": 0,
+        "points": 22,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 17,
+        "wins": 9,
+        "losses": 8,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 16,
+        "wins": 8,
+        "losses": 8,
+        "no_result": 0,
+        "points": 16,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 16,
+        "wins": 8,
+        "losses": 8,
+        "no_result": 0,
+        "points": 16,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 16,
+        "wins": 6,
+        "losses": 10,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Pune Warriors India",
+        "matches": 16,
+        "wins": 4,
+        "losses": 12,
+        "no_result": 0,
+        "points": 8,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 16,
+        "wins": 3,
+        "losses": 13,
+        "no_result": 0,
+        "points": 6,
+        "nrr": 0.0
+      }
+    ],
+    "2014": [
+      {
+        "team": "Punjab Kings",
+        "matches": 17,
+        "wins": 12,
+        "losses": 5,
+        "no_result": 0,
+        "points": 24,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 16,
+        "wins": 11,
+        "losses": 5,
+        "no_result": 0,
+        "points": 22,
+        "nrr": 0.0
+      },
+      {
+        "team": "Chennai Super Kings",
+        "matches": 16,
+        "wins": 10,
+        "losses": 6,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Mumbai Indians",
+        "matches": 15,
+        "wins": 7,
+        "losses": 8,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rajasthan Royals",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 14,
+        "wins": 5,
+        "losses": 9,
+        "no_result": 0,
+        "points": 10,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 14,
+        "wins": 2,
+        "losses": 12,
+        "no_result": 0,
+        "points": 4,
+        "nrr": 0.0
+      }
+    ],
+    "2015": [
+      {
+        "team": "Chennai Super Kings",
+        "matches": 17,
+        "wins": 10,
+        "losses": 7,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Mumbai Indians",
+        "matches": 16,
+        "wins": 10,
+        "losses": 6,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 15,
+        "wins": 8,
+        "losses": 6,
+        "no_result": 1,
+        "points": 17,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 13,
+        "wins": 7,
+        "losses": 6,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rajasthan Royals",
+        "matches": 13,
+        "wins": 7,
+        "losses": 6,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 14,
+        "wins": 5,
+        "losses": 8,
+        "no_result": 1,
+        "points": 11,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 14,
+        "wins": 2,
+        "losses": 12,
+        "no_result": 0,
+        "points": 4,
+        "nrr": 0.0
+      }
+    ],
+    "2016": [
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 17,
+        "wins": 11,
+        "losses": 6,
+        "no_result": 0,
+        "points": 22,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 16,
+        "wins": 9,
+        "losses": 7,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Gujarat Lions",
+        "matches": 16,
+        "wins": 9,
+        "losses": 7,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 15,
+        "wins": 8,
+        "losses": 7,
+        "no_result": 0,
+        "points": 16,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Mumbai Indians",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rising Pune Supergiants",
+        "matches": 14,
+        "wins": 5,
+        "losses": 9,
+        "no_result": 0,
+        "points": 10,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 14,
+        "wins": 4,
+        "losses": 10,
+        "no_result": 0,
+        "points": 8,
+        "nrr": 0.0
+      }
+    ],
+    "2017": [
+      {
+        "team": "Mumbai Indians",
+        "matches": 17,
+        "wins": 11,
+        "losses": 6,
+        "no_result": 0,
+        "points": 22,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rising Pune Supergiants",
+        "matches": 16,
+        "wins": 10,
+        "losses": 6,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 16,
+        "wins": 9,
+        "losses": 7,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 14,
+        "wins": 8,
+        "losses": 6,
+        "no_result": 0,
+        "points": 16,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Gujarat Lions",
+        "matches": 14,
+        "wins": 4,
+        "losses": 10,
+        "no_result": 0,
+        "points": 8,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 13,
+        "wins": 3,
+        "losses": 10,
+        "no_result": 0,
+        "points": 6,
+        "nrr": 0.0
+      }
+    ],
+    "2018": [
+      {
+        "team": "Chennai Super Kings",
+        "matches": 16,
+        "wins": 11,
+        "losses": 5,
+        "no_result": 0,
+        "points": 22,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 17,
+        "wins": 10,
+        "losses": 7,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 16,
+        "wins": 9,
+        "losses": 7,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rajasthan Royals",
+        "matches": 15,
+        "wins": 7,
+        "losses": 8,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Mumbai Indians",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 14,
+        "wins": 5,
+        "losses": 9,
+        "no_result": 0,
+        "points": 10,
+        "nrr": 0.0
+      }
+    ],
+    "2019": [
+      {
+        "team": "Chennai Super Kings",
+        "matches": 17,
+        "wins": 10,
+        "losses": 7,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Mumbai Indians",
+        "matches": 16,
+        "wins": 10,
+        "losses": 6,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 16,
+        "wins": 9,
+        "losses": 7,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 15,
+        "wins": 6,
+        "losses": 9,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 14,
+        "wins": 5,
+        "losses": 8,
+        "no_result": 1,
+        "points": 11,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rajasthan Royals",
+        "matches": 14,
+        "wins": 5,
+        "losses": 8,
+        "no_result": 1,
+        "points": 11,
+        "nrr": 0.0
+      }
+    ],
+    "2021": [
+      {
+        "team": "Mumbai Indians",
+        "matches": 30,
+        "wins": 18,
+        "losses": 12,
+        "no_result": 0,
+        "points": 36,
+        "nrr": 0.0
+      },
+      {
+        "team": "Chennai Super Kings",
+        "matches": 30,
+        "wins": 17,
+        "losses": 13,
+        "no_result": 0,
+        "points": 34,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 33,
+        "wins": 17,
+        "losses": 16,
+        "no_result": 0,
+        "points": 34,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 31,
+        "wins": 15,
+        "losses": 16,
+        "no_result": 0,
+        "points": 30,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 30,
+        "wins": 15,
+        "losses": 15,
+        "no_result": 0,
+        "points": 30,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rajasthan Royals",
+        "matches": 28,
+        "wins": 11,
+        "losses": 17,
+        "no_result": 0,
+        "points": 22,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 30,
+        "wins": 11,
+        "losses": 19,
+        "no_result": 0,
+        "points": 22,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 28,
+        "wins": 11,
+        "losses": 17,
+        "no_result": 0,
+        "points": 22,
+        "nrr": 0.0
+      }
+    ],
+    "2022": [
+      {
+        "team": "Gujarat Titans",
+        "matches": 16,
+        "wins": 12,
+        "losses": 4,
+        "no_result": 0,
+        "points": 24,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rajasthan Royals",
+        "matches": 17,
+        "wins": 10,
+        "losses": 7,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 16,
+        "wins": 9,
+        "losses": 7,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Lucknow Super Giants",
+        "matches": 15,
+        "wins": 9,
+        "losses": 6,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Chennai Super Kings",
+        "matches": 14,
+        "wins": 4,
+        "losses": 10,
+        "no_result": 0,
+        "points": 8,
+        "nrr": 0.0
+      },
+      {
+        "team": "Mumbai Indians",
+        "matches": 14,
+        "wins": 4,
+        "losses": 10,
+        "no_result": 0,
+        "points": 8,
+        "nrr": 0.0
+      }
+    ],
+    "2023": [
+      {
+        "team": "Gujarat Titans",
+        "matches": 17,
+        "wins": 11,
+        "losses": 6,
+        "no_result": 0,
+        "points": 22,
+        "nrr": 0.0
+      },
+      {
+        "team": "Chennai Super Kings",
+        "matches": 15,
+        "wins": 10,
+        "losses": 5,
+        "no_result": 0,
+        "points": 20,
+        "nrr": 0.0
+      },
+      {
+        "team": "Mumbai Indians",
+        "matches": 16,
+        "wins": 9,
+        "losses": 7,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Lucknow Super Giants",
+        "matches": 14,
+        "wins": 8,
+        "losses": 6,
+        "no_result": 0,
+        "points": 16,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rajasthan Royals",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 14,
+        "wins": 5,
+        "losses": 9,
+        "no_result": 0,
+        "points": 10,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 14,
+        "wins": 4,
+        "losses": 10,
+        "no_result": 0,
+        "points": 8,
+        "nrr": 0.0
+      }
+    ],
+    "2024": [
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 14,
+        "wins": 11,
+        "losses": 3,
+        "no_result": 0,
+        "points": 22,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rajasthan Royals",
+        "matches": 15,
+        "wins": 9,
+        "losses": 6,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 16,
+        "wins": 9,
+        "losses": 7,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 15,
+        "wins": 7,
+        "losses": 8,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Chennai Super Kings",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Lucknow Super Giants",
+        "matches": 14,
+        "wins": 7,
+        "losses": 7,
+        "no_result": 0,
+        "points": 14,
+        "nrr": 0.0
+      },
+      {
+        "team": "Gujarat Titans",
+        "matches": 12,
+        "wins": 5,
+        "losses": 7,
+        "no_result": 0,
+        "points": 10,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 14,
+        "wins": 5,
+        "losses": 9,
+        "no_result": 0,
+        "points": 10,
+        "nrr": 0.0
+      },
+      {
+        "team": "Mumbai Indians",
+        "matches": 14,
+        "wins": 4,
+        "losses": 10,
+        "no_result": 0,
+        "points": 8,
+        "nrr": 0.0
+      }
+    ],
+    "2025": [
+      {
+        "team": "Royal Challengers Bengaluru",
+        "matches": 15,
+        "wins": 11,
+        "losses": 4,
+        "no_result": 0,
+        "points": 22,
+        "nrr": 0.0
+      },
+      {
+        "team": "Punjab Kings",
+        "matches": 17,
+        "wins": 10,
+        "losses": 6,
+        "no_result": 1,
+        "points": 21,
+        "nrr": 0.0
+      },
+      {
+        "team": "Gujarat Titans",
+        "matches": 15,
+        "wins": 9,
+        "losses": 6,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Mumbai Indians",
+        "matches": 16,
+        "wins": 9,
+        "losses": 7,
+        "no_result": 0,
+        "points": 18,
+        "nrr": 0.0
+      },
+      {
+        "team": "Sunrisers Hyderabad",
+        "matches": 13,
+        "wins": 6,
+        "losses": 7,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Delhi Capitals",
+        "matches": 13,
+        "wins": 6,
+        "losses": 7,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Lucknow Super Giants",
+        "matches": 14,
+        "wins": 6,
+        "losses": 8,
+        "no_result": 0,
+        "points": 12,
+        "nrr": 0.0
+      },
+      {
+        "team": "Kolkata Knight Riders",
+        "matches": 13,
+        "wins": 5,
+        "losses": 7,
+        "no_result": 1,
+        "points": 11,
+        "nrr": 0.0
+      },
+      {
+        "team": "Rajasthan Royals",
+        "matches": 14,
+        "wins": 4,
+        "losses": 10,
+        "no_result": 0,
+        "points": 8,
+        "nrr": 0.0
+      },
+      {
+        "team": "Chennai Super Kings",
+        "matches": 14,
+        "wins": 4,
+        "losses": 10,
+        "no_result": 0,
+        "points": 8,
+        "nrr": 0.0
+      }
+    ]
+  },
+  "series_stats": {
+    "2008": {
+      "season": 2008,
+      "total_matches": 58,
+      "teams": 8,
+      "winner": "Rajasthan Royals"
+    },
+    "2009": {
+      "season": 2009,
+      "total_matches": 57,
+      "teams": 8,
+      "winner": "Delhi Capitals"
+    },
+    "2010": {
+      "season": 2010,
+      "total_matches": 60,
+      "teams": 8,
+      "winner": "Mumbai Indians"
+    },
+    "2011": {
+      "season": 2011,
+      "total_matches": 72,
+      "teams": 10,
+      "winner": "Chennai Super Kings"
+    },
+    "2012": {
+      "season": 2012,
+      "total_matches": 74,
+      "teams": 9,
+      "winner": "Kolkata Knight Riders"
+    },
+    "2013": {
+      "season": 2013,
+      "total_matches": 76,
+      "teams": 9,
+      "winner": "Mumbai Indians"
+    },
+    "2014": {
+      "season": 2014,
+      "total_matches": 60,
+      "teams": 8,
+      "winner": "Punjab Kings"
+    },
+    "2015": {
+      "season": 2015,
+      "total_matches": 58,
+      "teams": 8,
+      "winner": "Chennai Super Kings"
+    },
+    "2016": {
+      "season": 2016,
+      "total_matches": 60,
+      "teams": 8,
+      "winner": "Sunrisers Hyderabad"
+    },
+    "2017": {
+      "season": 2017,
+      "total_matches": 59,
+      "teams": 8,
+      "winner": "Mumbai Indians"
+    },
+    "2018": {
+      "season": 2018,
+      "total_matches": 60,
+      "teams": 8,
+      "winner": "Chennai Super Kings"
+    },
+    "2019": {
+      "season": 2019,
+      "total_matches": 60,
+      "teams": 8,
+      "winner": "Chennai Super Kings"
+    },
+    "2021": {
+      "season": 2021,
+      "total_matches": 120,
+      "teams": 8,
+      "winner": "Mumbai Indians"
+    },
+    "2022": {
+      "season": 2022,
+      "total_matches": 74,
+      "teams": 10,
+      "winner": "Gujarat Titans"
+    },
+    "2023": {
+      "season": 2023,
+      "total_matches": 73,
+      "teams": 10,
+      "winner": "Gujarat Titans"
+    },
+    "2024": {
+      "season": 2024,
+      "total_matches": 71,
+      "teams": 10,
+      "winner": "Kolkata Knight Riders"
+    },
+    "2025": {
+      "season": 2025,
+      "total_matches": 72,
+      "teams": 10,
+      "winner": "Royal Challengers Bengaluru"
+    }
+  }
+}

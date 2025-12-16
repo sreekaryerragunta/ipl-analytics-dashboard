@@ -1,0 +1,8006 @@
+{
+  "Pune Warriors India": {
+    "batting_first": {
+      "played": 20,
+      "won": 6,
+      "lost": 14,
+      "win_rate": 30.0
+    },
+    "chasing": {
+      "played": 25,
+      "won": 6,
+      "lost": 19,
+      "win_rate": 24.0
+    },
+    "bat_chase_by_filter": {
+      "all": {
+        "batting_first": {
+          "played": 20,
+          "won": 6,
+          "lost": 14,
+          "win_rate": 30.0
+        },
+        "chasing": {
+          "played": 25,
+          "won": 6,
+          "lost": 19,
+          "win_rate": 24.0
+        }
+      },
+      "last3": {
+        "batting_first": {
+          "played": 20,
+          "won": 6,
+          "lost": 14,
+          "win_rate": 30.0
+        },
+        "chasing": {
+          "played": 25,
+          "won": 6,
+          "lost": 19,
+          "win_rate": 24.0
+        }
+      },
+      "last5": {
+        "batting_first": {
+          "played": 20,
+          "won": 6,
+          "lost": 14,
+          "win_rate": 30.0
+        },
+        "chasing": {
+          "played": 25,
+          "won": 6,
+          "lost": 19,
+          "win_rate": 24.0
+        }
+      }
+    },
+    "toss_impact": {
+      "won_toss_won_match": 3,
+      "won_toss_total": 20,
+      "lost_toss_won_match": 9,
+      "lost_toss_total": 25,
+      "toss_win_advantage": -21.0
+    },
+    "toss_impact_by_filter": {
+      "all": {
+        "won_toss_won_match": 3,
+        "won_toss_total": 20,
+        "lost_toss_won_match": 9,
+        "lost_toss_total": 25,
+        "toss_win_advantage": -21.0
+      },
+      "last3": {
+        "won_toss_won_match": 3,
+        "won_toss_total": 20,
+        "lost_toss_won_match": 9,
+        "lost_toss_total": 25,
+        "toss_win_advantage": -21.0
+      },
+      "last5": {
+        "won_toss_won_match": 3,
+        "won_toss_total": 20,
+        "lost_toss_won_match": 9,
+        "lost_toss_total": 25,
+        "toss_win_advantage": -21.0
+      }
+    },
+    "season_analytics": {
+      "season_2011": {
+        "batting_first": {
+          "played": 6,
+          "won": 0,
+          "lost": 6,
+          "win_rate": 0.0
+        },
+        "chasing": {
+          "played": 7,
+          "won": 4,
+          "lost": 3,
+          "win_rate": 57.1
+        },
+        "toss_impact": {
+          "won_toss_won_match": 0,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 8,
+          "toss_win_advantage": -50.0
+        }
+      },
+      "season_2012": {
+        "batting_first": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "chasing": {
+          "played": 9,
+          "won": 1,
+          "lost": 8,
+          "win_rate": 11.1
+        },
+        "toss_impact": {
+          "won_toss_won_match": 1,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 10,
+          "toss_win_advantage": -13.3
+        }
+      },
+      "season_2013": {
+        "batting_first": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "chasing": {
+          "played": 9,
+          "won": 1,
+          "lost": 8,
+          "win_rate": 11.1
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 7,
+          "toss_win_advantage": -6.3
+        }
+      }
+    },
+    "top_venues": [
+      {
+        "venue": "Maharashtra Cricket Association Stadium",
+        "played": 16,
+        "won": 4,
+        "win_rate": 25.0
+      }
+    ],
+    "worst_venues": [
+      {
+        "venue": "Maharashtra Cricket Association Stadium",
+        "played": 16,
+        "won": 4,
+        "win_rate": 25.0
+      }
+    ],
+    "venue_stats_by_filter": {
+      "all": {
+        "top": [
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 16,
+            "won": 4,
+            "win_rate": 25.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 16,
+            "won": 4,
+            "win_rate": 25.0
+          }
+        ]
+      },
+      "last3": {
+        "top": [
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Punjab Cricket Association IS Bindra Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 7,
+            "won": 2,
+            "win_rate": 28.6
+          }
+        ],
+        "worst": [
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 3,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Sawai Mansingh Stadium",
+            "played": 3,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 16,
+            "won": 4,
+            "win_rate": 25.0
+          },
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 7,
+            "won": 2,
+            "win_rate": 28.6
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          }
+        ]
+      },
+      "last5": {
+        "top": [
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Punjab Cricket Association IS Bindra Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 7,
+            "won": 2,
+            "win_rate": 28.6
+          }
+        ],
+        "worst": [
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 3,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Sawai Mansingh Stadium",
+            "played": 3,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 16,
+            "won": 4,
+            "win_rate": 25.0
+          },
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 7,
+            "won": 2,
+            "win_rate": 28.6
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "last_10_wins": 2,
+      "last_10_losses": 8,
+      "form_string": "WWLLLLLLLL",
+      "win_rate": 20.0
+    },
+    "season_trends": [
+      {
+        "season": 2011,
+        "won": 4,
+        "played": 13,
+        "win_rate": 30.8
+      },
+      {
+        "season": 2012,
+        "won": 4,
+        "played": 16,
+        "win_rate": 25.0
+      },
+      {
+        "season": 2013,
+        "won": 4,
+        "played": 16,
+        "win_rate": 25.0
+      }
+    ]
+  },
+  "Rising Pune Supergiants": {
+    "batting_first": {
+      "played": 15,
+      "won": 5,
+      "lost": 10,
+      "win_rate": 33.3
+    },
+    "chasing": {
+      "played": 15,
+      "won": 10,
+      "lost": 5,
+      "win_rate": 66.7
+    },
+    "bat_chase_by_filter": {
+      "all": {
+        "batting_first": {
+          "played": 15,
+          "won": 5,
+          "lost": 10,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 15,
+          "won": 10,
+          "lost": 5,
+          "win_rate": 66.7
+        }
+      },
+      "last3": {
+        "batting_first": {
+          "played": 15,
+          "won": 5,
+          "lost": 10,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 15,
+          "won": 10,
+          "lost": 5,
+          "win_rate": 66.7
+        }
+      },
+      "last5": {
+        "batting_first": {
+          "played": 15,
+          "won": 5,
+          "lost": 10,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 15,
+          "won": 10,
+          "lost": 5,
+          "win_rate": 66.7
+        }
+      }
+    },
+    "toss_impact": {
+      "won_toss_won_match": 8,
+      "won_toss_total": 13,
+      "lost_toss_won_match": 7,
+      "lost_toss_total": 17,
+      "toss_win_advantage": 20.4
+    },
+    "toss_impact_by_filter": {
+      "all": {
+        "won_toss_won_match": 8,
+        "won_toss_total": 13,
+        "lost_toss_won_match": 7,
+        "lost_toss_total": 17,
+        "toss_win_advantage": 20.4
+      },
+      "last3": {
+        "won_toss_won_match": 8,
+        "won_toss_total": 13,
+        "lost_toss_won_match": 7,
+        "lost_toss_total": 17,
+        "toss_win_advantage": 20.4
+      },
+      "last5": {
+        "won_toss_won_match": 8,
+        "won_toss_total": 13,
+        "lost_toss_won_match": 7,
+        "lost_toss_total": 17,
+        "toss_win_advantage": 20.4
+      }
+    },
+    "season_analytics": {
+      "season_2016": {
+        "batting_first": {
+          "played": 7,
+          "won": 0,
+          "lost": 7,
+          "win_rate": 0.0
+        },
+        "chasing": {
+          "played": 7,
+          "won": 5,
+          "lost": 2,
+          "win_rate": 71.4
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 14.3
+        }
+      },
+      "season_2017": {
+        "batting_first": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "chasing": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 10,
+          "toss_win_advantage": 33.3
+        }
+      }
+    },
+    "top_venues": [
+      {
+        "venue": "Maharashtra Cricket Association Stadium",
+        "played": 11,
+        "won": 5,
+        "win_rate": 45.5
+      }
+    ],
+    "worst_venues": [
+      {
+        "venue": "Maharashtra Cricket Association Stadium",
+        "played": 11,
+        "won": 5,
+        "win_rate": 45.5
+      }
+    ],
+    "venue_stats_by_filter": {
+      "all": {
+        "top": [
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 11,
+            "won": 5,
+            "win_rate": 45.5
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 11,
+            "won": 5,
+            "win_rate": 45.5
+          }
+        ]
+      },
+      "last3": {
+        "top": [
+          {
+            "venue": "Wankhede Stadium",
+            "played": 3,
+            "won": 3,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "ACA-VDCA Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Saurashtra Cricket Association Stadium",
+            "played": 2,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 11,
+            "won": 5,
+            "win_rate": 45.5
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ]
+      },
+      "last5": {
+        "top": [
+          {
+            "venue": "Wankhede Stadium",
+            "played": 3,
+            "won": 3,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "ACA-VDCA Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Saurashtra Cricket Association Stadium",
+            "played": 2,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 11,
+            "won": 5,
+            "win_rate": 45.5
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "last_10_wins": 7,
+      "last_10_losses": 3,
+      "form_string": "LWWLWWWWLW",
+      "win_rate": 70.0
+    },
+    "season_trends": [
+      {
+        "season": 2016,
+        "won": 5,
+        "played": 14,
+        "win_rate": 35.7
+      },
+      {
+        "season": 2017,
+        "won": 10,
+        "played": 16,
+        "win_rate": 62.5
+      }
+    ]
+  },
+  "Gujarat Lions": {
+    "batting_first": {
+      "played": 14,
+      "won": 1,
+      "lost": 13,
+      "win_rate": 7.1
+    },
+    "chasing": {
+      "played": 16,
+      "won": 12,
+      "lost": 4,
+      "win_rate": 75.0
+    },
+    "bat_chase_by_filter": {
+      "all": {
+        "batting_first": {
+          "played": 14,
+          "won": 1,
+          "lost": 13,
+          "win_rate": 7.1
+        },
+        "chasing": {
+          "played": 16,
+          "won": 12,
+          "lost": 4,
+          "win_rate": 75.0
+        }
+      },
+      "last3": {
+        "batting_first": {
+          "played": 14,
+          "won": 1,
+          "lost": 13,
+          "win_rate": 7.1
+        },
+        "chasing": {
+          "played": 16,
+          "won": 12,
+          "lost": 4,
+          "win_rate": 75.0
+        }
+      },
+      "last5": {
+        "batting_first": {
+          "played": 14,
+          "won": 1,
+          "lost": 13,
+          "win_rate": 7.1
+        },
+        "chasing": {
+          "played": 16,
+          "won": 12,
+          "lost": 4,
+          "win_rate": 75.0
+        }
+      }
+    },
+    "toss_impact": {
+      "won_toss_won_match": 10,
+      "won_toss_total": 15,
+      "lost_toss_won_match": 3,
+      "lost_toss_total": 15,
+      "toss_win_advantage": 46.7
+    },
+    "toss_impact_by_filter": {
+      "all": {
+        "won_toss_won_match": 10,
+        "won_toss_total": 15,
+        "lost_toss_won_match": 3,
+        "lost_toss_total": 15,
+        "toss_win_advantage": 46.7
+      },
+      "last3": {
+        "won_toss_won_match": 10,
+        "won_toss_total": 15,
+        "lost_toss_won_match": 3,
+        "lost_toss_total": 15,
+        "toss_win_advantage": 46.7
+      },
+      "last5": {
+        "won_toss_won_match": 10,
+        "won_toss_total": 15,
+        "lost_toss_won_match": 3,
+        "lost_toss_total": 15,
+        "toss_win_advantage": 46.7
+      }
+    },
+    "season_analytics": {
+      "season_2016": {
+        "batting_first": {
+          "played": 6,
+          "won": 1,
+          "lost": 5,
+          "win_rate": 16.7
+        },
+        "chasing": {
+          "played": 10,
+          "won": 8,
+          "lost": 2,
+          "win_rate": 80.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 37.5
+        }
+      },
+      "season_2017": {
+        "batting_first": {
+          "played": 8,
+          "won": 0,
+          "lost": 8,
+          "win_rate": 0.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 4,
+          "lost": 2,
+          "win_rate": 66.7
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 0,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 57.1
+        }
+      }
+    },
+    "top_venues": [
+      {
+        "venue": "Saurashtra Cricket Association Stadium",
+        "played": 10,
+        "won": 3,
+        "win_rate": 30.0
+      }
+    ],
+    "worst_venues": [
+      {
+        "venue": "Saurashtra Cricket Association Stadium",
+        "played": 10,
+        "won": 3,
+        "win_rate": 30.0
+      }
+    ],
+    "venue_stats_by_filter": {
+      "all": {
+        "top": [
+          {
+            "venue": "Saurashtra Cricket Association Stadium",
+            "played": 10,
+            "won": 3,
+            "win_rate": 30.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Saurashtra Cricket Association Stadium",
+            "played": 10,
+            "won": 3,
+            "win_rate": 30.0
+          }
+        ]
+      },
+      "last3": {
+        "top": [
+          {
+            "venue": "Eden Gardens",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Punjab Cricket Association IS Bindra Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Green Park",
+            "played": 4,
+            "won": 2,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 2,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Saurashtra Cricket Association Stadium",
+            "played": 10,
+            "won": 3,
+            "win_rate": 30.0
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Green Park",
+            "played": 4,
+            "won": 2,
+            "win_rate": 50.0
+          }
+        ]
+      },
+      "last5": {
+        "top": [
+          {
+            "venue": "Eden Gardens",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Punjab Cricket Association IS Bindra Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Green Park",
+            "played": 4,
+            "won": 2,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 2,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Saurashtra Cricket Association Stadium",
+            "played": 10,
+            "won": 3,
+            "win_rate": 30.0
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Green Park",
+            "played": 4,
+            "won": 2,
+            "win_rate": 50.0
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "last_10_wins": 3,
+      "last_10_losses": 7,
+      "form_string": "LLWLLLWLWL",
+      "win_rate": 30.0
+    },
+    "season_trends": [
+      {
+        "season": 2016,
+        "won": 9,
+        "played": 16,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2017,
+        "won": 4,
+        "played": 14,
+        "win_rate": 28.6
+      }
+    ]
+  },
+  "Chennai Super Kings": {
+    "batting_first": {
+      "played": 136,
+      "won": 71,
+      "lost": 65,
+      "win_rate": 52.2
+    },
+    "chasing": {
+      "played": 115,
+      "won": 71,
+      "lost": 44,
+      "win_rate": 61.7
+    },
+    "bat_chase_by_filter": {
+      "all": {
+        "batting_first": {
+          "played": 136,
+          "won": 71,
+          "lost": 65,
+          "win_rate": 52.2
+        },
+        "chasing": {
+          "played": 115,
+          "won": 71,
+          "lost": 44,
+          "win_rate": 61.7
+        }
+      },
+      "last3": {
+        "batting_first": {
+          "played": 23,
+          "won": 11,
+          "lost": 12,
+          "win_rate": 47.8
+        },
+        "chasing": {
+          "played": 20,
+          "won": 10,
+          "lost": 10,
+          "win_rate": 50.0
+        }
+      },
+      "last5": {
+        "batting_first": {
+          "played": 43,
+          "won": 19,
+          "lost": 24,
+          "win_rate": 44.2
+        },
+        "chasing": {
+          "played": 30,
+          "won": 17,
+          "lost": 13,
+          "win_rate": 56.7
+        }
+      }
+    },
+    "toss_impact": {
+      "won_toss_won_match": 78,
+      "won_toss_total": 127,
+      "lost_toss_won_match": 64,
+      "lost_toss_total": 124,
+      "toss_win_advantage": 9.8
+    },
+    "toss_impact_by_filter": {
+      "all": {
+        "won_toss_won_match": 78,
+        "won_toss_total": 127,
+        "lost_toss_won_match": 64,
+        "lost_toss_total": 124,
+        "toss_win_advantage": 9.8
+      },
+      "last3": {
+        "won_toss_won_match": 10,
+        "won_toss_total": 18,
+        "lost_toss_won_match": 11,
+        "lost_toss_total": 25,
+        "toss_win_advantage": 11.6
+      },
+      "last5": {
+        "won_toss_won_match": 17,
+        "won_toss_total": 30,
+        "lost_toss_won_match": 19,
+        "lost_toss_total": 43,
+        "toss_win_advantage": 12.5
+      }
+    },
+    "season_analytics": {
+      "season_2008": {
+        "batting_first": {
+          "played": 9,
+          "won": 4,
+          "lost": 5,
+          "win_rate": 44.4
+        },
+        "chasing": {
+          "played": 7,
+          "won": 5,
+          "lost": 2,
+          "win_rate": 71.4
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 6,
+          "lost_toss_total": 11,
+          "toss_win_advantage": 5.5
+        }
+      },
+      "season_2009": {
+        "batting_first": {
+          "played": 10,
+          "won": 6,
+          "lost": 4,
+          "win_rate": 60.0
+        },
+        "chasing": {
+          "played": 4,
+          "won": 2,
+          "lost": 2,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 0.0
+        }
+      },
+      "season_2010": {
+        "batting_first": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "chasing": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 10.0
+        }
+      },
+      "season_2011": {
+        "batting_first": {
+          "played": 12,
+          "won": 8,
+          "lost": 4,
+          "win_rate": 66.7
+        },
+        "chasing": {
+          "played": 4,
+          "won": 3,
+          "lost": 1,
+          "win_rate": 75.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 7,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 20.6
+        }
+      },
+      "season_2012": {
+        "batting_first": {
+          "played": 12,
+          "won": 5,
+          "lost": 7,
+          "win_rate": 41.7
+        },
+        "chasing": {
+          "played": 6,
+          "won": 5,
+          "lost": 1,
+          "win_rate": 83.3
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 6,
+          "lost_toss_total": 11,
+          "toss_win_advantage": 2.6
+        }
+      },
+      "season_2013": {
+        "batting_first": {
+          "played": 8,
+          "won": 7,
+          "lost": 1,
+          "win_rate": 87.5
+        },
+        "chasing": {
+          "played": 10,
+          "won": 5,
+          "lost": 5,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 7,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 10,
+          "toss_win_advantage": 37.5
+        }
+      },
+      "season_2014": {
+        "batting_first": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "chasing": {
+          "played": 9,
+          "won": 7,
+          "lost": 2,
+          "win_rate": 77.8
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 6,
+          "toss_win_advantage": -6.7
+        }
+      },
+      "season_2015": {
+        "batting_first": {
+          "played": 11,
+          "won": 7,
+          "lost": 4,
+          "win_rate": 63.6
+        },
+        "chasing": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 7,
+          "toss_win_advantage": -21.4
+        }
+      },
+      "season_2018": {
+        "batting_first": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 10,
+          "won": 8,
+          "lost": 2,
+          "win_rate": 80.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 8,
+          "won_toss_total": 11,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 5,
+          "toss_win_advantage": 12.7
+        }
+      },
+      "season_2019": {
+        "batting_first": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 11,
+          "won": 7,
+          "lost": 4,
+          "win_rate": 63.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 7,
+          "won_toss_total": 12,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 5,
+          "toss_win_advantage": -1.7
+        }
+      },
+      "season_2020": {
+        "batting_first": {
+          "played": 4,
+          "won": 1,
+          "lost": 3,
+          "win_rate": 25.0
+        },
+        "chasing": {
+          "played": 10,
+          "won": 5,
+          "lost": 5,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 16.7
+        }
+      },
+      "season_2021": {
+        "batting_first": {
+          "played": 10,
+          "won": 5,
+          "lost": 5,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 6,
+          "lost": 0,
+          "win_rate": 100.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 10,
+          "toss_win_advantage": 50.0
+        }
+      },
+      "season_2022": {
+        "batting_first": {
+          "played": 10,
+          "won": 3,
+          "lost": 7,
+          "win_rate": 30.0
+        },
+        "chasing": {
+          "played": 4,
+          "won": 1,
+          "lost": 3,
+          "win_rate": 25.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 1,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 8,
+          "toss_win_advantage": -20.8
+        }
+      },
+      "season_2023": {
+        "batting_first": {
+          "played": 9,
+          "won": 6,
+          "lost": 3,
+          "win_rate": 66.7
+        },
+        "chasing": {
+          "played": 6,
+          "won": 4,
+          "lost": 2,
+          "win_rate": 66.7
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 0.0
+        }
+      },
+      "season_2024": {
+        "batting_first": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 1,
+          "won_toss_total": 3,
+          "lost_toss_won_match": 6,
+          "lost_toss_total": 11,
+          "toss_win_advantage": -21.2
+        }
+      },
+      "season_2025": {
+        "batting_first": {
+          "played": 6,
+          "won": 1,
+          "lost": 5,
+          "win_rate": 16.7
+        },
+        "chasing": {
+          "played": 8,
+          "won": 3,
+          "lost": 5,
+          "win_rate": 37.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 1,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 37.5
+        }
+      }
+    },
+    "top_venues": [
+      {
+        "venue": "Arun Jaitley Stadium",
+        "played": 12,
+        "won": 8,
+        "win_rate": 66.7
+      },
+      {
+        "venue": "MA Chidambaram Stadium",
+        "played": 77,
+        "won": 51,
+        "win_rate": 66.2
+      },
+      {
+        "venue": "Dubai International Cricket Stadium",
+        "played": 14,
+        "won": 9,
+        "win_rate": 64.3
+      },
+      {
+        "venue": "Maharashtra Cricket Association Stadium",
+        "played": 11,
+        "won": 7,
+        "win_rate": 63.6
+      },
+      {
+        "venue": "Eden Gardens",
+        "played": 13,
+        "won": 7,
+        "win_rate": 53.8
+      }
+    ],
+    "worst_venues": [
+      {
+        "venue": "Wankhede Stadium",
+        "played": 26,
+        "won": 13,
+        "win_rate": 50.0
+      },
+      {
+        "venue": "M Chinnaswamy Stadium",
+        "played": 12,
+        "won": 6,
+        "win_rate": 50.0
+      },
+      {
+        "venue": "Eden Gardens",
+        "played": 13,
+        "won": 7,
+        "win_rate": 53.8
+      },
+      {
+        "venue": "Maharashtra Cricket Association Stadium",
+        "played": 11,
+        "won": 7,
+        "win_rate": 63.6
+      },
+      {
+        "venue": "Dubai International Cricket Stadium",
+        "played": 14,
+        "won": 9,
+        "win_rate": 64.3
+      }
+    ],
+    "venue_stats_by_filter": {
+      "all": {
+        "top": [
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 12,
+            "won": 8,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 77,
+            "won": 51,
+            "win_rate": 66.2
+          },
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 14,
+            "won": 9,
+            "win_rate": 64.3
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 11,
+            "won": 7,
+            "win_rate": 63.6
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 13,
+            "won": 7,
+            "win_rate": 53.8
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Wankhede Stadium",
+            "played": 26,
+            "won": 13,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 12,
+            "won": 6,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 13,
+            "won": 7,
+            "win_rate": 53.8
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 11,
+            "won": 7,
+            "win_rate": 63.6
+          },
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 14,
+            "won": 9,
+            "win_rate": 64.3
+          }
+        ]
+      },
+      "last3": {
+        "top": [
+          {
+            "venue": "Eden Gardens",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 21,
+            "won": 11,
+            "win_rate": 52.4
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 4,
+            "won": 2,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 4,
+            "won": 2,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 21,
+            "won": 11,
+            "win_rate": 52.4
+          }
+        ]
+      },
+      "last5": {
+        "top": [
+          {
+            "venue": "Eden Gardens",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Sharjah Cricket Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 4,
+            "won": 3,
+            "win_rate": 75.0
+          },
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 5,
+            "won": 3,
+            "win_rate": 60.0
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 21,
+            "won": 11,
+            "win_rate": 52.4
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Brabourne Stadium",
+            "played": 3,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 12,
+            "won": 6,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 4,
+            "won": 2,
+            "win_rate": 50.0
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "last_10_wins": 3,
+      "last_10_losses": 7,
+      "form_string": "WLWLLLLWLL",
+      "win_rate": 30.0
+    },
+    "season_trends": [
+      {
+        "season": 2021,
+        "won": 11,
+        "played": 16,
+        "win_rate": 68.8
+      },
+      {
+        "season": 2022,
+        "won": 4,
+        "played": 14,
+        "win_rate": 28.6
+      },
+      {
+        "season": 2023,
+        "won": 10,
+        "played": 15,
+        "win_rate": 66.7
+      },
+      {
+        "season": 2024,
+        "won": 7,
+        "played": 14,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2025,
+        "won": 4,
+        "played": 14,
+        "win_rate": 28.6
+      }
+    ]
+  },
+  "Punjab Kings": {
+    "batting_first": {
+      "played": 139,
+      "won": 55,
+      "lost": 84,
+      "win_rate": 39.6
+    },
+    "chasing": {
+      "played": 125,
+      "won": 64,
+      "lost": 61,
+      "win_rate": 51.2
+    },
+    "bat_chase_by_filter": {
+      "all": {
+        "batting_first": {
+          "played": 139,
+          "won": 55,
+          "lost": 84,
+          "win_rate": 39.6
+        },
+        "chasing": {
+          "played": 125,
+          "won": 64,
+          "lost": 61,
+          "win_rate": 51.2
+        }
+      },
+      "last3": {
+        "batting_first": {
+          "played": 24,
+          "won": 9,
+          "lost": 15,
+          "win_rate": 37.5
+        },
+        "chasing": {
+          "played": 22,
+          "won": 12,
+          "lost": 10,
+          "win_rate": 54.5
+        }
+      },
+      "last5": {
+        "batting_first": {
+          "played": 42,
+          "won": 16,
+          "lost": 26,
+          "win_rate": 38.1
+        },
+        "chasing": {
+          "played": 32,
+          "won": 18,
+          "lost": 14,
+          "win_rate": 56.2
+        }
+      }
+    },
+    "toss_impact": {
+      "won_toss_won_match": 52,
+      "won_toss_total": 122,
+      "lost_toss_won_match": 67,
+      "lost_toss_total": 142,
+      "toss_win_advantage": -4.6
+    },
+    "toss_impact_by_filter": {
+      "all": {
+        "won_toss_won_match": 52,
+        "won_toss_total": 122,
+        "lost_toss_won_match": 67,
+        "lost_toss_total": 142,
+        "toss_win_advantage": -4.6
+      },
+      "last3": {
+        "won_toss_won_match": 13,
+        "won_toss_total": 28,
+        "lost_toss_won_match": 8,
+        "lost_toss_total": 18,
+        "toss_win_advantage": 2.0
+      },
+      "last5": {
+        "won_toss_won_match": 17,
+        "won_toss_total": 37,
+        "lost_toss_won_match": 17,
+        "lost_toss_total": 37,
+        "toss_win_advantage": 0.0
+      }
+    },
+    "season_analytics": {
+      "season_2008": {
+        "batting_first": {
+          "played": 7,
+          "won": 4,
+          "lost": 3,
+          "win_rate": 57.1
+        },
+        "chasing": {
+          "played": 8,
+          "won": 6,
+          "lost": 2,
+          "win_rate": 75.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 6,
+          "lost_toss_total": 7,
+          "toss_win_advantage": -35.7
+        }
+      },
+      "season_2009": {
+        "batting_first": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 29.2
+        }
+      },
+      "season_2010": {
+        "batting_first": {
+          "played": 8,
+          "won": 0,
+          "lost": 8,
+          "win_rate": 0.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 0,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 9,
+          "toss_win_advantage": -33.3
+        }
+      },
+      "season_2011": {
+        "batting_first": {
+          "played": 7,
+          "won": 4,
+          "lost": 3,
+          "win_rate": 57.1
+        },
+        "chasing": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 4,
+          "toss_win_advantage": -35.0
+        }
+      },
+      "season_2012": {
+        "batting_first": {
+          "played": 8,
+          "won": 3,
+          "lost": 5,
+          "win_rate": 37.5
+        },
+        "chasing": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 0.0
+        }
+      },
+      "season_2013": {
+        "batting_first": {
+          "played": 8,
+          "won": 3,
+          "lost": 5,
+          "win_rate": 37.5
+        },
+        "chasing": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 9,
+          "toss_win_advantage": 12.7
+        }
+      },
+      "season_2014": {
+        "batting_first": {
+          "played": 10,
+          "won": 6,
+          "lost": 4,
+          "win_rate": 60.0
+        },
+        "chasing": {
+          "played": 7,
+          "won": 6,
+          "lost": 1,
+          "win_rate": 85.7
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 7,
+          "lost_toss_total": 10,
+          "toss_win_advantage": 1.4
+        }
+      },
+      "season_2015": {
+        "batting_first": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "chasing": {
+          "played": 7,
+          "won": 0,
+          "lost": 7,
+          "win_rate": 0.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 0,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 7,
+          "toss_win_advantage": -28.6
+        }
+      },
+      "season_2016": {
+        "batting_first": {
+          "played": 8,
+          "won": 2,
+          "lost": 6,
+          "win_rate": 25.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 2,
+          "lost": 4,
+          "win_rate": 33.3
+        },
+        "toss_impact": {
+          "won_toss_won_match": 0,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 8,
+          "toss_win_advantage": -50.0
+        }
+      },
+      "season_2017": {
+        "batting_first": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 4,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 10,
+          "toss_win_advantage": 0.0
+        }
+      },
+      "season_2018": {
+        "batting_first": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "chasing": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 28.6
+        }
+      },
+      "season_2019": {
+        "batting_first": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "chasing": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 12.5
+        }
+      },
+      "season_2020": {
+        "batting_first": {
+          "played": 6,
+          "won": 2,
+          "lost": 4,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 8,
+          "won": 3,
+          "lost": 5,
+          "win_rate": 37.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 1,
+          "won_toss_total": 4,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 10,
+          "toss_win_advantage": -15.0
+        }
+      },
+      "season_2021": {
+        "batting_first": {
+          "played": 9,
+          "won": 3,
+          "lost": 6,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 5,
+          "won": 3,
+          "lost": 2,
+          "win_rate": 60.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 9,
+          "toss_win_advantage": 26.7
+        }
+      },
+      "season_2022": {
+        "batting_first": {
+          "played": 9,
+          "won": 4,
+          "lost": 5,
+          "win_rate": 44.4
+        },
+        "chasing": {
+          "played": 5,
+          "won": 3,
+          "lost": 2,
+          "win_rate": 60.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 1,
+          "won_toss_total": 4,
+          "lost_toss_won_match": 6,
+          "lost_toss_total": 10,
+          "toss_win_advantage": -35.0
+        }
+      },
+      "season_2023": {
+        "batting_first": {
+          "played": 9,
+          "won": 4,
+          "lost": 5,
+          "win_rate": 44.4
+        },
+        "chasing": {
+          "played": 5,
+          "won": 2,
+          "lost": 3,
+          "win_rate": 40.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 1,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 9,
+          "toss_win_advantage": -35.6
+        }
+      },
+      "season_2024": {
+        "batting_first": {
+          "played": 4,
+          "won": 0,
+          "lost": 4,
+          "win_rate": 0.0
+        },
+        "chasing": {
+          "played": 10,
+          "won": 5,
+          "lost": 5,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 1,
+          "lost_toss_total": 4,
+          "toss_win_advantage": 15.0
+        }
+      },
+      "season_2025": {
+        "batting_first": {
+          "played": 11,
+          "won": 5,
+          "lost": 6,
+          "win_rate": 45.5
+        },
+        "chasing": {
+          "played": 7,
+          "won": 5,
+          "lost": 2,
+          "win_rate": 71.4
+        },
+        "toss_impact": {
+          "won_toss_won_match": 8,
+          "won_toss_total": 13,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 5,
+          "toss_win_advantage": 21.5
+        }
+      }
+    },
+    "top_venues": [
+      {
+        "venue": "Dubai International Cricket Stadium",
+        "played": 11,
+        "won": 6,
+        "win_rate": 54.5
+      },
+      {
+        "venue": "Punjab Cricket Association IS Bindra Stadium",
+        "played": 61,
+        "won": 31,
+        "win_rate": 50.8
+      },
+      {
+        "venue": "Arun Jaitley Stadium",
+        "played": 12,
+        "won": 6,
+        "win_rate": 50.0
+      },
+      {
+        "venue": "Wankhede Stadium",
+        "played": 19,
+        "won": 9,
+        "win_rate": 47.4
+      },
+      {
+        "venue": "MA Chidambaram Stadium",
+        "played": 11,
+        "won": 5,
+        "win_rate": 45.5
+      }
+    ],
+    "worst_venues": [
+      {
+        "venue": "Eden Gardens",
+        "played": 14,
+        "won": 4,
+        "win_rate": 28.6
+      },
+      {
+        "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+        "played": 10,
+        "won": 3,
+        "win_rate": 30.0
+      },
+      {
+        "venue": "Rajiv Gandhi International Stadium",
+        "played": 13,
+        "won": 4,
+        "win_rate": 30.8
+      },
+      {
+        "venue": "Himachal Pradesh Cricket Association Stadium",
+        "played": 15,
+        "won": 6,
+        "win_rate": 40.0
+      },
+      {
+        "venue": "M Chinnaswamy Stadium",
+        "played": 14,
+        "won": 6,
+        "win_rate": 42.9
+      }
+    ],
+    "venue_stats_by_filter": {
+      "all": {
+        "top": [
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 11,
+            "won": 6,
+            "win_rate": 54.5
+          },
+          {
+            "venue": "Punjab Cricket Association IS Bindra Stadium",
+            "played": 61,
+            "won": 31,
+            "win_rate": 50.8
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 12,
+            "won": 6,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 19,
+            "won": 9,
+            "win_rate": 47.4
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 11,
+            "won": 5,
+            "win_rate": 45.5
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Eden Gardens",
+            "played": 14,
+            "won": 4,
+            "win_rate": 28.6
+          },
+          {
+            "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+            "played": 10,
+            "won": 3,
+            "win_rate": 30.0
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 13,
+            "won": 4,
+            "win_rate": 30.8
+          },
+          {
+            "venue": "Himachal Pradesh Cricket Association Stadium",
+            "played": 15,
+            "won": 6,
+            "win_rate": 40.0
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 14,
+            "won": 6,
+            "win_rate": 42.9
+          }
+        ]
+      },
+      "last3": {
+        "top": [
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 3,
+            "won": 3,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Barsapara Cricket Stadium, Guwahati",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 4,
+            "won": 3,
+            "win_rate": 75.0
+          },
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Sawai Mansingh Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 3,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Himachal Pradesh Cricket Association Stadium",
+            "played": 6,
+            "won": 1,
+            "win_rate": 16.7
+          },
+          {
+            "venue": "Punjab Cricket Association IS Bindra Stadium",
+            "played": 5,
+            "won": 1,
+            "win_rate": 20.0
+          },
+          {
+            "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+            "played": 10,
+            "won": 3,
+            "win_rate": 30.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          }
+        ]
+      },
+      "last5": {
+        "top": [
+          {
+            "venue": "Barsapara Cricket Stadium, Guwahati",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 5,
+            "won": 4,
+            "win_rate": 80.0
+          },
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Sawai Mansingh Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 3,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Himachal Pradesh Cricket Association Stadium",
+            "played": 6,
+            "won": 1,
+            "win_rate": 16.7
+          },
+          {
+            "venue": "Punjab Cricket Association IS Bindra Stadium",
+            "played": 5,
+            "won": 1,
+            "win_rate": 20.0
+          },
+          {
+            "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+            "played": 10,
+            "won": 3,
+            "win_rate": 30.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "last_10_wins": 5,
+      "last_10_losses": 5,
+      "form_string": "LWLWLWLWWL",
+      "win_rate": 50.0
+    },
+    "season_trends": [
+      {
+        "season": 2021,
+        "won": 6,
+        "played": 14,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2022,
+        "won": 7,
+        "played": 14,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2023,
+        "won": 6,
+        "played": 14,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2024,
+        "won": 5,
+        "played": 14,
+        "win_rate": 35.7
+      },
+      {
+        "season": 2025,
+        "won": 10,
+        "played": 18,
+        "win_rate": 55.6
+      }
+    ]
+  },
+  "Kolkata Knight Riders": {
+    "batting_first": {
+      "played": 126,
+      "won": 55,
+      "lost": 71,
+      "win_rate": 43.7
+    },
+    "chasing": {
+      "played": 138,
+      "won": 80,
+      "lost": 58,
+      "win_rate": 58.0
+    },
+    "bat_chase_by_filter": {
+      "all": {
+        "batting_first": {
+          "played": 126,
+          "won": 55,
+          "lost": 71,
+          "win_rate": 43.7
+        },
+        "chasing": {
+          "played": 138,
+          "won": 80,
+          "lost": 58,
+          "win_rate": 58.0
+        }
+      },
+      "last3": {
+        "batting_first": {
+          "played": 22,
+          "won": 12,
+          "lost": 10,
+          "win_rate": 54.5
+        },
+        "chasing": {
+          "played": 19,
+          "won": 10,
+          "lost": 9,
+          "win_rate": 52.6
+        }
+      },
+      "last5": {
+        "batting_first": {
+          "played": 33,
+          "won": 16,
+          "lost": 17,
+          "win_rate": 48.5
+        },
+        "chasing": {
+          "played": 39,
+          "won": 21,
+          "lost": 18,
+          "win_rate": 53.8
+        }
+      }
+    },
+    "toss_impact": {
+      "won_toss_won_match": 71,
+      "won_toss_total": 128,
+      "lost_toss_won_match": 64,
+      "lost_toss_total": 136,
+      "toss_win_advantage": 8.4
+    },
+    "toss_impact_by_filter": {
+      "all": {
+        "won_toss_won_match": 71,
+        "won_toss_total": 128,
+        "lost_toss_won_match": 64,
+        "lost_toss_total": 136,
+        "toss_win_advantage": 8.4
+      },
+      "last3": {
+        "won_toss_won_match": 7,
+        "won_toss_total": 14,
+        "lost_toss_won_match": 15,
+        "lost_toss_total": 27,
+        "toss_win_advantage": -5.6
+      },
+      "last5": {
+        "won_toss_won_match": 16,
+        "won_toss_total": 30,
+        "lost_toss_won_match": 21,
+        "lost_toss_total": 42,
+        "toss_win_advantage": 3.3
+      }
+    },
+    "season_analytics": {
+      "season_2008": {
+        "batting_first": {
+          "played": 9,
+          "won": 4,
+          "lost": 5,
+          "win_rate": 44.4
+        },
+        "chasing": {
+          "played": 4,
+          "won": 2,
+          "lost": 2,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 7.1
+        }
+      },
+      "season_2009": {
+        "batting_first": {
+          "played": 7,
+          "won": 0,
+          "lost": 7,
+          "win_rate": 0.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 1,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 11.9
+        }
+      },
+      "season_2010": {
+        "batting_first": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 14.3
+        }
+      },
+      "season_2011": {
+        "batting_first": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "chasing": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 33.9
+        }
+      },
+      "season_2012": {
+        "batting_first": {
+          "played": 8,
+          "won": 6,
+          "lost": 2,
+          "win_rate": 75.0
+        },
+        "chasing": {
+          "played": 9,
+          "won": 6,
+          "lost": 3,
+          "win_rate": 66.7
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 7,
+          "lost_toss_total": 10,
+          "toss_win_advantage": 1.4
+        }
+      },
+      "season_2013": {
+        "batting_first": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "chasing": {
+          "played": 9,
+          "won": 4,
+          "lost": 5,
+          "win_rate": 44.4
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 12,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 4,
+          "toss_win_advantage": -16.7
+        }
+      },
+      "season_2014": {
+        "batting_first": {
+          "played": 5,
+          "won": 4,
+          "lost": 1,
+          "win_rate": 80.0
+        },
+        "chasing": {
+          "played": 11,
+          "won": 7,
+          "lost": 4,
+          "win_rate": 63.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 7,
+          "toss_win_advantage": -4.8
+        }
+      },
+      "season_2015": {
+        "batting_first": {
+          "played": 4,
+          "won": 2,
+          "lost": 2,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 9,
+          "won": 5,
+          "lost": 4,
+          "win_rate": 55.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 5,
+          "toss_win_advantage": 22.5
+        }
+      },
+      "season_2016": {
+        "batting_first": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "chasing": {
+          "played": 8,
+          "won": 6,
+          "lost": 2,
+          "win_rate": 75.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 9,
+          "toss_win_advantage": 22.2
+        }
+      },
+      "season_2017": {
+        "batting_first": {
+          "played": 6,
+          "won": 2,
+          "lost": 4,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 10,
+          "won": 7,
+          "lost": 3,
+          "win_rate": 70.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 23.8
+        }
+      },
+      "season_2018": {
+        "batting_first": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 10,
+          "won": 6,
+          "lost": 4,
+          "win_rate": 60.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 7,
+          "toss_win_advantage": -1.6
+        }
+      },
+      "season_2019": {
+        "batting_first": {
+          "played": 9,
+          "won": 2,
+          "lost": 7,
+          "win_rate": 22.2
+        },
+        "chasing": {
+          "played": 5,
+          "won": 4,
+          "lost": 1,
+          "win_rate": 80.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 9,
+          "toss_win_advantage": 57.8
+        }
+      },
+      "season_2020": {
+        "batting_first": {
+          "played": 10,
+          "won": 5,
+          "lost": 5,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 4,
+          "won": 1,
+          "lost": 3,
+          "win_rate": 25.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 8,
+          "toss_win_advantage": -16.7
+        }
+      },
+      "season_2021": {
+        "batting_first": {
+          "played": 6,
+          "won": 2,
+          "lost": 4,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 11,
+          "won": 7,
+          "lost": 4,
+          "win_rate": 63.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 9,
+          "toss_win_advantage": -5.6
+        }
+      },
+      "season_2022": {
+        "batting_first": {
+          "played": 5,
+          "won": 2,
+          "lost": 3,
+          "win_rate": 40.0
+        },
+        "chasing": {
+          "played": 9,
+          "won": 4,
+          "lost": 5,
+          "win_rate": 44.4
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 1,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 45.8
+        }
+      },
+      "season_2023": {
+        "batting_first": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "chasing": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "toss_impact": {
+          "won_toss_won_match": 1,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 9,
+          "toss_win_advantage": -35.6
+        }
+      },
+      "season_2024": {
+        "batting_first": {
+          "played": 9,
+          "won": 6,
+          "lost": 3,
+          "win_rate": 66.7
+        },
+        "chasing": {
+          "played": 5,
+          "won": 5,
+          "lost": 0,
+          "win_rate": 100.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 3,
+          "lost_toss_won_match": 8,
+          "lost_toss_total": 11,
+          "toss_win_advantage": 27.3
+        }
+      },
+      "season_2025": {
+        "batting_first": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 21.4
+        }
+      }
+    },
+    "top_venues": [
+      {
+        "venue": "M Chinnaswamy Stadium",
+        "played": 15,
+        "won": 10,
+        "win_rate": 66.7
+      },
+      {
+        "venue": "Eden Gardens",
+        "played": 95,
+        "won": 54,
+        "win_rate": 56.8
+      },
+      {
+        "venue": "Arun Jaitley Stadium",
+        "played": 13,
+        "won": 6,
+        "win_rate": 46.2
+      },
+      {
+        "venue": "Sheikh Zayed Stadium",
+        "played": 11,
+        "won": 5,
+        "win_rate": 45.5
+      },
+      {
+        "venue": "MA Chidambaram Stadium",
+        "played": 16,
+        "won": 6,
+        "win_rate": 37.5
+      }
+    ],
+    "worst_venues": [
+      {
+        "venue": "Wankhede Stadium",
+        "played": 18,
+        "won": 5,
+        "win_rate": 27.8
+      },
+      {
+        "venue": "MA Chidambaram Stadium",
+        "played": 16,
+        "won": 6,
+        "win_rate": 37.5
+      },
+      {
+        "venue": "Sheikh Zayed Stadium",
+        "played": 11,
+        "won": 5,
+        "win_rate": 45.5
+      },
+      {
+        "venue": "Arun Jaitley Stadium",
+        "played": 13,
+        "won": 6,
+        "win_rate": 46.2
+      },
+      {
+        "venue": "Eden Gardens",
+        "played": 95,
+        "won": 54,
+        "win_rate": 56.8
+      }
+    ],
+    "venue_stats_by_filter": {
+      "all": {
+        "top": [
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 15,
+            "won": 10,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 95,
+            "won": 54,
+            "win_rate": 56.8
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 13,
+            "won": 6,
+            "win_rate": 46.2
+          },
+          {
+            "venue": "Sheikh Zayed Stadium",
+            "played": 11,
+            "won": 5,
+            "win_rate": 45.5
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 16,
+            "won": 6,
+            "win_rate": 37.5
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Wankhede Stadium",
+            "played": 18,
+            "won": 5,
+            "win_rate": 27.8
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 16,
+            "won": 6,
+            "win_rate": 37.5
+          },
+          {
+            "venue": "Sheikh Zayed Stadium",
+            "played": 11,
+            "won": 5,
+            "win_rate": 45.5
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 13,
+            "won": 6,
+            "win_rate": 46.2
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 95,
+            "won": 54,
+            "win_rate": 56.8
+          }
+        ]
+      },
+      "last3": {
+        "top": [
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 4,
+            "won": 3,
+            "win_rate": 75.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 21,
+            "won": 9,
+            "win_rate": 42.9
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 21,
+            "won": 9,
+            "win_rate": 42.9
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 4,
+            "won": 3,
+            "win_rate": 75.0
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          }
+        ]
+      },
+      "last5": {
+        "top": [
+          {
+            "venue": "Sharjah Cricket Stadium",
+            "played": 4,
+            "won": 4,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 4,
+            "won": 3,
+            "win_rate": 75.0
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Zayed Cricket Stadium, Abu Dhabi",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Brabourne Stadium",
+            "played": 3,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 4,
+            "won": 1,
+            "win_rate": 25.0
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 21,
+            "won": 9,
+            "win_rate": 42.9
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "last_10_wins": 4,
+      "last_10_losses": 6,
+      "form_string": "LLWWLLLWLW",
+      "win_rate": 40.0
+    },
+    "season_trends": [
+      {
+        "season": 2021,
+        "won": 9,
+        "played": 17,
+        "win_rate": 52.9
+      },
+      {
+        "season": 2022,
+        "won": 6,
+        "played": 14,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2023,
+        "won": 6,
+        "played": 14,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2024,
+        "won": 11,
+        "played": 14,
+        "win_rate": 78.6
+      },
+      {
+        "season": 2025,
+        "won": 5,
+        "played": 13,
+        "win_rate": 38.5
+      }
+    ]
+  },
+  "Sunrisers Hyderabad": {
+    "batting_first": {
+      "played": 145,
+      "won": 65,
+      "lost": 80,
+      "win_rate": 44.8
+    },
+    "chasing": {
+      "played": 125,
+      "won": 57,
+      "lost": 68,
+      "win_rate": 45.6
+    },
+    "bat_chase_by_filter": {
+      "all": {
+        "batting_first": {
+          "played": 145,
+          "won": 65,
+          "lost": 80,
+          "win_rate": 44.8
+        },
+        "chasing": {
+          "played": 125,
+          "won": 57,
+          "lost": 68,
+          "win_rate": 45.6
+        }
+      },
+      "last3": {
+        "batting_first": {
+          "played": 25,
+          "won": 11,
+          "lost": 14,
+          "win_rate": 44.0
+        },
+        "chasing": {
+          "played": 18,
+          "won": 8,
+          "lost": 10,
+          "win_rate": 44.4
+        }
+      },
+      "last5": {
+        "batting_first": {
+          "played": 33,
+          "won": 13,
+          "lost": 20,
+          "win_rate": 39.4
+        },
+        "chasing": {
+          "played": 38,
+          "won": 15,
+          "lost": 23,
+          "win_rate": 39.5
+        }
+      }
+    },
+    "toss_impact": {
+      "won_toss_won_match": 60,
+      "won_toss_total": 137,
+      "lost_toss_won_match": 62,
+      "lost_toss_total": 133,
+      "toss_win_advantage": -2.8
+    },
+    "toss_impact_by_filter": {
+      "all": {
+        "won_toss_won_match": 60,
+        "won_toss_total": 137,
+        "lost_toss_won_match": 62,
+        "lost_toss_total": 133,
+        "toss_win_advantage": -2.8
+      },
+      "last3": {
+        "won_toss_won_match": 7,
+        "won_toss_total": 20,
+        "lost_toss_won_match": 12,
+        "lost_toss_total": 23,
+        "toss_win_advantage": -17.2
+      },
+      "last5": {
+        "won_toss_won_match": 12,
+        "won_toss_total": 37,
+        "lost_toss_won_match": 16,
+        "lost_toss_total": 34,
+        "toss_win_advantage": -14.6
+      }
+    },
+    "season_analytics": {
+      "season_2008": {
+        "batting_first": {
+          "played": 8,
+          "won": 0,
+          "lost": 8,
+          "win_rate": 0.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 2,
+          "lost": 4,
+          "win_rate": 33.3
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 0,
+          "lost_toss_total": 5,
+          "toss_win_advantage": 22.2
+        }
+      },
+      "season_2009": {
+        "batting_first": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "chasing": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 7,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 36.7
+        }
+      },
+      "season_2010": {
+        "batting_first": {
+          "played": 7,
+          "won": 5,
+          "lost": 2,
+          "win_rate": 71.4
+        },
+        "chasing": {
+          "played": 9,
+          "won": 3,
+          "lost": 6,
+          "win_rate": 33.3
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 12.7
+        }
+      },
+      "season_2011": {
+        "batting_first": {
+          "played": 9,
+          "won": 5,
+          "lost": 4,
+          "win_rate": 55.6
+        },
+        "chasing": {
+          "played": 5,
+          "won": 1,
+          "lost": 4,
+          "win_rate": 20.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 12.5
+        }
+      },
+      "season_2012": {
+        "batting_first": {
+          "played": 11,
+          "won": 3,
+          "lost": 8,
+          "win_rate": 27.3
+        },
+        "chasing": {
+          "played": 4,
+          "won": 1,
+          "lost": 3,
+          "win_rate": 25.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 6,
+          "toss_win_advantage": -11.1
+        }
+      },
+      "season_2013": {
+        "batting_first": {
+          "played": 9,
+          "won": 4,
+          "lost": 5,
+          "win_rate": 44.4
+        },
+        "chasing": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 1,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 8,
+          "lost_toss_total": 10,
+          "toss_win_advantage": -65.7
+        }
+      },
+      "season_2014": {
+        "batting_first": {
+          "played": 10,
+          "won": 3,
+          "lost": 7,
+          "win_rate": 30.0
+        },
+        "chasing": {
+          "played": 4,
+          "won": 3,
+          "lost": 1,
+          "win_rate": 75.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 0.0
+        }
+      },
+      "season_2015": {
+        "batting_first": {
+          "played": 9,
+          "won": 6,
+          "lost": 3,
+          "win_rate": 66.7
+        },
+        "chasing": {
+          "played": 5,
+          "won": 1,
+          "lost": 4,
+          "win_rate": 20.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 0.0
+        }
+      },
+      "season_2016": {
+        "batting_first": {
+          "played": 9,
+          "won": 5,
+          "lost": 4,
+          "win_rate": 55.6
+        },
+        "chasing": {
+          "played": 8,
+          "won": 6,
+          "lost": 2,
+          "win_rate": 75.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 7,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 12.9
+        }
+      },
+      "season_2017": {
+        "batting_first": {
+          "played": 9,
+          "won": 5,
+          "lost": 4,
+          "win_rate": 55.6
+        },
+        "chasing": {
+          "played": 5,
+          "won": 3,
+          "lost": 2,
+          "win_rate": 60.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 9,
+          "toss_win_advantage": 4.4
+        }
+      },
+      "season_2018": {
+        "batting_first": {
+          "played": 9,
+          "won": 5,
+          "lost": 4,
+          "win_rate": 55.6
+        },
+        "chasing": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 6,
+          "lost_toss_total": 10,
+          "toss_win_advantage": -2.9
+        }
+      },
+      "season_2019": {
+        "batting_first": {
+          "played": 8,
+          "won": 2,
+          "lost": 6,
+          "win_rate": 25.0
+        },
+        "chasing": {
+          "played": 7,
+          "won": 4,
+          "lost": 3,
+          "win_rate": 57.1
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 4,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 11,
+          "toss_win_advantage": 13.6
+        }
+      },
+      "season_2020": {
+        "batting_first": {
+          "played": 6,
+          "won": 4,
+          "lost": 2,
+          "win_rate": 66.7
+        },
+        "chasing": {
+          "played": 10,
+          "won": 4,
+          "lost": 6,
+          "win_rate": 40.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 11,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 5,
+          "toss_win_advantage": 14.5
+        }
+      },
+      "season_2021": {
+        "batting_first": {
+          "played": 5,
+          "won": 1,
+          "lost": 4,
+          "win_rate": 20.0
+        },
+        "chasing": {
+          "played": 9,
+          "won": 2,
+          "lost": 7,
+          "win_rate": 22.2
+        },
+        "toss_impact": {
+          "won_toss_won_match": 0,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 7,
+          "toss_win_advantage": -42.9
+        }
+      },
+      "season_2022": {
+        "batting_first": {
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 11,
+          "won": 5,
+          "lost": 6,
+          "win_rate": 45.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 1,
+          "lost_toss_total": 4,
+          "toss_win_advantage": 25.0
+        }
+      },
+      "season_2023": {
+        "batting_first": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "chasing": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 0.0
+        }
+      },
+      "season_2024": {
+        "batting_first": {
+          "played": 10,
+          "won": 6,
+          "lost": 4,
+          "win_rate": 60.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 7,
+          "lost_toss_total": 9,
+          "toss_win_advantage": -49.2
+        }
+      },
+      "season_2025": {
+        "batting_first": {
+          "played": 8,
+          "won": 3,
+          "lost": 5,
+          "win_rate": 37.5
+        },
+        "chasing": {
+          "played": 5,
+          "won": 3,
+          "lost": 2,
+          "win_rate": 60.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 7.1
+        }
+      }
+    },
+    "top_venues": [
+      {
+        "venue": "Arun Jaitley Stadium",
+        "played": 17,
+        "won": 11,
+        "win_rate": 64.7
+      },
+      {
+        "venue": "Dubai International Cricket Stadium",
+        "played": 13,
+        "won": 7,
+        "win_rate": 53.8
+      },
+      {
+        "venue": "Rajiv Gandhi International Stadium",
+        "played": 80,
+        "won": 40,
+        "win_rate": 50.0
+      },
+      {
+        "venue": "Dr DY Patil Sports Academy",
+        "played": 10,
+        "won": 5,
+        "win_rate": 50.0
+      },
+      {
+        "venue": "M Chinnaswamy Stadium",
+        "played": 12,
+        "won": 4,
+        "win_rate": 33.3
+      }
+    ],
+    "worst_venues": [
+      {
+        "venue": "Wankhede Stadium",
+        "played": 16,
+        "won": 3,
+        "win_rate": 18.8
+      },
+      {
+        "venue": "Eden Gardens",
+        "played": 14,
+        "won": 3,
+        "win_rate": 21.4
+      },
+      {
+        "venue": "MA Chidambaram Stadium",
+        "played": 17,
+        "won": 5,
+        "win_rate": 29.4
+      },
+      {
+        "venue": "M Chinnaswamy Stadium",
+        "played": 12,
+        "won": 4,
+        "win_rate": 33.3
+      },
+      {
+        "venue": "Rajiv Gandhi International Stadium",
+        "played": 80,
+        "won": 40,
+        "win_rate": 50.0
+      }
+    ],
+    "venue_stats_by_filter": {
+      "all": {
+        "top": [
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 17,
+            "won": 11,
+            "win_rate": 64.7
+          },
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 13,
+            "won": 7,
+            "win_rate": 53.8
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 80,
+            "won": 40,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 10,
+            "won": 5,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 12,
+            "won": 4,
+            "win_rate": 33.3
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Wankhede Stadium",
+            "played": 16,
+            "won": 3,
+            "win_rate": 18.8
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 14,
+            "won": 3,
+            "win_rate": 21.4
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 17,
+            "won": 5,
+            "win_rate": 29.4
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 12,
+            "won": 4,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 80,
+            "won": 40,
+            "win_rate": 50.0
+          }
+        ]
+      },
+      "last3": {
+        "top": [
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 3,
+            "won": 3,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 18,
+            "won": 8,
+            "win_rate": 44.4
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 5,
+            "won": 2,
+            "win_rate": 40.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 4,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 3,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 5,
+            "won": 2,
+            "win_rate": 40.0
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 18,
+            "won": 8,
+            "win_rate": 44.4
+          }
+        ]
+      },
+      "last5": {
+        "top": [
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 4,
+            "won": 3,
+            "win_rate": 75.0
+          },
+          {
+            "venue": "Brabourne Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 5,
+            "won": 3,
+            "win_rate": 60.0
+          },
+          {
+            "venue": "Zayed Cricket Stadium, Abu Dhabi",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 4,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 3,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Sharjah Cricket Stadium",
+            "played": 2,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 7,
+            "won": 1,
+            "win_rate": 14.3
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 10,
+            "won": 3,
+            "win_rate": 30.0
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "last_10_wins": 5,
+      "last_10_losses": 5,
+      "form_string": "WWWLWLLWLL",
+      "win_rate": 50.0
+    },
+    "season_trends": [
+      {
+        "season": 2021,
+        "won": 3,
+        "played": 14,
+        "win_rate": 21.4
+      },
+      {
+        "season": 2022,
+        "won": 6,
+        "played": 14,
+        "win_rate": 42.9
+      },
+      {
+        "season": 2023,
+        "won": 4,
+        "played": 14,
+        "win_rate": 28.6
+      },
+      {
+        "season": 2024,
+        "won": 9,
+        "played": 16,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2025,
+        "won": 6,
+        "played": 13,
+        "win_rate": 46.2
+      }
+    ]
+  },
+  "Delhi Capitals": {
+    "batting_first": {
+      "played": 119,
+      "won": 47,
+      "lost": 72,
+      "win_rate": 39.5
+    },
+    "chasing": {
+      "played": 147,
+      "won": 71,
+      "lost": 76,
+      "win_rate": 48.3
+    },
+    "bat_chase_by_filter": {
+      "all": {
+        "batting_first": {
+          "played": 119,
+          "won": 47,
+          "lost": 72,
+          "win_rate": 39.5
+        },
+        "chasing": {
+          "played": 147,
+          "won": 71,
+          "lost": 76,
+          "win_rate": 48.3
+        }
+      },
+      "last3": {
+        "batting_first": {
+          "played": 18,
+          "won": 9,
+          "lost": 9,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 24,
+          "won": 9,
+          "lost": 15,
+          "win_rate": 37.5
+        }
+      },
+      "last5": {
+        "batting_first": {
+          "played": 30,
+          "won": 13,
+          "lost": 17,
+          "win_rate": 43.3
+        },
+        "chasing": {
+          "played": 42,
+          "won": 21,
+          "lost": 21,
+          "win_rate": 50.0
+        }
+      }
+    },
+    "toss_impact": {
+      "won_toss_won_match": 64,
+      "won_toss_total": 138,
+      "lost_toss_won_match": 54,
+      "lost_toss_total": 128,
+      "toss_win_advantage": 4.2
+    },
+    "toss_impact_by_filter": {
+      "all": {
+        "won_toss_won_match": 64,
+        "won_toss_total": 138,
+        "lost_toss_won_match": 54,
+        "lost_toss_total": 128,
+        "toss_win_advantage": 4.2
+      },
+      "last3": {
+        "won_toss_won_match": 10,
+        "won_toss_total": 22,
+        "lost_toss_won_match": 8,
+        "lost_toss_total": 20,
+        "toss_win_advantage": 5.5
+      },
+      "last5": {
+        "won_toss_won_match": 20,
+        "won_toss_total": 38,
+        "lost_toss_won_match": 14,
+        "lost_toss_total": 34,
+        "toss_win_advantage": 11.5
+      }
+    },
+    "season_analytics": {
+      "season_2008": {
+        "batting_first": {
+          "played": 6,
+          "won": 2,
+          "lost": 4,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 8,
+          "toss_win_advantage": -29.2
+        }
+      },
+      "season_2009": {
+        "batting_first": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "chasing": {
+          "played": 8,
+          "won": 7,
+          "lost": 1,
+          "win_rate": 87.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 0.0
+        }
+      },
+      "season_2010": {
+        "batting_first": {
+          "played": 6,
+          "won": 4,
+          "lost": 2,
+          "win_rate": 66.7
+        },
+        "chasing": {
+          "played": 8,
+          "won": 3,
+          "lost": 5,
+          "win_rate": 37.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 29.2
+        }
+      },
+      "season_2011": {
+        "batting_first": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "chasing": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 1,
+          "lost_toss_total": 5,
+          "toss_win_advantage": 13.3
+        }
+      },
+      "season_2012": {
+        "batting_first": {
+          "played": 4,
+          "won": 2,
+          "lost": 2,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 14,
+          "won": 9,
+          "lost": 5,
+          "win_rate": 64.3
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 6,
+          "lost_toss_total": 8,
+          "toss_win_advantage": -25.0
+        }
+      },
+      "season_2013": {
+        "batting_first": {
+          "played": 7,
+          "won": 1,
+          "lost": 6,
+          "win_rate": 14.3
+        },
+        "chasing": {
+          "played": 9,
+          "won": 2,
+          "lost": 7,
+          "win_rate": 22.2
+        },
+        "toss_impact": {
+          "won_toss_won_match": 0,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 11,
+          "toss_win_advantage": -27.3
+        }
+      },
+      "season_2014": {
+        "batting_first": {
+          "played": 7,
+          "won": 0,
+          "lost": 7,
+          "win_rate": 0.0
+        },
+        "chasing": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 0,
+          "won_toss_total": 4,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 10,
+          "toss_win_advantage": -20.0
+        }
+      },
+      "season_2015": {
+        "batting_first": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "chasing": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 9,
+          "toss_win_advantage": 6.7
+        }
+      },
+      "season_2016": {
+        "batting_first": {
+          "played": 6,
+          "won": 2,
+          "lost": 4,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 29.2
+        }
+      },
+      "season_2017": {
+        "batting_first": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 8,
+          "won": 3,
+          "lost": 5,
+          "win_rate": 37.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 1,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 45.8
+        }
+      },
+      "season_2018": {
+        "batting_first": {
+          "played": 9,
+          "won": 4,
+          "lost": 5,
+          "win_rate": 44.4
+        },
+        "chasing": {
+          "played": 5,
+          "won": 1,
+          "lost": 4,
+          "win_rate": 20.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 6,
+          "toss_win_advantage": -25.0
+        }
+      },
+      "season_2019": {
+        "batting_first": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 10,
+          "won": 6,
+          "lost": 4,
+          "win_rate": 60.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 10.0
+        }
+      },
+      "season_2020": {
+        "batting_first": {
+          "played": 11,
+          "won": 6,
+          "lost": 5,
+          "win_rate": 54.5
+        },
+        "chasing": {
+          "played": 6,
+          "won": 2,
+          "lost": 4,
+          "win_rate": 33.3
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 7,
+          "toss_win_advantage": -41.4
+        }
+      },
+      "season_2021": {
+        "batting_first": {
+          "played": 7,
+          "won": 1,
+          "lost": 6,
+          "win_rate": 14.3
+        },
+        "chasing": {
+          "played": 9,
+          "won": 8,
+          "lost": 1,
+          "win_rate": 88.9
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 37.5
+        }
+      },
+      "season_2022": {
+        "batting_first": {
+          "played": 5,
+          "won": 3,
+          "lost": 2,
+          "win_rate": 60.0
+        },
+        "chasing": {
+          "played": 9,
+          "won": 4,
+          "lost": 5,
+          "win_rate": 44.4
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 0.0
+        }
+      },
+      "season_2023": {
+        "batting_first": {
+          "played": 5,
+          "won": 3,
+          "lost": 2,
+          "win_rate": 60.0
+        },
+        "chasing": {
+          "played": 9,
+          "won": 2,
+          "lost": 7,
+          "win_rate": 22.2
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 14.3
+        }
+      },
+      "season_2024": {
+        "batting_first": {
+          "played": 7,
+          "won": 5,
+          "lost": 2,
+          "win_rate": 71.4
+        },
+        "chasing": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 7,
+          "toss_win_advantage": -42.9
+        }
+      },
+      "season_2025": {
+        "batting_first": {
+          "played": 6,
+          "won": 1,
+          "lost": 5,
+          "win_rate": 16.7
+        },
+        "chasing": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 1,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 45.8
+        }
+      }
+    },
+    "top_venues": [
+      {
+        "venue": "Rajiv Gandhi International Stadium",
+        "played": 10,
+        "won": 6,
+        "win_rate": 60.0
+      },
+      {
+        "venue": "Arun Jaitley Stadium",
+        "played": 87,
+        "won": 36,
+        "win_rate": 41.4
+      },
+      {
+        "venue": "Dubai International Cricket Stadium",
+        "played": 15,
+        "won": 6,
+        "win_rate": 40.0
+      },
+      {
+        "venue": "M Chinnaswamy Stadium",
+        "played": 13,
+        "won": 5,
+        "win_rate": 38.5
+      },
+      {
+        "venue": "MA Chidambaram Stadium",
+        "played": 12,
+        "won": 4,
+        "win_rate": 33.3
+      }
+    ],
+    "worst_venues": [
+      {
+        "venue": "Eden Gardens",
+        "played": 10,
+        "won": 2,
+        "win_rate": 20.0
+      },
+      {
+        "venue": "Wankhede Stadium",
+        "played": 19,
+        "won": 6,
+        "win_rate": 31.6
+      },
+      {
+        "venue": "MA Chidambaram Stadium",
+        "played": 12,
+        "won": 4,
+        "win_rate": 33.3
+      },
+      {
+        "venue": "M Chinnaswamy Stadium",
+        "played": 13,
+        "won": 5,
+        "win_rate": 38.5
+      },
+      {
+        "venue": "Dubai International Cricket Stadium",
+        "played": 15,
+        "won": 6,
+        "win_rate": 40.0
+      }
+    ],
+    "venue_stats_by_filter": {
+      "all": {
+        "top": [
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 10,
+            "won": 6,
+            "win_rate": 60.0
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 87,
+            "won": 36,
+            "win_rate": 41.4
+          },
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 15,
+            "won": 6,
+            "win_rate": 40.0
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 13,
+            "won": 5,
+            "win_rate": 38.5
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 12,
+            "won": 4,
+            "win_rate": 33.3
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Eden Gardens",
+            "played": 10,
+            "won": 2,
+            "win_rate": 20.0
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 19,
+            "won": 6,
+            "win_rate": 31.6
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 12,
+            "won": 4,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 13,
+            "won": 5,
+            "win_rate": 38.5
+          },
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 15,
+            "won": 6,
+            "win_rate": 40.0
+          }
+        ]
+      },
+      "last3": {
+        "top": [
+          {
+            "venue": "ACA-VDCA Stadium",
+            "played": 4,
+            "won": 3,
+            "win_rate": 75.0
+          },
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Wankhede Stadium",
+            "played": 2,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 17,
+            "won": 6,
+            "win_rate": 35.3
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ]
+      },
+      "last5": {
+        "top": [
+          {
+            "venue": "Brabourne Stadium",
+            "played": 4,
+            "won": 4,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "ACA-VDCA Stadium",
+            "played": 4,
+            "won": 3,
+            "win_rate": 75.0
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 6,
+            "won": 4,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 4,
+            "won": 2,
+            "win_rate": 50.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Wankhede Stadium",
+            "played": 10,
+            "won": 3,
+            "win_rate": 30.0
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Sharjah Cricket Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 17,
+            "won": 6,
+            "win_rate": 35.3
+          },
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 4,
+            "won": 2,
+            "win_rate": 50.0
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "last_10_wins": 2,
+      "last_10_losses": 8,
+      "form_string": "WLLLLLWLLL",
+      "win_rate": 20.0
+    },
+    "season_trends": [
+      {
+        "season": 2021,
+        "won": 9,
+        "played": 16,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2022,
+        "won": 7,
+        "played": 14,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2023,
+        "won": 5,
+        "played": 14,
+        "win_rate": 35.7
+      },
+      {
+        "season": 2024,
+        "won": 7,
+        "played": 14,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2025,
+        "won": 6,
+        "played": 14,
+        "win_rate": 42.9
+      }
+    ]
+  },
+  "Gujarat Titans": {
+    "batting_first": {
+      "played": 27,
+      "won": 15,
+      "lost": 12,
+      "win_rate": 55.6
+    },
+    "chasing": {
+      "played": 33,
+      "won": 22,
+      "lost": 11,
+      "win_rate": 66.7
+    },
+    "bat_chase_by_filter": {
+      "all": {
+        "batting_first": {
+          "played": 27,
+          "won": 15,
+          "lost": 12,
+          "win_rate": 55.6
+        },
+        "chasing": {
+          "played": 33,
+          "won": 22,
+          "lost": 11,
+          "win_rate": 66.7
+        }
+      },
+      "last3": {
+        "batting_first": {
+          "played": 20,
+          "won": 11,
+          "lost": 9,
+          "win_rate": 55.0
+        },
+        "chasing": {
+          "played": 24,
+          "won": 14,
+          "lost": 10,
+          "win_rate": 58.3
+        }
+      },
+      "last5": {
+        "batting_first": {
+          "played": 27,
+          "won": 15,
+          "lost": 12,
+          "win_rate": 55.6
+        },
+        "chasing": {
+          "played": 33,
+          "won": 22,
+          "lost": 11,
+          "win_rate": 66.7
+        }
+      }
+    },
+    "toss_impact": {
+      "won_toss_won_match": 19,
+      "won_toss_total": 29,
+      "lost_toss_won_match": 18,
+      "lost_toss_total": 31,
+      "toss_win_advantage": 7.5
+    },
+    "toss_impact_by_filter": {
+      "all": {
+        "won_toss_won_match": 19,
+        "won_toss_total": 29,
+        "lost_toss_won_match": 18,
+        "lost_toss_total": 31,
+        "toss_win_advantage": 7.5
+      },
+      "last3": {
+        "won_toss_won_match": 12,
+        "won_toss_total": 19,
+        "lost_toss_won_match": 13,
+        "lost_toss_total": 25,
+        "toss_win_advantage": 11.2
+      },
+      "last5": {
+        "won_toss_won_match": 19,
+        "won_toss_total": 29,
+        "lost_toss_won_match": 18,
+        "lost_toss_total": 31,
+        "toss_win_advantage": 7.5
+      }
+    },
+    "season_analytics": {
+      "season_2022": {
+        "batting_first": {
+          "played": 7,
+          "won": 4,
+          "lost": 3,
+          "win_rate": 57.1
+        },
+        "chasing": {
+          "played": 9,
+          "won": 8,
+          "lost": 1,
+          "win_rate": 88.9
+        },
+        "toss_impact": {
+          "won_toss_won_match": 7,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 6,
+          "toss_win_advantage": -13.3
+        }
+      },
+      "season_2023": {
+        "batting_first": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "chasing": {
+          "played": 9,
+          "won": 6,
+          "lost": 3,
+          "win_rate": 66.7
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 4.2
+        }
+      },
+      "season_2024": {
+        "batting_first": {
+          "played": 6,
+          "won": 2,
+          "lost": 4,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 1,
+          "won_toss_total": 3,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 9,
+          "toss_win_advantage": -11.1
+        }
+      },
+      "season_2025": {
+        "batting_first": {
+          "played": 6,
+          "won": 4,
+          "lost": 2,
+          "win_rate": 66.7
+        },
+        "chasing": {
+          "played": 9,
+          "won": 5,
+          "lost": 4,
+          "win_rate": 55.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 21.4
+        }
+      }
+    },
+    "top_venues": [
+      {
+        "venue": "Narendra Modi Stadium",
+        "played": 23,
+        "won": 13,
+        "win_rate": 56.5
+      }
+    ],
+    "worst_venues": [
+      {
+        "venue": "Narendra Modi Stadium",
+        "played": 23,
+        "won": 13,
+        "win_rate": 56.5
+      }
+    ],
+    "venue_stats_by_filter": {
+      "all": {
+        "top": [
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 23,
+            "won": 13,
+            "win_rate": 56.5
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 23,
+            "won": 13,
+            "win_rate": 56.5
+          }
+        ]
+      },
+      "last3": {
+        "top": [
+          {
+            "venue": "Eden Gardens",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Sawai Mansingh Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 22,
+            "won": 12,
+            "win_rate": 54.5
+          }
+        ],
+        "worst": [
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 2,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 22,
+            "won": 12,
+            "win_rate": 54.5
+          }
+        ]
+      },
+      "last5": {
+        "top": [
+          {
+            "venue": "Eden Gardens",
+            "played": 3,
+            "won": 3,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 3,
+            "won": 3,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 6,
+            "won": 4,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Brabourne Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          }
+        ],
+        "worst": [
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 2,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 4,
+            "won": 2,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 23,
+            "won": 13,
+            "win_rate": 56.5
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "last_10_wins": 5,
+      "last_10_losses": 5,
+      "form_string": "LLLWWWLWWL",
+      "win_rate": 50.0
+    },
+    "season_trends": [
+      {
+        "season": 2022,
+        "won": 12,
+        "played": 16,
+        "win_rate": 75.0
+      },
+      {
+        "season": 2023,
+        "won": 11,
+        "played": 17,
+        "win_rate": 64.7
+      },
+      {
+        "season": 2024,
+        "won": 5,
+        "played": 12,
+        "win_rate": 41.7
+      },
+      {
+        "season": 2025,
+        "won": 9,
+        "played": 15,
+        "win_rate": 60.0
+      }
+    ]
+  },
+  "Lucknow Super Giants": {
+    "batting_first": {
+      "played": 33,
+      "won": 20,
+      "lost": 13,
+      "win_rate": 60.6
+    },
+    "chasing": {
+      "played": 25,
+      "won": 10,
+      "lost": 15,
+      "win_rate": 40.0
+    },
+    "bat_chase_by_filter": {
+      "all": {
+        "batting_first": {
+          "played": 33,
+          "won": 20,
+          "lost": 13,
+          "win_rate": 60.6
+        },
+        "chasing": {
+          "played": 25,
+          "won": 10,
+          "lost": 15,
+          "win_rate": 40.0
+        }
+      },
+      "last3": {
+        "batting_first": {
+          "played": 25,
+          "won": 13,
+          "lost": 12,
+          "win_rate": 52.0
+        },
+        "chasing": {
+          "played": 18,
+          "won": 8,
+          "lost": 10,
+          "win_rate": 44.4
+        }
+      },
+      "last5": {
+        "batting_first": {
+          "played": 33,
+          "won": 20,
+          "lost": 13,
+          "win_rate": 60.6
+        },
+        "chasing": {
+          "played": 25,
+          "won": 10,
+          "lost": 15,
+          "win_rate": 40.0
+        }
+      }
+    },
+    "toss_impact": {
+      "won_toss_won_match": 13,
+      "won_toss_total": 24,
+      "lost_toss_won_match": 17,
+      "lost_toss_total": 34,
+      "toss_win_advantage": 4.2
+    },
+    "toss_impact_by_filter": {
+      "all": {
+        "won_toss_won_match": 13,
+        "won_toss_total": 24,
+        "lost_toss_won_match": 17,
+        "lost_toss_total": 34,
+        "toss_win_advantage": 4.2
+      },
+      "last3": {
+        "won_toss_won_match": 9,
+        "won_toss_total": 17,
+        "lost_toss_won_match": 12,
+        "lost_toss_total": 26,
+        "toss_win_advantage": 6.8
+      },
+      "last5": {
+        "won_toss_won_match": 13,
+        "won_toss_total": 24,
+        "lost_toss_won_match": 17,
+        "lost_toss_total": 34,
+        "toss_win_advantage": 4.2
+      }
+    },
+    "season_analytics": {
+      "season_2022": {
+        "batting_first": {
+          "played": 8,
+          "won": 7,
+          "lost": 1,
+          "win_rate": 87.5
+        },
+        "chasing": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 8,
+          "toss_win_advantage": -5.4
+        }
+      },
+      "season_2023": {
+        "batting_first": {
+          "played": 7,
+          "won": 5,
+          "lost": 2,
+          "win_rate": 71.4
+        },
+        "chasing": {
+          "played": 8,
+          "won": 3,
+          "lost": 5,
+          "win_rate": 37.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 1,
+          "won_toss_total": 3,
+          "lost_toss_won_match": 7,
+          "lost_toss_total": 12,
+          "toss_win_advantage": -25.0
+        }
+      },
+      "season_2024": {
+        "batting_first": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 5,
+          "toss_win_advantage": 15.6
+        }
+      },
+      "season_2025": {
+        "batting_first": {
+          "played": 10,
+          "won": 4,
+          "lost": 6,
+          "win_rate": 40.0
+        },
+        "chasing": {
+          "played": 4,
+          "won": 2,
+          "lost": 2,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 9,
+          "toss_win_advantage": 26.7
+        }
+      }
+    },
+    "top_venues": [
+      {
+        "venue": "Ekana Cricket Stadium",
+        "played": 21,
+        "won": 9,
+        "win_rate": 42.9
+      }
+    ],
+    "worst_venues": [
+      {
+        "venue": "Ekana Cricket Stadium",
+        "played": 21,
+        "won": 9,
+        "win_rate": 42.9
+      }
+    ],
+    "venue_stats_by_filter": {
+      "all": {
+        "top": [
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 21,
+            "won": 9,
+            "win_rate": 42.9
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 21,
+            "won": 9,
+            "win_rate": 42.9
+          }
+        ]
+      },
+      "last3": {
+        "top": [
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Sawai Mansingh Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 21,
+            "won": 9,
+            "win_rate": 42.9
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          }
+        ]
+      },
+      "last5": {
+        "top": [
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 4,
+            "won": 3,
+            "win_rate": 75.0
+          },
+          {
+            "venue": "Brabourne Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          }
+        ],
+        "worst": [
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 21,
+            "won": 9,
+            "win_rate": 42.9
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 6,
+            "won": 3,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 4,
+            "won": 2,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "last_10_wins": 4,
+      "last_10_losses": 6,
+      "form_string": "LWLLLLWLWW",
+      "win_rate": 40.0
+    },
+    "season_trends": [
+      {
+        "season": 2022,
+        "won": 9,
+        "played": 15,
+        "win_rate": 60.0
+      },
+      {
+        "season": 2023,
+        "won": 8,
+        "played": 15,
+        "win_rate": 53.3
+      },
+      {
+        "season": 2024,
+        "won": 7,
+        "played": 14,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2025,
+        "won": 6,
+        "played": 14,
+        "win_rate": 42.9
+      }
+    ]
+  },
+  "Rajasthan Royals": {
+    "batting_first": {
+      "played": 107,
+      "won": 45,
+      "lost": 62,
+      "win_rate": 42.1
+    },
+    "chasing": {
+      "played": 127,
+      "won": 69,
+      "lost": 58,
+      "win_rate": 54.3
+    },
+    "bat_chase_by_filter": {
+      "all": {
+        "batting_first": {
+          "played": 107,
+          "won": 45,
+          "lost": 62,
+          "win_rate": 42.1
+        },
+        "chasing": {
+          "played": 127,
+          "won": 69,
+          "lost": 58,
+          "win_rate": 54.3
+        }
+      },
+      "last3": {
+        "batting_first": {
+          "played": 16,
+          "won": 8,
+          "lost": 8,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 27,
+          "won": 12,
+          "lost": 15,
+          "win_rate": 44.4
+        }
+      },
+      "last5": {
+        "batting_first": {
+          "played": 36,
+          "won": 17,
+          "lost": 19,
+          "win_rate": 47.2
+        },
+        "chasing": {
+          "played": 38,
+          "won": 18,
+          "lost": 20,
+          "win_rate": 47.4
+        }
+      }
+    },
+    "toss_impact": {
+      "won_toss_won_match": 61,
+      "won_toss_total": 126,
+      "lost_toss_won_match": 53,
+      "lost_toss_total": 108,
+      "toss_win_advantage": -0.7
+    },
+    "toss_impact_by_filter": {
+      "all": {
+        "won_toss_won_match": 61,
+        "won_toss_total": 126,
+        "lost_toss_won_match": 53,
+        "lost_toss_total": 108,
+        "toss_win_advantage": -0.7
+      },
+      "last3": {
+        "won_toss_won_match": 13,
+        "won_toss_total": 28,
+        "lost_toss_won_match": 7,
+        "lost_toss_total": 15,
+        "toss_win_advantage": -0.2
+      },
+      "last5": {
+        "won_toss_won_match": 18,
+        "won_toss_total": 40,
+        "lost_toss_won_match": 17,
+        "lost_toss_total": 34,
+        "toss_win_advantage": -5.0
+      }
+    },
+    "season_analytics": {
+      "season_2008": {
+        "batting_first": {
+          "played": 6,
+          "won": 4,
+          "lost": 2,
+          "win_rate": 66.7
+        },
+        "chasing": {
+          "played": 10,
+          "won": 9,
+          "lost": 1,
+          "win_rate": 90.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 9,
+          "won_toss_total": 11,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 5,
+          "toss_win_advantage": 1.8
+        }
+      },
+      "season_2009": {
+        "batting_first": {
+          "played": 5,
+          "won": 2,
+          "lost": 3,
+          "win_rate": 40.0
+        },
+        "chasing": {
+          "played": 8,
+          "won": 3,
+          "lost": 5,
+          "win_rate": 37.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 4,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 9,
+          "toss_win_advantage": 16.7
+        }
+      },
+      "season_2010": {
+        "batting_first": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 2,
+          "lost": 4,
+          "win_rate": 33.3
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 12.5
+        }
+      },
+      "season_2011": {
+        "batting_first": {
+          "played": 5,
+          "won": 0,
+          "lost": 5,
+          "win_rate": 0.0
+        },
+        "chasing": {
+          "played": 8,
+          "won": 6,
+          "lost": 2,
+          "win_rate": 75.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 23.8
+        }
+      },
+      "season_2012": {
+        "batting_first": {
+          "played": 11,
+          "won": 5,
+          "lost": 6,
+          "win_rate": 45.5
+        },
+        "chasing": {
+          "played": 5,
+          "won": 2,
+          "lost": 3,
+          "win_rate": 40.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 6,
+          "toss_win_advantage": -36.7
+        }
+      },
+      "season_2013": {
+        "batting_first": {
+          "played": 8,
+          "won": 3,
+          "lost": 5,
+          "win_rate": 37.5
+        },
+        "chasing": {
+          "played": 10,
+          "won": 8,
+          "lost": 2,
+          "win_rate": 80.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 11,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 7,
+          "toss_win_advantage": -16.9
+        }
+      },
+      "season_2014": {
+        "batting_first": {
+          "played": 6,
+          "won": 2,
+          "lost": 4,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 6,
+          "toss_win_advantage": -12.5
+        }
+      },
+      "season_2015": {
+        "batting_first": {
+          "played": 5,
+          "won": 3,
+          "lost": 2,
+          "win_rate": 60.0
+        },
+        "chasing": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 10.0
+        }
+      },
+      "season_2018": {
+        "batting_first": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 9,
+          "toss_win_advantage": 5.6
+        }
+      },
+      "season_2019": {
+        "batting_first": {
+          "played": 5,
+          "won": 0,
+          "lost": 5,
+          "win_rate": 0.0
+        },
+        "chasing": {
+          "played": 9,
+          "won": 5,
+          "lost": 4,
+          "win_rate": 55.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 11,
+          "lost_toss_won_match": 0,
+          "lost_toss_total": 3,
+          "toss_win_advantage": 45.5
+        }
+      },
+      "season_2020": {
+        "batting_first": {
+          "played": 4,
+          "won": 1,
+          "lost": 3,
+          "win_rate": 25.0
+        },
+        "chasing": {
+          "played": 10,
+          "won": 5,
+          "lost": 5,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 7,
+          "toss_win_advantage": -28.6
+        }
+      },
+      "season_2021": {
+        "batting_first": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "chasing": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 4.2
+        }
+      },
+      "season_2022": {
+        "batting_first": {
+          "played": 13,
+          "won": 7,
+          "lost": 6,
+          "win_rate": 53.8
+        },
+        "chasing": {
+          "played": 4,
+          "won": 3,
+          "lost": 1,
+          "win_rate": 75.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 4,
+          "lost_toss_won_match": 8,
+          "lost_toss_total": 13,
+          "toss_win_advantage": -11.5
+        }
+      },
+      "season_2023": {
+        "batting_first": {
+          "played": 7,
+          "won": 4,
+          "lost": 3,
+          "win_rate": 57.1
+        },
+        "chasing": {
+          "played": 7,
+          "won": 3,
+          "lost": 4,
+          "win_rate": 42.9
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 4,
+          "toss_win_advantage": -35.0
+        }
+      },
+      "season_2024": {
+        "batting_first": {
+          "played": 5,
+          "won": 2,
+          "lost": 3,
+          "win_rate": 40.0
+        },
+        "chasing": {
+          "played": 10,
+          "won": 7,
+          "lost": 3,
+          "win_rate": 70.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 7,
+          "won_toss_total": 11,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 4,
+          "toss_win_advantage": 13.6
+        }
+      },
+      "season_2025": {
+        "batting_first": {
+          "played": 4,
+          "won": 2,
+          "lost": 2,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 10,
+          "won": 2,
+          "lost": 8,
+          "win_rate": 20.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 0.0
+        }
+      }
+    },
+    "top_venues": [
+      {
+        "venue": "Sawai Mansingh Stadium",
+        "played": 62,
+        "won": 38,
+        "win_rate": 61.3
+      },
+      {
+        "venue": "Narendra Modi Stadium",
+        "played": 17,
+        "won": 10,
+        "win_rate": 58.8
+      },
+      {
+        "venue": "Wankhede Stadium",
+        "played": 20,
+        "won": 10,
+        "win_rate": 50.0
+      },
+      {
+        "venue": "Arun Jaitley Stadium",
+        "played": 14,
+        "won": 6,
+        "win_rate": 42.9
+      },
+      {
+        "venue": "Eden Gardens",
+        "played": 13,
+        "won": 4,
+        "win_rate": 30.8
+      }
+    ],
+    "worst_venues": [
+      {
+        "venue": "Dubai International Cricket Stadium",
+        "played": 10,
+        "won": 2,
+        "win_rate": 20.0
+      },
+      {
+        "venue": "MA Chidambaram Stadium",
+        "played": 10,
+        "won": 2,
+        "win_rate": 20.0
+      },
+      {
+        "venue": "Eden Gardens",
+        "played": 13,
+        "won": 4,
+        "win_rate": 30.8
+      },
+      {
+        "venue": "Arun Jaitley Stadium",
+        "played": 14,
+        "won": 6,
+        "win_rate": 42.9
+      },
+      {
+        "venue": "Wankhede Stadium",
+        "played": 20,
+        "won": 10,
+        "win_rate": 50.0
+      }
+    ],
+    "venue_stats_by_filter": {
+      "all": {
+        "top": [
+          {
+            "venue": "Sawai Mansingh Stadium",
+            "played": 62,
+            "won": 38,
+            "win_rate": 61.3
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 17,
+            "won": 10,
+            "win_rate": 58.8
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 20,
+            "won": 10,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 14,
+            "won": 6,
+            "win_rate": 42.9
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 13,
+            "won": 4,
+            "win_rate": 30.8
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 10,
+            "won": 2,
+            "win_rate": 20.0
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 10,
+            "won": 2,
+            "win_rate": 20.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 13,
+            "won": 4,
+            "win_rate": 30.8
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 14,
+            "won": 6,
+            "win_rate": 42.9
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 20,
+            "won": 10,
+            "win_rate": 50.0
+          }
+        ]
+      },
+      "last3": {
+        "top": [
+          {
+            "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Sawai Mansingh Stadium",
+            "played": 15,
+            "won": 6,
+            "win_rate": 40.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 2,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Sawai Mansingh Stadium",
+            "played": 15,
+            "won": 6,
+            "win_rate": 40.0
+          }
+        ]
+      },
+      "last5": {
+        "top": [
+          {
+            "venue": "Brabourne Stadium",
+            "played": 3,
+            "won": 3,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 5,
+            "won": 3,
+            "win_rate": 60.0
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 12,
+            "won": 6,
+            "win_rate": 50.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 2,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Sharjah Cricket Stadium",
+            "played": 2,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 4,
+            "won": 1,
+            "win_rate": 25.0
+          },
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "last_10_wins": 2,
+      "last_10_losses": 8,
+      "form_string": "WLLLWLLLLL",
+      "win_rate": 20.0
+    },
+    "season_trends": [
+      {
+        "season": 2021,
+        "won": 5,
+        "played": 14,
+        "win_rate": 35.7
+      },
+      {
+        "season": 2022,
+        "won": 10,
+        "played": 17,
+        "win_rate": 58.8
+      },
+      {
+        "season": 2023,
+        "won": 7,
+        "played": 14,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2024,
+        "won": 9,
+        "played": 15,
+        "win_rate": 60.0
+      },
+      {
+        "season": 2025,
+        "won": 4,
+        "played": 14,
+        "win_rate": 28.6
+      }
+    ]
+  },
+  "Mumbai Indians": {
+    "batting_first": {
+      "played": 143,
+      "won": 76,
+      "lost": 67,
+      "win_rate": 53.1
+    },
+    "chasing": {
+      "played": 134,
+      "won": 75,
+      "lost": 59,
+      "win_rate": 56.0
+    },
+    "bat_chase_by_filter": {
+      "all": {
+        "batting_first": {
+          "played": 143,
+          "won": 76,
+          "lost": 67,
+          "win_rate": 53.1
+        },
+        "chasing": {
+          "played": 134,
+          "won": 75,
+          "lost": 59,
+          "win_rate": 56.0
+        }
+      },
+      "last3": {
+        "batting_first": {
+          "played": 20,
+          "won": 10,
+          "lost": 10,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 26,
+          "won": 12,
+          "lost": 14,
+          "win_rate": 46.2
+        }
+      },
+      "last5": {
+        "batting_first": {
+          "played": 33,
+          "won": 14,
+          "lost": 19,
+          "win_rate": 42.4
+        },
+        "chasing": {
+          "played": 41,
+          "won": 19,
+          "lost": 22,
+          "win_rate": 46.3
+        }
+      }
+    },
+    "toss_impact": {
+      "won_toss_won_match": 82,
+      "won_toss_total": 151,
+      "lost_toss_won_match": 69,
+      "lost_toss_total": 126,
+      "toss_win_advantage": -0.5
+    },
+    "toss_impact_by_filter": {
+      "all": {
+        "won_toss_won_match": 82,
+        "won_toss_total": 151,
+        "lost_toss_won_match": 69,
+        "lost_toss_total": 126,
+        "toss_win_advantage": -0.5
+      },
+      "last3": {
+        "won_toss_won_match": 13,
+        "won_toss_total": 28,
+        "lost_toss_won_match": 9,
+        "lost_toss_total": 18,
+        "toss_win_advantage": -3.6
+      },
+      "last5": {
+        "won_toss_won_match": 22,
+        "won_toss_total": 45,
+        "lost_toss_won_match": 11,
+        "lost_toss_total": 29,
+        "toss_win_advantage": 11.0
+      }
+    },
+    "season_analytics": {
+      "season_2008": {
+        "batting_first": {
+          "played": 6,
+          "won": 2,
+          "lost": 4,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 0.0
+        }
+      },
+      "season_2009": {
+        "batting_first": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 5,
+          "won": 1,
+          "lost": 4,
+          "win_rate": 20.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 21.4
+        }
+      },
+      "season_2010": {
+        "batting_first": {
+          "played": 11,
+          "won": 8,
+          "lost": 3,
+          "win_rate": 72.7
+        },
+        "chasing": {
+          "played": 5,
+          "won": 3,
+          "lost": 2,
+          "win_rate": 60.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 7,
+          "toss_win_advantage": -4.8
+        }
+      },
+      "season_2011": {
+        "batting_first": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "chasing": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 7,
+          "lost_toss_total": 10,
+          "toss_win_advantage": -20.0
+        }
+      },
+      "season_2012": {
+        "batting_first": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 11,
+          "won": 7,
+          "lost": 4,
+          "win_rate": 63.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 11,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 6,
+          "toss_win_advantage": -12.1
+        }
+      },
+      "season_2013": {
+        "batting_first": {
+          "played": 11,
+          "won": 9,
+          "lost": 2,
+          "win_rate": 81.8
+        },
+        "chasing": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 8,
+          "won_toss_total": 12,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 7,
+          "toss_win_advantage": -4.8
+        }
+      },
+      "season_2014": {
+        "batting_first": {
+          "played": 9,
+          "won": 3,
+          "lost": 6,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 6,
+          "won": 4,
+          "lost": 2,
+          "win_rate": 66.7
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 9,
+          "toss_win_advantage": 5.6
+        }
+      },
+      "season_2015": {
+        "batting_first": {
+          "played": 10,
+          "won": 7,
+          "lost": 3,
+          "win_rate": 70.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 7,
+          "lost_toss_total": 9,
+          "toss_win_advantage": -34.9
+        }
+      },
+      "season_2016": {
+        "batting_first": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "chasing": {
+          "played": 7,
+          "won": 5,
+          "lost": 2,
+          "win_rate": 71.4
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 5,
+          "toss_win_advantage": 15.6
+        }
+      },
+      "season_2017": {
+        "batting_first": {
+          "played": 6,
+          "won": 4,
+          "lost": 2,
+          "win_rate": 66.7
+        },
+        "chasing": {
+          "played": 11,
+          "won": 7,
+          "lost": 4,
+          "win_rate": 63.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 7,
+          "won_toss_total": 11,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 6,
+          "toss_win_advantage": -3.0
+        }
+      },
+      "season_2018": {
+        "batting_first": {
+          "played": 9,
+          "won": 4,
+          "lost": 5,
+          "win_rate": 44.4
+        },
+        "chasing": {
+          "played": 5,
+          "won": 2,
+          "lost": 3,
+          "win_rate": 40.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 9,
+          "toss_win_advantage": -4.4
+        }
+      },
+      "season_2019": {
+        "batting_first": {
+          "played": 10,
+          "won": 6,
+          "lost": 4,
+          "win_rate": 60.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 4,
+          "lost": 2,
+          "win_rate": 66.7
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 0.0
+        }
+      },
+      "season_2020": {
+        "batting_first": {
+          "played": 9,
+          "won": 5,
+          "lost": 4,
+          "win_rate": 55.6
+        },
+        "chasing": {
+          "played": 7,
+          "won": 6,
+          "lost": 1,
+          "win_rate": 85.7
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 6,
+          "lost_toss_total": 8,
+          "toss_win_advantage": -12.5
+        }
+      },
+      "season_2021": {
+        "batting_first": {
+          "played": 8,
+          "won": 3,
+          "lost": 5,
+          "win_rate": 37.5
+        },
+        "chasing": {
+          "played": 6,
+          "won": 4,
+          "lost": 2,
+          "win_rate": 66.7
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 1,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 58.3
+        }
+      },
+      "season_2022": {
+        "batting_first": {
+          "played": 5,
+          "won": 1,
+          "lost": 4,
+          "win_rate": 20.0
+        },
+        "chasing": {
+          "played": 9,
+          "won": 3,
+          "lost": 6,
+          "win_rate": 33.3
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 1,
+          "lost_toss_total": 5,
+          "toss_win_advantage": 13.3
+        }
+      },
+      "season_2023": {
+        "batting_first": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 10,
+          "won": 6,
+          "lost": 4,
+          "win_rate": 60.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 10.0
+        }
+      },
+      "season_2024": {
+        "batting_first": {
+          "played": 5,
+          "won": 2,
+          "lost": 3,
+          "win_rate": 40.0
+        },
+        "chasing": {
+          "played": 9,
+          "won": 2,
+          "lost": 7,
+          "win_rate": 22.2
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 4,
+          "toss_win_advantage": -30.0
+        }
+      },
+      "season_2025": {
+        "batting_first": {
+          "played": 9,
+          "won": 5,
+          "lost": 4,
+          "win_rate": 55.6
+        },
+        "chasing": {
+          "played": 7,
+          "won": 4,
+          "lost": 3,
+          "win_rate": 57.1
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 12.5
+        }
+      }
+    },
+    "top_venues": [
+      {
+        "venue": "Eden Gardens",
+        "played": 14,
+        "won": 10,
+        "win_rate": 71.4
+      },
+      {
+        "venue": "M Chinnaswamy Stadium",
+        "played": 13,
+        "won": 9,
+        "win_rate": 69.2
+      },
+      {
+        "venue": "Rajiv Gandhi International Stadium",
+        "played": 14,
+        "won": 9,
+        "win_rate": 64.3
+      },
+      {
+        "venue": "Brabourne Stadium",
+        "played": 11,
+        "won": 7,
+        "win_rate": 63.6
+      },
+      {
+        "venue": "Wankhede Stadium",
+        "played": 92,
+        "won": 56,
+        "win_rate": 60.9
+      }
+    ],
+    "worst_venues": [
+      {
+        "venue": "Dubai International Cricket Stadium",
+        "played": 10,
+        "won": 3,
+        "win_rate": 30.0
+      },
+      {
+        "venue": "Sawai Mansingh Stadium",
+        "played": 10,
+        "won": 3,
+        "win_rate": 30.0
+      },
+      {
+        "venue": "Arun Jaitley Stadium",
+        "played": 16,
+        "won": 8,
+        "win_rate": 50.0
+      },
+      {
+        "venue": "MA Chidambaram Stadium",
+        "played": 16,
+        "won": 8,
+        "win_rate": 50.0
+      },
+      {
+        "venue": "Dr DY Patil Sports Academy",
+        "played": 11,
+        "won": 6,
+        "win_rate": 54.5
+      }
+    ],
+    "venue_stats_by_filter": {
+      "all": {
+        "top": [
+          {
+            "venue": "Eden Gardens",
+            "played": 14,
+            "won": 10,
+            "win_rate": 71.4
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 13,
+            "won": 9,
+            "win_rate": 69.2
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 14,
+            "won": 9,
+            "win_rate": 64.3
+          },
+          {
+            "venue": "Brabourne Stadium",
+            "played": 11,
+            "won": 7,
+            "win_rate": 63.6
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 92,
+            "won": 56,
+            "win_rate": 60.9
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 10,
+            "won": 3,
+            "win_rate": 30.0
+          },
+          {
+            "venue": "Sawai Mansingh Stadium",
+            "played": 10,
+            "won": 3,
+            "win_rate": 30.0
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 16,
+            "won": 8,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 16,
+            "won": 8,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 11,
+            "won": 6,
+            "win_rate": 54.5
+          }
+        ]
+      },
+      "last3": {
+        "top": [
+          {
+            "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 21,
+            "won": 13,
+            "win_rate": 61.9
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 5,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 3,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Sawai Mansingh Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 21,
+            "won": 13,
+            "win_rate": 61.9
+          }
+        ]
+      },
+      "last5": {
+        "top": [
+          {
+            "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 5,
+            "won": 4,
+            "win_rate": 80.0
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Zayed Cricket Stadium, Abu Dhabi",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 25,
+            "won": 15,
+            "win_rate": 60.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 5,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 3,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Maharashtra Cricket Association Stadium",
+            "played": 3,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 2,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Dr DY Patil Sports Academy",
+            "played": 4,
+            "won": 1,
+            "win_rate": 25.0
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "last_10_wins": 7,
+      "last_10_losses": 3,
+      "form_string": "LWLWLWWWWW",
+      "win_rate": 70.0
+    },
+    "season_trends": [
+      {
+        "season": 2021,
+        "won": 7,
+        "played": 14,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2022,
+        "won": 4,
+        "played": 14,
+        "win_rate": 28.6
+      },
+      {
+        "season": 2023,
+        "won": 9,
+        "played": 16,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2024,
+        "won": 4,
+        "played": 14,
+        "win_rate": 28.6
+      },
+      {
+        "season": 2025,
+        "won": 9,
+        "played": 16,
+        "win_rate": 56.2
+      }
+    ]
+  },
+  "Kochi Tuskers Kerala": {
+    "batting_first": {
+      "played": 7,
+      "won": 2,
+      "lost": 5,
+      "win_rate": 28.6
+    },
+    "chasing": {
+      "played": 7,
+      "won": 4,
+      "lost": 3,
+      "win_rate": 57.1
+    },
+    "bat_chase_by_filter": {
+      "all": {
+        "batting_first": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "chasing": {
+          "played": 7,
+          "won": 4,
+          "lost": 3,
+          "win_rate": 57.1
+        }
+      },
+      "last3": {
+        "batting_first": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "chasing": {
+          "played": 7,
+          "won": 4,
+          "lost": 3,
+          "win_rate": 57.1
+        }
+      },
+      "last5": {
+        "batting_first": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "chasing": {
+          "played": 7,
+          "won": 4,
+          "lost": 3,
+          "win_rate": 57.1
+        }
+      }
+    },
+    "toss_impact": {
+      "won_toss_won_match": 4,
+      "won_toss_total": 8,
+      "lost_toss_won_match": 2,
+      "lost_toss_total": 6,
+      "toss_win_advantage": 16.7
+    },
+    "toss_impact_by_filter": {
+      "all": {
+        "won_toss_won_match": 4,
+        "won_toss_total": 8,
+        "lost_toss_won_match": 2,
+        "lost_toss_total": 6,
+        "toss_win_advantage": 16.7
+      },
+      "last3": {
+        "won_toss_won_match": 4,
+        "won_toss_total": 8,
+        "lost_toss_won_match": 2,
+        "lost_toss_total": 6,
+        "toss_win_advantage": 16.7
+      },
+      "last5": {
+        "won_toss_won_match": 4,
+        "won_toss_total": 8,
+        "lost_toss_won_match": 2,
+        "lost_toss_total": 6,
+        "toss_win_advantage": 16.7
+      }
+    },
+    "season_analytics": {
+      "season_2011": {
+        "batting_first": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "chasing": {
+          "played": 7,
+          "won": 4,
+          "lost": 3,
+          "win_rate": 57.1
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 16.7
+        }
+      }
+    },
+    "top_venues": [],
+    "worst_venues": [],
+    "venue_stats_by_filter": {
+      "all": {
+        "top": [],
+        "worst": []
+      },
+      "last3": {
+        "top": [
+          {
+            "venue": "Holkar Cricket Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Nehru Stadium",
+            "played": 5,
+            "won": 2,
+            "win_rate": 40.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Nehru Stadium",
+            "played": 5,
+            "won": 2,
+            "win_rate": 40.0
+          },
+          {
+            "venue": "Holkar Cricket Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ]
+      },
+      "last5": {
+        "top": [
+          {
+            "venue": "Holkar Cricket Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "Nehru Stadium",
+            "played": 5,
+            "won": 2,
+            "win_rate": 40.0
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Nehru Stadium",
+            "played": 5,
+            "won": 2,
+            "win_rate": 40.0
+          },
+          {
+            "venue": "Holkar Cricket Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "last_10_wins": 4,
+      "last_10_losses": 6,
+      "form_string": "LWLLWWLLLW",
+      "win_rate": 40.0
+    },
+    "season_trends": [
+      {
+        "season": 2011,
+        "won": 6,
+        "played": 14,
+        "win_rate": 42.9
+      }
+    ]
+  },
+  "Royal Challengers Bengaluru": {
+    "batting_first": {
+      "played": 138,
+      "won": 62,
+      "lost": 76,
+      "win_rate": 44.9
+    },
+    "chasing": {
+      "played": 132,
+      "won": 70,
+      "lost": 62,
+      "win_rate": 53.0
+    },
+    "bat_chase_by_filter": {
+      "all": {
+        "batting_first": {
+          "played": 138,
+          "won": 62,
+          "lost": 76,
+          "win_rate": 44.9
+        },
+        "chasing": {
+          "played": 132,
+          "won": 70,
+          "lost": 62,
+          "win_rate": 53.0
+        }
+      },
+      "last3": {
+        "batting_first": {
+          "played": 26,
+          "won": 14,
+          "lost": 12,
+          "win_rate": 53.8
+        },
+        "chasing": {
+          "played": 18,
+          "won": 11,
+          "lost": 7,
+          "win_rate": 61.1
+        }
+      },
+      "last5": {
+        "batting_first": {
+          "played": 43,
+          "won": 24,
+          "lost": 19,
+          "win_rate": 55.8
+        },
+        "chasing": {
+          "played": 32,
+          "won": 19,
+          "lost": 13,
+          "win_rate": 59.4
+        }
+      }
+    },
+    "toss_impact": {
+      "won_toss_won_match": 66,
+      "won_toss_total": 128,
+      "lost_toss_won_match": 66,
+      "lost_toss_total": 142,
+      "toss_win_advantage": 5.1
+    },
+    "toss_impact_by_filter": {
+      "all": {
+        "won_toss_won_match": 66,
+        "won_toss_total": 128,
+        "lost_toss_won_match": 66,
+        "lost_toss_total": 142,
+        "toss_win_advantage": 5.1
+      },
+      "last3": {
+        "won_toss_won_match": 14,
+        "won_toss_total": 23,
+        "lost_toss_won_match": 11,
+        "lost_toss_total": 21,
+        "toss_win_advantage": 8.5
+      },
+      "last5": {
+        "won_toss_won_match": 24,
+        "won_toss_total": 41,
+        "lost_toss_won_match": 19,
+        "lost_toss_total": 34,
+        "toss_win_advantage": 2.7
+      }
+    },
+    "season_analytics": {
+      "season_2008": {
+        "batting_first": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "chasing": {
+          "played": 7,
+          "won": 2,
+          "lost": 5,
+          "win_rate": 28.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 1,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 9,
+          "toss_win_advantage": -13.3
+        }
+      },
+      "season_2009": {
+        "batting_first": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 10,
+          "won": 6,
+          "lost": 4,
+          "win_rate": 60.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 12.5
+        }
+      },
+      "season_2010": {
+        "batting_first": {
+          "played": 4,
+          "won": 1,
+          "lost": 3,
+          "win_rate": 25.0
+        },
+        "chasing": {
+          "played": 12,
+          "won": 7,
+          "lost": 5,
+          "win_rate": 58.3
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 6,
+          "lost_toss_total": 10,
+          "toss_win_advantage": -26.7
+        }
+      },
+      "season_2011": {
+        "batting_first": {
+          "played": 5,
+          "won": 3,
+          "lost": 2,
+          "win_rate": 60.0
+        },
+        "chasing": {
+          "played": 11,
+          "won": 7,
+          "lost": 4,
+          "win_rate": 63.6
+        },
+        "toss_impact": {
+          "won_toss_won_match": 5,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 10,
+          "toss_win_advantage": 33.3
+        }
+      },
+      "season_2012": {
+        "batting_first": {
+          "played": 7,
+          "won": 4,
+          "lost": 3,
+          "win_rate": 57.1
+        },
+        "chasing": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 9,
+          "toss_win_advantage": -5.6
+        }
+      },
+      "season_2013": {
+        "batting_first": {
+          "played": 11,
+          "won": 5,
+          "lost": 6,
+          "win_rate": 45.5
+        },
+        "chasing": {
+          "played": 5,
+          "won": 3,
+          "lost": 2,
+          "win_rate": 60.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 5,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 11,
+          "toss_win_advantage": 14.5
+        }
+      },
+      "season_2014": {
+        "batting_first": {
+          "played": 6,
+          "won": 1,
+          "lost": 5,
+          "win_rate": 16.7
+        },
+        "chasing": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 3,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 5,
+          "toss_win_advantage": -6.7
+        }
+      },
+      "season_2015": {
+        "batting_first": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 10,
+          "won": 5,
+          "lost": 5,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 26.7
+        }
+      },
+      "season_2016": {
+        "batting_first": {
+          "played": 10,
+          "won": 5,
+          "lost": 5,
+          "win_rate": 50.0
+        },
+        "chasing": {
+          "played": 6,
+          "won": 4,
+          "lost": 2,
+          "win_rate": 66.7
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 10,
+          "toss_win_advantage": 16.7
+        }
+      },
+      "season_2017": {
+        "batting_first": {
+          "played": 8,
+          "won": 3,
+          "lost": 5,
+          "win_rate": 37.5
+        },
+        "chasing": {
+          "played": 5,
+          "won": 0,
+          "lost": 5,
+          "win_rate": 0.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 9,
+          "lost_toss_won_match": 1,
+          "lost_toss_total": 4,
+          "toss_win_advantage": -2.8
+        }
+      },
+      "season_2018": {
+        "batting_first": {
+          "played": 6,
+          "won": 2,
+          "lost": 4,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 8,
+          "won": 4,
+          "lost": 4,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 2,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 28.6
+        }
+      },
+      "season_2019": {
+        "batting_first": {
+          "played": 9,
+          "won": 3,
+          "lost": 6,
+          "win_rate": 33.3
+        },
+        "chasing": {
+          "played": 5,
+          "won": 2,
+          "lost": 3,
+          "win_rate": 40.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 4,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 10,
+          "toss_win_advantage": 20.0
+        }
+      },
+      "season_2020": {
+        "batting_first": {
+          "played": 10,
+          "won": 3,
+          "lost": 7,
+          "win_rate": 30.0
+        },
+        "chasing": {
+          "played": 5,
+          "won": 3,
+          "lost": 2,
+          "win_rate": 60.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 2,
+          "won_toss_total": 6,
+          "lost_toss_won_match": 4,
+          "lost_toss_total": 9,
+          "toss_win_advantage": -11.1
+        }
+      },
+      "season_2021": {
+        "batting_first": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "chasing": {
+          "played": 7,
+          "won": 4,
+          "lost": 3,
+          "win_rate": 57.1
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 10,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 5,
+          "toss_win_advantage": 0.0
+        }
+      },
+      "season_2022": {
+        "batting_first": {
+          "played": 9,
+          "won": 5,
+          "lost": 4,
+          "win_rate": 55.6
+        },
+        "chasing": {
+          "played": 7,
+          "won": 4,
+          "lost": 3,
+          "win_rate": 57.1
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 8,
+          "toss_win_advantage": -12.5
+        }
+      },
+      "season_2023": {
+        "batting_first": {
+          "played": 9,
+          "won": 5,
+          "lost": 4,
+          "win_rate": 55.6
+        },
+        "chasing": {
+          "played": 5,
+          "won": 2,
+          "lost": 3,
+          "win_rate": 40.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 6,
+          "toss_win_advantage": 0.0
+        }
+      },
+      "season_2024": {
+        "batting_first": {
+          "played": 9,
+          "won": 4,
+          "lost": 5,
+          "win_rate": 44.4
+        },
+        "chasing": {
+          "played": 6,
+          "won": 3,
+          "lost": 3,
+          "win_rate": 50.0
+        },
+        "toss_impact": {
+          "won_toss_won_match": 4,
+          "won_toss_total": 8,
+          "lost_toss_won_match": 3,
+          "lost_toss_total": 7,
+          "toss_win_advantage": 7.1
+        }
+      },
+      "season_2025": {
+        "batting_first": {
+          "played": 8,
+          "won": 5,
+          "lost": 3,
+          "win_rate": 62.5
+        },
+        "chasing": {
+          "played": 7,
+          "won": 6,
+          "lost": 1,
+          "win_rate": 85.7
+        },
+        "toss_impact": {
+          "won_toss_won_match": 6,
+          "won_toss_total": 7,
+          "lost_toss_won_match": 5,
+          "lost_toss_total": 8,
+          "toss_win_advantage": 23.2
+        }
+      }
+    },
+    "top_venues": [
+      {
+        "venue": "Arun Jaitley Stadium",
+        "played": 11,
+        "won": 7,
+        "win_rate": 63.6
+      },
+      {
+        "venue": "Dubai International Cricket Stadium",
+        "played": 12,
+        "won": 7,
+        "win_rate": 58.3
+      },
+      {
+        "venue": "Sawai Mansingh Stadium",
+        "played": 10,
+        "won": 5,
+        "win_rate": 50.0
+      },
+      {
+        "venue": "M Chinnaswamy Stadium",
+        "played": 95,
+        "won": 45,
+        "win_rate": 47.4
+      },
+      {
+        "venue": "Wankhede Stadium",
+        "played": 19,
+        "won": 9,
+        "win_rate": 47.4
+      }
+    ],
+    "worst_venues": [
+      {
+        "venue": "Rajiv Gandhi International Stadium",
+        "played": 12,
+        "won": 4,
+        "win_rate": 33.3
+      },
+      {
+        "venue": "Eden Gardens",
+        "played": 14,
+        "won": 6,
+        "win_rate": 42.9
+      },
+      {
+        "venue": "MA Chidambaram Stadium",
+        "played": 14,
+        "won": 6,
+        "win_rate": 42.9
+      },
+      {
+        "venue": "M Chinnaswamy Stadium",
+        "played": 95,
+        "won": 45,
+        "win_rate": 47.4
+      },
+      {
+        "venue": "Wankhede Stadium",
+        "played": 19,
+        "won": 9,
+        "win_rate": 47.4
+      }
+    ],
+    "venue_stats_by_filter": {
+      "all": {
+        "top": [
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 11,
+            "won": 7,
+            "win_rate": 63.6
+          },
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 12,
+            "won": 7,
+            "win_rate": 58.3
+          },
+          {
+            "venue": "Sawai Mansingh Stadium",
+            "played": 10,
+            "won": 5,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 95,
+            "won": 45,
+            "win_rate": 47.4
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 19,
+            "won": 9,
+            "win_rate": 47.4
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 12,
+            "won": 4,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Eden Gardens",
+            "played": 14,
+            "won": 6,
+            "win_rate": 42.9
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 14,
+            "won": 6,
+            "win_rate": 42.9
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 95,
+            "won": 45,
+            "win_rate": 47.4
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 19,
+            "won": 9,
+            "win_rate": 47.4
+          }
+        ]
+      },
+      "last3": {
+        "top": [
+          {
+            "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Ekana Cricket Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          },
+          {
+            "venue": "Sawai Mansingh Stadium",
+            "played": 3,
+            "won": 2,
+            "win_rate": 66.7
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Eden Gardens",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 19,
+            "won": 9,
+            "win_rate": 47.4
+          },
+          {
+            "venue": "Arun Jaitley Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 2,
+            "won": 1,
+            "win_rate": 50.0
+          }
+        ]
+      },
+      "last5": {
+        "top": [
+          {
+            "venue": "Dubai International Cricket Stadium",
+            "played": 3,
+            "won": 3,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "Rajiv Gandhi International Stadium",
+            "played": 2,
+            "won": 2,
+            "win_rate": 100.0
+          },
+          {
+            "venue": "MA Chidambaram Stadium",
+            "played": 5,
+            "won": 4,
+            "win_rate": 80.0
+          },
+          {
+            "venue": "Wankhede Stadium",
+            "played": 9,
+            "won": 6,
+            "win_rate": 66.7
+          }
+        ],
+        "worst": [
+          {
+            "venue": "Brabourne Stadium",
+            "played": 3,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Zayed Cricket Stadium, Abu Dhabi",
+            "played": 2,
+            "won": 0,
+            "win_rate": 0.0
+          },
+          {
+            "venue": "Sharjah Cricket Stadium",
+            "played": 3,
+            "won": 1,
+            "win_rate": 33.3
+          },
+          {
+            "venue": "M Chinnaswamy Stadium",
+            "played": 19,
+            "won": 9,
+            "win_rate": 47.4
+          },
+          {
+            "venue": "Narendra Modi Stadium",
+            "played": 6,
+            "won": 3,
+            "win_rate": 50.0
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "last_10_wins": 8,
+      "last_10_losses": 2,
+      "form_string": "WWWLWWWWLW",
+      "win_rate": 80.0
+    },
+    "season_trends": [
+      {
+        "season": 2021,
+        "won": 9,
+        "played": 15,
+        "win_rate": 60.0
+      },
+      {
+        "season": 2022,
+        "won": 9,
+        "played": 16,
+        "win_rate": 56.2
+      },
+      {
+        "season": 2023,
+        "won": 7,
+        "played": 14,
+        "win_rate": 50.0
+      },
+      {
+        "season": 2024,
+        "won": 7,
+        "played": 15,
+        "win_rate": 46.7
+      },
+      {
+        "season": 2025,
+        "won": 11,
+        "played": 15,
+        "win_rate": 73.3
+      }
+    ]
+  }
+}

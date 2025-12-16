@@ -1,0 +1,4818 @@
+{
+  "most_runs": [
+    {
+      "player": "V Kohli",
+      "runs": 7476,
+      "balls": 5888,
+      "matches": 233,
+      "sr": 126.97,
+      "dismissals": 196,
+      "avg": 38.14,
+      "fours": 663,
+      "sixes": 243
+    },
+    {
+      "player": "S Dhawan",
+      "runs": 6754,
+      "balls": 5465,
+      "matches": 219,
+      "sr": 123.59,
+      "dismissals": 185,
+      "avg": 36.51,
+      "fours": 766,
+      "sixes": 153
+    },
+    {
+      "player": "DA Warner",
+      "runs": 6529,
+      "balls": 4810,
+      "matches": 179,
+      "sr": 135.74,
+      "dismissals": 153,
+      "avg": 42.67,
+      "fours": 659,
+      "sixes": 234
+    },
+    {
+      "player": "RG Sharma",
+      "runs": 6282,
+      "balls": 4932,
+      "matches": 240,
+      "sr": 127.37,
+      "dismissals": 211,
+      "avg": 29.77,
+      "fours": 562,
+      "sixes": 262
+    },
+    {
+      "player": "SK Raina",
+      "runs": 5536,
+      "balls": 4177,
+      "matches": 200,
+      "sr": 132.54,
+      "dismissals": 162,
+      "avg": 34.17,
+      "fours": 506,
+      "sixes": 204
+    },
+    {
+      "player": "AB de Villiers",
+      "runs": 5181,
+      "balls": 3487,
+      "matches": 170,
+      "sr": 148.58,
+      "dismissals": 122,
+      "avg": 42.47,
+      "fours": 414,
+      "sixes": 253
+    },
+    {
+      "player": "MS Dhoni",
+      "runs": 5119,
+      "balls": 3884,
+      "matches": 218,
+      "sr": 131.8,
+      "dismissals": 128,
+      "avg": 39.99,
+      "fours": 353,
+      "sixes": 242
+    },
+    {
+      "player": "CH Gayle",
+      "runs": 4997,
+      "balls": 3516,
+      "matches": 141,
+      "sr": 142.12,
+      "dismissals": 125,
+      "avg": 39.98,
+      "fours": 408,
+      "sixes": 359
+    },
+    {
+      "player": "RV Uthappa",
+      "runs": 4954,
+      "balls": 3927,
+      "matches": 197,
+      "sr": 126.15,
+      "dismissals": 175,
+      "avg": 28.31,
+      "fours": 481,
+      "sixes": 182
+    },
+    {
+      "player": "KD Karthik",
+      "runs": 4607,
+      "balls": 3553,
+      "matches": 224,
+      "sr": 129.67,
+      "dismissals": 168,
+      "avg": 27.42,
+      "fours": 445,
+      "sixes": 146
+    },
+    {
+      "player": "AM Rahane",
+      "runs": 4484,
+      "balls": 3721,
+      "matches": 162,
+      "sr": 120.51,
+      "dismissals": 140,
+      "avg": 32.03,
+      "fours": 461,
+      "sixes": 100
+    },
+    {
+      "player": "AT Rayudu",
+      "runs": 4348,
+      "balls": 3490,
+      "matches": 185,
+      "sr": 124.58,
+      "dismissals": 148,
+      "avg": 29.38,
+      "fours": 359,
+      "sixes": 173
+    },
+    {
+      "player": "KL Rahul",
+      "runs": 4262,
+      "balls": 3250,
+      "matches": 111,
+      "sr": 131.14,
+      "dismissals": 92,
+      "avg": 46.33,
+      "fours": 360,
+      "sixes": 173
+    },
+    {
+      "player": "G Gambhir",
+      "runs": 4217,
+      "balls": 3524,
+      "matches": 151,
+      "sr": 119.67,
+      "dismissals": 128,
+      "avg": 32.95,
+      "fours": 492,
+      "sixes": 59
+    },
+    {
+      "player": "F du Plessis",
+      "runs": 4198,
+      "balls": 3210,
+      "matches": 127,
+      "sr": 130.78,
+      "dismissals": 109,
+      "avg": 38.51,
+      "fours": 386,
+      "sixes": 146
+    },
+    {
+      "player": "SV Samson",
+      "runs": 3997,
+      "balls": 2983,
+      "matches": 150,
+      "sr": 133.99,
+      "dismissals": 130,
+      "avg": 30.75,
+      "fours": 313,
+      "sixes": 188
+    },
+    {
+      "player": "SR Watson",
+      "runs": 3880,
+      "balls": 2892,
+      "matches": 141,
+      "sr": 134.16,
+      "dismissals": 124,
+      "avg": 31.29,
+      "fours": 377,
+      "sixes": 190
+    },
+    {
+      "player": "MK Pandey",
+      "runs": 3817,
+      "balls": 3255,
+      "matches": 157,
+      "sr": 117.27,
+      "dismissals": 130,
+      "avg": 29.36,
+      "fours": 333,
+      "sixes": 109
+    },
+    {
+      "player": "KA Pollard",
+      "runs": 3437,
+      "balls": 2447,
+      "matches": 168,
+      "sr": 140.46,
+      "dismissals": 120,
+      "avg": 28.64,
+      "fours": 221,
+      "sixes": 224
+    },
+    {
+      "player": "JC Buttler",
+      "runs": 3259,
+      "balls": 2298,
+      "matches": 98,
+      "sr": 141.82,
+      "dismissals": 86,
+      "avg": 37.9,
+      "fours": 324,
+      "sixes": 149
+    },
+    {
+      "player": "SA Yadav",
+      "runs": 3249,
+      "balls": 2313,
+      "matches": 124,
+      "sr": 140.47,
+      "dismissals": 99,
+      "avg": 32.82,
+      "fours": 349,
+      "sixes": 112
+    },
+    {
+      "player": "YK Pathan",
+      "runs": 3222,
+      "balls": 2334,
+      "matches": 153,
+      "sr": 138.05,
+      "dismissals": 105,
+      "avg": 30.69,
+      "fours": 263,
+      "sixes": 161
+    },
+    {
+      "player": "Q de Kock",
+      "runs": 3049,
+      "balls": 2317,
+      "matches": 99,
+      "sr": 131.59,
+      "dismissals": 91,
+      "avg": 33.51,
+      "fours": 301,
+      "sixes": 121
+    },
+    {
+      "player": "RR Pant",
+      "runs": 2948,
+      "balls": 2073,
+      "matches": 100,
+      "sr": 142.21,
+      "dismissals": 83,
+      "avg": 35.52,
+      "fours": 270,
+      "sixes": 133
+    },
+    {
+      "player": "BB McCullum",
+      "runs": 2882,
+      "balls": 2272,
+      "matches": 109,
+      "sr": 126.85,
+      "dismissals": 102,
+      "avg": 28.25,
+      "fours": 293,
+      "sixes": 130
+    },
+    {
+      "player": "Shubman Gill",
+      "runs": 2865,
+      "balls": 2193,
+      "matches": 90,
+      "sr": 130.64,
+      "dismissals": 75,
+      "avg": 38.2,
+      "fours": 278,
+      "sixes": 83
+    },
+    {
+      "player": "WP Saha",
+      "runs": 2863,
+      "balls": 2294,
+      "matches": 137,
+      "sr": 124.8,
+      "dismissals": 112,
+      "avg": 25.56,
+      "fours": 287,
+      "sixes": 86
+    },
+    {
+      "player": "PA Patel",
+      "runs": 2848,
+      "balls": 2442,
+      "matches": 136,
+      "sr": 116.63,
+      "dismissals": 121,
+      "avg": 23.54,
+      "fours": 365,
+      "sixes": 49
+    },
+    {
+      "player": "SS Iyer",
+      "runs": 2819,
+      "balls": 2321,
+      "matches": 102,
+      "sr": 121.46,
+      "dismissals": 89,
+      "avg": 31.67,
+      "fours": 240,
+      "sixes": 101
+    },
+    {
+      "player": "DA Miller",
+      "runs": 2791,
+      "balls": 2079,
+      "matches": 117,
+      "sr": 134.25,
+      "dismissals": 75,
+      "avg": 37.21,
+      "fours": 195,
+      "sixes": 128
+    },
+    {
+      "player": "Yuvraj Singh",
+      "runs": 2754,
+      "balls": 2207,
+      "matches": 126,
+      "sr": 124.78,
+      "dismissals": 107,
+      "avg": 25.74,
+      "fours": 218,
+      "sixes": 149
+    },
+    {
+      "player": "GJ Maxwell",
+      "runs": 2751,
+      "balls": 1824,
+      "matches": 123,
+      "sr": 150.82,
+      "dismissals": 103,
+      "avg": 26.71,
+      "fours": 230,
+      "sixes": 159
+    },
+    {
+      "player": "RA Jadeja",
+      "runs": 2745,
+      "balls": 2226,
+      "matches": 172,
+      "sr": 123.32,
+      "dismissals": 101,
+      "avg": 27.18,
+      "fours": 196,
+      "sixes": 100
+    },
+    {
+      "player": "V Sehwag",
+      "runs": 2728,
+      "balls": 1833,
+      "matches": 104,
+      "sr": 148.83,
+      "dismissals": 95,
+      "avg": 28.72,
+      "fours": 334,
+      "sixes": 106
+    },
+    {
+      "player": "MA Agarwal",
+      "runs": 2664,
+      "balls": 2075,
+      "matches": 120,
+      "sr": 128.39,
+      "dismissals": 113,
+      "avg": 23.58,
+      "fours": 264,
+      "sixes": 98
+    },
+    {
+      "player": "M Vijay",
+      "runs": 2619,
+      "balls": 2208,
+      "matches": 105,
+      "sr": 118.61,
+      "dismissals": 93,
+      "avg": 28.16,
+      "fours": 247,
+      "sixes": 91
+    },
+    {
+      "player": "N Rana",
+      "runs": 2603,
+      "balls": 1991,
+      "matches": 100,
+      "sr": 130.74,
+      "dismissals": 91,
+      "avg": 28.6,
+      "fours": 230,
+      "sixes": 131
+    },
+    {
+      "player": "SPD Smith",
+      "runs": 2495,
+      "balls": 1999,
+      "matches": 93,
+      "sr": 124.81,
+      "dismissals": 70,
+      "avg": 35.64,
+      "fours": 226,
+      "sixes": 60
+    },
+    {
+      "player": "SE Marsh",
+      "runs": 2489,
+      "balls": 1913,
+      "matches": 69,
+      "sr": 130.11,
+      "dismissals": 62,
+      "avg": 40.15,
+      "fours": 269,
+      "sixes": 78
+    },
+    {
+      "player": "JH Kallis",
+      "runs": 2427,
+      "balls": 2291,
+      "matches": 95,
+      "sr": 105.94,
+      "dismissals": 83,
+      "avg": 29.24,
+      "fours": 255,
+      "sixes": 44
+    },
+    {
+      "player": "HH Pandya",
+      "runs": 2387,
+      "balls": 1705,
+      "matches": 118,
+      "sr": 140.0,
+      "dismissals": 77,
+      "avg": 31.0,
+      "fours": 180,
+      "sixes": 128
+    },
+    {
+      "player": "DR Smith",
+      "runs": 2385,
+      "balls": 1803,
+      "matches": 88,
+      "sr": 132.28,
+      "dismissals": 80,
+      "avg": 29.81,
+      "fours": 245,
+      "sixes": 117
+    },
+    {
+      "player": "Ishan Kishan",
+      "runs": 2374,
+      "balls": 1801,
+      "matches": 88,
+      "sr": 131.82,
+      "dismissals": 80,
+      "avg": 29.68,
+      "fours": 224,
+      "sixes": 108
+    },
+    {
+      "player": "SR Tendulkar",
+      "runs": 2334,
+      "balls": 2044,
+      "matches": 78,
+      "sr": 114.19,
+      "dismissals": 67,
+      "avg": 34.84,
+      "fours": 296,
+      "sixes": 29
+    },
+    {
+      "player": "AD Russell",
+      "runs": 2330,
+      "balls": 1402,
+      "matches": 96,
+      "sr": 166.19,
+      "dismissals": 76,
+      "avg": 30.66,
+      "fours": 154,
+      "sixes": 200
+    },
+    {
+      "player": "R Dravid",
+      "runs": 2174,
+      "balls": 1918,
+      "matches": 82,
+      "sr": 113.35,
+      "dismissals": 75,
+      "avg": 28.99,
+      "fours": 269,
+      "sixes": 28
+    },
+    {
+      "player": "KS Williamson",
+      "runs": 2105,
+      "balls": 1707,
+      "matches": 74,
+      "sr": 123.32,
+      "dismissals": 56,
+      "avg": 37.59,
+      "fours": 183,
+      "sixes": 64
+    },
+    {
+      "player": "AJ Finch",
+      "runs": 2092,
+      "balls": 1696,
+      "matches": 90,
+      "sr": 123.35,
+      "dismissals": 82,
+      "avg": 25.51,
+      "fours": 214,
+      "sixes": 78
+    },
+    {
+      "player": "RA Tripathi",
+      "runs": 2091,
+      "balls": 1549,
+      "matches": 88,
+      "sr": 134.99,
+      "dismissals": 76,
+      "avg": 27.51,
+      "fours": 205,
+      "sixes": 79
+    },
+    {
+      "player": "AC Gilchrist",
+      "runs": 2069,
+      "balls": 1555,
+      "matches": 80,
+      "sr": 133.05,
+      "dismissals": 75,
+      "avg": 27.59,
+      "fours": 239,
+      "sixes": 92
+    },
+    {
+      "player": "JP Duminy",
+      "runs": 2029,
+      "balls": 1680,
+      "matches": 75,
+      "sr": 120.77,
+      "dismissals": 48,
+      "avg": 42.27,
+      "fours": 126,
+      "sixes": 79
+    },
+    {
+      "player": "MEK Hussey",
+      "runs": 1977,
+      "balls": 1648,
+      "matches": 58,
+      "sr": 119.96,
+      "dismissals": 49,
+      "avg": 40.35,
+      "fours": 198,
+      "sixes": 52
+    },
+    {
+      "player": "RD Gaikwad",
+      "runs": 1859,
+      "balls": 1411,
+      "matches": 54,
+      "sr": 131.75,
+      "dismissals": 47,
+      "avg": 39.55,
+      "fours": 167,
+      "sixes": 74
+    },
+    {
+      "player": "DPMD Jayawardene",
+      "runs": 1808,
+      "balls": 1522,
+      "matches": 78,
+      "sr": 118.79,
+      "dismissals": 59,
+      "avg": 30.64,
+      "fours": 200,
+      "sixes": 40
+    },
+    {
+      "player": "PP Shaw",
+      "runs": 1737,
+      "balls": 1225,
+      "matches": 72,
+      "sr": 141.8,
+      "dismissals": 69,
+      "avg": 25.17,
+      "fours": 212,
+      "sixes": 58
+    },
+    {
+      "player": "Mandeep Singh",
+      "runs": 1706,
+      "balls": 1418,
+      "matches": 97,
+      "sr": 120.31,
+      "dismissals": 80,
+      "avg": 21.32,
+      "fours": 176,
+      "sixes": 38
+    },
+    {
+      "player": "MK Tiwary",
+      "runs": 1695,
+      "balls": 1489,
+      "matches": 83,
+      "sr": 113.83,
+      "dismissals": 57,
+      "avg": 29.74,
+      "fours": 156,
+      "sixes": 40
+    },
+    {
+      "player": "KC Sangakkara",
+      "runs": 1687,
+      "balls": 1424,
+      "matches": 68,
+      "sr": 118.47,
+      "dismissals": 65,
+      "avg": 25.95,
+      "fours": 195,
+      "sixes": 27
+    },
+    {
+      "player": "DJ Bravo",
+      "runs": 1560,
+      "balls": 1247,
+      "matches": 110,
+      "sr": 125.1,
+      "dismissals": 68,
+      "avg": 22.94,
+      "fours": 120,
+      "sixes": 66
+    },
+    {
+      "player": "KH Pandya",
+      "runs": 1560,
+      "balls": 1206,
+      "matches": 98,
+      "sr": 129.35,
+      "dismissals": 67,
+      "avg": 23.28,
+      "fours": 140,
+      "sixes": 58
+    },
+    {
+      "player": "NV Ojha",
+      "runs": 1554,
+      "balls": 1360,
+      "matches": 94,
+      "sr": 114.26,
+      "dismissals": 72,
+      "avg": 21.58,
+      "fours": 121,
+      "sixes": 79
+    },
+    {
+      "player": "D Padikkal",
+      "runs": 1536,
+      "balls": 1286,
+      "matches": 60,
+      "sr": 119.44,
+      "dismissals": 57,
+      "avg": 26.95,
+      "fours": 169,
+      "sixes": 42
+    },
+    {
+      "player": "MP Stoinis",
+      "runs": 1524,
+      "balls": 1125,
+      "matches": 77,
+      "sr": 135.47,
+      "dismissals": 56,
+      "avg": 27.21,
+      "fours": 112,
+      "sixes": 79
+    },
+    {
+      "player": "KK Nair",
+      "runs": 1496,
+      "balls": 1192,
+      "matches": 68,
+      "sr": 125.5,
+      "dismissals": 61,
+      "avg": 24.52,
+      "fours": 161,
+      "sixes": 39
+    },
+    {
+      "player": "SS Tiwary",
+      "runs": 1494,
+      "balls": 1291,
+      "matches": 73,
+      "sr": 115.72,
+      "dismissals": 49,
+      "avg": 30.49,
+      "fours": 111,
+      "sixes": 50
+    },
+    {
+      "player": "AR Patel",
+      "runs": 1461,
+      "balls": 1171,
+      "matches": 103,
+      "sr": 124.77,
+      "dismissals": 67,
+      "avg": 21.81,
+      "fours": 91,
+      "sixes": 70
+    },
+    {
+      "player": "S Badrinath",
+      "runs": 1441,
+      "balls": 1245,
+      "matches": 65,
+      "sr": 115.74,
+      "dismissals": 46,
+      "avg": 31.33,
+      "fours": 154,
+      "sixes": 28
+    },
+    {
+      "player": "N Pooran",
+      "runs": 1416,
+      "balls": 933,
+      "matches": 61,
+      "sr": 151.77,
+      "dismissals": 48,
+      "avg": 29.5,
+      "fours": 86,
+      "sixes": 103
+    },
+    {
+      "player": "EJG Morgan",
+      "runs": 1406,
+      "balls": 1181,
+      "matches": 74,
+      "sr": 119.05,
+      "dismissals": 59,
+      "avg": 23.83,
+      "fours": 112,
+      "sixes": 64
+    },
+    {
+      "player": "BJ Hodge",
+      "runs": 1400,
+      "balls": 1153,
+      "matches": 63,
+      "sr": 121.42,
+      "dismissals": 41,
+      "avg": 34.15,
+      "fours": 122,
+      "sixes": 43
+    },
+    {
+      "player": "JM Bairstow",
+      "runs": 1350,
+      "balls": 973,
+      "matches": 42,
+      "sr": 138.75,
+      "dismissals": 38,
+      "avg": 35.53,
+      "fours": 140,
+      "sixes": 58
+    },
+    {
+      "player": "SC Ganguly",
+      "runs": 1349,
+      "balls": 1326,
+      "matches": 56,
+      "sr": 101.73,
+      "dismissals": 52,
+      "avg": 25.94,
+      "fours": 137,
+      "sixes": 42
+    },
+    {
+      "player": "DJ Hooda",
+      "runs": 1347,
+      "balls": 1076,
+      "matches": 88,
+      "sr": 125.19,
+      "dismissals": 67,
+      "avg": 20.1,
+      "fours": 82,
+      "sixes": 60
+    },
+    {
+      "player": "CA Lynn",
+      "runs": 1329,
+      "balls": 974,
+      "matches": 42,
+      "sr": 136.45,
+      "dismissals": 38,
+      "avg": 34.97,
+      "fours": 132,
+      "sixes": 66
+    },
+    {
+      "player": "DJ Hussey",
+      "runs": 1322,
+      "balls": 1101,
+      "matches": 61,
+      "sr": 120.07,
+      "dismissals": 46,
+      "avg": 28.74,
+      "fours": 90,
+      "sixes": 60
+    },
+    {
+      "player": "YBK Jaiswal",
+      "runs": 1211,
+      "balls": 832,
+      "matches": 40,
+      "sr": 145.55,
+      "dismissals": 38,
+      "avg": 31.87,
+      "fours": 151,
+      "sixes": 49
+    },
+    {
+      "player": "S Dube",
+      "runs": 1209,
+      "balls": 894,
+      "matches": 50,
+      "sr": 135.23,
+      "dismissals": 40,
+      "avg": 30.22,
+      "fours": 65,
+      "sixes": 79
+    },
+    {
+      "player": "KM Jadhav",
+      "runs": 1208,
+      "balls": 1012,
+      "matches": 81,
+      "sr": 119.37,
+      "dismissals": 51,
+      "avg": 23.69,
+      "fours": 102,
+      "sixes": 40
+    },
+    {
+      "player": "SP Narine",
+      "runs": 1178,
+      "balls": 758,
+      "matches": 95,
+      "sr": 155.41,
+      "dismissals": 72,
+      "avg": 16.36,
+      "fours": 123,
+      "sixes": 76
+    },
+    {
+      "player": "TM Dilshan",
+      "runs": 1153,
+      "balls": 1047,
+      "matches": 50,
+      "sr": 110.12,
+      "dismissals": 40,
+      "avg": 28.82,
+      "fours": 140,
+      "sixes": 24
+    },
+    {
+      "player": "IK Pathan",
+      "runs": 1150,
+      "balls": 985,
+      "matches": 82,
+      "sr": 116.75,
+      "dismissals": 49,
+      "avg": 23.47,
+      "fours": 88,
+      "sixes": 38
+    },
+    {
+      "player": "SO Hetmyer",
+      "runs": 1149,
+      "balls": 797,
+      "matches": 58,
+      "sr": 144.17,
+      "dismissals": 35,
+      "avg": 32.83,
+      "fours": 68,
+      "sixes": 76
+    },
+    {
+      "player": "ML Hayden",
+      "runs": 1107,
+      "balls": 839,
+      "matches": 32,
+      "sr": 131.94,
+      "dismissals": 28,
+      "avg": 39.54,
+      "fours": 121,
+      "sixes": 44
+    },
+    {
+      "player": "M Vohra",
+      "runs": 1083,
+      "balls": 863,
+      "matches": 51,
+      "sr": 125.49,
+      "dismissals": 47,
+      "avg": 23.04,
+      "fours": 104,
+      "sixes": 43
+    },
+    {
+      "player": "LMP Simmons",
+      "runs": 1079,
+      "balls": 878,
+      "matches": 29,
+      "sr": 122.89,
+      "dismissals": 26,
+      "avg": 41.5,
+      "fours": 109,
+      "sixes": 44
+    },
+    {
+      "player": "V Shankar",
+      "runs": 1064,
+      "balls": 843,
+      "matches": 54,
+      "sr": 126.22,
+      "dismissals": 39,
+      "avg": 27.28,
+      "fours": 75,
+      "sixes": 44
+    },
+    {
+      "player": "MM Ali",
+      "runs": 1034,
+      "balls": 744,
+      "matches": 52,
+      "sr": 138.98,
+      "dismissals": 44,
+      "avg": 23.5,
+      "fours": 88,
+      "sixes": 59
+    },
+    {
+      "player": "Abhishek Sharma",
+      "runs": 1017,
+      "balls": 740,
+      "matches": 48,
+      "sr": 137.43,
+      "dismissals": 42,
+      "avg": 24.21,
+      "fours": 101,
+      "sixes": 42
+    },
+    {
+      "player": "LRPL Taylor",
+      "runs": 1017,
+      "balls": 847,
+      "matches": 54,
+      "sr": 120.07,
+      "dismissals": 38,
+      "avg": 26.76,
+      "fours": 66,
+      "sixes": 46
+    },
+    {
+      "player": "VR Iyer",
+      "runs": 1013,
+      "balls": 799,
+      "matches": 38,
+      "sr": 126.78,
+      "dismissals": 36,
+      "avg": 28.14,
+      "fours": 90,
+      "sixes": 46
+    },
+    {
+      "player": "KP Pietersen",
+      "runs": 1001,
+      "balls": 758,
+      "matches": 36,
+      "sr": 132.06,
+      "dismissals": 27,
+      "avg": 37.07,
+      "fours": 91,
+      "sixes": 40
+    },
+    {
+      "player": "MC Henriques",
+      "runs": 1000,
+      "balls": 801,
+      "matches": 54,
+      "sr": 124.84,
+      "dismissals": 36,
+      "avg": 27.78,
+      "fours": 87,
+      "sixes": 28
+    },
+    {
+      "player": "Y Venugopal Rao",
+      "runs": 985,
+      "balls": 865,
+      "matches": 52,
+      "sr": 113.87,
+      "dismissals": 42,
+      "avg": 23.45,
+      "fours": 77,
+      "sixes": 37
+    },
+    {
+      "player": "JA Morkel",
+      "runs": 975,
+      "balls": 712,
+      "matches": 67,
+      "sr": 136.94,
+      "dismissals": 38,
+      "avg": 25.66,
+      "fours": 61,
+      "sixes": 55
+    },
+    {
+      "player": "A Symonds",
+      "runs": 974,
+      "balls": 781,
+      "matches": 36,
+      "sr": 124.71,
+      "dismissals": 24,
+      "avg": 40.58,
+      "fours": 74,
+      "sixes": 41
+    },
+    {
+      "player": "CL White",
+      "runs": 971,
+      "balls": 774,
+      "matches": 45,
+      "sr": 125.45,
+      "dismissals": 34,
+      "avg": 28.56,
+      "fours": 76,
+      "sixes": 38
+    },
+    {
+      "player": "BA Stokes",
+      "runs": 935,
+      "balls": 718,
+      "matches": 43,
+      "sr": 130.22,
+      "dismissals": 38,
+      "avg": 24.61,
+      "fours": 81,
+      "sixes": 32
+    },
+    {
+      "player": "DP Conway",
+      "runs": 924,
+      "balls": 669,
+      "matches": 22,
+      "sr": 138.12,
+      "dismissals": 19,
+      "avg": 48.63,
+      "fours": 100,
+      "sixes": 30
+    },
+    {
+      "player": "LS Livingstone",
+      "runs": 911,
+      "balls": 582,
+      "matches": 35,
+      "sr": 156.53,
+      "dismissals": 29,
+      "avg": 31.41,
+      "fours": 63,
+      "sixes": 65
+    },
+    {
+      "player": "HH Gibbs",
+      "runs": 886,
+      "balls": 837,
+      "matches": 36,
+      "sr": 105.85,
+      "dismissals": 31,
+      "avg": 28.58,
+      "fours": 83,
+      "sixes": 31
+    }
+  ],
+  "highest_avg": [
+    {
+      "player": "DP Conway",
+      "runs": 924,
+      "balls": 669,
+      "matches": 22,
+      "sr": 138.12,
+      "dismissals": 19,
+      "avg": 48.63,
+      "fours": 100,
+      "sixes": 30
+    },
+    {
+      "player": "KL Rahul",
+      "runs": 4262,
+      "balls": 3250,
+      "matches": 111,
+      "sr": 131.14,
+      "dismissals": 92,
+      "avg": 46.33,
+      "fours": 360,
+      "sixes": 173
+    },
+    {
+      "player": "DA Warner",
+      "runs": 6529,
+      "balls": 4810,
+      "matches": 179,
+      "sr": 135.74,
+      "dismissals": 153,
+      "avg": 42.67,
+      "fours": 659,
+      "sixes": 234
+    },
+    {
+      "player": "H Klaasen",
+      "runs": 681,
+      "balls": 398,
+      "matches": 20,
+      "sr": 171.11,
+      "dismissals": 16,
+      "avg": 42.56,
+      "fours": 42,
+      "sixes": 43
+    },
+    {
+      "player": "AB de Villiers",
+      "runs": 5181,
+      "balls": 3487,
+      "matches": 170,
+      "sr": 148.58,
+      "dismissals": 122,
+      "avg": 42.47,
+      "fours": 414,
+      "sixes": 253
+    },
+    {
+      "player": "JP Duminy",
+      "runs": 2029,
+      "balls": 1680,
+      "matches": 75,
+      "sr": 120.77,
+      "dismissals": 48,
+      "avg": 42.27,
+      "fours": 126,
+      "sixes": 79
+    },
+    {
+      "player": "OA Shah",
+      "runs": 506,
+      "balls": 405,
+      "matches": 22,
+      "sr": 124.94,
+      "dismissals": 12,
+      "avg": 42.17,
+      "fours": 34,
+      "sixes": 23
+    },
+    {
+      "player": "LMP Simmons",
+      "runs": 1079,
+      "balls": 878,
+      "matches": 29,
+      "sr": 122.89,
+      "dismissals": 26,
+      "avg": 41.5,
+      "fours": 109,
+      "sixes": 44
+    },
+    {
+      "player": "Tilak Varma",
+      "runs": 861,
+      "balls": 624,
+      "matches": 28,
+      "sr": 137.98,
+      "dismissals": 21,
+      "avg": 41.0,
+      "fours": 58,
+      "sixes": 48
+    },
+    {
+      "player": "A Symonds",
+      "runs": 974,
+      "balls": 781,
+      "matches": 36,
+      "sr": 124.71,
+      "dismissals": 24,
+      "avg": 40.58,
+      "fours": 74,
+      "sixes": 41
+    },
+    {
+      "player": "MEK Hussey",
+      "runs": 1977,
+      "balls": 1648,
+      "matches": 58,
+      "sr": 119.96,
+      "dismissals": 49,
+      "avg": 40.35,
+      "fours": 198,
+      "sixes": 52
+    },
+    {
+      "player": "SE Marsh",
+      "runs": 2489,
+      "balls": 1913,
+      "matches": 69,
+      "sr": 130.11,
+      "dismissals": 62,
+      "avg": 40.15,
+      "fours": 269,
+      "sixes": 78
+    },
+    {
+      "player": "MS Dhoni",
+      "runs": 5119,
+      "balls": 3884,
+      "matches": 218,
+      "sr": 131.8,
+      "dismissals": 128,
+      "avg": 39.99,
+      "fours": 353,
+      "sixes": 242
+    },
+    {
+      "player": "CH Gayle",
+      "runs": 4997,
+      "balls": 3516,
+      "matches": 141,
+      "sr": 142.12,
+      "dismissals": 125,
+      "avg": 39.98,
+      "fours": 408,
+      "sixes": 359
+    },
+    {
+      "player": "C Green",
+      "runs": 515,
+      "balls": 345,
+      "matches": 20,
+      "sr": 149.28,
+      "dismissals": 13,
+      "avg": 39.62,
+      "fours": 46,
+      "sixes": 24
+    },
+    {
+      "player": "RD Gaikwad",
+      "runs": 1859,
+      "balls": 1411,
+      "matches": 54,
+      "sr": 131.75,
+      "dismissals": 47,
+      "avg": 39.55,
+      "fours": 167,
+      "sixes": 74
+    },
+    {
+      "player": "ML Hayden",
+      "runs": 1107,
+      "balls": 839,
+      "matches": 32,
+      "sr": 131.94,
+      "dismissals": 28,
+      "avg": 39.54,
+      "fours": 121,
+      "sixes": 44
+    },
+    {
+      "player": "F du Plessis",
+      "runs": 4198,
+      "balls": 3210,
+      "matches": 127,
+      "sr": 130.78,
+      "dismissals": 109,
+      "avg": 38.51,
+      "fours": 386,
+      "sixes": 146
+    },
+    {
+      "player": "Shubman Gill",
+      "runs": 2865,
+      "balls": 2193,
+      "matches": 90,
+      "sr": 130.64,
+      "dismissals": 75,
+      "avg": 38.2,
+      "fours": 278,
+      "sixes": 83
+    },
+    {
+      "player": "V Kohli",
+      "runs": 7476,
+      "balls": 5888,
+      "matches": 233,
+      "sr": 126.97,
+      "dismissals": 196,
+      "avg": 38.14,
+      "fours": 663,
+      "sixes": 243
+    },
+    {
+      "player": "JC Buttler",
+      "runs": 3259,
+      "balls": 2298,
+      "matches": 98,
+      "sr": 141.82,
+      "dismissals": 86,
+      "avg": 37.9,
+      "fours": 324,
+      "sixes": 149
+    },
+    {
+      "player": "KS Williamson",
+      "runs": 2105,
+      "balls": 1707,
+      "matches": 74,
+      "sr": 123.32,
+      "dismissals": 56,
+      "avg": 37.59,
+      "fours": 183,
+      "sixes": 64
+    },
+    {
+      "player": "DA Miller",
+      "runs": 2791,
+      "balls": 2079,
+      "matches": 117,
+      "sr": 134.25,
+      "dismissals": 75,
+      "avg": 37.21,
+      "fours": 195,
+      "sixes": 128
+    },
+    {
+      "player": "KP Pietersen",
+      "runs": 1001,
+      "balls": 758,
+      "matches": 36,
+      "sr": 132.06,
+      "dismissals": 27,
+      "avg": 37.07,
+      "fours": 91,
+      "sixes": 40
+    },
+    {
+      "player": "S Dhawan",
+      "runs": 6754,
+      "balls": 5465,
+      "matches": 219,
+      "sr": 123.59,
+      "dismissals": 185,
+      "avg": 36.51,
+      "fours": 766,
+      "sixes": 153
+    },
+    {
+      "player": "RK Singh",
+      "runs": 753,
+      "balls": 558,
+      "matches": 31,
+      "sr": 134.95,
+      "dismissals": 21,
+      "avg": 35.86,
+      "fours": 57,
+      "sixes": 38
+    },
+    {
+      "player": "SPD Smith",
+      "runs": 2495,
+      "balls": 1999,
+      "matches": 93,
+      "sr": 124.81,
+      "dismissals": 70,
+      "avg": 35.64,
+      "fours": 226,
+      "sixes": 60
+    },
+    {
+      "player": "JM Bairstow",
+      "runs": 1350,
+      "balls": 973,
+      "matches": 42,
+      "sr": 138.75,
+      "dismissals": 38,
+      "avg": 35.53,
+      "fours": 140,
+      "sixes": 58
+    },
+    {
+      "player": "RR Pant",
+      "runs": 2948,
+      "balls": 2073,
+      "matches": 100,
+      "sr": 142.21,
+      "dismissals": 83,
+      "avg": 35.52,
+      "fours": 270,
+      "sixes": 133
+    },
+    {
+      "player": "CA Lynn",
+      "runs": 1329,
+      "balls": 974,
+      "matches": 42,
+      "sr": 136.45,
+      "dismissals": 38,
+      "avg": 34.97,
+      "fours": 132,
+      "sixes": 66
+    },
+    {
+      "player": "SR Tendulkar",
+      "runs": 2334,
+      "balls": 2044,
+      "matches": 78,
+      "sr": 114.19,
+      "dismissals": 67,
+      "avg": 34.84,
+      "fours": 296,
+      "sixes": 29
+    },
+    {
+      "player": "SK Raina",
+      "runs": 5536,
+      "balls": 4177,
+      "matches": 200,
+      "sr": 132.54,
+      "dismissals": 162,
+      "avg": 34.17,
+      "fours": 506,
+      "sixes": 204
+    },
+    {
+      "player": "BJ Hodge",
+      "runs": 1400,
+      "balls": 1153,
+      "matches": 63,
+      "sr": 121.42,
+      "dismissals": 41,
+      "avg": 34.15,
+      "fours": 122,
+      "sixes": 43
+    },
+    {
+      "player": "Q de Kock",
+      "runs": 3049,
+      "balls": 2317,
+      "matches": 99,
+      "sr": 131.59,
+      "dismissals": 91,
+      "avg": 33.51,
+      "fours": 301,
+      "sixes": 121
+    },
+    {
+      "player": "G Gambhir",
+      "runs": 4217,
+      "balls": 3524,
+      "matches": 151,
+      "sr": 119.67,
+      "dismissals": 128,
+      "avg": 32.95,
+      "fours": 492,
+      "sixes": 59
+    },
+    {
+      "player": "SO Hetmyer",
+      "runs": 1149,
+      "balls": 797,
+      "matches": 58,
+      "sr": 144.17,
+      "dismissals": 35,
+      "avg": 32.83,
+      "fours": 68,
+      "sixes": 76
+    },
+    {
+      "player": "SA Yadav",
+      "runs": 3249,
+      "balls": 2313,
+      "matches": 124,
+      "sr": 140.47,
+      "dismissals": 99,
+      "avg": 32.82,
+      "fours": 349,
+      "sixes": 112
+    },
+    {
+      "player": "AK Markram",
+      "runs": 852,
+      "balls": 665,
+      "matches": 34,
+      "sr": 128.12,
+      "dismissals": 26,
+      "avg": 32.77,
+      "fours": 59,
+      "sixes": 32
+    },
+    {
+      "player": "JJ Roy",
+      "runs": 614,
+      "balls": 460,
+      "matches": 21,
+      "sr": 133.48,
+      "dismissals": 19,
+      "avg": 32.32,
+      "fours": 75,
+      "sixes": 21
+    },
+    {
+      "player": "AM Rahane",
+      "runs": 4484,
+      "balls": 3721,
+      "matches": 162,
+      "sr": 120.51,
+      "dismissals": 140,
+      "avg": 32.03,
+      "fours": 461,
+      "sixes": 100
+    },
+    {
+      "player": "YBK Jaiswal",
+      "runs": 1211,
+      "balls": 832,
+      "matches": 40,
+      "sr": 145.55,
+      "dismissals": 38,
+      "avg": 31.87,
+      "fours": 151,
+      "sixes": 49
+    },
+    {
+      "player": "SS Iyer",
+      "runs": 2819,
+      "balls": 2321,
+      "matches": 102,
+      "sr": 121.46,
+      "dismissals": 89,
+      "avg": 31.67,
+      "fours": 240,
+      "sixes": 101
+    },
+    {
+      "player": "LS Livingstone",
+      "runs": 911,
+      "balls": 582,
+      "matches": 35,
+      "sr": 156.53,
+      "dismissals": 29,
+      "avg": 31.41,
+      "fours": 63,
+      "sixes": 65
+    },
+    {
+      "player": "S Badrinath",
+      "runs": 1441,
+      "balls": 1245,
+      "matches": 65,
+      "sr": 115.74,
+      "dismissals": 46,
+      "avg": 31.33,
+      "fours": 154,
+      "sixes": 28
+    },
+    {
+      "player": "SR Watson",
+      "runs": 3880,
+      "balls": 2892,
+      "matches": 141,
+      "sr": 134.16,
+      "dismissals": 124,
+      "avg": 31.29,
+      "fours": 377,
+      "sixes": 190
+    },
+    {
+      "player": "RS Bopara",
+      "runs": 531,
+      "balls": 468,
+      "matches": 22,
+      "sr": 113.46,
+      "dismissals": 17,
+      "avg": 31.24,
+      "fours": 39,
+      "sixes": 16
+    },
+    {
+      "player": "HH Pandya",
+      "runs": 2387,
+      "balls": 1705,
+      "matches": 118,
+      "sr": 140.0,
+      "dismissals": 77,
+      "avg": 31.0,
+      "fours": 180,
+      "sixes": 128
+    },
+    {
+      "player": "SV Samson",
+      "runs": 3997,
+      "balls": 2983,
+      "matches": 150,
+      "sr": 133.99,
+      "dismissals": 130,
+      "avg": 30.75,
+      "fours": 313,
+      "sixes": 188
+    },
+    {
+      "player": "YK Pathan",
+      "runs": 3222,
+      "balls": 2334,
+      "matches": 153,
+      "sr": 138.05,
+      "dismissals": 105,
+      "avg": 30.69,
+      "fours": 263,
+      "sixes": 161
+    },
+    {
+      "player": "AD Russell",
+      "runs": 2330,
+      "balls": 1402,
+      "matches": 96,
+      "sr": 166.19,
+      "dismissals": 76,
+      "avg": 30.66,
+      "fours": 154,
+      "sixes": 200
+    }
+  ],
+  "best_sr": [
+    {
+      "player": "H Klaasen",
+      "runs": 681,
+      "balls": 398,
+      "matches": 20,
+      "sr": 171.11,
+      "dismissals": 16,
+      "avg": 42.56,
+      "fours": 42,
+      "sixes": 43
+    },
+    {
+      "player": "AD Russell",
+      "runs": 2330,
+      "balls": 1402,
+      "matches": 96,
+      "sr": 166.19,
+      "dismissals": 76,
+      "avg": 30.66,
+      "fours": 154,
+      "sixes": 200
+    },
+    {
+      "player": "TH David",
+      "runs": 488,
+      "balls": 310,
+      "matches": 27,
+      "sr": 157.42,
+      "dismissals": 16,
+      "avg": 30.5,
+      "fours": 28,
+      "sixes": 34
+    },
+    {
+      "player": "Rashid Khan",
+      "runs": 448,
+      "balls": 285,
+      "matches": 52,
+      "sr": 157.19,
+      "dismissals": 33,
+      "avg": 13.58,
+      "fours": 28,
+      "sixes": 35
+    },
+    {
+      "player": "LS Livingstone",
+      "runs": 911,
+      "balls": 582,
+      "matches": 35,
+      "sr": 156.53,
+      "dismissals": 29,
+      "avg": 31.41,
+      "fours": 63,
+      "sixes": 65
+    },
+    {
+      "player": "SP Narine",
+      "runs": 1178,
+      "balls": 758,
+      "matches": 95,
+      "sr": 155.41,
+      "dismissals": 72,
+      "avg": 16.36,
+      "fours": 123,
+      "sixes": 76
+    },
+    {
+      "player": "K Gowtham",
+      "runs": 247,
+      "balls": 159,
+      "matches": 27,
+      "sr": 155.35,
+      "dismissals": 18,
+      "avg": 13.72,
+      "fours": 15,
+      "sixes": 17
+    },
+    {
+      "player": "N Pooran",
+      "runs": 1416,
+      "balls": 933,
+      "matches": 61,
+      "sr": 151.77,
+      "dismissals": 48,
+      "avg": 29.5,
+      "fours": 86,
+      "sixes": 103
+    },
+    {
+      "player": "GJ Maxwell",
+      "runs": 2751,
+      "balls": 1824,
+      "matches": 123,
+      "sr": 150.82,
+      "dismissals": 103,
+      "avg": 26.71,
+      "fours": 230,
+      "sixes": 159
+    },
+    {
+      "player": "JC Archer",
+      "runs": 199,
+      "balls": 132,
+      "matches": 23,
+      "sr": 150.76,
+      "dismissals": 13,
+      "avg": 15.31,
+      "fours": 11,
+      "sixes": 14
+    },
+    {
+      "player": "CH Morris",
+      "runs": 618,
+      "balls": 413,
+      "matches": 49,
+      "sr": 149.64,
+      "dismissals": 28,
+      "avg": 22.07,
+      "fours": 41,
+      "sixes": 35
+    },
+    {
+      "player": "C Green",
+      "runs": 515,
+      "balls": 345,
+      "matches": 20,
+      "sr": 149.28,
+      "dismissals": 13,
+      "avg": 39.62,
+      "fours": 46,
+      "sixes": 24
+    },
+    {
+      "player": "JM Sharma",
+      "runs": 585,
+      "balls": 393,
+      "matches": 27,
+      "sr": 148.85,
+      "dismissals": 24,
+      "avg": 24.38,
+      "fours": 47,
+      "sixes": 35
+    },
+    {
+      "player": "V Sehwag",
+      "runs": 2728,
+      "balls": 1833,
+      "matches": 104,
+      "sr": 148.83,
+      "dismissals": 95,
+      "avg": 28.72,
+      "fours": 334,
+      "sixes": 106
+    },
+    {
+      "player": "AB de Villiers",
+      "runs": 5181,
+      "balls": 3487,
+      "matches": 170,
+      "sr": 148.58,
+      "dismissals": 122,
+      "avg": 42.47,
+      "fours": 414,
+      "sixes": 253
+    },
+    {
+      "player": "YBK Jaiswal",
+      "runs": 1211,
+      "balls": 832,
+      "matches": 40,
+      "sr": 145.55,
+      "dismissals": 38,
+      "avg": 31.87,
+      "fours": 151,
+      "sixes": 49
+    },
+    {
+      "player": "PJ Cummins",
+      "runs": 381,
+      "balls": 263,
+      "matches": 31,
+      "sr": 144.87,
+      "dismissals": 20,
+      "avg": 19.05,
+      "fours": 24,
+      "sixes": 26
+    },
+    {
+      "player": "SO Hetmyer",
+      "runs": 1149,
+      "balls": 797,
+      "matches": 58,
+      "sr": 144.17,
+      "dismissals": 35,
+      "avg": 32.83,
+      "fours": 68,
+      "sixes": 76
+    },
+    {
+      "player": "A Ashish Reddy",
+      "runs": 280,
+      "balls": 196,
+      "matches": 23,
+      "sr": 142.86,
+      "dismissals": 15,
+      "avg": 18.67,
+      "fours": 16,
+      "sixes": 15
+    },
+    {
+      "player": "RR Pant",
+      "runs": 2948,
+      "balls": 2073,
+      "matches": 100,
+      "sr": 142.21,
+      "dismissals": 83,
+      "avg": 35.52,
+      "fours": 270,
+      "sixes": 133
+    },
+    {
+      "player": "CH Gayle",
+      "runs": 4997,
+      "balls": 3516,
+      "matches": 141,
+      "sr": 142.12,
+      "dismissals": 125,
+      "avg": 39.98,
+      "fours": 408,
+      "sixes": 359
+    },
+    {
+      "player": "JC Buttler",
+      "runs": 3259,
+      "balls": 2298,
+      "matches": 98,
+      "sr": 141.82,
+      "dismissals": 86,
+      "avg": 37.9,
+      "fours": 324,
+      "sixes": 149
+    },
+    {
+      "player": "PP Shaw",
+      "runs": 1737,
+      "balls": 1225,
+      "matches": 72,
+      "sr": 141.8,
+      "dismissals": 69,
+      "avg": 25.17,
+      "fours": 212,
+      "sixes": 58
+    },
+    {
+      "player": "SA Yadav",
+      "runs": 3249,
+      "balls": 2313,
+      "matches": 124,
+      "sr": 140.47,
+      "dismissals": 99,
+      "avg": 32.82,
+      "fours": 349,
+      "sixes": 112
+    },
+    {
+      "player": "KA Pollard",
+      "runs": 3437,
+      "balls": 2447,
+      "matches": 168,
+      "sr": 140.46,
+      "dismissals": 120,
+      "avg": 28.64,
+      "fours": 221,
+      "sixes": 224
+    },
+    {
+      "player": "HH Pandya",
+      "runs": 2387,
+      "balls": 1705,
+      "matches": 118,
+      "sr": 140.0,
+      "dismissals": 77,
+      "avg": 31.0,
+      "fours": 180,
+      "sixes": 128
+    },
+    {
+      "player": "P Simran Singh",
+      "runs": 492,
+      "balls": 353,
+      "matches": 23,
+      "sr": 139.38,
+      "dismissals": 23,
+      "avg": 21.39,
+      "fours": 52,
+      "sixes": 25
+    },
+    {
+      "player": "MM Ali",
+      "runs": 1034,
+      "balls": 744,
+      "matches": 52,
+      "sr": 138.98,
+      "dismissals": 44,
+      "avg": 23.5,
+      "fours": 88,
+      "sixes": 59
+    },
+    {
+      "player": "JM Bairstow",
+      "runs": 1350,
+      "balls": 973,
+      "matches": 42,
+      "sr": 138.75,
+      "dismissals": 38,
+      "avg": 35.53,
+      "fours": 140,
+      "sixes": 58
+    },
+    {
+      "player": "DP Conway",
+      "runs": 924,
+      "balls": 669,
+      "matches": 22,
+      "sr": 138.12,
+      "dismissals": 19,
+      "avg": 48.63,
+      "fours": 100,
+      "sixes": 30
+    },
+    {
+      "player": "YK Pathan",
+      "runs": 3222,
+      "balls": 2334,
+      "matches": 153,
+      "sr": 138.05,
+      "dismissals": 105,
+      "avg": 30.69,
+      "fours": 263,
+      "sixes": 161
+    },
+    {
+      "player": "Tilak Varma",
+      "runs": 861,
+      "balls": 624,
+      "matches": 28,
+      "sr": 137.98,
+      "dismissals": 21,
+      "avg": 41.0,
+      "fours": 58,
+      "sixes": 48
+    },
+    {
+      "player": "Abhishek Sharma",
+      "runs": 1017,
+      "balls": 740,
+      "matches": 48,
+      "sr": 137.43,
+      "dismissals": 42,
+      "avg": 24.21,
+      "fours": 101,
+      "sixes": 42
+    },
+    {
+      "player": "Abdul Samad",
+      "runs": 441,
+      "balls": 321,
+      "matches": 29,
+      "sr": 137.38,
+      "dismissals": 22,
+      "avg": 20.05,
+      "fours": 26,
+      "sixes": 27
+    },
+    {
+      "player": "RN ten Doeschate",
+      "runs": 326,
+      "balls": 238,
+      "matches": 21,
+      "sr": 136.97,
+      "dismissals": 14,
+      "avg": 23.29,
+      "fours": 26,
+      "sixes": 15
+    },
+    {
+      "player": "JA Morkel",
+      "runs": 975,
+      "balls": 712,
+      "matches": 67,
+      "sr": 136.94,
+      "dismissals": 38,
+      "avg": 25.66,
+      "fours": 61,
+      "sixes": 55
+    },
+    {
+      "player": "SM Curran",
+      "runs": 699,
+      "balls": 511,
+      "matches": 39,
+      "sr": 136.79,
+      "dismissals": 28,
+      "avg": 24.96,
+      "fours": 59,
+      "sixes": 32
+    },
+    {
+      "player": "CA Lynn",
+      "runs": 1329,
+      "balls": 974,
+      "matches": 42,
+      "sr": 136.45,
+      "dismissals": 38,
+      "avg": 34.97,
+      "fours": 132,
+      "sixes": 66
+    },
+    {
+      "player": "SN Thakur",
+      "runs": 286,
+      "balls": 210,
+      "matches": 32,
+      "sr": 136.19,
+      "dismissals": 22,
+      "avg": 13.0,
+      "fours": 25,
+      "sixes": 12
+    },
+    {
+      "player": "DA Warner",
+      "runs": 6529,
+      "balls": 4810,
+      "matches": 179,
+      "sr": 135.74,
+      "dismissals": 153,
+      "avg": 42.67,
+      "fours": 659,
+      "sixes": 234
+    },
+    {
+      "player": "M Morkel",
+      "runs": 126,
+      "balls": 93,
+      "matches": 20,
+      "sr": 135.48,
+      "dismissals": 10,
+      "avg": 12.6,
+      "fours": 11,
+      "sixes": 5
+    },
+    {
+      "player": "MP Stoinis",
+      "runs": 1524,
+      "balls": 1125,
+      "matches": 77,
+      "sr": 135.47,
+      "dismissals": 56,
+      "avg": 27.21,
+      "fours": 112,
+      "sixes": 79
+    },
+    {
+      "player": "S Dube",
+      "runs": 1209,
+      "balls": 894,
+      "matches": 50,
+      "sr": 135.23,
+      "dismissals": 40,
+      "avg": 30.22,
+      "fours": 65,
+      "sixes": 79
+    },
+    {
+      "player": "RA Tripathi",
+      "runs": 2091,
+      "balls": 1549,
+      "matches": 88,
+      "sr": 134.99,
+      "dismissals": 76,
+      "avg": 27.51,
+      "fours": 205,
+      "sixes": 79
+    },
+    {
+      "player": "RK Singh",
+      "runs": 753,
+      "balls": 558,
+      "matches": 31,
+      "sr": 134.95,
+      "dismissals": 21,
+      "avg": 35.86,
+      "fours": 57,
+      "sixes": 38
+    },
+    {
+      "player": "MK Lomror",
+      "runs": 452,
+      "balls": 336,
+      "matches": 27,
+      "sr": 134.52,
+      "dismissals": 22,
+      "avg": 20.55,
+      "fours": 29,
+      "sixes": 25
+    },
+    {
+      "player": "DA Miller",
+      "runs": 2791,
+      "balls": 2079,
+      "matches": 117,
+      "sr": 134.25,
+      "dismissals": 75,
+      "avg": 37.21,
+      "fours": 195,
+      "sixes": 128
+    },
+    {
+      "player": "SR Watson",
+      "runs": 3880,
+      "balls": 2892,
+      "matches": 141,
+      "sr": 134.16,
+      "dismissals": 124,
+      "avg": 31.29,
+      "fours": 377,
+      "sixes": 190
+    },
+    {
+      "player": "ST Jayasuriya",
+      "runs": 768,
+      "balls": 573,
+      "matches": 30,
+      "sr": 134.03,
+      "dismissals": 28,
+      "avg": 27.43,
+      "fours": 84,
+      "sixes": 39
+    },
+    {
+      "player": "SV Samson",
+      "runs": 3997,
+      "balls": 2983,
+      "matches": 150,
+      "sr": 133.99,
+      "dismissals": 130,
+      "avg": 30.75,
+      "fours": 313,
+      "sixes": 188
+    }
+  ],
+  "most_sixes": [
+    {
+      "player": "CH Gayle",
+      "sixes": 359,
+      "matches": 141,
+      "runs": 4997
+    },
+    {
+      "player": "RG Sharma",
+      "sixes": 262,
+      "matches": 240,
+      "runs": 6282
+    },
+    {
+      "player": "AB de Villiers",
+      "sixes": 253,
+      "matches": 170,
+      "runs": 5181
+    },
+    {
+      "player": "V Kohli",
+      "sixes": 243,
+      "matches": 233,
+      "runs": 7476
+    },
+    {
+      "player": "MS Dhoni",
+      "sixes": 242,
+      "matches": 218,
+      "runs": 5119
+    },
+    {
+      "player": "DA Warner",
+      "sixes": 234,
+      "matches": 179,
+      "runs": 6529
+    },
+    {
+      "player": "KA Pollard",
+      "sixes": 224,
+      "matches": 168,
+      "runs": 3437
+    },
+    {
+      "player": "SK Raina",
+      "sixes": 204,
+      "matches": 200,
+      "runs": 5536
+    },
+    {
+      "player": "AD Russell",
+      "sixes": 200,
+      "matches": 96,
+      "runs": 2330
+    },
+    {
+      "player": "SR Watson",
+      "sixes": 190,
+      "matches": 141,
+      "runs": 3880
+    },
+    {
+      "player": "SV Samson",
+      "sixes": 188,
+      "matches": 150,
+      "runs": 3997
+    },
+    {
+      "player": "RV Uthappa",
+      "sixes": 182,
+      "matches": 197,
+      "runs": 4954
+    },
+    {
+      "player": "AT Rayudu",
+      "sixes": 173,
+      "matches": 185,
+      "runs": 4348
+    },
+    {
+      "player": "KL Rahul",
+      "sixes": 173,
+      "matches": 111,
+      "runs": 4262
+    },
+    {
+      "player": "YK Pathan",
+      "sixes": 161,
+      "matches": 153,
+      "runs": 3222
+    },
+    {
+      "player": "GJ Maxwell",
+      "sixes": 159,
+      "matches": 123,
+      "runs": 2751
+    },
+    {
+      "player": "S Dhawan",
+      "sixes": 153,
+      "matches": 219,
+      "runs": 6754
+    },
+    {
+      "player": "JC Buttler",
+      "sixes": 149,
+      "matches": 98,
+      "runs": 3259
+    },
+    {
+      "player": "Yuvraj Singh",
+      "sixes": 149,
+      "matches": 126,
+      "runs": 2754
+    },
+    {
+      "player": "F du Plessis",
+      "sixes": 146,
+      "matches": 127,
+      "runs": 4198
+    },
+    {
+      "player": "KD Karthik",
+      "sixes": 146,
+      "matches": 224,
+      "runs": 4607
+    },
+    {
+      "player": "RR Pant",
+      "sixes": 133,
+      "matches": 100,
+      "runs": 2948
+    },
+    {
+      "player": "N Rana",
+      "sixes": 131,
+      "matches": 100,
+      "runs": 2603
+    },
+    {
+      "player": "BB McCullum",
+      "sixes": 130,
+      "matches": 109,
+      "runs": 2882
+    },
+    {
+      "player": "DA Miller",
+      "sixes": 128,
+      "matches": 117,
+      "runs": 2791
+    },
+    {
+      "player": "HH Pandya",
+      "sixes": 128,
+      "matches": 118,
+      "runs": 2387
+    },
+    {
+      "player": "Q de Kock",
+      "sixes": 121,
+      "matches": 99,
+      "runs": 3049
+    },
+    {
+      "player": "DR Smith",
+      "sixes": 117,
+      "matches": 88,
+      "runs": 2385
+    },
+    {
+      "player": "SA Yadav",
+      "sixes": 112,
+      "matches": 124,
+      "runs": 3249
+    },
+    {
+      "player": "MK Pandey",
+      "sixes": 109,
+      "matches": 157,
+      "runs": 3817
+    },
+    {
+      "player": "Ishan Kishan",
+      "sixes": 108,
+      "matches": 88,
+      "runs": 2374
+    },
+    {
+      "player": "V Sehwag",
+      "sixes": 106,
+      "matches": 104,
+      "runs": 2728
+    },
+    {
+      "player": "N Pooran",
+      "sixes": 103,
+      "matches": 61,
+      "runs": 1416
+    },
+    {
+      "player": "SS Iyer",
+      "sixes": 101,
+      "matches": 102,
+      "runs": 2819
+    },
+    {
+      "player": "AM Rahane",
+      "sixes": 100,
+      "matches": 162,
+      "runs": 4484
+    },
+    {
+      "player": "RA Jadeja",
+      "sixes": 100,
+      "matches": 172,
+      "runs": 2745
+    },
+    {
+      "player": "MA Agarwal",
+      "sixes": 98,
+      "matches": 120,
+      "runs": 2664
+    },
+    {
+      "player": "AC Gilchrist",
+      "sixes": 92,
+      "matches": 80,
+      "runs": 2069
+    },
+    {
+      "player": "M Vijay",
+      "sixes": 91,
+      "matches": 105,
+      "runs": 2619
+    },
+    {
+      "player": "WP Saha",
+      "sixes": 86,
+      "matches": 137,
+      "runs": 2863
+    },
+    {
+      "player": "Shubman Gill",
+      "sixes": 83,
+      "matches": 90,
+      "runs": 2865
+    },
+    {
+      "player": "JP Duminy",
+      "sixes": 79,
+      "matches": 75,
+      "runs": 2029
+    },
+    {
+      "player": "MP Stoinis",
+      "sixes": 79,
+      "matches": 77,
+      "runs": 1524
+    },
+    {
+      "player": "NV Ojha",
+      "sixes": 79,
+      "matches": 94,
+      "runs": 1554
+    },
+    {
+      "player": "RA Tripathi",
+      "sixes": 79,
+      "matches": 88,
+      "runs": 2091
+    },
+    {
+      "player": "S Dube",
+      "sixes": 79,
+      "matches": 50,
+      "runs": 1209
+    },
+    {
+      "player": "AJ Finch",
+      "sixes": 78,
+      "matches": 90,
+      "runs": 2092
+    },
+    {
+      "player": "SE Marsh",
+      "sixes": 78,
+      "matches": 69,
+      "runs": 2489
+    },
+    {
+      "player": "SO Hetmyer",
+      "sixes": 76,
+      "matches": 58,
+      "runs": 1149
+    },
+    {
+      "player": "SP Narine",
+      "sixes": 76,
+      "matches": 95,
+      "runs": 1178
+    }
+  ],
+  "most_fours": [
+    {
+      "player": "S Dhawan",
+      "fours": 766,
+      "matches": 219,
+      "runs": 6754
+    },
+    {
+      "player": "V Kohli",
+      "fours": 663,
+      "matches": 233,
+      "runs": 7476
+    },
+    {
+      "player": "DA Warner",
+      "fours": 659,
+      "matches": 179,
+      "runs": 6529
+    },
+    {
+      "player": "RG Sharma",
+      "fours": 562,
+      "matches": 240,
+      "runs": 6282
+    },
+    {
+      "player": "SK Raina",
+      "fours": 506,
+      "matches": 200,
+      "runs": 5536
+    },
+    {
+      "player": "G Gambhir",
+      "fours": 492,
+      "matches": 151,
+      "runs": 4217
+    },
+    {
+      "player": "RV Uthappa",
+      "fours": 481,
+      "matches": 197,
+      "runs": 4954
+    },
+    {
+      "player": "AM Rahane",
+      "fours": 461,
+      "matches": 162,
+      "runs": 4484
+    },
+    {
+      "player": "KD Karthik",
+      "fours": 445,
+      "matches": 224,
+      "runs": 4607
+    },
+    {
+      "player": "AB de Villiers",
+      "fours": 414,
+      "matches": 170,
+      "runs": 5181
+    },
+    {
+      "player": "CH Gayle",
+      "fours": 408,
+      "matches": 141,
+      "runs": 4997
+    },
+    {
+      "player": "F du Plessis",
+      "fours": 386,
+      "matches": 127,
+      "runs": 4198
+    },
+    {
+      "player": "SR Watson",
+      "fours": 377,
+      "matches": 141,
+      "runs": 3880
+    },
+    {
+      "player": "PA Patel",
+      "fours": 365,
+      "matches": 136,
+      "runs": 2848
+    },
+    {
+      "player": "KL Rahul",
+      "fours": 360,
+      "matches": 111,
+      "runs": 4262
+    },
+    {
+      "player": "AT Rayudu",
+      "fours": 359,
+      "matches": 185,
+      "runs": 4348
+    },
+    {
+      "player": "MS Dhoni",
+      "fours": 353,
+      "matches": 218,
+      "runs": 5119
+    },
+    {
+      "player": "SA Yadav",
+      "fours": 349,
+      "matches": 124,
+      "runs": 3249
+    },
+    {
+      "player": "V Sehwag",
+      "fours": 334,
+      "matches": 104,
+      "runs": 2728
+    },
+    {
+      "player": "MK Pandey",
+      "fours": 333,
+      "matches": 157,
+      "runs": 3817
+    },
+    {
+      "player": "JC Buttler",
+      "fours": 324,
+      "matches": 98,
+      "runs": 3259
+    },
+    {
+      "player": "SV Samson",
+      "fours": 313,
+      "matches": 150,
+      "runs": 3997
+    },
+    {
+      "player": "Q de Kock",
+      "fours": 301,
+      "matches": 99,
+      "runs": 3049
+    },
+    {
+      "player": "SR Tendulkar",
+      "fours": 296,
+      "matches": 78,
+      "runs": 2334
+    },
+    {
+      "player": "BB McCullum",
+      "fours": 293,
+      "matches": 109,
+      "runs": 2882
+    },
+    {
+      "player": "WP Saha",
+      "fours": 287,
+      "matches": 137,
+      "runs": 2863
+    },
+    {
+      "player": "Shubman Gill",
+      "fours": 278,
+      "matches": 90,
+      "runs": 2865
+    },
+    {
+      "player": "RR Pant",
+      "fours": 270,
+      "matches": 100,
+      "runs": 2948
+    },
+    {
+      "player": "R Dravid",
+      "fours": 269,
+      "matches": 82,
+      "runs": 2174
+    },
+    {
+      "player": "SE Marsh",
+      "fours": 269,
+      "matches": 69,
+      "runs": 2489
+    },
+    {
+      "player": "MA Agarwal",
+      "fours": 264,
+      "matches": 120,
+      "runs": 2664
+    },
+    {
+      "player": "YK Pathan",
+      "fours": 263,
+      "matches": 153,
+      "runs": 3222
+    },
+    {
+      "player": "JH Kallis",
+      "fours": 255,
+      "matches": 95,
+      "runs": 2427
+    },
+    {
+      "player": "M Vijay",
+      "fours": 247,
+      "matches": 105,
+      "runs": 2619
+    },
+    {
+      "player": "DR Smith",
+      "fours": 245,
+      "matches": 88,
+      "runs": 2385
+    },
+    {
+      "player": "SS Iyer",
+      "fours": 240,
+      "matches": 102,
+      "runs": 2819
+    },
+    {
+      "player": "AC Gilchrist",
+      "fours": 239,
+      "matches": 80,
+      "runs": 2069
+    },
+    {
+      "player": "GJ Maxwell",
+      "fours": 230,
+      "matches": 123,
+      "runs": 2751
+    },
+    {
+      "player": "N Rana",
+      "fours": 230,
+      "matches": 100,
+      "runs": 2603
+    },
+    {
+      "player": "SPD Smith",
+      "fours": 226,
+      "matches": 93,
+      "runs": 2495
+    },
+    {
+      "player": "Ishan Kishan",
+      "fours": 224,
+      "matches": 88,
+      "runs": 2374
+    },
+    {
+      "player": "KA Pollard",
+      "fours": 221,
+      "matches": 168,
+      "runs": 3437
+    },
+    {
+      "player": "Yuvraj Singh",
+      "fours": 218,
+      "matches": 126,
+      "runs": 2754
+    },
+    {
+      "player": "AJ Finch",
+      "fours": 214,
+      "matches": 90,
+      "runs": 2092
+    },
+    {
+      "player": "PP Shaw",
+      "fours": 212,
+      "matches": 72,
+      "runs": 1737
+    },
+    {
+      "player": "RA Tripathi",
+      "fours": 205,
+      "matches": 88,
+      "runs": 2091
+    },
+    {
+      "player": "DPMD Jayawardene",
+      "fours": 200,
+      "matches": 78,
+      "runs": 1808
+    },
+    {
+      "player": "MEK Hussey",
+      "fours": 198,
+      "matches": 58,
+      "runs": 1977
+    },
+    {
+      "player": "RA Jadeja",
+      "fours": 196,
+      "matches": 172,
+      "runs": 2745
+    },
+    {
+      "player": "DA Miller",
+      "fours": 195,
+      "matches": 117,
+      "runs": 2791
+    }
+  ],
+  "highest_scores": [
+    {
+      "match_id": 598027,
+      "player": "CH Gayle",
+      "runs": 175,
+      "balls": 69,
+      "sr": 253.62,
+      "season": 2013.0,
+      "date": "2013-04-23",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Pune Warriors India",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 335982,
+      "player": "BB McCullum",
+      "runs": 158,
+      "balls": 77,
+      "sr": 205.19,
+      "season": 2008.0,
+      "date": "2008-04-18",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 1304112,
+      "player": "Q de Kock",
+      "runs": 140,
+      "balls": 71,
+      "sr": 197.18,
+      "season": 2022.0,
+      "date": "2022-05-18",
+      "team1": "Lucknow Super Giants",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Dr DY Patil Sports Academy"
+    },
+    {
+      "match_id": 829795,
+      "player": "AB de Villiers",
+      "runs": 133,
+      "balls": 61,
+      "sr": 218.03,
+      "season": 2015.0,
+      "date": "2015-05-10",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 1216510,
+      "player": "KL Rahul",
+      "runs": 132,
+      "balls": 70,
+      "sr": 188.57,
+      "season": 2021.0,
+      "date": "2020-09-24",
+      "team1": "Punjab Kings",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Dubai International Cricket Stadium"
+    },
+    {
+      "match_id": 980987,
+      "player": "AB de Villiers",
+      "runs": 129,
+      "balls": 53,
+      "sr": 243.4,
+      "season": 2016.0,
+      "date": "2016-05-14",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Gujarat Lions",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 1370352,
+      "player": "Shubman Gill",
+      "runs": 129,
+      "balls": 63,
+      "sr": 204.76,
+      "season": 2023.0,
+      "date": "2023-05-26",
+      "team1": "Gujarat Titans",
+      "team2": "Mumbai Indians",
+      "venue": "Narendra Modi Stadium"
+    },
+    {
+      "match_id": 548372,
+      "player": "CH Gayle",
+      "runs": 128,
+      "balls": 62,
+      "sr": 206.45,
+      "season": 2012.0,
+      "date": "2012-05-17",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium"
+    },
+    {
+      "match_id": 1136602,
+      "player": "RR Pant",
+      "runs": 128,
+      "balls": 64,
+      "sr": 200.0,
+      "season": 2018.0,
+      "date": "2018-05-10",
+      "team1": "Delhi Capitals",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Arun Jaitley Stadium"
+    },
+    {
+      "match_id": 419137,
+      "player": "M Vijay",
+      "runs": 127,
+      "balls": 57,
+      "sr": 222.81,
+      "season": 2010.0,
+      "date": "2010-04-03",
+      "team1": "Chennai Super Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "match_id": 1082627,
+      "player": "DA Warner",
+      "runs": 126,
+      "balls": 60,
+      "sr": 210.0,
+      "season": 2017.0,
+      "date": "2017-04-30",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "match_id": 1254085,
+      "player": "JC Buttler",
+      "runs": 124,
+      "balls": 69,
+      "sr": 179.71,
+      "season": 2021.0,
+      "date": "2021-05-02",
+      "team1": "Rajasthan Royals",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Arun Jaitley Stadium"
+    },
+    {
+      "match_id": 1359516,
+      "player": "YBK Jaiswal",
+      "runs": 124,
+      "balls": 65,
+      "sr": 190.77,
+      "season": 2023.0,
+      "date": "2023-04-30",
+      "team1": "Rajasthan Royals",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 734047,
+      "player": "V Sehwag",
+      "runs": 122,
+      "balls": 62,
+      "sr": 196.77,
+      "season": 2014.0,
+      "date": "2014-05-30",
+      "team1": "Punjab Kings",
+      "team2": "Chennai Super Kings",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 501206,
+      "player": "PC Valthaty",
+      "runs": 120,
+      "balls": 64,
+      "sr": 187.5,
+      "season": 2011.0,
+      "date": "2011-04-13",
+      "team1": "Chennai Super Kings",
+      "team2": "Punjab Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "match_id": 501243,
+      "player": "V Sehwag",
+      "runs": 119,
+      "balls": 58,
+      "sr": 205.17,
+      "season": 2011.0,
+      "date": "2011-05-05",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Delhi Capitals",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "match_id": 1254061,
+      "player": "SV Samson",
+      "runs": 119,
+      "balls": 66,
+      "sr": 180.3,
+      "season": 2021.0,
+      "date": "2021-04-12",
+      "team1": "Punjab Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 335990,
+      "player": "A Symonds",
+      "runs": 117,
+      "balls": 57,
+      "sr": 205.26,
+      "season": 2008.0,
+      "date": "2008-04-24",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Rajasthan Royals",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "match_id": 829785,
+      "player": "CH Gayle",
+      "runs": 117,
+      "balls": 63,
+      "sr": 185.71,
+      "season": 2015.0,
+      "date": "2015-05-06",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Punjab Kings",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 1136620,
+      "player": "SR Watson",
+      "runs": 117,
+      "balls": 60,
+      "sr": 195.0,
+      "season": 2018.0,
+      "date": "2018-05-27",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Chennai Super Kings",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 335983,
+      "player": "MEK Hussey",
+      "runs": 116,
+      "balls": 54,
+      "sr": 214.81,
+      "season": 2008.0,
+      "date": "2008-04-19",
+      "team1": "Chennai Super Kings",
+      "team2": "Punjab Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "match_id": 1304080,
+      "player": "JC Buttler",
+      "runs": 116,
+      "balls": 66,
+      "sr": 175.76,
+      "season": 2022.0,
+      "date": "2022-04-22",
+      "team1": "Rajasthan Royals",
+      "team2": "Delhi Capitals",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 336019,
+      "player": "SE Marsh",
+      "runs": 115,
+      "balls": 72,
+      "sr": 159.72,
+      "season": 2008.0,
+      "date": "2008-05-28",
+      "team1": "Punjab Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "match_id": 734049,
+      "player": "WP Saha",
+      "runs": 115,
+      "balls": 56,
+      "sr": 205.36,
+      "season": 2014.0,
+      "date": "2014-06-01",
+      "team1": "Punjab Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 336018,
+      "player": "ST Jayasuriya",
+      "runs": 114,
+      "balls": 53,
+      "sr": 215.09,
+      "season": 2008.0,
+      "date": "2008-05-14",
+      "team1": "Chennai Super Kings",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 392236,
+      "player": "MK Pandey",
+      "runs": 114,
+      "balls": 74,
+      "sr": 154.05,
+      "season": 2009.0,
+      "date": "2009-05-21",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "SuperSport Park"
+    },
+    {
+      "match_id": 1175366,
+      "player": "JM Bairstow",
+      "runs": 114,
+      "balls": 57,
+      "sr": 200.0,
+      "season": 2019.0,
+      "date": "2019-03-31",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "match_id": 548380,
+      "player": "M Vijay",
+      "runs": 113,
+      "balls": 61,
+      "sr": 185.25,
+      "season": 2012.0,
+      "date": "2012-05-25",
+      "team1": "Chennai Super Kings",
+      "team2": "Delhi Capitals",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "match_id": 980999,
+      "player": "V Kohli",
+      "runs": 113,
+      "balls": 51,
+      "sr": 221.57,
+      "season": 2016.0,
+      "date": "2016-05-18",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Punjab Kings",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 1312198,
+      "player": "RM Patidar",
+      "runs": 112,
+      "balls": 55,
+      "sr": 203.64,
+      "season": 2022.0,
+      "date": "2022-05-25",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Lucknow Super Giants",
+      "venue": "Eden Gardens"
+    },
+    {
+      "match_id": 419139,
+      "player": "DPMD Jayawardene",
+      "runs": 110,
+      "balls": 61,
+      "sr": 180.33,
+      "season": 2010.0,
+      "date": "2010-04-04",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Punjab Kings",
+      "venue": "Eden Gardens"
+    },
+    {
+      "match_id": 335994,
+      "player": "AC Gilchrist",
+      "runs": 109,
+      "balls": 50,
+      "sr": 218.0,
+      "season": 2008.0,
+      "date": "2008-04-27",
+      "team1": "Mumbai Indians",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Dr DY Patil Sports Academy"
+    },
+    {
+      "match_id": 548329,
+      "player": "DA Warner",
+      "runs": 109,
+      "balls": 55,
+      "sr": 198.18,
+      "season": 2012.0,
+      "date": "2012-05-10",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Delhi Capitals",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "match_id": 548363,
+      "player": "RG Sharma",
+      "runs": 109,
+      "balls": 62,
+      "sr": 175.81,
+      "season": 2012.0,
+      "date": "2012-05-12",
+      "team1": "Mumbai Indians",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens"
+    },
+    {
+      "match_id": 980987,
+      "player": "V Kohli",
+      "runs": 109,
+      "balls": 55,
+      "sr": 198.18,
+      "season": 2016.0,
+      "date": "2016-05-14",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Gujarat Lions",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 980921,
+      "player": "Q de Kock",
+      "runs": 108,
+      "balls": 54,
+      "sr": 200.0,
+      "season": 2016.0,
+      "date": "2016-04-17",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Delhi Capitals",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 980969,
+      "player": "V Kohli",
+      "runs": 108,
+      "balls": 58,
+      "sr": 186.21,
+      "season": 2016.0,
+      "date": "2016-05-07",
+      "team1": "Rising Pune Supergiants",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 419131,
+      "player": "DA Warner",
+      "runs": 107,
+      "balls": 72,
+      "sr": 148.61,
+      "season": 2010.0,
+      "date": "2010-03-29",
+      "team1": "Delhi Capitals",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Arun Jaitley Stadium"
+    },
+    {
+      "match_id": 501244,
+      "player": "CH Gayle",
+      "runs": 107,
+      "balls": 49,
+      "sr": 218.37,
+      "season": 2011.0,
+      "date": "2011-05-06",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Punjab Kings",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 1216541,
+      "player": "BA Stokes",
+      "runs": 107,
+      "balls": 63,
+      "sr": 169.84,
+      "season": 2021.0,
+      "date": "2020-10-25",
+      "team1": "Mumbai Indians",
+      "team2": "Rajasthan Royals",
+      "venue": "Sheikh Zayed Stadium"
+    },
+    {
+      "match_id": 501260,
+      "player": "AC Gilchrist",
+      "runs": 106,
+      "balls": 58,
+      "sr": 182.76,
+      "season": 2011.0,
+      "date": "2011-05-17",
+      "team1": "Punjab Kings",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Himachal Pradesh Cricket Association Stadium"
+    },
+    {
+      "match_id": 1136577,
+      "player": "SR Watson",
+      "runs": 106,
+      "balls": 58,
+      "sr": 182.76,
+      "season": 2018.0,
+      "date": "2018-04-20",
+      "team1": "Chennai Super Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "Maharashtra Cricket Association Stadium"
+    },
+    {
+      "match_id": 1216527,
+      "player": "MA Agarwal",
+      "runs": 106,
+      "balls": 53,
+      "sr": 200.0,
+      "season": 2021.0,
+      "date": "2020-09-27",
+      "team1": "Punjab Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "Sharjah Cricket Stadium"
+    },
+    {
+      "match_id": 1216546,
+      "player": "S Dhawan",
+      "runs": 106,
+      "balls": 61,
+      "sr": 173.77,
+      "season": 2021.0,
+      "date": "2020-10-20",
+      "team1": "Delhi Capitals",
+      "team2": "Punjab Kings",
+      "venue": "Dubai International Cricket Stadium"
+    },
+    {
+      "match_id": 1312199,
+      "player": "JC Buttler",
+      "runs": 106,
+      "balls": 60,
+      "sr": 176.67,
+      "season": 2022.0,
+      "date": "2022-05-27",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Rajasthan Royals",
+      "venue": "Narendra Modi Stadium"
+    },
+    {
+      "match_id": 392189,
+      "player": "AB de Villiers",
+      "runs": 105,
+      "balls": 54,
+      "sr": 194.44,
+      "season": 2009.0,
+      "date": "2009-04-23",
+      "team1": "Delhi Capitals",
+      "team2": "Chennai Super Kings",
+      "venue": "Kingsmead"
+    },
+    {
+      "match_id": 1178415,
+      "player": "AM Rahane",
+      "runs": 105,
+      "balls": 65,
+      "sr": 161.54,
+      "season": 2019.0,
+      "date": "2019-04-22",
+      "team1": "Rajasthan Royals",
+      "team2": "Delhi Capitals",
+      "venue": "Sawai Mansingh Stadium"
+    },
+    {
+      "match_id": 829811,
+      "player": "SR Watson",
+      "runs": 104,
+      "balls": 62,
+      "sr": 167.74,
+      "season": 2015.0,
+      "date": "2015-05-16",
+      "team1": "Rajasthan Royals",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Brabourne Stadium"
+    },
+    {
+      "match_id": 1082612,
+      "player": "HM Amla",
+      "runs": 104,
+      "balls": 63,
+      "sr": 165.08,
+      "season": 2017.0,
+      "date": "2017-04-20",
+      "team1": "Punjab Kings",
+      "team2": "Mumbai Indians",
+      "venue": "Holkar Cricket Stadium"
+    },
+    {
+      "match_id": 1082637,
+      "player": "HM Amla",
+      "runs": 104,
+      "balls": 61,
+      "sr": 170.49,
+      "season": 2017.0,
+      "date": "2017-05-07",
+      "team1": "Punjab Kings",
+      "team2": "Gujarat Lions",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "match_id": 1136576,
+      "player": "CH Gayle",
+      "runs": 104,
+      "balls": 65,
+      "sr": 160.0,
+      "season": 2018.0,
+      "date": "2018-04-19",
+      "team1": "Punjab Kings",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "match_id": 1359496,
+      "player": "VR Iyer",
+      "runs": 104,
+      "balls": 53,
+      "sr": 196.23,
+      "season": 2023.0,
+      "date": "2023-04-16",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 1359539,
+      "player": "H Klaasen",
+      "runs": 104,
+      "balls": 52,
+      "sr": 200.0,
+      "season": 2023.0,
+      "date": "2023-05-18",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "match_id": 1359544,
+      "player": "Shubman Gill",
+      "runs": 104,
+      "balls": 56,
+      "sr": 185.71,
+      "season": 2023.0,
+      "date": "2023-05-21",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Gujarat Titans",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 548321,
+      "player": "KP Pietersen",
+      "runs": 103,
+      "balls": 66,
+      "sr": 156.06,
+      "season": 2012.0,
+      "date": "2012-04-19",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium"
+    },
+    {
+      "match_id": 548324,
+      "player": "AM Rahane",
+      "runs": 103,
+      "balls": 60,
+      "sr": 171.67,
+      "season": 2012.0,
+      "date": "2012-04-15",
+      "team1": "Rajasthan Royals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 1082629,
+      "player": "BA Stokes",
+      "runs": 103,
+      "balls": 64,
+      "sr": 160.94,
+      "season": 2017.0,
+      "date": "2017-05-01",
+      "team1": "Gujarat Lions",
+      "team2": "Rising Pune Supergiants",
+      "venue": "Maharashtra Cricket Association Stadium"
+    },
+    {
+      "match_id": 1304072,
+      "player": "KL Rahul",
+      "runs": 103,
+      "balls": 63,
+      "sr": 163.49,
+      "season": 2022.0,
+      "date": "2022-04-16",
+      "team1": "Lucknow Super Giants",
+      "team2": "Mumbai Indians",
+      "venue": "Brabourne Stadium"
+    },
+    {
+      "match_id": 1304076,
+      "player": "JC Buttler",
+      "runs": 103,
+      "balls": 62,
+      "sr": 166.13,
+      "season": 2022.0,
+      "date": "2022-04-18",
+      "team1": "Rajasthan Royals",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Brabourne Stadium"
+    },
+    {
+      "match_id": 1304083,
+      "player": "KL Rahul",
+      "runs": 103,
+      "balls": 67,
+      "sr": 153.73,
+      "season": 2022.0,
+      "date": "2022-04-24",
+      "team1": "Lucknow Super Giants",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 1359531,
+      "player": "SA Yadav",
+      "runs": 103,
+      "balls": 49,
+      "sr": 210.2,
+      "season": 2023.0,
+      "date": "2023-05-12",
+      "team1": "Mumbai Indians",
+      "team2": "Gujarat Titans",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 1359533,
+      "player": "P Simran Singh",
+      "runs": 103,
+      "balls": 68,
+      "sr": 151.47,
+      "season": 2023.0,
+      "date": "2023-05-13",
+      "team1": "Punjab Kings",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium"
+    },
+    {
+      "match_id": 501222,
+      "player": "CH Gayle",
+      "runs": 102,
+      "balls": 57,
+      "sr": 178.95,
+      "season": 2011.0,
+      "date": "2011-04-22",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Eden Gardens"
+    },
+    {
+      "match_id": 1082599,
+      "player": "SV Samson",
+      "runs": 102,
+      "balls": 64,
+      "sr": 159.38,
+      "season": 2017.0,
+      "date": "2017-04-11",
+      "team1": "Delhi Capitals",
+      "team2": "Rising Pune Supergiants",
+      "venue": "Maharashtra Cricket Association Stadium"
+    },
+    {
+      "match_id": 1175363,
+      "player": "SV Samson",
+      "runs": 102,
+      "balls": 57,
+      "sr": 178.95,
+      "season": 2019.0,
+      "date": "2019-03-29",
+      "team1": "Rajasthan Royals",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "match_id": 598026,
+      "player": "SR Watson",
+      "runs": 101,
+      "balls": 64,
+      "sr": 157.81,
+      "season": 2013.0,
+      "date": "2013-04-22",
+      "team1": "Rajasthan Royals",
+      "team2": "Chennai Super Kings",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "match_id": 598064,
+      "player": "DA Miller",
+      "runs": 101,
+      "balls": 39,
+      "sr": 258.97,
+      "season": 2013.0,
+      "date": "2013-05-06",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Punjab Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "match_id": 980949,
+      "player": "SPD Smith",
+      "runs": 101,
+      "balls": 54,
+      "sr": 187.04,
+      "season": 2016.0,
+      "date": "2016-04-29",
+      "team1": "Rising Pune Supergiants",
+      "team2": "Gujarat Lions",
+      "venue": "Maharashtra Cricket Association Stadium"
+    },
+    {
+      "match_id": 1216509,
+      "player": "S Dhawan",
+      "runs": 101,
+      "balls": 61,
+      "sr": 165.57,
+      "season": 2021.0,
+      "date": "2020-10-17",
+      "team1": "Chennai Super Kings",
+      "team2": "Delhi Capitals",
+      "venue": "Sharjah Cricket Stadium"
+    },
+    {
+      "match_id": 1254073,
+      "player": "D Padikkal",
+      "runs": 101,
+      "balls": 54,
+      "sr": 187.04,
+      "season": 2021.0,
+      "date": "2021-04-22",
+      "team1": "Rajasthan Royals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 1254089,
+      "player": "RD Gaikwad",
+      "runs": 101,
+      "balls": 62,
+      "sr": 162.9,
+      "season": 2021.0,
+      "date": "2021-10-02",
+      "team1": "Chennai Super Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "Zayed Cricket Stadium, Abu Dhabi"
+    },
+    {
+      "match_id": 1359536,
+      "player": "Shubman Gill",
+      "runs": 101,
+      "balls": 59,
+      "sr": 171.19,
+      "season": 2023.0,
+      "date": "2023-05-15",
+      "team1": "Gujarat Titans",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Narendra Modi Stadium"
+    },
+    {
+      "match_id": 1359544,
+      "player": "V Kohli",
+      "runs": 101,
+      "balls": 63,
+      "sr": 160.32,
+      "season": 2023.0,
+      "date": "2023-05-21",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Gujarat Titans",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "match_id": 419107,
+      "player": "YK Pathan",
+      "runs": 100,
+      "balls": 40,
+      "sr": 250.0,
+      "season": 2010.0,
+      "date": "2010-03-13",
+      "team1": "Mumbai Indians",
+      "team2": "Rajasthan Royals",
+      "venue": "Brabourne Stadium"
+    },
+    {
+      "match_id": 501210,
+      "player": "SR Tendulkar",
+      "runs": 100,
+      "balls": 71,
+      "sr": 140.85,
+      "season": 2011.0,
+      "date": "2011-04-15",
+      "team1": "Mumbai Indians",
+      "team2": "Kochi Tuskers Kerala",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 598041,
+      "player": "SK Raina",
+      "runs": 100,
+      "balls": 54,
+      "sr": 185.19,
+      "season": 2013.0,
+      "date": "2013-05-02",
+      "team1": "Chennai Super Kings",
+      "team2": "Punjab Kings",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "match_id": 734025,
+      "player": "LMP Simmons",
+      "runs": 100,
+      "balls": 65,
+      "sr": 153.85,
+      "season": 2014.0,
+      "date": "2014-05-21",
+      "team1": "Punjab Kings",
+      "team2": "Mumbai Indians",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "match_id": 829711,
+      "player": "BB McCullum",
+      "runs": 100,
+      "balls": 59,
+      "sr": 169.49,
+      "season": 2015.0,
+      "date": "2015-04-11",
+      "team1": "Chennai Super Kings",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "match_id": 980937,
+      "player": "V Kohli",
+      "runs": 100,
+      "balls": 64,
+      "sr": 156.25,
+      "season": 2016.0,
+      "date": "2016-04-24",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Gujarat Lions",
+      "venue": "Saurashtra Cricket Association Stadium"
+    },
+    {
+      "match_id": 1136606,
+      "player": "AT Rayudu",
+      "runs": 100,
+      "balls": 62,
+      "sr": 161.29,
+      "season": 2018.0,
+      "date": "2018-05-13",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Chennai Super Kings",
+      "venue": "Maharashtra Cricket Association Stadium"
+    },
+    {
+      "match_id": 1175366,
+      "player": "DA Warner",
+      "runs": 100,
+      "balls": 55,
+      "sr": 181.82,
+      "season": 2019.0,
+      "date": "2019-03-31",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "match_id": 1178399,
+      "player": "KL Rahul",
+      "runs": 100,
+      "balls": 66,
+      "sr": 151.52,
+      "season": 2019.0,
+      "date": "2019-04-10",
+      "team1": "Punjab Kings",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 1178410,
+      "player": "V Kohli",
+      "runs": 100,
+      "balls": 58,
+      "sr": 172.41,
+      "season": 2019.0,
+      "date": "2019-04-19",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens"
+    },
+    {
+      "match_id": 1304055,
+      "player": "JC Buttler",
+      "runs": 100,
+      "balls": 71,
+      "sr": 140.85,
+      "season": 2022.0,
+      "date": "2022-04-02",
+      "team1": "Rajasthan Royals",
+      "team2": "Mumbai Indians",
+      "venue": "Dr DY Patil Sports Academy"
+    },
+    {
+      "match_id": 1359493,
+      "player": "HC Brook",
+      "runs": 100,
+      "balls": 58,
+      "sr": 172.41,
+      "season": 2023.0,
+      "date": "2023-04-14",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens"
+    },
+    {
+      "match_id": 1359539,
+      "player": "V Kohli",
+      "runs": 100,
+      "balls": 65,
+      "sr": 153.85,
+      "season": 2023.0,
+      "date": "2023-05-18",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "match_id": 1359543,
+      "player": "C Green",
+      "runs": 100,
+      "balls": 47,
+      "sr": 212.77,
+      "season": 2023.0,
+      "date": "2023-05-21",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "match_id": 598051,
+      "player": "SK Raina",
+      "runs": 99,
+      "balls": 55,
+      "sr": 180.0,
+      "season": 2013.0,
+      "date": "2013-05-08",
+      "team1": "Chennai Super Kings",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "match_id": 598054,
+      "player": "V Kohli",
+      "runs": 99,
+      "balls": 59,
+      "sr": 167.8,
+      "season": 2013.0,
+      "date": "2013-05-10",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium"
+    },
+    {
+      "match_id": 1175365,
+      "player": "PP Shaw",
+      "runs": 99,
+      "balls": 56,
+      "sr": 176.79,
+      "season": 2019.0,
+      "date": "2019-03-30",
+      "team1": "Kolkata Knight Riders",
+      "team2": "Delhi Capitals",
+      "venue": "Arun Jaitley Stadium"
+    },
+    {
+      "match_id": 1178403,
+      "player": "CH Gayle",
+      "runs": 99,
+      "balls": 68,
+      "sr": 145.59,
+      "season": 2019.0,
+      "date": "2019-04-13",
+      "team1": "Punjab Kings",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "match_id": 1216537,
+      "player": "CH Gayle",
+      "runs": 99,
+      "balls": 69,
+      "sr": 143.48,
+      "season": 2021.0,
+      "date": "2020-10-30",
+      "team1": "Punjab Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "Sheikh Zayed Stadium"
+    },
+    {
+      "match_id": 1216547,
+      "player": "Ishan Kishan",
+      "runs": 99,
+      "balls": 60,
+      "sr": 165.0,
+      "season": 2021.0,
+      "date": "2020-09-28",
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Mumbai Indians",
+      "venue": "Dubai International Cricket Stadium"
+    },
+    {
+      "match_id": 1254086,
+      "player": "MA Agarwal",
+      "runs": 99,
+      "balls": 58,
+      "sr": 170.69,
+      "season": 2021.0,
+      "date": "2021-05-02",
+      "team1": "Punjab Kings",
+      "team2": "Delhi Capitals",
+      "venue": "Narendra Modi Stadium"
+    },
+    {
+      "match_id": 1304092,
+      "player": "RD Gaikwad",
+      "runs": 99,
+      "balls": 59,
+      "sr": 167.8,
+      "season": 2022.0,
+      "date": "2022-05-01",
+      "team1": "Chennai Super Kings",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Maharashtra Cricket Association Stadium"
+    },
+    {
+      "match_id": 1359488,
+      "player": "S Dhawan",
+      "runs": 99,
+      "balls": 68,
+      "sr": 145.59,
+      "season": 2023.0,
+      "date": "2023-04-09",
+      "team1": "Punjab Kings",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "match_id": 392202,
+      "player": "SK Raina",
+      "runs": 98,
+      "balls": 57,
+      "sr": 171.93,
+      "season": 2009.0,
+      "date": "2009-04-30",
+      "team1": "Chennai Super Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "SuperSport Park"
+    },
+    {
+      "match_id": 548309,
+      "player": "AM Rahane",
+      "runs": 98,
+      "balls": 72,
+      "sr": 136.11,
+      "season": 2012.0,
+      "date": "2012-04-06",
+      "team1": "Rajasthan Royals",
+      "team2": "Punjab Kings",
+      "venue": "Sawai Mansingh Stadium"
+    },
+    {
+      "match_id": 598032,
+      "player": "SR Watson",
+      "runs": 98,
+      "balls": 53,
+      "sr": 184.91,
+      "season": 2013.0,
+      "date": "2013-04-27",
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Rajasthan Royals",
+      "venue": "Sawai Mansingh Stadium"
+    },
+    {
+      "match_id": 829705,
+      "player": "RG Sharma",
+      "runs": 98,
+      "balls": 66,
+      "sr": 148.48,
+      "season": 2015.0,
+      "date": "2015-04-08",
+      "team1": "Mumbai Indians",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens"
+    }
+  ],
+  "fastest_fifties": [
+    {
+      "player": "PJ Cummins",
+      "runs": 56,
+      "balls": 15,
+      "sr": 373.33,
+      "season": 2022.0,
+      "team1": "Mumbai Indians",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Maharashtra Cricket Association Stadium"
+    },
+    {
+      "player": "KL Rahul",
+      "runs": 51,
+      "balls": 16,
+      "sr": 318.75,
+      "season": 2018.0,
+      "team1": "Delhi Capitals",
+      "team2": "Punjab Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "player": "SP Narine",
+      "runs": 54,
+      "balls": 19,
+      "sr": 284.21,
+      "season": 2017.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Kolkata Knight Riders",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "MS Dhoni",
+      "runs": 51,
+      "balls": 20,
+      "sr": 255.0,
+      "season": 2012.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Mumbai Indians",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "DA Miller",
+      "runs": 51,
+      "balls": 20,
+      "sr": 255.0,
+      "season": 2014.0,
+      "team1": "Rajasthan Royals",
+      "team2": "Punjab Kings",
+      "venue": "Sharjah Cricket Stadium"
+    },
+    {
+      "player": "KA Pollard",
+      "runs": 51,
+      "balls": 20,
+      "sr": 255.0,
+      "season": 2016.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "SP Narine",
+      "runs": 50,
+      "balls": 20,
+      "sr": 250.0,
+      "season": 2018.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens"
+    },
+    {
+      "player": "N Pooran",
+      "runs": 62,
+      "balls": 20,
+      "sr": 310.0,
+      "season": 2023.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Lucknow Super Giants",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "RV Uthappa",
+      "runs": 51,
+      "balls": 21,
+      "sr": 242.86,
+      "season": 2010.0,
+      "team1": "Punjab Kings",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "YBK Jaiswal",
+      "runs": 50,
+      "balls": 21,
+      "sr": 238.1,
+      "season": 2021.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "Zayed Cricket Stadium, Abu Dhabi"
+    },
+    {
+      "player": "S Dube",
+      "runs": 50,
+      "balls": 21,
+      "sr": 238.1,
+      "season": 2023.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens"
+    },
+    {
+      "player": "YK Pathan",
+      "runs": 72,
+      "balls": 22,
+      "sr": 327.27,
+      "season": 2014.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens"
+    },
+    {
+      "player": "CA Lynn",
+      "runs": 50,
+      "balls": 22,
+      "sr": 227.27,
+      "season": 2017.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Kolkata Knight Riders",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "MS Dhoni",
+      "runs": 51,
+      "balls": 22,
+      "sr": 231.82,
+      "season": 2018.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Delhi Capitals",
+      "venue": "Maharashtra Cricket Association Stadium"
+    },
+    {
+      "player": "Ishan Kishan",
+      "runs": 62,
+      "balls": 22,
+      "sr": 281.82,
+      "season": 2018.0,
+      "team1": "Mumbai Indians",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens"
+    },
+    {
+      "player": "HH Pandya",
+      "runs": 60,
+      "balls": 22,
+      "sr": 272.73,
+      "season": 2021.0,
+      "team1": "Mumbai Indians",
+      "team2": "Rajasthan Royals",
+      "venue": "Sheikh Zayed Stadium"
+    },
+    {
+      "player": "JC Buttler",
+      "runs": 54,
+      "balls": 22,
+      "sr": 245.45,
+      "season": 2023.0,
+      "team1": "Rajasthan Royals",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "RV Uthappa",
+      "runs": 50,
+      "balls": 23,
+      "sr": 217.39,
+      "season": 2010.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "AB de Villiers",
+      "runs": 50,
+      "balls": 23,
+      "sr": 217.39,
+      "season": 2013.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Pune Warriors India",
+      "venue": "Maharashtra Cricket Association Stadium"
+    },
+    {
+      "player": "AD Russell",
+      "runs": 51,
+      "balls": 23,
+      "sr": 221.74,
+      "season": 2015.0,
+      "team1": "Punjab Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Eden Gardens"
+    },
+    {
+      "player": "SW Billings",
+      "runs": 56,
+      "balls": 23,
+      "sr": 243.48,
+      "season": 2018.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Chennai Super Kings",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "player": "MP Stoinis",
+      "runs": 53,
+      "balls": 23,
+      "sr": 230.43,
+      "season": 2021.0,
+      "team1": "Delhi Capitals",
+      "team2": "Punjab Kings",
+      "venue": "Dubai International Cricket Stadium"
+    },
+    {
+      "player": "AB de Villiers",
+      "runs": 55,
+      "balls": 23,
+      "sr": 239.13,
+      "season": 2021.0,
+      "team1": "Rajasthan Royals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Dubai International Cricket Stadium"
+    },
+    {
+      "player": "Abhishek Sharma",
+      "runs": 63,
+      "balls": 23,
+      "sr": 273.91,
+      "season": 2024.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Mumbai Indians",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "AB de Villiers",
+      "runs": 59,
+      "balls": 24,
+      "sr": 245.83,
+      "season": 2012.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Rajasthan Royals",
+      "venue": "Sawai Mansingh Stadium"
+    },
+    {
+      "player": "MC Henriques",
+      "runs": 57,
+      "balls": 24,
+      "sr": 237.5,
+      "season": 2015.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "KD Karthik",
+      "runs": 50,
+      "balls": 24,
+      "sr": 208.33,
+      "season": 2018.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Punjab Kings",
+      "venue": "Holkar Cricket Stadium"
+    },
+    {
+      "player": "KA Pollard",
+      "runs": 50,
+      "balls": 24,
+      "sr": 208.33,
+      "season": 2018.0,
+      "team1": "Mumbai Indians",
+      "team2": "Punjab Kings",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "SM Curran",
+      "runs": 55,
+      "balls": 24,
+      "sr": 229.17,
+      "season": 2019.0,
+      "team1": "Punjab Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "player": "AD Russell",
+      "runs": 54,
+      "balls": 24,
+      "sr": 225.0,
+      "season": 2021.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "JC Buttler",
+      "runs": 54,
+      "balls": 24,
+      "sr": 225.0,
+      "season": 2022.0,
+      "team1": "Gujarat Titans",
+      "team2": "Rajasthan Royals",
+      "venue": "Dr DY Patil Sports Academy"
+    },
+    {
+      "player": "V Shankar",
+      "runs": 63,
+      "balls": 24,
+      "sr": 262.5,
+      "season": 2023.0,
+      "team1": "Gujarat Titans",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Narendra Modi Stadium"
+    },
+    {
+      "player": "KC Sangakkara",
+      "runs": 50,
+      "balls": 25,
+      "sr": 200.0,
+      "season": 2008.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Punjab Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "player": "SM Katich",
+      "runs": 50,
+      "balls": 25,
+      "sr": 200.0,
+      "season": 2009.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Punjab Kings",
+      "venue": "SuperSport Park"
+    },
+    {
+      "player": "A Symonds",
+      "runs": 53,
+      "balls": 25,
+      "sr": 212.0,
+      "season": 2010.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "DA Warner",
+      "runs": 51,
+      "balls": 25,
+      "sr": 204.0,
+      "season": 2013.0,
+      "team1": "Delhi Capitals",
+      "team2": "Pune Warriors India",
+      "venue": "Shaheed Veer Narayan Singh International Stadium"
+    },
+    {
+      "player": "F du Plessis",
+      "runs": 52,
+      "balls": 25,
+      "sr": 208.0,
+      "season": 2014.0,
+      "team1": "Punjab Kings",
+      "team2": "Chennai Super Kings",
+      "venue": "Barabati Stadium"
+    },
+    {
+      "player": "SO Hetmyer",
+      "runs": 53,
+      "balls": 25,
+      "sr": 212.0,
+      "season": 2021.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Delhi Capitals",
+      "venue": "Narendra Modi Stadium"
+    },
+    {
+      "player": "Ishan Kishan",
+      "runs": 50,
+      "balls": 25,
+      "sr": 200.0,
+      "season": 2021.0,
+      "team1": "Rajasthan Royals",
+      "team2": "Mumbai Indians",
+      "venue": "Sharjah Cricket Stadium"
+    },
+    {
+      "player": "E Lewis",
+      "runs": 55,
+      "balls": 25,
+      "sr": 220.0,
+      "season": 2022.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Lucknow Super Giants",
+      "venue": "Brabourne Stadium"
+    },
+    {
+      "player": "Ishan Kishan",
+      "runs": 58,
+      "balls": 25,
+      "sr": 232.0,
+      "season": 2023.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "S Dube",
+      "runs": 51,
+      "balls": 25,
+      "sr": 204.0,
+      "season": 2024.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Gujarat Titans",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "player": "TM Head",
+      "runs": 62,
+      "balls": 25,
+      "sr": 248.0,
+      "season": 2024.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Mumbai Indians",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "YK Pathan",
+      "runs": 60,
+      "balls": 26,
+      "sr": 230.77,
+      "season": 2009.0,
+      "team1": "Rajasthan Royals",
+      "team2": "Kolkata Knight Riders",
+      "venue": "Newlands"
+    },
+    {
+      "player": "SR Watson",
+      "runs": 60,
+      "balls": 26,
+      "sr": 230.77,
+      "season": 2010.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "player": "DA Miller",
+      "runs": 51,
+      "balls": 26,
+      "sr": 196.15,
+      "season": 2013.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Punjab Kings",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "player": "WP Saha",
+      "runs": 54,
+      "balls": 26,
+      "sr": 207.69,
+      "season": 2014.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Punjab Kings",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "SK Raina",
+      "runs": 87,
+      "balls": 26,
+      "sr": 334.62,
+      "season": 2014.0,
+      "team1": "Punjab Kings",
+      "team2": "Chennai Super Kings",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "RG Sharma",
+      "runs": 50,
+      "balls": 26,
+      "sr": 192.31,
+      "season": 2015.0,
+      "team1": "Mumbai Indians",
+      "team2": "Chennai Super Kings",
+      "venue": "Eden Gardens"
+    },
+    {
+      "player": "DA Warner",
+      "runs": 58,
+      "balls": 26,
+      "sr": 223.08,
+      "season": 2016.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "M Chinnaswamy Stadium"
+    }
+  ],
+  "fastest_hundreds": [
+    {
+      "player": "DA Miller",
+      "runs": 101,
+      "balls": 39,
+      "sr": 258.97,
+      "season": 2013.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Punjab Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "player": "YK Pathan",
+      "runs": 100,
+      "balls": 40,
+      "sr": 250.0,
+      "season": 2010.0,
+      "team1": "Mumbai Indians",
+      "team2": "Rajasthan Royals",
+      "venue": "Brabourne Stadium"
+    },
+    {
+      "player": "C Green",
+      "runs": 100,
+      "balls": 47,
+      "sr": 212.77,
+      "season": 2023.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "CH Gayle",
+      "runs": 107,
+      "balls": 49,
+      "sr": 218.37,
+      "season": 2011.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Punjab Kings",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "SA Yadav",
+      "runs": 103,
+      "balls": 49,
+      "sr": 210.2,
+      "season": 2023.0,
+      "team1": "Mumbai Indians",
+      "team2": "Gujarat Titans",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "AC Gilchrist",
+      "runs": 109,
+      "balls": 50,
+      "sr": 218.0,
+      "season": 2008.0,
+      "team1": "Mumbai Indians",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Dr DY Patil Sports Academy"
+    },
+    {
+      "player": "V Kohli",
+      "runs": 113,
+      "balls": 51,
+      "sr": 221.57,
+      "season": 2016.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Punjab Kings",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "H Klaasen",
+      "runs": 104,
+      "balls": 52,
+      "sr": 200.0,
+      "season": 2023.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "ST Jayasuriya",
+      "runs": 114,
+      "balls": 53,
+      "sr": 215.09,
+      "season": 2008.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "AB de Villiers",
+      "runs": 129,
+      "balls": 53,
+      "sr": 243.4,
+      "season": 2016.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Gujarat Lions",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "MA Agarwal",
+      "runs": 106,
+      "balls": 53,
+      "sr": 200.0,
+      "season": 2021.0,
+      "team1": "Punjab Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "Sharjah Cricket Stadium"
+    },
+    {
+      "player": "VR Iyer",
+      "runs": 104,
+      "balls": 53,
+      "sr": 196.23,
+      "season": 2023.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Mumbai Indians",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "MEK Hussey",
+      "runs": 116,
+      "balls": 54,
+      "sr": 214.81,
+      "season": 2008.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Punjab Kings",
+      "venue": "Punjab Cricket Association IS Bindra Stadium"
+    },
+    {
+      "player": "AB de Villiers",
+      "runs": 105,
+      "balls": 54,
+      "sr": 194.44,
+      "season": 2009.0,
+      "team1": "Delhi Capitals",
+      "team2": "Chennai Super Kings",
+      "venue": "Kingsmead"
+    },
+    {
+      "player": "SK Raina",
+      "runs": 100,
+      "balls": 54,
+      "sr": 185.19,
+      "season": 2013.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Punjab Kings",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "player": "Q de Kock",
+      "runs": 108,
+      "balls": 54,
+      "sr": 200.0,
+      "season": 2016.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Delhi Capitals",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "SPD Smith",
+      "runs": 101,
+      "balls": 54,
+      "sr": 187.04,
+      "season": 2016.0,
+      "team1": "Rising Pune Supergiants",
+      "team2": "Gujarat Lions",
+      "venue": "Maharashtra Cricket Association Stadium"
+    },
+    {
+      "player": "D Padikkal",
+      "runs": 101,
+      "balls": 54,
+      "sr": 187.04,
+      "season": 2021.0,
+      "team1": "Rajasthan Royals",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Wankhede Stadium"
+    },
+    {
+      "player": "DA Warner",
+      "runs": 109,
+      "balls": 55,
+      "sr": 198.18,
+      "season": 2012.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Delhi Capitals",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "V Kohli",
+      "runs": 109,
+      "balls": 55,
+      "sr": 198.18,
+      "season": 2016.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Gujarat Lions",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "DA Warner",
+      "runs": 100,
+      "balls": 55,
+      "sr": 181.82,
+      "season": 2019.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "RM Patidar",
+      "runs": 112,
+      "balls": 55,
+      "sr": 203.64,
+      "season": 2022.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Lucknow Super Giants",
+      "venue": "Eden Gardens"
+    },
+    {
+      "player": "WP Saha",
+      "runs": 115,
+      "balls": 56,
+      "sr": 205.36,
+      "season": 2014.0,
+      "team1": "Punjab Kings",
+      "team2": "Kolkata Knight Riders",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "Shubman Gill",
+      "runs": 104,
+      "balls": 56,
+      "sr": 185.71,
+      "season": 2023.0,
+      "team1": "Royal Challengers Bengaluru",
+      "team2": "Gujarat Titans",
+      "venue": "M Chinnaswamy Stadium"
+    },
+    {
+      "player": "A Symonds",
+      "runs": 117,
+      "balls": 57,
+      "sr": 205.26,
+      "season": 2008.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Rajasthan Royals",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "M Vijay",
+      "runs": 127,
+      "balls": 57,
+      "sr": 222.81,
+      "season": 2010.0,
+      "team1": "Chennai Super Kings",
+      "team2": "Rajasthan Royals",
+      "venue": "MA Chidambaram Stadium"
+    },
+    {
+      "player": "CH Gayle",
+      "runs": 102,
+      "balls": 57,
+      "sr": 178.95,
+      "season": 2011.0,
+      "team1": "Kolkata Knight Riders",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Eden Gardens"
+    },
+    {
+      "player": "SV Samson",
+      "runs": 102,
+      "balls": 57,
+      "sr": 178.95,
+      "season": 2019.0,
+      "team1": "Rajasthan Royals",
+      "team2": "Sunrisers Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "JM Bairstow",
+      "runs": 114,
+      "balls": 57,
+      "sr": 200.0,
+      "season": 2019.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Royal Challengers Bengaluru",
+      "venue": "Rajiv Gandhi International Stadium"
+    },
+    {
+      "player": "V Sehwag",
+      "runs": 119,
+      "balls": 58,
+      "sr": 205.17,
+      "season": 2011.0,
+      "team1": "Sunrisers Hyderabad",
+      "team2": "Delhi Capitals",
+      "venue": "Rajiv Gandhi International Stadium"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "captain": "MS Dhoni",
+    "matches": 200,
+    "wins": 120,
+    "losses": 80,
+    "win_pct": 60.0
+  },
+  {
+    "captain": "R Sharma",
+    "matches": 150,
+    "wins": 90,
+    "losses": 60,
+    "win_pct": 60.0
+  },
+  {
+    "captain": "V Kohli",
+    "matches": 140,
+    "wins": 70,
+    "losses": 70,
+    "win_pct": 50.0
+  }
+]
