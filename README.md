@@ -1,9 +1,9 @@
-# 🏏 IPL Analytics Dashboard
+# IPL Analytics Dashboard
 > Advanced cricket analytics platform for Indian Premier League (2008-2025) featuring machine learning predictions, interactive visualizations, and comprehensive statistics.
-[![Live Demo](https://img.shields.io/badge/demo-online-success)](https://ipl-analytics.onrender.com)
+[![Live Demo](https://img.shields.io/badge/demo-online-success)](https://ipl-analytics-dashboard-dgf3.onrender.com)
 [![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/flask-3.0-lightgrey)](https://flask.palletsprojects.com/)
-## 📊 Features
+## Features
 ### Core Analytics
 - **30+ Statistical Categories**: Batting, bowling, fielding, captaincy, and team records
 - **Team Performance Analysis**: Season-by-season trends with win/loss breakdowns
@@ -19,9 +19,9 @@
 - **Fast Performance**: <3s page loads with pre-computed JSON architecture
 - **Interactive Charts**: Chart.js visualizations for trends and comparisons
 - **Modern UI**: IPL-themed gradients, glassmorphism effects, and smooth animations
-## 🚀 Live Demo
-Visit the live dashboard: **[https://ipl-analytics.onrender.com](https://ipl-analytics.onrender.com)**
-## 🛠️ Tech Stack
+## Live Demo
+Visit the live dashboard: **[https://ipl-analytics.onrender.com](https://ipl-analytics-dashboard-dgf3.onrender.com)**
+## Tech Stack
 **Backend**
 - Flask 3.0 (Python web framework)
 - Pandas 2.2.0 (data processing)
@@ -37,7 +37,7 @@ Visit the live dashboard: **[https://ipl-analytics.onrender.com](https://ipl-ana
 **Deployment**
 - Render.com (free tier)
 - GitHub (version control + auto-deploy)
-## 📁 Project Structure
+## Project Structure
 ```
 ipl_nexus/
 ├── data/                          # Raw CSV data
@@ -68,7 +68,7 @@ ipl_nexus/
 ├── Procfile                     # Render deployment config
 └── README.md                    # This file
 ```
-## 💻 Local Setup
+## Local Setup
 ### Prerequisites
 - Python 3.11+
 - Git
@@ -104,7 +104,7 @@ python src/generate_archetype_analytics.py
 # Comprehensive stats
 python src/generate_comprehensive_stats.py
 ```
-## 🌐 Deployment
+## Deployment
 The project is configured for one-click deployment to Render.com:
 1. Fork/clone this repository to your GitHub account
 2. Sign up at [render.com](https://render.com)
@@ -116,7 +116,7 @@ The project is configured for one-click deployment to Render.com:
    - **Start Command**: `gunicorn webapp.app:app`
    - **Instance Type**: Free
 Render will auto-deploy on every git push to main branch.
-## 📈 Data Pipeline
+## Data Pipeline
 ```
 Raw CSV Files (90MB)
     ↓
@@ -133,7 +133,7 @@ Frontend JavaScript (async fetch)
 Interactive Dashboard
 ```
 **Key Design**: "Compute Once, Serve Many" - All analytics pre-generated for instant page loads.
-## 🤖 Machine Learning Models
+## Machine Learning Models
 ### 1. Elo Rating System
 - Custom implementation for IPL team strength
 - K-factor: 32 (optimized for IPL volatility)
@@ -149,47 +149,47 @@ Interactive Dashboard
 - **Batting**: 5 clusters (Anchors, Accumulators, Stroke Players, Power Hitters, Finishers)
 - **Bowling**: 4 clusters (Economical, Strike, Powerplay, Death Specialists)
 - **Features**: Strike rate, average, economy, boundary %
-## 🎨 Key Features Implemented
-### Phase 1: Core Functionality ✅
+## Key Features Implemented
+### Phase 1: Core Functionality 
 - Team performance tracking
 - Venue analytics
 - Player profiles
 - Match predictions
 - Player matchups
-### Phase 2: UI Enhancement ✅
+### Phase 2: UI Enhancement 
 - Modern IPL-themed design
 - Mobile responsiveness
 - Interactive charts
 - Smooth animations
-### Phase 3: Advanced Analytics ✅
+### Phase 3: Advanced Analytics 
 - Player archetypes
 - Elo ratings
 - Season trend analysis
 - Toss impact studies
-## 📱 Mobile Responsiveness
+## Mobile Responsiveness
 Breakpoints:
 - **Desktop**: > 1024px (full layout)
 - **Tablet**: 768px - 1024px (adaptive grid)
 - **Mobile**: < 768px (vertical navigation, single column)
 - **Small phones**: < 480px (optimized typography)
-## 🔒 Data Integrity
+## Data Integrity
 - Custom `NpEncoder` for NumPy types
 - Recursive NaN/Inf removal
 - Input validation and sanitization
 - 97% data quality post-processing
-## 📊 Performance Metrics
+## Performance Metrics
 - **Page Load**: 1.2s (desktop), 2.8s (mobile 3G)
 - **Data Size**: 600KB total (compressed JSON)
 - **API Endpoints**: 30+ static JSON files
 - **Uptime**: 99.5% (Render free tier)
-## 🤝 Contributing
+## Contributing
 Contributions welcome! Please feel free to submit a Pull Request.
 \
-## 👤 Author
+## Author
 **Sreekar Yerragunta**
 - GitHub: [@sreekaryerragunta](https://github.com/sreekaryerragunta)
-- Live Demo: [IPL Analytics Dashboard](https://ipl-analytics.onrender.com)
-## 🙏 Acknowledgments
+- Live Demo: [IPL Analytics Dashboard](https://ipl-analytics-dashboard-dgf3.onrender.com)
+## Acknowledgments
 - IPL data from official sources
 - Chart.js for visualizations
 - Render.com for free hosting
