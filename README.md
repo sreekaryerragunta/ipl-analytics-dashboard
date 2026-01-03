@@ -185,8 +185,7 @@ Breakpoints:
 - **Uptime**: 99.5% (Render free tier)
 ## 🤝 Contributing
 Contributions welcome! Please feel free to submit a Pull Request.
-## 📄 License
-MIT License - See [LICENSE](LICENSE) file for details
+\
 ## 👤 Author
 **Sreekar Yerragunta**
 - GitHub: [@sreekaryerragunta](https://github.com/sreekaryerragunta)
