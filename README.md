@@ -3,7 +3,6 @@
 [![Live Demo](https://img.shields.io/badge/demo-online-success)](https://ipl-analytics.onrender.com)
 [![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/flask-3.0-lightgrey)](https://flask.palletsprojects.com/)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 ## 📊 Features
 ### Core Analytics
 - **30+ Statistical Categories**: Batting, bowling, fielding, captaincy, and team records
